@@ -6,7 +6,7 @@ interface PillarPageProps {
   title: string;
   metaDesc: string;
   intro: string;
-  topics: { title: string; desc: string }[];
+  topics: { title: string; desc: string; link: string }[];
 }
 
 const PillarPage = ({ title, metaDesc, intro, topics }: PillarPageProps) => (
@@ -23,10 +23,13 @@ const PillarPage = ({ title, metaDesc, intro, topics }: PillarPageProps) => (
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{intro}</p>
         <div className="mt-12 space-y-6">
           {topics.map((t) => (
-            <div key={t.title} className="card-hover rounded-lg border border-border bg-card p-6">
-              <h2 className="font-heading text-xl font-bold text-card-foreground">{t.title}</h2>
+            <Link to={t.link} key={t.title} className="block card-hover rounded-lg border border-border bg-card p-6 group">
+              <h2 className="font-heading text-xl font-bold text-card-foreground group-hover:text-accent transition-colors">{t.title}</h2>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{t.desc}</p>
-            </div>
+              <span className="mt-3 inline-flex items-center text-sm font-semibold text-accent">
+                Read full guide <ArrowRight className="ml-1 h-3 w-3" />
+              </span>
+            </Link>
           ))}
         </div>
       </div>
@@ -40,10 +43,10 @@ export const Investing = () => (
     metaDesc="Learn real estate investing strategies including rental properties, BRRRR, financing, and cash flow analysis."
     intro="Real estate investing is one of the most proven paths to building long-term wealth. Whether you're interested in rental properties, fix-and-flips, or passive income strategies, this comprehensive guide will get you started."
     topics={[
-      { title: "Rental Property Investing", desc: "Learn how to find, analyze, and manage rental properties that generate consistent monthly cash flow." },
-      { title: "The BRRRR Strategy", desc: "Buy, Rehab, Rent, Refinance, Repeat — the proven method to scale a real estate portfolio quickly." },
-      { title: "Funding & Financing Deals", desc: "Explore conventional loans, hard money lenders, private financing, and creative funding strategies." },
-      { title: "Cash Flow & ROI Calculations", desc: "Master the numbers — learn to calculate cap rates, cash-on-cash returns, and net operating income." },
+      { title: "Rental Property Investing", desc: "Learn how to find, analyze, and manage rental properties that generate consistent monthly cash flow.", link: "/real-estate-investing/rental-property-investing" },
+      { title: "The BRRRR Strategy", desc: "Buy, Rehab, Rent, Refinance, Repeat — the proven method to scale a real estate portfolio quickly.", link: "/real-estate-investing/brrrr-strategy" },
+      { title: "Funding & Financing Deals", desc: "Explore conventional loans, hard money lenders, private financing, and creative funding strategies.", link: "/real-estate-investing/funding-financing" },
+      { title: "Cash Flow & ROI Calculations", desc: "Master the numbers — learn to calculate cap rates, cash-on-cash returns, and net operating income.", link: "/real-estate-investing/cash-flow-roi" },
     ]}
   />
 );
@@ -54,10 +57,10 @@ export const Wholesaling = () => (
     metaDesc="Complete guide to real estate wholesaling — find deals, assign contracts, and profit without buying property."
     intro="Real estate wholesaling lets you earn money from real estate transactions without ever purchasing property. It's an ideal entry point for aspiring investors with limited capital."
     topics={[
-      { title: "How Wholesaling Works", desc: "Understand the wholesaling process from finding deals to assigning contracts and collecting your fee." },
-      { title: "Finding Motivated Sellers", desc: "Learn to identify distressed properties and connect with sellers who need to sell quickly." },
-      { title: "Dispositions & Acquisitions", desc: "Build a buyers list and master the art of matching deals with the right investors." },
-      { title: "Contracts & Assignment Fees", desc: "Understand purchase agreements, assignment contracts, and how to structure your wholesale deals legally." },
+      { title: "How Wholesaling Works", desc: "Understand the wholesaling process from finding deals to assigning contracts and collecting your fee.", link: "/real-estate-wholesaling/how-wholesaling-works" },
+      { title: "Finding Motivated Sellers", desc: "Learn to identify distressed properties and connect with sellers who need to sell quickly.", link: "/real-estate-wholesaling/finding-motivated-sellers" },
+      { title: "Dispositions & Acquisitions", desc: "Build a buyers list and master the art of matching deals with the right investors.", link: "/real-estate-wholesaling/dispositions-acquisitions" },
+      { title: "Contracts & Assignment Fees", desc: "Understand purchase agreements, assignment contracts, and how to structure your wholesale deals legally.", link: "/real-estate-wholesaling/contracts-assignment-fees" },
     ]}
   />
 );
@@ -68,10 +71,10 @@ export const Marketing = () => (
     metaDesc="Master real estate marketing with lead generation, digital advertising, cold calling, and CRM automation."
     intro="Effective marketing is the engine that drives every successful real estate business. Whether you're generating leads for deals or building a personal brand, these strategies will help you stand out."
     topics={[
-      { title: "Lead Generation Strategies", desc: "Discover proven methods to generate a steady flow of motivated seller and buyer leads." },
-      { title: "Facebook & Google Ads", desc: "Learn to create targeted ad campaigns that generate high-quality real estate leads at scale." },
-      { title: "Cold Calling & SMS Marketing", desc: "Master outbound marketing strategies including phone scripts, SMS campaigns, and follow-up sequences." },
-      { title: "CRM & Automation Tools", desc: "Use technology to automate your marketing, manage leads, and close more deals with less effort." },
+      { title: "Lead Generation Strategies", desc: "Discover proven methods to generate a steady flow of motivated seller and buyer leads.", link: "/real-estate-marketing/lead-generation" },
+      { title: "Facebook & Google Ads", desc: "Learn to create targeted ad campaigns that generate high-quality real estate leads at scale.", link: "/real-estate-marketing/facebook-google-ads" },
+      { title: "Cold Calling & SMS Marketing", desc: "Master outbound marketing strategies including phone scripts, SMS campaigns, and follow-up sequences.", link: "/real-estate-marketing/cold-calling-sms" },
+      { title: "CRM & Automation Tools", desc: "Use technology to automate your marketing, manage leads, and close more deals with less effort.", link: "/real-estate-marketing/crm-automation" },
     ]}
   />
 );
