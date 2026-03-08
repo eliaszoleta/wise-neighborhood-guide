@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
-import { Shield, BookOpen, TrendingUp, Users, ArrowRight, Mail, Building2, DollarSign, Megaphone, MapPin } from "lucide-react";
+import { Shield, TrendingUp, Users, ArrowRight, Mail, Building2, DollarSign, Megaphone, MapPin, BookOpen } from "lucide-react";
 import Layout from "@/components/Layout";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -15,12 +16,25 @@ const US_STATES = [
 const Index = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Peasant House | Real Estate Investing, Wholesaling & Licensing Guides</title>
+        <meta name="description" content="Free real estate education on investing strategies, wholesaling, marketing, and step-by-step licensing guides for all 50 states. No courses. No upsells. Just straight answers." />
+        <link rel="canonical" href="https://peasanthouse.com/" />
+        <meta property="og:title" content="Peasant House | Real Estate Investing, Wholesaling & Licensing Guides" />
+        <meta property="og:description" content="Free real estate education on investing, wholesaling, marketing, and state licensing guides for all 50 states." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://peasanthouse.com/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Peasant House | Real Estate Investing, Wholesaling & Licensing Guides" />
+        <meta name="twitter:description" content="Free real estate education on investing, wholesaling, marketing, and licensing guides for all 50 states." />
+      </Helmet>
+
       {/* JSON-LD Schema */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
         name: "Peasant House",
-        description: "Real Estate Simplified – Learn investing, wholesaling, marketing & licensing.",
+        description: "Free real estate education on investing, wholesaling, marketing, and state licensing guides for all 50 states.",
         url: "https://peasanthouse.com",
       })}} />
 
@@ -32,11 +46,11 @@ const Index = () => {
         <div className="relative container-wide section-padding py-20 md:py-28 lg:py-36">
           <div className="max-w-3xl space-y-6">
             <h1 className="font-heading text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-              Learn Real Estate Investing, Wholesaling &amp; Marketing{" "}
-              <span className="text-gradient">the Smart Way</span>
+              Real Estate Education{" "}
+              <span className="text-gradient">That Doesn't Talk Down to You</span>
             </h1>
             <p className="text-lg leading-relaxed text-primary-foreground/80 md:text-xl">
-              Step-by-step guides, tools, and strategies to build income through real estate — whether you're a complete beginner or scaling your portfolio.
+              Practical guides on investing, wholesaling, marketing, and getting your real estate license — covering the things most courses skim over or charge thousands to explain.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg" asChild>
@@ -48,9 +62,9 @@ const Index = () => {
             </div>
             {/* Trust signals */}
             <div className="flex flex-wrap gap-6 pt-4 text-sm text-primary-foreground/60">
-              <span className="flex items-center gap-2"><Shield className="h-4 w-4" /> 10+ Years Experience</span>
-              <span className="flex items-center gap-2"><BookOpen className="h-4 w-4" /> 100% Educational Focus</span>
-              <span className="flex items-center gap-2"><Users className="h-4 w-4" /> Beginner Friendly</span>
+              <span className="flex items-center gap-2"><Shield className="h-4 w-4" /> 50 State Licensing Guides</span>
+              <span className="flex items-center gap-2"><BookOpen className="h-4 w-4" /> Free — No Upsells</span>
+              <span className="flex items-center gap-2"><Users className="h-4 w-4" /> Beginners Welcome</span>
             </div>
           </div>
         </div>
@@ -60,15 +74,35 @@ const Index = () => {
       <section className="section-alt section-padding" aria-label="Getting started">
         <div className="container-wide">
           <div className="mb-12 text-center">
-            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">New to Real Estate? Start Here</h2>
-            <p className="mt-3 text-muted-foreground">Follow our beginner roadmap to get started with confidence.</p>
+            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">New Here? Pick a Path.</h2>
+            <p className="mt-3 text-muted-foreground max-w-xl mx-auto">You don't need to understand all of real estate before you start. Figure out which direction fits your situation and go from there.</p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { icon: Building2, title: "What is Real Estate Investing?", desc: "Understand the fundamentals of building wealth through property.", link: "/real-estate-investing" },
-              { icon: DollarSign, title: "Beginner's Guide to Wholesaling", desc: "Learn how to profit from real estate without buying property.", link: "/real-estate-wholesaling" },
-              { icon: MapPin, title: "How to Get a Real Estate License", desc: "State-by-state requirements, exams, and application steps.", link: "/real-estate-license" },
-              { icon: TrendingUp, title: "Start With Little or No Money", desc: "Strategies to break into real estate with minimal capital.", link: "/real-estate-investing" },
+              {
+                icon: Building2,
+                title: "Real Estate Investing",
+                desc: "How rental properties, BRRRR, and long-term holds actually build wealth — and what the numbers need to look like before you buy.",
+                link: "/real-estate-investing",
+              },
+              {
+                icon: DollarSign,
+                title: "Real Estate Wholesaling",
+                desc: "Finding discounted deals and assigning them to buyers for a fee — without needing to buy the property yourself or get a loan.",
+                link: "/real-estate-wholesaling",
+              },
+              {
+                icon: MapPin,
+                title: "Get a Real Estate License",
+                desc: "State-specific requirements, exam details, costs, and the step-by-step application process — organized for all 50 states.",
+                link: "/real-estate-license",
+              },
+              {
+                icon: TrendingUp,
+                title: "Getting In With Limited Capital",
+                desc: "House hacking, DSCR loans, seller financing, and other ways into real estate that don't require a massive down payment.",
+                link: "/real-estate-investing/funding-financing",
+              },
             ].map((card) => (
               <Link to={card.link} key={card.title} className="group card-hover rounded-lg border border-border bg-card p-6 block">
                 <card.icon className="mb-4 h-8 w-8 text-accent" />
@@ -84,24 +118,26 @@ const Index = () => {
       <section className="section-padding" aria-label="Content pillars">
         <div className="container-wide">
           <div className="mb-12 text-center">
-            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">Deep Dive Into Real Estate</h2>
-            <p className="mt-3 text-muted-foreground">Expert guides organized by topic for serious learners.</p>
+            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">Go Deeper on What Matters to You</h2>
+            <p className="mt-3 text-muted-foreground max-w-xl mx-auto">Three areas of real estate, each broken into focused guides you can actually use — not just read once and forget.</p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
+
             {/* Investing Silo */}
             <div className="rounded-xl border border-border bg-card p-8 card-hover">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10">
                 <TrendingUp className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="mb-3 font-heading text-xl font-bold text-card-foreground">Real Estate Investing</h3>
+              <h3 className="mb-2 font-heading text-xl font-bold text-card-foreground">Real Estate Investing</h3>
+              <p className="mb-4 text-sm text-muted-foreground leading-relaxed">How to buy, finance, and manage income-producing properties — including the math that actually determines whether a deal makes sense.</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Rental Property Investing</li>
-                <li>• BRRRR Strategy Guide</li>
-                <li>• Funding & Financing Deals</li>
-                <li>• Cash Flow & ROI Calculations</li>
+                <li>• The BRRRR Strategy</li>
+                <li>• Funding &amp; Financing Deals</li>
+                <li>• Cash Flow &amp; ROI Calculations</li>
               </ul>
               <Button variant="link" className="mt-4 p-0 text-accent" asChild>
-                <Link to="/real-estate-investing">Explore Investing <ArrowRight className="ml-1 h-3 w-3" /></Link>
+                <Link to="/real-estate-investing">Explore Investing Guides <ArrowRight className="ml-1 h-3 w-3" /></Link>
               </Button>
             </div>
 
@@ -110,15 +146,16 @@ const Index = () => {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10">
                 <DollarSign className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="mb-3 font-heading text-xl font-bold text-card-foreground">Real Estate Wholesaling</h3>
+              <h3 className="mb-2 font-heading text-xl font-bold text-card-foreground">Real Estate Wholesaling</h3>
+              <p className="mb-4 text-sm text-muted-foreground leading-relaxed">The low-capital entry point into real estate — finding motivated sellers, putting properties under contract, and assigning deals to buyers for a fee.</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• How Wholesaling Works</li>
                 <li>• Finding Motivated Sellers</li>
-                <li>• Dispositions & Acquisitions</li>
-                <li>• Contracts & Assignment Fees</li>
+                <li>• Dispositions &amp; Acquisitions</li>
+                <li>• Contracts &amp; Assignment Fees</li>
               </ul>
               <Button variant="link" className="mt-4 p-0 text-accent" asChild>
-                <Link to="/real-estate-wholesaling">Explore Wholesaling <ArrowRight className="ml-1 h-3 w-3" /></Link>
+                <Link to="/real-estate-wholesaling">Explore Wholesaling Guides <ArrowRight className="ml-1 h-3 w-3" /></Link>
               </Button>
             </div>
 
@@ -127,15 +164,16 @@ const Index = () => {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10">
                 <Megaphone className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="mb-3 font-heading text-xl font-bold text-card-foreground">Real Estate Marketing</h3>
+              <h3 className="mb-2 font-heading text-xl font-bold text-card-foreground">Real Estate Marketing</h3>
+              <p className="mb-4 text-sm text-muted-foreground leading-relaxed">Lead generation, digital ads, cold calling, and automation — the channels that keep deal flow consistent when you most need it.</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Lead Generation Strategies</li>
-                <li>• Facebook & Google Ads</li>
-                <li>• Cold Calling & SMS Marketing</li>
-                <li>• CRM & Automation Tools</li>
+                <li>• Facebook &amp; Google Ads</li>
+                <li>• Cold Calling &amp; SMS Marketing</li>
+                <li>• CRM &amp; Automation Tools</li>
               </ul>
               <Button variant="link" className="mt-4 p-0 text-accent" asChild>
-                <Link to="/real-estate-marketing">Explore Marketing <ArrowRight className="ml-1 h-3 w-3" /></Link>
+                <Link to="/real-estate-marketing">Explore Marketing Guides <ArrowRight className="ml-1 h-3 w-3" /></Link>
               </Button>
             </div>
           </div>
@@ -147,7 +185,9 @@ const Index = () => {
         <div className="container-wide">
           <div className="mb-12 text-center">
             <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">Get Your Real Estate License</h2>
-            <p className="mt-3 text-muted-foreground">Find requirements, exam info, costs, and step-by-step guides for all 50 states.</p>
+            <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
+              Every state has different hour requirements, exam providers, costs, and renewal cycles. We break down exactly what's needed in all 50 states — no guessing, no generic answers.
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
             {US_STATES.map((state) => (
@@ -168,24 +208,24 @@ const Index = () => {
         <div className="container-narrow text-center">
           <Mail className="mx-auto mb-4 h-10 w-10 text-accent" />
           <h2 className="font-heading text-3xl font-bold text-primary-foreground md:text-4xl">
-            Free Beginner Real Estate Starter Guide
+            Get the Free Beginner Real Estate Guide
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-primary-foreground/70">
-            Join thousands of aspiring investors. Get our free PDF guide plus weekly tips on investing, wholesaling, and marketing.
+            A free PDF walkthrough of the basics, plus occasional tips on investing, wholesaling, and licensing. No sales pitches, no courses to buy.
           </p>
           <form className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row" onSubmit={(e) => e.preventDefault()}>
             <input
               type="email"
-              placeholder="Enter your email"
+              placeholder="Your email address"
               className="flex-1 rounded-md border-0 bg-primary-foreground/10 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:outline-none focus:ring-2 focus:ring-accent"
               aria-label="Email address"
               required
             />
             <Button variant="hero" size="lg" type="submit">
-              Get Free Guide
+              Send It to Me
             </Button>
           </form>
-          <p className="mt-3 text-xs text-primary-foreground/40">No spam. Unsubscribe anytime.</p>
+          <p className="mt-3 text-xs text-primary-foreground/40">Unsubscribe anytime. We don't share or sell your information.</p>
         </div>
       </section>
     </Layout>

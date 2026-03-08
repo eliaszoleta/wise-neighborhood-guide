@@ -10,6 +10,8 @@ export interface StateLicenseInfo {
   onlineEducationUrl?: string;
   backgroundCheckUrl?: string;
   ceHours?: string;
+  stateIntro: string;
+  examTip?: string;
 }
 
 export const stateLicenseData: Record<string, StateLicenseInfo> = {
@@ -24,6 +26,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "19",
     onlineEducationUrl: "https://arec.alabama.gov/education",
     ceHours: "15",
+    stateIntro: "Alabama requires aspiring agents to be at least 19 years old — one of only a handful of states with a minimum age above 18 — and complete 60 hours of pre-licensing coursework before sitting for the PSI exam. The Alabama Real Estate Commission (AREC) has regulated the profession in the state since the early 20th century and maintains a straightforward licensing process. With affordable home prices and steady population growth in cities like Huntsville and Birmingham, Alabama offers solid entry-level opportunities for new agents building their first client base.",
+    examTip: "The Alabama PSI exam covers both national real estate principles and Alabama-specific law. Pay particular attention to the state portion — AREC's regulations around disclosure and agency differ from what most national prep materials cover.",
   },
   alaska: {
     commission: "Alaska Real Estate Commission",
@@ -35,6 +39,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "19",
     ceHours: "20",
+    stateIntro: "Alaska has one of the shorter pre-licensing requirements in the country at 40 hours, but the state does require applicants to be at least 19 years old. What you gain in classroom efficiency, you'll spend learning the market on the ground: Alaska real estate covers everything from Anchorage condos and Juneau townhomes to remote parcels accessible only by floatplane or boat. The Alaska Real Estate Commission, operating under the Department of Commerce, licenses roughly 3,000 active professionals statewide — a small but close-knit industry where reputation matters enormously.",
+    examTip: "Alaska's PSI exam includes state-specific questions around disclosures and property types unique to remote and rural Alaskan real estate. Brush up on land classifications and federal land use restrictions that affect large portions of the state.",
   },
   arizona: {
     commission: "Arizona Department of Real Estate (ADRE)",
@@ -47,6 +53,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://azre.gov/education-providers",
     ceHours: "24",
+    stateIntro: "Arizona's real estate market has been one of the most active in the Southwest for years, and the state reflects that by requiring a thorough 90 hours of pre-licensing education before you can sit for the Pearson VUE exam. The Arizona Department of Real Estate (ADRE) maintains a robust list of approved schools, many offering fully online coursework. Phoenix, Tucson, and Scottsdale consistently rank among the most competitive housing markets in the country — high volume, high prices, and a steady flow of out-of-state buyers make Arizona an especially high-opportunity state for licensed agents willing to put in the work.",
+    examTip: "Arizona's Pearson VUE exam is known to test heavily on agency relationships and Arizona-specific disclosure requirements. ADRE publishes a candidate handbook with the exact content breakdown — reviewing it before your study plan will save you time.",
   },
   arkansas: {
     commission: "Arkansas Real Estate Commission (AREC)",
@@ -58,6 +66,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "18",
+    stateIntro: "Arkansas requires 60 hours of pre-licensing education and uses Pearson VUE for its licensing examination — one of the nation's most widely used testing providers with multiple testing centers across the state. The Arkansas Real Estate Commission (AREC) has maintained licensing standards here for decades and takes agent education seriously. Arkansas skews more rural than many states, but the Fayetteville-Springdale-Rogers metro (home to Walmart's global headquarters and a growing tech sector) creates real demand for agents who understand both suburban and agricultural markets.",
+    examTip: "Arkansas uses Pearson VUE for its exam, so create your account early and familiarize yourself with the scheduling system. The state portion tests Arkansas-specific contract law and agency relationships — topics that can trip up candidates who focused only on national prep materials.",
   },
   california: {
     commission: "California Department of Real Estate (DRE)",
@@ -70,6 +80,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://www.dre.ca.gov/Licensees/Education.html",
     ceHours: "45",
+    stateIntro: "California has one of the most demanding licensing paths in the country: 135 hours of required pre-licensing coursework across three mandatory college-level courses, followed by an exam administered directly by the California Department of Real Estate (DRE) — not a third-party provider like PSI or Pearson VUE. Licenses renew every four years (longer than most states) and require 45 hours of continuing education. Despite those high barriers, California's sheer market size — with median home prices among the highest in the nation in markets like the Bay Area, Los Angeles, and San Diego — makes a California real estate license one of the most potentially lucrative in the country.",
+    examTip: "California's DRE exam is self-scheduled through the DRE website, not through Pearson VUE. Wait times for exam appointments can run several weeks in popular areas, so submit your application early. The exam focuses heavily on California civil code, agency, and property transfer specifics.",
   },
   colorado: {
     commission: "Colorado Division of Real Estate (DORA)",
@@ -81,6 +93,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "3",
     minAge: "18",
     ceHours: "24",
+    stateIntro: "Colorado requires 168 hours of pre-licensing education — one of the highest requirements of any state in the country — divided across multiple mandatory topic areas including contracts, real estate law, and Colorado-specific practice. The Colorado Division of Real Estate (DORA) takes a rigorous approach to agent preparation, and it shows: the Denver metro area consistently ranks as one of the most competitive housing markets in the nation, where informed, competent agents command both client trust and strong commissions. The three-year renewal cycle gives Colorado agents a bit more runway than the two-year standard, but the 24-hour CE requirement keeps expectations high.",
+    examTip: "With 168 hours of pre-licensing, Colorado candidates are generally well-prepared for the PSI exam. That said, don't underestimate the Colorado-specific section — DORA's contract forms and transaction requirements have nuances not covered in most national prep courses.",
   },
   connecticut: {
     commission: "Connecticut Department of Consumer Protection – Real Estate",
@@ -92,6 +106,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Connecticut's 60-hour pre-licensing requirement is manageable, but the state's real estate market is far from simple — median home prices rank among the top 10 in the country, driven by demand from New York City commuters and the state's strong financial and insurance sectors. Licensing is managed by the Department of Consumer Protection, with PSI administering the exam at testing centers across the state. Coastal markets like Greenwich, Westport, and Stamford can offer some of the highest per-transaction commissions in New England, though competition is equally fierce among agents.",
+    examTip: "Connecticut's PSI exam places significant weight on agency representation and disclosure law. The state's proximity to New York means many candidates have dual-market ambitions — but Connecticut and New York have separate licensing requirements, so check reciprocity rules before making plans.",
   },
   delaware: {
     commission: "Delaware Real Estate Commission",
@@ -103,6 +119,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "21",
+    stateIntro: "Delaware requires 99 hours of pre-licensing education — notably more than neighboring states like Pennsylvania (75 hours) or Maryland (60 hours) — and uses PSI for its licensing examination. The Delaware Real Estate Commission operates under the Division of Professional Regulation. Despite being geographically small, Delaware's market spans distinct segments: the Wilmington area's suburban market is shaped by a concentration of financial services companies, while the Rehoboth Beach and Dewey Beach coastline drives a substantial vacation and second-home market with some of the highest prices in the Mid-Atlantic region.",
+    examTip: "Delaware's PSI exam covers both national content and state-specific regulations around transfer taxes and disclosure requirements. Delaware has unique property transfer tax rules that frequently appear on the exam and are often unfamiliar to candidates who prepared with generic national study materials.",
   },
   florida: {
     commission: "Florida Department of Business & Professional Regulation (DBPR)",
@@ -115,6 +133,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://www.myfloridalicense.com/CheckListDetail.asp?SID=&xactCode=1010&clientCode=2401&ESSION=",
     ceHours: "14",
+    stateIntro: "Florida is one of the most active real estate markets in the country, and its 63-hour pre-licensing requirement reflects a relatively streamlined entry path into a high-demand profession. Licensing is handled by the Florida DBPR, with Pearson VUE administering the exam at over 30 locations statewide. Florida's combination of retirement migration, international buyers, vacation property demand, and year-round tourism creates a uniquely diverse market — where one agent might specialize in Miami luxury condos while another focuses on Central Florida investment properties or Panhandle vacation rentals.",
+    examTip: "Florida's Pearson VUE exam has a well-documented pass rate challenge — many candidates underestimate the state portion, which covers Florida-specific real estate law, condo disclosure rules, and the Florida Real Estate Commission's (FREC) regulatory structure. The DBPR publishes a content outline worth downloading before you start studying.",
   },
   georgia: {
     commission: "Georgia Real Estate Commission (GREC)",
@@ -127,6 +147,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://grec.state.ga.us/information-page/approved-schools/",
     ceHours: "36",
+    stateIntro: "Georgia issues real estate licenses with a four-year renewal cycle — longer than the two-year standard in most states — and requires a substantial 36 hours of continuing education at each renewal. The Georgia Real Estate Commission (GREC) maintains high standards for both new and experienced agents. The Atlanta metropolitan area consistently ranks among the top 10 most active real estate markets in the U.S., with strong demand driven by corporate relocations — Delta, Coca-Cola, CNN, and hundreds of Fortune 500 companies call Atlanta home — and a fast-growing population that keeps the housing supply persistently tight.",
+    examTip: "Georgia's PSI exam is known to emphasize GREC's license law and regulatory requirements heavily. Because Georgia has a longer renewal cycle, the continuing education requirements (36 hours per 4 years) are front-loaded — something to keep in mind as you plan your ongoing professional development from the start.",
   },
   hawaii: {
     commission: "Hawaii Real Estate Commission (HREC)",
@@ -138,6 +160,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "20",
+    stateIntro: "Hawaii's real estate market is genuinely unlike anywhere else in the country — limited land supply on island geography, consistent demand from both residents and vacation home buyers, and values that reflect some of the highest per-square-foot prices in the nation. The state requires 60 hours of pre-licensing education, with PSI exam locations available in Honolulu. The Hawaii Real Estate Commission (HREC) oversees licensing, and while the formal requirements are comparable to many mainland states, the island-specific market knowledge you'll need goes well beyond what any exam can test — understanding leasehold vs. fee simple ownership is just one example of the local nuances that matter enormously here.",
+    examTip: "Hawaii's PSI exam includes questions specific to leasehold property ownership, Hawaii condo law, and state disclosure requirements — topics unique enough that standard national prep materials may leave you underprepared. Supplement your studies with Hawaii-specific practice exams and the HREC's own candidate resources.",
   },
   idaho: {
     commission: "Idaho Real Estate Commission (IREC)",
@@ -149,6 +173,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "18",
+    stateIntro: "Idaho has been one of the fastest-growing states in the Pacific Northwest for the better part of a decade, with Boise repeatedly ranking among the top markets nationally for price appreciation and population growth. The Idaho Real Estate Commission (IREC) requires 90 hours of pre-licensing education and uses Pearson VUE for the licensing exam. With a consistent wave of out-of-state buyers relocating from California, Washington, and Oregon, Idaho agents often work with sophisticated buyers who have sold high-priced homes elsewhere and arrive with substantial purchasing power — a market dynamic that rewards agents who understand both the local inventory and the relocation buyer profile.",
+    examTip: "Idaho's Pearson VUE exam covers both national content and Idaho-specific agency, property condition disclosure, and water rights law. Water rights are particularly important in Idaho given the state's agricultural economy and rural property market — don't skip that section during exam prep even if you plan to work in Boise's urban market.",
   },
   illinois: {
     commission: "Illinois Department of Financial & Professional Regulation (IDFPR)",
@@ -161,6 +187,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://idfpr.illinois.gov/profs/realest.asp",
     ceHours: "12",
+    stateIntro: "Illinois requires 75 hours of pre-licensing education and administers its licensing exam through PSI, with the Department of Financial and Professional Regulation (IDFPR) overseeing the entire process. The state's real estate landscape is sharply divided: Chicago and its suburbs represent one of the country's major urban markets with prices, competition, and client expectations to match, while downstate Illinois offers a very different environment — more affordable, more relationship-driven, and often more focused on agricultural and commercial property. New agents should think carefully about which market they're entering because the required skill sets are genuinely different.",
+    examTip: "Illinois's PSI exam includes detailed questions on the Illinois Real Estate License Act and Chicago-specific regulations that can appear even for agents planning to work outside the city. Understanding the IDFPR's license categories — managing broker vs. broker — before the exam will clarify several questions on the state portion.",
   },
   indiana: {
     commission: "Indiana Professional Licensing Agency (IPLA)",
@@ -172,6 +200,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "3",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Indiana requires 90 hours of pre-licensing education and operates on a three-year renewal cycle — giving newly licensed agents a slightly longer runway before their first renewal than the two-year standard most states use. The Indiana Professional Licensing Agency (IPLA) manages real estate licensing under the Indiana Real Estate Commission. Indiana's affordable housing market — with median home prices consistently below the national average — creates a strong first-time buyer pool that keeps transaction volume high and gives new agents consistent opportunities to build experience without competing in a prohibitively expensive market.",
+    examTip: "Indiana's PSI exam includes state-specific questions on Indiana agency law and the Indiana Real Estate Commission's regulations. The three-year license cycle means you'll have more time before renewal, but your first renewal still requires 12 hours of continuing education — plan that education from the start rather than scrambling at the end of year three.",
   },
   iowa: {
     commission: "Iowa Real Estate Commission",
@@ -183,6 +213,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "3",
     minAge: "18",
     ceHours: "36",
+    stateIntro: "Iowa requires 60 hours of pre-licensing education and has a three-year renewal cycle, but stands out with one of the higher continuing education requirements at renewal: 36 hours every three years, compared to the 12-18 hours common in many states. The Iowa Real Estate Commission takes ongoing education seriously. Iowa's agricultural economy and stable, affordable housing market attract buyers looking for long-term value over speculative gains — creating a steady, relationship-focused real estate business environment where agents who build genuine community trust tend to do very well over time.",
+    examTip: "Iowa's PSI exam tests on Iowa-specific agency relationships and the Iowa Real Estate Commission's regulatory structure. Given Iowa's strong agricultural economy, rural and farmland transaction questions may appear in the state-specific portion — territory that purely urban-focused prep courses often skip entirely.",
   },
   kansas: {
     commission: "Kansas Real Estate Commission (KREC)",
@@ -194,6 +226,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Kansas requires 60 hours of pre-licensing education and uses Pearson VUE for its licensing examination. The Kansas Real Estate Commission (KREC) publishes clear guidance for new applicants and maintains a list of approved education providers. The state's market is anchored by the Kansas City metro (which spans both Kansas and Missouri), Wichita, and a network of smaller agricultural communities where local market knowledge — property tax implications, rural land assessment, and agricultural lease structures — matters just as much as formal credentials.",
+    examTip: "Kansas uses Pearson VUE rather than PSI, so create your exam account through Pearson VUE's website when you're ready to schedule. The state portion of the exam covers Kansas-specific agency disclosure requirements and KREC regulations that won't be in generic national study materials.",
   },
   kentucky: {
     commission: "Kentucky Real Estate Commission (KREC)",
@@ -205,6 +239,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Kentucky requires 96 hours of pre-licensing education — more than most neighboring states and significantly above the national average — split across two required courses before you can sit for the PSI exam. The Kentucky Real Estate Commission (KREC) takes the preparation of new agents seriously, and the higher educational threshold reflects that commitment. Louisville and Lexington anchor Kentucky's real estate market, with Louisville experiencing growing demand tied to its healthcare and logistics sectors, and Lexington's university and horse industry economy providing a stable, year-round buyer base.",
+    examTip: "Kentucky's two required pre-licensing courses — Principles of Real Estate and Real Estate Law — are structured to prepare you for both portions of the PSI exam. Pay particular attention to Kentucky agency law and KREC's specific rules around buyer representation, which appear regularly on the state exam.",
   },
   louisiana: {
     commission: "Louisiana Real Estate Commission (LREC)",
@@ -216,6 +252,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "1",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Louisiana has a one-year license renewal cycle — the shortest in the nation — meaning Louisiana agents renew their licenses every single year rather than the two-to-four-year cycles used in most states. That creates a higher ongoing compliance burden, but it also means the state's agent pool tends to stay current on regulations and market changes. The Louisiana Real Estate Commission (LREC) requires 90 hours of pre-licensing education before the PSI exam. Louisiana's market is genuinely diverse: the New Orleans metro with its unique historic and vacation property dynamics, Baton Rouge, Shreveport, and Gulf Coast communities each have distinct characteristics that reward specialization.",
+    examTip: "Louisiana's annual renewal is distinctive — plan for ongoing CE requirements from your very first year. The PSI exam includes Louisiana-specific questions on agency, property disclosure, and the Louisiana Real Estate License Law that you won't find in national prep materials. Budget extra study time for the state portion.",
   },
   maine: {
     commission: "Maine Real Estate Commission",
@@ -227,6 +265,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "21",
+    stateIntro: "Maine requires 55 hours of pre-licensing education and uses PSI for its licensing exam, administered under the Maine Real Estate Commission within the Department of Professional and Financial Regulation. The state's real estate market is driven by two genuinely distinct segments: a year-round residential market centered on Portland and its growing suburbs (one of the fastest-growing cities in New England), and the vacation and second-home market that drives prices in coastal communities like Bar Harbor, Camden, and the Kennebunks. Choosing which segment to focus on is one of the most consequential early decisions a new Maine agent can make.",
+    examTip: "Maine's PSI exam is manageable for well-prepared candidates, but the state portion covers Maine-specific disclosure requirements and agency law that differ from national standards. Maine also has specific rules around waterfront property, which is relevant given the state's significant coastal and lakefront real estate market.",
   },
   maryland: {
     commission: "Maryland Real Estate Commission (MREC)",
@@ -238,6 +278,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "15",
+    stateIntro: "Maryland's real estate market is heavily shaped by its proximity to Washington D.C., with Montgomery County and Prince George's County consistently ranking among the highest-priced suburban markets in the entire country. The Maryland Real Estate Commission (MREC) oversees licensing under the Department of Labor, requiring 60 hours of pre-licensing education before the PSI exam. Agents in Maryland benefit from consistent demand tied to federal government employment and the large contractor economy surrounding D.C. — a built-in economic stability that makes Maryland's real estate market one of the more predictable in the Northeast.",
+    examTip: "Maryland's PSI exam includes state-specific questions on the Maryland Real Estate Brokers Act and disclosure requirements. Maryland uses a specific property condition disclosure form that's frequently tested — understand what must be disclosed and what is exempt before exam day.",
   },
   massachusetts: {
     commission: "Massachusetts Board of Registration of Real Estate Brokers and Salespersons",
@@ -249,6 +291,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Massachusetts requires only 40 hours of pre-licensing education — one of the lowest requirements in the country — but the state's real estate market is anything but lightweight. The Boston metro area consistently ranks among the most expensive and competitive housing markets in the nation: tight inventory, bidding wars in many neighborhoods, and a buyer pool that includes well-funded tech, biotech, and university professionals. The Board of Registration of Real Estate Brokers and Salespersons oversees licensing, with PSI administering the exam. Getting licensed here is relatively fast; succeeding here requires knowing the market deeply.",
+    examTip: "Massachusetts's PSI exam includes Massachusetts-specific agency disclosure requirements and the state's Chapter 93A consumer protection law as it applies to real estate transactions. The state portion is notably distinct from national content — candidates who underestimate it often struggle on their first attempt.",
   },
   michigan: {
     commission: "Michigan Department of Licensing and Regulatory Affairs (LARA)",
@@ -260,6 +304,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "3",
     minAge: "18",
     ceHours: "18",
+    stateIntro: "Michigan requires only 40 hours of pre-licensing education and uses a three-year license renewal cycle. The Department of Licensing and Regulatory Affairs (LARA) manages real estate licensing for the state. Michigan's market is one of the most geographically diverse in the country: the recovering Detroit metro has seen significant revitalization and price appreciation in certain neighborhoods, while northern Lower Peninsula and Upper Peninsula markets are driven by seasonal tourism, vacation property demand, and outdoor recreation. Traverse City, in particular, has become a surprisingly competitive resort market drawing buyers from Chicago and the Detroit area.",
+    examTip: "Michigan's PSI exam is relatively straightforward for well-prepared candidates but includes Michigan-specific questions on state agency law and disclosure requirements. The three-year renewal cycle and 18-hour CE requirement give you more runway than most states — use that time to specialize deeply in whatever region of Michigan's diverse market you choose to work.",
   },
   minnesota: {
     commission: "Minnesota Department of Commerce – Real Estate",
@@ -271,6 +317,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "30",
+    stateIntro: "Minnesota requires 90 hours of pre-licensing education and uses Pearson VUE for its licensing exam, with the Department of Commerce overseeing the state's real estate licensing. The Twin Cities metro (Minneapolis-St. Paul) is consistently ranked as one of the most economically stable major metros in the country, anchored by a concentration of Fortune 500 companies — Target, Best Buy, and UnitedHealth Group among them — that drives strong corporate relocation demand year-round. Minnesota also requires a notable 30 hours of continuing education at each two-year renewal, one of the higher CE thresholds in the Midwest.",
+    examTip: "Minnesota uses Pearson VUE for the exam and has a well-organized process through the Department of Commerce. The state portion focuses on Minnesota agency law and the state's disclosure requirements, which include specific rules around property condition and environmental disclosures that differ from national standards.",
   },
   mississippi: {
     commission: "Mississippi Real Estate Commission (MREC)",
@@ -282,6 +330,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "1",
     minAge: "18",
     ceHours: "16",
+    stateIntro: "Mississippi has a one-year license renewal cycle — one of only a few states with annual renewals — requiring agents to complete 16 hours of continuing education every year without exception. The Mississippi Real Estate Commission (MREC) oversees the process with 60 hours of required pre-licensing education before the PSI exam. Mississippi's real estate market offers some of the most affordable home prices in the country, creating consistent demand from first-time buyers and cash-flow investors who can achieve rental yields that are hard to find in higher-priced markets. The Gulf Coast communities, including Biloxi and Gulfport, add a vacation and second-home market layer.",
+    examTip: "Mississippi's PSI exam includes state-specific questions on the Mississippi Real Estate Brokers License Law and agency requirements. Because the state requires annual renewals, your relationship with MREC's educational requirements starts almost immediately after you get licensed — choose a provider with solid ongoing CE options from the beginning.",
   },
   missouri: {
     commission: "Missouri Real Estate Commission (MREC)",
@@ -293,6 +343,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Missouri requires 72 hours of pre-licensing education and uses PSI for its licensing exam, with the Missouri Real Estate Commission (MREC) managing the process under the Division of Professional Registration. The state's market spans two major metropolitan areas — Kansas City and St. Louis — each with its own dynamics, plus Branson's tourism-driven economy and a large rural and agricultural sector. Missouri's central location and relatively affordable home prices have attracted growing interest from out-of-state investors, and the Kansas City metro's cross-state nature creates useful reciprocity opportunities for licensed agents.",
+    examTip: "Missouri's PSI exam covers Missouri-specific agency law, brokerage relationships, and MREC regulations. Candidates planning to work in the Kansas City metro should also research Kansas licensing requirements given the cross-state market — Missouri and Kansas each require separate licenses with no automatic reciprocity.",
   },
   montana: {
     commission: "Montana Board of Realty Regulation",
@@ -304,6 +356,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "24",
+    stateIntro: "Montana's vast open spaces and wide-ranging property types — ranch land, mountain resort communities, agricultural parcels, and small-town residential — create a real estate environment genuinely unlike most states. The Montana Board of Realty Regulation requires 60 hours of pre-licensing education before the PSI exam. Cities like Bozeman and Missoula have seen extraordinary appreciation rates in recent years, fueled by remote work migration and quality-of-life seekers from California and Seattle. Meanwhile, eastern Montana's agricultural and energy communities operate at entirely different price points, making market specialization essential for Montana agents from the start.",
+    examTip: "Montana's PSI exam includes questions on Montana-specific water rights law and ranch and agricultural property regulations — topics far more relevant here than in urban coastal states. If you plan to work in Montana's rural or ranch markets, treat these areas as exam priorities even if you're initially focused on Bozeman's urban market.",
   },
   nebraska: {
     commission: "Nebraska Real Estate Commission (NREC)",
@@ -315,6 +369,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "19",
     ceHours: "18",
+    stateIntro: "Nebraska requires 66 hours of pre-licensing education and sets the minimum age at 19 — one of only a few states requiring applicants to be older than 18. The Nebraska Real Estate Commission (NREC) manages licensing, and the state's market is anchored by Omaha (a consistently underrated city with a growing tech and financial services sector, and home to Warren Buffett's Berkshire Hathaway) and Lincoln, the state capital and home to the University of Nebraska. Nebraska's stable economy and housing affordability make it a reliable market for agents focused on first-time buyers and long-term clients.",
+    examTip: "Nebraska's PSI exam covers Nebraska-specific agency law and NREC regulations. The minimum age requirement of 19 is one of Nebraska's distinctive rules — it occasionally appears in state exam questions related to licensee eligibility. The 18-hour CE requirement at renewal keeps Nebraska agents well-educated compared to the 12-hour standard in many states.",
   },
   nevada: {
     commission: "Nevada Real Estate Division (NRED)",
@@ -327,6 +383,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://red.nv.gov/education/",
     ceHours: "24",
+    stateIntro: "Nevada's real estate market is dominated by Las Vegas — one of the most volatile yet consistently active housing markets in the country, with cycles of appreciation and correction tied closely to tourism, convention business, and waves of migration from California. The Nevada Real Estate Division (NRED) requires 90 hours of pre-licensing education and uses Pearson VUE for the exam. Nevada's 24-hour CE requirement at each two-year renewal is above average, reflecting the state's commitment to keeping agents current in a market that can shift fast. Las Vegas, Henderson, and North Las Vegas together form a high-volume transaction environment for agents ready to compete.",
+    examTip: "Nevada's Pearson VUE exam includes specific state content around Nevada property disclosure requirements and NRED regulations. Given Las Vegas's investment property market, questions on landlord-tenant law and investor disclosures frequently appear — topics worth extra study time.",
   },
   "new-hampshire": {
     commission: "New Hampshire Real Estate Commission",
@@ -338,6 +396,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "15",
+    stateIntro: "New Hampshire requires just 40 hours of pre-licensing education — among the lowest in the country — and uses PSI for the licensing exam. The New Hampshire Real Estate Commission operates under the Office of Professional Licensure and Certification. The state's market benefits significantly from its proximity to Boston: southern New Hampshire communities like Nashua and Manchester consistently attract buyers who work in Massachusetts but want to avoid the state income tax (New Hampshire has no income or sales tax), creating a steady cross-border buyer pool. The White Mountains and Lakes Region add seasonal vacation and second-home activity that keeps the market active year-round.",
+    examTip: "New Hampshire's PSI exam is generally approachable for well-prepared candidates, but the state portion includes New Hampshire-specific agency and disclosure law. Because many buyers come from Massachusetts, understanding interstate transaction basics and reciprocity rules is practically useful even before you formally study for the exam.",
   },
   "new-jersey": {
     commission: "New Jersey Real Estate Commission",
@@ -349,6 +409,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "New Jersey is one of the most densely populated states in the country, and its real estate market reflects that density with high prices, fierce competition, and a diverse range of market segments. The New Jersey Real Estate Commission (under the Division of Consumer Affairs) requires 75 hours of pre-licensing education, with PSI administering the exam. Northern New Jersey's proximity to New York City makes it one of the priciest suburban markets in the nation, while the Jersey Shore and Cape May County attract vacation home buyers, and South Jersey communities near Philadelphia serve a very different buyer profile — meaning New Jersey agents typically specialize by region from the beginning.",
+    examTip: "New Jersey's PSI exam includes detailed questions on the New Jersey Real Estate License Act and the state's specific agency disclosure requirements, including the Consumer Information Statement that New Jersey agents must provide at first substantive contact. This document is specific to New Jersey and worth understanding thoroughly before exam day.",
   },
   "new-mexico": {
     commission: "New Mexico Real Estate Commission (NMREC)",
@@ -360,6 +422,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "3",
     minAge: "18",
     ceHours: "36",
+    stateIntro: "New Mexico requires 90 hours of pre-licensing education and operates on a three-year renewal cycle with one of the higher continuing education requirements: 36 hours every three years. The New Mexico Real Estate Commission (NMREC) operates under the Regulation and Licensing Department, using PSI for the licensing exam. The state offers two distinct market environments: Albuquerque provides more affordable, higher-volume residential transactions, while Santa Fe's luxury and second-home market — driven by art collectors, retirees, and buyers seeking Southwest architecture and culture — operates at a significantly different price point and client profile.",
+    examTip: "New Mexico's PSI exam covers NMREC regulations and New Mexico-specific property law. New Mexico uses community property law, which affects how jointly owned properties are handled in transactions — a topic that appears on the state exam and has real practical implications when working with married buyers and sellers.",
   },
   "new-york": {
     commission: "New York Department of State – Division of Licensing Services",
@@ -372,6 +436,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://dos.ny.gov/real-estate",
     ceHours: "22.5",
+    stateIntro: "New York administers its own real estate licensing exam through the Department of State's Division of Licensing Services — one of only a few states that doesn't use PSI or Pearson VUE. The state requires 77 hours of pre-licensing education, and licenses renew every two years with 22.5 hours of continuing education required. New York City is one of the world's most complex real estate markets, but New York State also encompasses the Hudson Valley, Long Island's diverse markets, the Hamptons luxury corridor, the Catskills, and major upstate cities like Buffalo, Rochester, and Albany — each with distinct market dynamics and buyer profiles.",
+    examTip: "New York's self-administered exam is scheduled through the Department of State website, not through a third-party provider. The exam has a reputation for challenging candidates on New York-specific real estate law, including the state's fair housing regulations and NYC's specific tenant protection laws for those planning to work in the city.",
   },
   "north-carolina": {
     commission: "North Carolina Real Estate Commission (NCREC)",
@@ -384,6 +450,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://www.ncrec.gov/Education/Default.html",
     ceHours: "8",
+    stateIntro: "North Carolina has one of the most frequent license renewal cycles in the country — agents must renew every single year — requiring 8 hours of continuing education at each annual renewal. The North Carolina Real Estate Commission (NCREC) is known as one of the more active commissions in the country when it comes to consumer protection and agent oversight. The state's real estate market is thriving: the Research Triangle (Raleigh-Durham-Chapel Hill) and Charlotte metro are consistently ranked among the fastest-growing markets in the Southeast, attracting corporate relocations and remote workers who are reshaping neighborhoods and driving prices across the state.",
+    examTip: "The NCREC requires specific post-licensing education for agents in their first provisional broker year, in addition to the standard annual renewal CE. This two-track education requirement is specific to North Carolina and affects your planning in your very first year of practice — not just at renewal time. Understand it before you start.",
   },
   "north-dakota": {
     commission: "North Dakota Real Estate Commission",
@@ -395,6 +463,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "9",
+    stateIntro: "North Dakota requires just 45 hours of pre-licensing education and has one of the lower continuing education requirements at renewal: 9 hours every two years. The North Dakota Real Estate Commission manages licensing with PSI administering the exam. The state's market is largely shaped by two forces: energy sector employment in the western Bakken oil region, where market activity can swing dramatically with oil prices, and more stable agricultural and government-economy communities in the east, centered around Bismarck and Fargo. Fargo has grown into a regional economic hub and the state's most active and consistent residential market.",
+    examTip: "North Dakota's PSI exam covers state-specific agency law and NDREC regulations. Given the state's significant agricultural and energy land sector, questions on mineral rights and agricultural leases may appear in the state portion — territory that purely residential exam prep courses often skip entirely.",
   },
   ohio: {
     commission: "Ohio Division of Real Estate & Professional Licensing",
@@ -407,6 +477,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://com.ohio.gov/divisions-and-programs/real-estate-and-professional-licensing/real-estate-education",
     ceHours: "30",
+    stateIntro: "Ohio requires 120 hours of pre-licensing education — nearly double what many states require — and has a three-year renewal cycle with 30 hours of continuing education. The Ohio Division of Real Estate and Professional Licensing oversees a licensing process that takes agent preparation seriously. Ohio's geographic and economic diversity rewards that preparation: Columbus has been one of the fastest-growing major Midwestern cities for years, while Cleveland, Cincinnati, and Toledo each offer distinct market opportunities spanning urban investment properties, established suburban neighborhoods, and emerging growth corridors.",
+    examTip: "Ohio's PSI exam includes a substantial state-specific section covering Ohio agency law, property disclosure requirements, and the Ohio Division's regulations. Ohio has specific rules around dual agency and informed consent that are tested regularly — make sure your prep materials cover Ohio-specific scenarios rather than relying entirely on national content.",
   },
   oklahoma: {
     commission: "Oklahoma Real Estate Commission (OREC)",
@@ -418,6 +490,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "3",
     minAge: "18",
     ceHours: "21",
+    stateIntro: "Oklahoma requires 90 hours of pre-licensing education and uses Pearson VUE for its licensing exam, operating on a three-year renewal cycle. The Oklahoma Real Estate Commission (OREC) oversees licensing in a state whose market is shaped by two distinct metropolitan areas: Oklahoma City and Tulsa. OKC benefits from energy sector and government employment that creates stable, year-round transaction volume, while Tulsa has diversified significantly into technology and healthcare. Oklahoma's overall affordability — with home prices well below the national median — keeps first-time buyer demand strong even during national market slowdowns.",
+    examTip: "Oklahoma uses Pearson VUE for the exam with testing locations in OKC and Tulsa. The state portion covers Oklahoma-specific agency law and OREC regulations. Oklahoma's three-year renewal cycle and 21-hour CE requirement give you a bit more time before renewal than two-year states, but plan your continuing education schedule from day one.",
   },
   oregon: {
     commission: "Oregon Real Estate Agency",
@@ -429,6 +503,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "30",
+    stateIntro: "Oregon requires 150 hours of pre-licensing education — among the highest requirements in the country — reflecting the state's commitment to thorough agent preparation before entering an often extremely competitive market. The Oregon Real Estate Agency oversees licensing with PSI administering the exam. Portland's housing market has been among the most expensive and supply-constrained in the Pacific Northwest, shaped in part by Oregon's strict land-use regulations and urban growth boundaries that fundamentally affect what's available for sale and where. Understanding Oregon's planning and zoning environment is genuinely essential for Oregon agents — not just exam content.",
+    examTip: "Oregon's PSI exam includes detailed questions on Oregon's unique land-use law — including Senate Bill 100 and urban growth boundaries — and the Oregon Real Estate Agency's regulations. These topics are central to Oregon real estate practice and appear heavily on the state portion, yet they're not covered in any meaningful depth by national prep courses.",
   },
   pennsylvania: {
     commission: "Pennsylvania Real Estate Commission",
@@ -440,6 +516,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "14",
+    stateIntro: "Pennsylvania requires 75 hours of pre-licensing education and uses PSI for its licensing exam, administered under the Pennsylvania Real Estate Commission within the Bureau of Professional and Occupational Affairs. The state's two major markets — Philadelphia and Pittsburgh — have very different personalities. Philadelphia is shaped by East Coast urban demand, strong university presence, and suburban growth in communities like Montgomery and Chester counties, while Pittsburgh has reinvented itself as a healthcare and technology hub with some of the most affordable urban home prices of any major city in the country.",
+    examTip: "Pennsylvania's PSI exam covers the Pennsylvania Real Estate Licensing and Registration Act (RELRA) in detail. The state has specific rules around buyer agency agreements and required disclosures at first contact — topics that appear consistently in the state portion and have direct practical implications once you start working with clients.",
   },
   "rhode-island": {
     commission: "Rhode Island Department of Business Regulation – Real Estate",
@@ -451,6 +529,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "24",
+    stateIntro: "Rhode Island requires 45 hours of pre-licensing education — one of the lower thresholds in New England — and uses PSI for the licensing exam, with licensing managed by the Department of Business Regulation. Despite being the smallest state geographically in the country, Rhode Island has a layered real estate market: Providence's urban scene (anchored by Brown University and RISD) attracts young professional buyers, Newport and Narragansett offer some of the most sought-after coastal and waterfront properties in New England, and communities in between span everything from affordable inland towns to working-class areas experiencing revitalization.",
+    examTip: "Rhode Island's PSI exam covers state-specific agency law and the Rhode Island Real Estate Licensing Act. The 24-hour CE requirement at each two-year renewal is notably higher than many comparably-sized states — plan your ongoing education from the beginning rather than scrambling at renewal time.",
   },
   "south-carolina": {
     commission: "South Carolina Real Estate Commission",
@@ -462,6 +542,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "10",
+    stateIntro: "South Carolina is home to some of the most desirable coastal real estate markets on the East Coast and has been one of the Southeast's fastest-growing states for population and in-migration. The South Carolina Real Estate Commission requires 90 hours of pre-licensing education, with PSI administering the licensing exam. Markets like Charleston, Hilton Head, and Myrtle Beach attract buyers from across the country — many of them retirees from the Northeast trading high property taxes and cold winters for South Carolina's warm climate and lower cost of living. Columbia's market and the growing Greenville-Spartanburg corridor round out a state that offers agents genuinely diverse opportunities.",
+    examTip: "South Carolina's PSI exam includes state-specific content on the South Carolina Real Estate Commission's regulations and agency law. The state's growing luxury coastal market makes questions around buyer representation and dual agency particularly relevant — topics that appear consistently in the state portion of the exam.",
   },
   "south-dakota": {
     commission: "South Dakota Real Estate Commission",
@@ -473,6 +555,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "24",
+    stateIntro: "South Dakota requires 116 hours of pre-licensing education — significantly more than most neighboring states and well above the national average — spread across specific required topic areas before you can sit for the PSI exam. The state's real estate market is shaped by two distinct economic centers: Sioux Falls, which has grown into a significant Midwest financial services hub with consistent residential demand, and the Rapid City and Black Hills region, where proximity to Mount Rushmore, Badlands National Park, and Sturgis creates a combination of year-round residential and seasonal tourism demand.",
+    examTip: "South Dakota's higher pre-licensing hour requirement means candidates are generally well-prepared for the PSI exam. The state portion covers South Dakota-specific agency law and Real Estate Commission regulations. South Dakota's favorable tax environment — no state income tax — makes it attractive to buyers from other states, an economic dynamic worth understanding beyond the exam itself.",
   },
   tennessee: {
     commission: "Tennessee Real Estate Commission (TREC)",
@@ -484,6 +568,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "16",
+    stateIntro: "Tennessee has emerged as one of the hottest real estate markets in the South, with Nashville's explosive growth drawing national attention and Knoxville and Chattanooga increasingly attracting buyers priced out of larger metros. The Tennessee Real Estate Commission (TREC) requires 60 hours of pre-licensing education and uses PSI for the exam. Tennessee's no-state-income-tax policy continues to attract both businesses and residents from higher-tax states, keeping demand strong across most of the state's major markets — and giving new agents a built-in tailwind of motivated buyers who are newly arrived or planning to relocate.",
+    examTip: "Tennessee's PSI exam covers TREC regulations and Tennessee-specific agency law. Tennessee uses a specific agency relationship disclosure form that is regularly tested on the state portion — understanding when and how Tennessee law requires this disclosure will serve you both on the exam and in day-to-day practice.",
   },
   texas: {
     commission: "Texas Real Estate Commission (TREC)",
@@ -496,6 +582,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://www.trec.texas.gov/education",
     ceHours: "18",
+    stateIntro: "Texas requires 180 hours of pre-licensing education — the highest requirement of any state in the country — divided across six mandatory courses covering a broad range of real estate topics, from principles and contracts to finance and agency. The Texas Real Estate Commission (TREC) is known for rigorous standards, and for good reason: Texas has some of the most active real estate markets in the nation. Austin, Dallas-Fort Worth, Houston, and San Antonio are each among the largest and most competitive markets in the country. No state income tax and continued corporate relocation activity make Texas an exceptional market for agents who invest seriously in their education.",
+    examTip: "Texas uses Pearson VUE for the exam and tests heavily on TREC's specific contract forms and promulgated addenda, which are legally required in Texas real estate transactions. Understanding TREC's one-to-four family residential contract and the most common addenda is practically essential both for the exam and for day-one competence in the field.",
   },
   utah: {
     commission: "Utah Division of Real Estate",
@@ -507,6 +595,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "18",
+    stateIntro: "Utah requires 120 hours of pre-licensing education and uses Pearson VUE for its licensing exam. The Utah Division of Real Estate oversees licensing in a state that has seen some of the fastest population growth in the entire country over the past decade. Salt Lake City and its surrounding Wasatch Front communities have attracted significant technology sector investment — the 'Silicon Slopes' corridor running from Provo to Ogden has brought thousands of tech jobs that continue to drive housing demand and appreciation in ways that frequently outpace other Western markets. Utah's young, growing population creates steady first-time buyer demand at a range of price points.",
+    examTip: "Utah's Pearson VUE exam covers Utah Division of Real Estate regulations and Utah-specific agency and disclosure law. Utah's growing market complexity — particularly around new construction, HOA-governed communities, and tech-sector relocation buyers — makes local market knowledge just as important as exam preparation for long-term success.",
   },
   vermont: {
     commission: "Vermont Office of Professional Regulation – Real Estate",
@@ -518,6 +608,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "24",
+    stateIntro: "Vermont requires only 40 hours of pre-licensing education — among the lowest in the country — and uses PSI for its licensing exam, administered under the Office of Professional Regulation. Vermont's real estate market is highly seasonal, with ski resort communities like Stowe, Killington, and Mad River Glen driving significant second-home and vacation property demand that gives the state an outsized market for its small permanent population. Vermont's strict environmental and land-use regulations (Act 250) shape what can be built and where — making local zoning and permitting knowledge genuinely essential for agents working anywhere in the state.",
+    examTip: "Vermont's PSI exam covers state-specific agency law and Vermont real estate regulations. Vermont's Act 250 environmental permit system is a state-specific topic that serious Vermont agents need to understand — it affects development, subdivision, and major renovations in ways unique to Vermont and occasionally appears in the state portion of the exam.",
   },
   virginia: {
     commission: "Virginia Department of Professional and Occupational Regulation (DPOR)",
@@ -530,6 +622,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://www.dpor.virginia.gov/Boards/Real-Estate",
     ceHours: "16",
+    stateIntro: "Virginia's real estate market is defined at one end by Northern Virginia — Fairfax County, Arlington, and Alexandria — which ranks among the highest-priced suburban markets in the entire country, fueled by federal government employment, defense contracting, and technology sector growth around Amazon's HQ2. The Virginia Department of Professional and Occupational Regulation (DPOR) requires 60 hours of pre-licensing education before the PSI exam, with many approved schools offering online coursework. Beyond Northern Virginia, Richmond's growing urban market, Virginia Beach's military and coastal community, and Charlottesville's university and second-home market each offer distinct opportunities.",
+    examTip: "Virginia's PSI exam covers the Virginia Real Estate Transaction Recovery Act and Virginia-specific agency and disclosure law. The state has specific rules around mandatory buyer agent agreements and agency disclosure forms — topics that appear consistently in the state exam section and that have direct practical implications once you start representing clients.",
   },
   washington: {
     commission: "Washington Department of Licensing – Real Estate",
@@ -542,6 +636,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     minAge: "18",
     onlineEducationUrl: "https://www.dol.wa.gov/business/realestate/education.html",
     ceHours: "30",
+    stateIntro: "Washington State's real estate market is dominated by Seattle — consistently one of the country's most expensive and competitive markets, shaped by Amazon, Microsoft, Boeing, and decades of technology sector growth — but the state's market extends well beyond the Puget Sound. Spokane in Eastern Washington, the growing Tacoma metro, and the Tri-Cities region each offer very different price points and buyer profiles. The Washington Department of Licensing requires 90 hours of pre-licensing education and a substantial 30 hours of continuing education at each two-year renewal. Washington's no-state-income-tax policy continues to attract businesses and residents from higher-tax states, sustaining demand across much of the state.",
+    examTip: "Washington's PSI exam covers Washington Law of Agency and the Washington Real Estate Licensee's Duties to Clients — a topic that is both heavily tested and genuinely important for day-to-day practice. Washington's agency law specifies duties to buyers and sellers in detail, and correctly understanding those duties protects you legally once you start working with clients.",
   },
   "west-virginia": {
     commission: "West Virginia Real Estate Commission",
@@ -553,6 +649,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "7",
+    stateIntro: "West Virginia requires 90 hours of pre-licensing education but stands out for having one of the lowest continuing education requirements of any state: just 7 hours at each two-year renewal. The West Virginia Real Estate Commission oversees licensing, with PSI administering the exam. The state's real estate market is shaped by its energy and healthcare industries, and West Virginia home prices remain among the most affordable in the Eastern United States — a characteristic that creates genuine opportunities for cash-flow investors and first-time buyers who are priced out of neighboring Virginia or Maryland markets.",
+    examTip: "West Virginia's PSI exam covers state-specific agency law and WVREC regulations. The state's significant rural and agricultural property market means mineral rights and rural property transaction questions may appear in the state portion — areas where national prep materials often fall short of what you'll need.",
   },
   wisconsin: {
     commission: "Wisconsin Department of Safety and Professional Services (DSPS)",
@@ -564,6 +662,8 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "18",
+    stateIntro: "Wisconsin requires 72 hours of pre-licensing education and uses PSI for its licensing exam, with the Department of Safety and Professional Services (DSPS) managing the process. The state's two primary markets — Milwaukee and Madison — each have distinct personalities. Madison, anchored by the University of Wisconsin and state government employment, consistently shows strong demand and limited inventory, especially for entry-level and mid-range homes. Milwaukee's market is more diverse, spanning revitalized urban neighborhoods, established suburbs, and surrounding lake country communities where Wisconsin's outdoor recreation culture shapes buyer preferences.",
+    examTip: "Wisconsin's PSI exam covers Wisconsin-specific agency law and DSPS regulations. Wisconsin uses standardized WRA (Wisconsin Realtors Association) offer-to-purchase forms that are distinctive to the state — understanding the structure of these forms before the exam is useful both for test questions and for your early career practice.",
   },
   wyoming: {
     commission: "Wyoming Real Estate Commission",
@@ -575,5 +675,7 @@ export const stateLicenseData: Record<string, StateLicenseInfo> = {
     renewalYears: "2",
     minAge: "18",
     ceHours: "12",
+    stateIntro: "Wyoming requires 54 hours of pre-licensing education and uses PSI for its licensing exam, managed by the Wyoming Real Estate Commission. Wyoming is the least populous state in the country, which creates a small but tight-knit real estate market where professional reputation carries enormous weight. Jackson Hole stands apart as one of the most expensive real estate markets in the nation — driven by proximity to Grand Teton and Yellowstone National Parks and a concentration of wealthy second-home buyers — while Cheyenne and Casper operate as more traditional mid-size city markets. Wyoming's vast ranch and agricultural land sector also offers a genuinely unique niche for agents with rural land knowledge.",
+    examTip: "Wyoming's PSI exam covers Wyoming Real Estate Commission regulations and Wyoming-specific agency and property law. The state's significant ranch and agricultural land market means mineral rights and ranch lease questions may appear in the state portion — critical knowledge for any agent planning to work outside of Wyoming's small urban centers.",
   },
 };
