@@ -5,8 +5,8 @@ const About = () => {
   return (
     <Layout>
       <Helmet>
-        <title>About Peasant House | Real Estate Education by Elias Zoleta</title>
-        <meta name="description" content="Learn about Elias Zoleta, the founder of Peasant House — a real estate educator with years of experience in content creation, CRM automation, and property investing strategies." />
+        <title>About Peasant House | Free Real Estate Education</title>
+        <meta name="description" content="Learn about Peasant House — a free real estate education resource covering investing, wholesaling, marketing, and state licensing guides for beginners and seasoned investors alike." />
         <link rel="canonical" href="https://peasanthouse.com/about" />
       </Helmet>
 
@@ -16,30 +16,22 @@ const About = () => {
 
           <div className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              Peasant House was founded by <strong className="text-foreground">Elias Zoleta</strong> — a real estate content specialist and automation expert with over 4 years of experience helping real estate professionals, investors, and agencies scale their businesses through strategic content, CRM systems, and digital marketing.
-            </p>
-
-            <h2 className="font-heading text-2xl font-bold text-foreground">Who Is Elias Zoleta?</h2>
-            <p>
-              Elias has spent years immersed in the real estate industry — writing in-depth guides, managing lead generation campaigns, and building automation workflows for real estate teams across the United States. As a Go High Level specialist and seasoned virtual assistant, he has worked behind the scenes with brokers, wholesalers, and investors to create content strategies that drive organic traffic and convert leads.
-            </p>
-            <p>
-              His hands-on experience spans real estate blogging, SEO-optimized content creation, CRM pipeline management, and marketing automation — giving him a unique perspective on what it takes to succeed in today's competitive real estate landscape.
+              Peasant House is a free real estate education platform built for everyday people who want to understand, invest in, and profit from real estate — without the fluff, gatekeeping, or expensive courses.
             </p>
 
             <h2 className="font-heading text-2xl font-bold text-foreground">Our Mission</h2>
             <p>
-              We believe that real estate is one of the most powerful wealth-building tools available. But the industry can be overwhelming — filled with jargon, gatekeeping, and outdated advice. Peasant House exists to make real estate education <strong className="text-foreground">accessible, practical, and actionable</strong> for everyone, regardless of experience level or financial background.
+              Real estate is one of the most powerful wealth-building tools available, but the industry can feel overwhelming — packed with jargon, outdated advice, and information designed to confuse rather than help. Peasant House exists to change that. We make real estate education <strong className="text-foreground">accessible, practical, and actionable</strong> for everyone, regardless of experience level or financial background.
             </p>
 
             <h2 className="font-heading text-2xl font-bold text-foreground">What We Cover</h2>
             <p>
-              From real estate investing and wholesaling to lead generation, marketing strategies, and state-by-state licensing guides — we provide comprehensive, beginner-friendly content backed by real-world industry experience. Every article is researched, written, and reviewed with accuracy and value in mind.
+              From real estate investing strategies and wholesaling fundamentals to lead generation, digital marketing, and state-by-state licensing guides — we cover the full picture. Whether you're a complete beginner or looking to scale an existing portfolio, you'll find step-by-step guides and resources built around real-world application.
             </p>
 
             <h2 className="font-heading text-2xl font-bold text-foreground">Why Trust Us?</h2>
             <p>
-              With years of experience creating content for real estate professionals and managing end-to-end marketing systems, Elias brings a practitioner's perspective to every guide published on this site. Our content references authoritative industry sources, licensed professionals, and publicly available data to ensure reliability.
+              Every guide on Peasant House is researched and written with accuracy in mind. We reference authoritative industry sources, licensed professionals, and publicly available data to make sure the information you get here is reliable and up to date. Our focus is always on practical, honest content — not hype.
             </p>
 
             <div className="mt-8 rounded-lg border border-border bg-muted/50 p-6">
