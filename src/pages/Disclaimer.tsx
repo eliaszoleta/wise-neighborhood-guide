@@ -4,8 +4,8 @@ import { Helmet } from "react-helmet-async";
 const Disclaimer = () => (
   <Layout>
     <Helmet>
-      <title>Disclaimer | Neighborhood Guidelines</title>
-      <meta name="description" content="Read the disclaimer for Neighborhood Guidelines. Understand the limitations of the educational content provided on this site." />
+      <title>Disclaimer | Peasant House</title>
+      <meta name="description" content="Read the disclaimer for Peasant House. Understand the limitations of the educational content provided on this site." />
     </Helmet>
 
     <section className="section-padding">
@@ -15,7 +15,7 @@ const Disclaimer = () => (
           <p>Last updated: February 13, 2026</p>
 
           <h2 className="font-heading text-xl font-bold text-foreground">General Information</h2>
-          <p>The information provided on Neighborhood Guidelines is for general educational and informational purposes only. Nothing on this website should be construed as professional legal, financial, tax, or real estate advice.</p>
+          <p>The information provided on Peasant House is for general educational and informational purposes only. Nothing on this website should be construed as professional legal, financial, tax, or real estate advice.</p>
 
           <h2 className="font-heading text-xl font-bold text-foreground">No Professional Advice</h2>
           <p>While we strive to provide accurate, well-researched content, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or suitability of the information. Any reliance you place on such information is strictly at your own risk.</p>
