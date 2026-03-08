@@ -30,8 +30,8 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <img src={ngLogo} alt="Neighborhood Guidelines logo" className="h-8 w-auto" width={32} height={32} />
-              <span className="font-heading text-lg font-bold">Neighborhood Guidelines</span>
+              <img src={ngLogo} alt="Peasant House logo" className="h-8 w-auto" width={32} height={32} />
+              <span className="font-heading text-lg font-bold">Peasant House</span>
             </Link>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Real Estate Simplified. Step-by-step guides, tools, and strategies to build income through real estate.
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 border-t border-primary-foreground/10 pt-8 text-center text-sm text-primary-foreground/50">
-          <p>© {new Date().getFullYear()} Neighborhood Guidelines. All rights reserved. Real Estate Simplified.</p>
+          <p>© {new Date().getFullYear()} Peasant House. All rights reserved. Real Estate Simplified.</p>
         </div>
       </div>
     </footer>

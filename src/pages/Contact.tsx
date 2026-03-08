@@ -12,7 +12,7 @@ const Contact = () => {
             Have a question, partnership inquiry, or feedback? We'd love to hear from you.
           </p>
           <div className="mt-6 flex flex-col gap-3 text-sm text-muted-foreground">
-            <span className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> contact@neighborhoodguidelines.com</span>
+            <span className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> contact@peasanthouse.com</span>
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-accent" /> United States</span>
           </div>
           <form className="mt-10 space-y-5" onSubmit={(e) => e.preventDefault()}>

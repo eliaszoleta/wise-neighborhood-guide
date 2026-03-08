@@ -3,31 +3,31 @@
 
   <!-- Core Pages -->
   <url>
-    <loc>https://neighborhoodguidelines.com/</loc>
+    <loc>https://peasanthouse.com/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/start-here</loc>
+    <loc>https://peasanthouse.com/start-here</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/blog</loc>
+    <loc>https://peasanthouse.com/blog</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/about</loc>
+    <loc>https://peasanthouse.com/about</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/contact</loc>
+    <loc>https://peasanthouse.com/contact</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -35,19 +35,19 @@
 
   <!-- Pillar Pages -->
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-investing</loc>
+    <loc>https://peasanthouse.com/real-estate-investing</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-wholesaling</loc>
+    <loc>https://peasanthouse.com/real-estate-wholesaling</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-marketing</loc>
+    <loc>https://peasanthouse.com/real-estate-marketing</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -55,25 +55,25 @@
 
   <!-- Real Estate Investing Topics -->
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-investing/rental-property-investing</loc>
+    <loc>https://peasanthouse.com/real-estate-investing/rental-property-investing</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-investing/brrrr-strategy</loc>
+    <loc>https://peasanthouse.com/real-estate-investing/brrrr-strategy</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-investing/funding-financing</loc>
+    <loc>https://peasanthouse.com/real-estate-investing/funding-financing</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-investing/cash-flow-roi</loc>
+    <loc>https://peasanthouse.com/real-estate-investing/cash-flow-roi</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -81,25 +81,25 @@
 
   <!-- Real Estate Wholesaling Topics -->
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-wholesaling/how-wholesaling-works</loc>
+    <loc>https://peasanthouse.com/real-estate-wholesaling/how-wholesaling-works</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-wholesaling/finding-motivated-sellers</loc>
+    <loc>https://peasanthouse.com/real-estate-wholesaling/finding-motivated-sellers</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-wholesaling/dispositions-acquisitions</loc>
+    <loc>https://peasanthouse.com/real-estate-wholesaling/dispositions-acquisitions</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-wholesaling/contracts-assignment-fees</loc>
+    <loc>https://peasanthouse.com/real-estate-wholesaling/contracts-assignment-fees</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -107,25 +107,25 @@
 
   <!-- Real Estate Marketing Topics -->
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-marketing/lead-generation</loc>
+    <loc>https://peasanthouse.com/real-estate-marketing/lead-generation</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-marketing/facebook-google-ads</loc>
+    <loc>https://peasanthouse.com/real-estate-marketing/facebook-google-ads</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-marketing/cold-calling-sms</loc>
+    <loc>https://peasanthouse.com/real-estate-marketing/cold-calling-sms</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-marketing/crm-automation</loc>
+    <loc>https://peasanthouse.com/real-estate-marketing/crm-automation</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -133,7 +133,7 @@
 
   <!-- Real Estate License Hub -->
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license</loc>
+    <loc>https://peasanthouse.com/real-estate-license</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -141,301 +141,301 @@
 
   <!-- State Licensing Pages -->
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/alabama</loc>
+    <loc>https://peasanthouse.com/real-estate-license/alabama</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/alaska</loc>
+    <loc>https://peasanthouse.com/real-estate-license/alaska</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/arizona</loc>
+    <loc>https://peasanthouse.com/real-estate-license/arizona</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/arkansas</loc>
+    <loc>https://peasanthouse.com/real-estate-license/arkansas</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/california</loc>
+    <loc>https://peasanthouse.com/real-estate-license/california</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/colorado</loc>
+    <loc>https://peasanthouse.com/real-estate-license/colorado</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/connecticut</loc>
+    <loc>https://peasanthouse.com/real-estate-license/connecticut</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/delaware</loc>
+    <loc>https://peasanthouse.com/real-estate-license/delaware</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/florida</loc>
+    <loc>https://peasanthouse.com/real-estate-license/florida</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/georgia</loc>
+    <loc>https://peasanthouse.com/real-estate-license/georgia</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/hawaii</loc>
+    <loc>https://peasanthouse.com/real-estate-license/hawaii</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/idaho</loc>
+    <loc>https://peasanthouse.com/real-estate-license/idaho</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/illinois</loc>
+    <loc>https://peasanthouse.com/real-estate-license/illinois</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/indiana</loc>
+    <loc>https://peasanthouse.com/real-estate-license/indiana</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/iowa</loc>
+    <loc>https://peasanthouse.com/real-estate-license/iowa</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/kansas</loc>
+    <loc>https://peasanthouse.com/real-estate-license/kansas</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/kentucky</loc>
+    <loc>https://peasanthouse.com/real-estate-license/kentucky</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/louisiana</loc>
+    <loc>https://peasanthouse.com/real-estate-license/louisiana</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/maine</loc>
+    <loc>https://peasanthouse.com/real-estate-license/maine</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/maryland</loc>
+    <loc>https://peasanthouse.com/real-estate-license/maryland</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/massachusetts</loc>
+    <loc>https://peasanthouse.com/real-estate-license/massachusetts</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/michigan</loc>
+    <loc>https://peasanthouse.com/real-estate-license/michigan</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/minnesota</loc>
+    <loc>https://peasanthouse.com/real-estate-license/minnesota</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/mississippi</loc>
+    <loc>https://peasanthouse.com/real-estate-license/mississippi</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/missouri</loc>
+    <loc>https://peasanthouse.com/real-estate-license/missouri</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/montana</loc>
+    <loc>https://peasanthouse.com/real-estate-license/montana</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/nebraska</loc>
+    <loc>https://peasanthouse.com/real-estate-license/nebraska</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/nevada</loc>
+    <loc>https://peasanthouse.com/real-estate-license/nevada</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/new-hampshire</loc>
+    <loc>https://peasanthouse.com/real-estate-license/new-hampshire</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/new-jersey</loc>
+    <loc>https://peasanthouse.com/real-estate-license/new-jersey</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/new-mexico</loc>
+    <loc>https://peasanthouse.com/real-estate-license/new-mexico</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/new-york</loc>
+    <loc>https://peasanthouse.com/real-estate-license/new-york</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/north-carolina</loc>
+    <loc>https://peasanthouse.com/real-estate-license/north-carolina</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/north-dakota</loc>
+    <loc>https://peasanthouse.com/real-estate-license/north-dakota</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/ohio</loc>
+    <loc>https://peasanthouse.com/real-estate-license/ohio</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/oklahoma</loc>
+    <loc>https://peasanthouse.com/real-estate-license/oklahoma</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/oregon</loc>
+    <loc>https://peasanthouse.com/real-estate-license/oregon</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/pennsylvania</loc>
+    <loc>https://peasanthouse.com/real-estate-license/pennsylvania</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/rhode-island</loc>
+    <loc>https://peasanthouse.com/real-estate-license/rhode-island</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/south-carolina</loc>
+    <loc>https://peasanthouse.com/real-estate-license/south-carolina</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/south-dakota</loc>
+    <loc>https://peasanthouse.com/real-estate-license/south-dakota</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/tennessee</loc>
+    <loc>https://peasanthouse.com/real-estate-license/tennessee</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/texas</loc>
+    <loc>https://peasanthouse.com/real-estate-license/texas</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/utah</loc>
+    <loc>https://peasanthouse.com/real-estate-license/utah</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/vermont</loc>
+    <loc>https://peasanthouse.com/real-estate-license/vermont</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/virginia</loc>
+    <loc>https://peasanthouse.com/real-estate-license/virginia</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/washington</loc>
+    <loc>https://peasanthouse.com/real-estate-license/washington</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/west-virginia</loc>
+    <loc>https://peasanthouse.com/real-estate-license/west-virginia</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/wisconsin</loc>
+    <loc>https://peasanthouse.com/real-estate-license/wisconsin</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/real-estate-license/wyoming</loc>
+    <loc>https://peasanthouse.com/real-estate-license/wyoming</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -443,25 +443,25 @@
 
   <!-- Legal Pages -->
   <url>
-    <loc>https://neighborhoodguidelines.com/privacy-policy</loc>
+    <loc>https://peasanthouse.com/privacy-policy</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/terms-of-service</loc>
+    <loc>https://peasanthouse.com/terms-of-service</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/disclaimer</loc>
+    <loc>https://peasanthouse.com/disclaimer</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://neighborhoodguidelines.com/cookie-policy</loc>
+    <loc>https://peasanthouse.com/cookie-policy</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>

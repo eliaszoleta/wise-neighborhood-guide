@@ -4,8 +4,8 @@ import { Helmet } from "react-helmet-async";
 const PrivacyPolicy = () => (
   <Layout>
     <Helmet>
-      <title>Privacy Policy | Neighborhood Guidelines</title>
-      <meta name="description" content="Read the privacy policy for Neighborhood Guidelines. Learn how we collect, use, and protect your personal information." />
+      <title>Privacy Policy | Peasant House</title>
+      <meta name="description" content="Read the privacy policy for Peasant House. Learn how we collect, use, and protect your personal information." />
     </Helmet>
 
     <section className="section-padding">
@@ -14,7 +14,7 @@ const PrivacyPolicy = () => (
         <div className="mt-8 space-y-4 text-muted-foreground leading-relaxed">
           <p>Last updated: February 13, 2026</p>
 
-          <p>Neighborhood Guidelines ("we", "us", or "our") operates the website. This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our site.</p>
+          <p>Peasant House ("we", "us", or "our") operates the website. This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our site.</p>
 
           <h2 className="font-heading text-xl font-bold text-foreground">Information We Collect</h2>
           <p>We may collect the following types of information:</p>
@@ -46,7 +46,7 @@ const PrivacyPolicy = () => (
           <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
 
           <h2 className="font-heading text-xl font-bold text-foreground">Contact</h2>
-          <p>If you have questions about this policy, please contact us at <a href="mailto:contact@neighborhoodguidelines.com" className="text-accent underline hover:text-accent/80">contact@neighborhoodguidelines.com</a>.</p>
+          <p>If you have questions about this policy, please contact us at <a href="mailto:contact@peasanthouse.com" className="text-accent underline hover:text-accent/80">contact@peasanthouse.com</a>.</p>
         </div>
       </div>
     </section>

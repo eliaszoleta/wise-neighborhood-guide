@@ -19,9 +19,9 @@ const Index = () => {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: "Neighborhood Guidelines",
+        name: "Peasant House",
         description: "Real Estate Simplified – Learn investing, wholesaling, marketing & licensing.",
-        url: "https://neighborhoodguidelines.com",
+        url: "https://peasanthouse.com",
       })}} />
 
       {/* HERO SECTION */}
