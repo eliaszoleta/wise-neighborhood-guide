@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# Neighborhood Guidelines
 
-## Project info
+A free real estate education platform covering investing, wholesaling, marketing, and state licensing guides for all 50 US states.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Site:** [neighborhoodguidelines.com](https://neighborhoodguidelines.com)
 
-## How can I edit this code?
+## Tech Stack
 
-There are several ways of editing your application.
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS + shadcn/ui
+- React Router DOM
+- React Helmet Async (SEO)
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repo
+git clone https://github.com/eliaszoleta/wise-neighborhood-guide.git
+cd wise-neighborhood-guide
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+```
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/     # Layout, Header, Footer, TopicPage template
+├── pages/          # All route-level page components
+│   ├── topics/     # 12 topic detail pages (investing, wholesaling, marketing)
+│   └── ...         # Core pages (Home, Blog, About, Contact, Legal)
+├── data/           # stateLicenseData.ts - all 50 states licensing info
+└── assets/         # Images and logo
+public/
+├── sitemap.xml     # Full sitemap for all routes
+├── robots.txt      # Search engine crawl directives
+└── favicon.ico
+```
 
-## What technologies are used for this project?
+## Content Pillars
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. **Real Estate Investing** - Rental properties, BRRRR, funding, cash flow/ROI
+2. **Real Estate Wholesaling** - How it works, finding sellers, dispositions, contracts
+3. **Real Estate Marketing** - Lead gen, ads, cold calling/SMS, CRM automation
+4. **State Licensing** - Guides for all 50 US states
