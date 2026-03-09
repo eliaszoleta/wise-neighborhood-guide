@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ngLogo from "@/assets/ng-logo.png";
 
 const footerLinks = {
   learn: [
@@ -30,7 +29,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <img src={ngLogo} alt="Peasant House logo" className="h-8 w-auto" width={32} height={32} />
+              <img src="/favicon.svg" alt="Peasant House logo" className="h-8 w-auto" width={32} height={32} />
               <span className="font-heading text-lg font-bold">Peasant House</span>
             </Link>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">

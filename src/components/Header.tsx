@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ngLogo from "@/assets/ng-logo.png";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -27,7 +26,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <nav className="container-wide flex h-16 items-center justify-between px-4 md:px-8" aria-label="Main navigation">
         <Link to="/" className="flex items-center gap-2" aria-label="Peasant House Home">
-          <img src={ngLogo} alt="Peasant House logo" className="h-9 w-auto" width={36} height={36} />
+          <img src="/favicon.svg" alt="Peasant House logo" className="h-9 w-auto" width={36} height={36} />
           <span className="hidden font-heading text-lg font-bold text-foreground sm:inline">
             Peasant House
           </span>
