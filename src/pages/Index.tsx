@@ -1,9 +1,13 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
-import { Shield, TrendingUp, Users, ArrowRight, Mail, Building2, DollarSign, Megaphone, MapPin, BookOpen } from "lucide-react";
+import { Shield, TrendingUp, Users, ArrowRight, Mail, Building2, DollarSign, Megaphone, MapPin, BookOpen, CheckCircle } from "lucide-react";
 import Layout from "@/components/Layout";
 import heroBg from "@/assets/hero-bg.jpg";
+
+// Replace with your Formspree form ID after signing up at formspree.io
+const NEWSLETTER_FORM_ID = "YOUR_NEWSLETTER_FORM_ID";
 
 const US_STATES = [
   "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia",
@@ -14,6 +18,30 @@ const US_STATES = [
 ];
 
 const Index = () => {
+  const [emailStatus, setEmailStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+
+  const handleNewsletterSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setEmailStatus("submitting");
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    try {
+      const res = await fetch(`https://formspree.io/f/${NEWSLETTER_FORM_ID}`, {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
+      if (res.ok) {
+        setEmailStatus("success");
+        form.reset();
+      } else {
+        setEmailStatus("error");
+      }
+    } catch {
+      setEmailStatus("error");
+    }
+  };
+
   return (
     <Layout>
       <Helmet>
@@ -213,18 +241,29 @@ const Index = () => {
           <p className="mx-auto mt-3 max-w-xl text-primary-foreground/70">
             A free PDF walkthrough of the basics, plus occasional tips on investing, wholesaling, and licensing. No sales pitches, no courses to buy.
           </p>
-          <form className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="flex-1 rounded-md border-0 bg-primary-foreground/10 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:outline-none focus:ring-2 focus:ring-accent"
-              aria-label="Email address"
-              required
-            />
-            <Button variant="hero" size="lg" type="submit">
-              Send It to Me
-            </Button>
-          </form>
+          {emailStatus === "success" ? (
+            <div className="mx-auto mt-8 flex max-w-md items-center gap-3 rounded-lg bg-primary-foreground/10 px-6 py-4 text-primary-foreground">
+              <CheckCircle className="h-5 w-5 shrink-0 text-accent" />
+              <p className="text-sm font-medium">You're in! Check your inbox for the guide.</p>
+            </div>
+          ) : (
+            <form className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row" onSubmit={handleNewsletterSubmit}>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email address"
+                className="flex-1 rounded-md border-0 bg-primary-foreground/10 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:outline-none focus:ring-2 focus:ring-accent"
+                aria-label="Email address"
+                required
+              />
+              <Button variant="hero" size="lg" type="submit" disabled={emailStatus === "submitting"}>
+                {emailStatus === "submitting" ? "Sending…" : "Send It to Me"}
+              </Button>
+            </form>
+          )}
+          {emailStatus === "error" && (
+            <p className="mt-2 text-xs text-red-300">Something went wrong. Please try again.</p>
+          )}
           <p className="mt-3 text-xs text-primary-foreground/40">Unsubscribe anytime. We don't share or sell your information.</p>
         </div>
       </section>
