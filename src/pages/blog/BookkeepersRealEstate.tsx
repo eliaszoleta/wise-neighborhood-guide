@@ -1,49 +1,56 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const BookkeepersRealEstate = () => (
-  <TopicPage
+  <BlogPost
     title="How Bookkeepers Help Real Estate Businesses Stay Organized and Tax-Ready"
     metaDesc="Real estate investors who don't track their finances properly lose money to missed deductions, disorganized records, and costly accounting errors. Here's what good bookkeeping looks like."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="Real estate has some of the most valuable tax deductions available — depreciation, mortgage interest, repairs, professional fees, travel — but those deductions are only accessible if your records are clean and your bookkeeping is current. Many real estate investors delay organizing their finances until tax season and end up leaving significant deductions on the table, or worse, paying a CPA an inflated rate to clean up a year of disorganized records. Here's why clean books matter and what proper real estate bookkeeping looks like."
-    sections={[
-      {
-        heading: "What a Real Estate Bookkeeper Does",
-        content: "A bookkeeper maintains the day-to-day financial records of a business — recording income and expenses, reconciling bank and credit card statements, categorizing transactions according to a chart of accounts, and keeping the books current so that financial statements are always accurate. For a real estate investor, this means tracking rental income by property, categorizing each expense correctly (repairs vs. improvements vs. capital expenditures — a distinction with significant tax consequences), recording mortgage payments and tracking principal vs. interest, managing security deposits as liabilities rather than income, and preparing monthly financial statements by property. The bookkeeper handles the recording and organization; the CPA handles strategy, tax filing, and the advice layer. They're different functions, and conflating them is a common mistake.",
-        links: [],
-      },
-      {
-        heading: "Why Proper Categorization Matters",
-        content: "In real estate, the difference between a 'repair' and a 'capital improvement' can mean the difference between deducting $5,000 this year versus depreciating it over 27.5 years. Repairs (fixing what's broken — replacing a broken window, patching a roof leak) are immediately deductible. Capital improvements (adding value or extending the useful life — new HVAC system, full kitchen renovation) must be depreciated. Improperly categorizing improvements as repairs is an audit risk; improperly categorizing repairs as improvements means you're paying more tax than you owe. Good bookkeepers familiar with real estate know this distinction and flag items that require a CPA's determination on categorization.",
-        links: [],
-      },
-      {
-        heading: "Bookkeeping Software for Real Estate Investors",
-        content: "QuickBooks Online and Wave are the most commonly used bookkeeping platforms for small real estate businesses. QuickBooks offers more robust features and accountant integration; Wave is free and adequate for simple portfolios. REI-specific platforms like Stessa are designed specifically for rental property tracking — they connect to your bank accounts, auto-categorize transactions, generate property-level income statements, and track net cash flow per unit. Stessa is free for basic use and is often the most efficient starting point for investors with 1–10 units. Whatever platform you use, the discipline matters more than the tool: reconcile your accounts monthly, don't let expense receipts pile up unrecorded, and keep business and personal finances strictly separated.",
-        links: [],
-      },
-      {
-        heading: "When to Hire a Bookkeeper",
-        content: "Most single-property investors can handle their own bookkeeping with a simple spreadsheet or Stessa. As you scale — more properties, more transactions, more complexity — the ROI on a bookkeeper increases quickly. When you have 3–5+ properties, are doing active deal sourcing or flipping, or have a property management business, the time and error-risk of doing it yourself starts to outweigh the cost. A part-time bookkeeper with real estate experience typically charges $300–$800/month depending on transaction volume and complexity. That's a fraction of what you'd pay a CPA to clean up a year of messy records at tax time.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "Do I need both a bookkeeper and a CPA?",
-        a: "For most real estate investors with more than a couple of properties, yes — the two roles serve different functions. The bookkeeper keeps your records clean and current throughout the year. The CPA provides tax strategy, files your returns, and advises on structuring decisions (entity type, cost segregation studies, 1031 exchanges). Handing a CPA well-organized books at tax time costs significantly less than handing them a shoe box of receipts — the cleaner your records, the less billable time the CPA spends organizing rather than advising.",
-      },
-      {
-        q: "What is depreciation and how does it benefit real estate investors?",
-        a: "Depreciation is a non-cash tax deduction that lets you deduct the cost of a rental building over its useful life (27.5 years for residential property per IRS guidelines). Example: buy a rental property with $200,000 allocated to the building (not land), and you can deduct $7,272/year in depreciation — even though no money left your pocket. This deduction shelters rental income and can create paper losses that offset other income (subject to passive activity rules and income limits). Depreciation is one of the primary tax advantages of real estate ownership, and it requires proper bookkeeping to track correctly.",
-      },
-      {
-        q: "Should real estate investors use an LLC?",
-        a: "Many real estate attorneys and CPAs recommend holding investment properties in LLCs for liability protection — separating property assets from your personal assets. An LLC doesn't provide tax advantages on its own (a single-member LLC is treated as a disregarded entity by the IRS, meaning the income still flows to your personal return), but it does require separate bookkeeping and bank accounts for each entity. Multi-property investors often create one LLC per property or per portfolio. The right structure depends on your state, your risk exposure, and your overall portfolio strategy — this is worth a specific conversation with a real estate attorney and CPA.",
-      },
-    ]}
-  />
+  >
+    <p>Every April, some version of this happens: a landlord drops a grocery bag full of receipts on their CPA's desk and says "here's everything from last year." The CPA charges $300/hour to sort through it. Half the receipts are missing. Some expenses get misclassified. Deductions get left on the table. The whole thing costs twice what it should have.</p>
+
+    <p>Real estate has some of the most valuable tax deductions available — depreciation alone can shelter thousands in income every year. But those deductions only exist on paper if your records are clean. The investors who capture them reliably are the ones whose books are current before December, not after.</p>
+
+    <h2>What a Bookkeeper Does (and What They Don't)</h2>
+
+    <p>A bookkeeper records, categorizes, and reconciles. Every rental payment that hits your account. Every repair invoice. Every mortgage payment — split between principal and interest, because those are treated differently. Every management fee, insurance payment, and property tax installment. Done monthly, this takes maybe an hour. Done once a year in a panic, it's a nightmare and an expensive one.</p>
+
+    <p>What a bookkeeper does <em>not</em> do: tax strategy. That's the CPA. They're different functions and conflating them is one of the most common mistakes real estate investors make. Your bookkeeper keeps the records accurate and current. Your CPA looks at those records and advises on entity structure, cost segregation studies, 1031 exchanges, and how to defer or minimize what you owe. Give the CPA clean books and they spend their billable hours on advice. Give them chaos and they spend it on cleanup — at your expense.</p>
+
+    <h2>The Repair vs. Capital Improvement Distinction</h2>
+
+    <p>This is where bookkeeping errors actually cost real money. In real estate, the difference between a "repair" and a "capital improvement" can change whether you deduct $5,000 this year or depreciate it over 27.5 years.</p>
+
+    <p>Repairs — fixing something broken — are immediately deductible. Replacing a broken window, patching a roof leak, fixing a plumbing issue. You spend $800, you deduct $800 this year.</p>
+
+    <p>Capital improvements — adding value or extending useful life — must be depreciated. New HVAC system, full kitchen renovation, added square footage. You spend $12,000 on a new AC system, and you're spreading that deduction over years, not taking it now.</p>
+
+    <p>Misclassify improvements as repairs and you're an audit risk. Misclassify repairs as improvements and you're paying more tax than you legally owe. A bookkeeper with real estate experience knows this line and flags anything that needs a CPA's determination. A general-purpose bookkeeper or a spreadsheet doesn't.</p>
+
+    <h2>Depreciation — The Deduction That Requires Clean Books</h2>
+
+    <p>Depreciation is the reason real estate is such a tax-efficient investment. The IRS lets you deduct the cost of a rental building over 27.5 years — even though the building isn't losing value and no cash is leaving your account. It's a paper deduction that can shelter thousands in rental income annually.</p>
+
+    <p>Example: buy a rental with $200,000 allocated to the building (not the land — land doesn't depreciate). That's $7,272 per year in depreciation deductions. Every year. Without spending another dollar. If you're in the 24% bracket, that's $1,745 in tax you're not paying.</p>
+
+    <p>But depreciation requires an accurate basis calculation, careful tracking, and recapture accounting when you sell. If your books are a mess, your depreciation schedule is probably wrong. That's not a minor administrative issue — it affects every tax return you file while you own the property.</p>
+
+    <h2>Tools That Work for Real Estate</h2>
+
+    <p>For investors with 1–10 units, Stessa is worth looking at first. It's built specifically for rental property tracking — it connects to your bank accounts, auto-categorizes transactions, and generates property-level income statements. Free for basic use, and for a small portfolio it's often enough.</p>
+
+    <p>QuickBooks Online is the standard for anything more complex — a property management business, active flipping operation, or portfolio large enough to require a real chart of accounts and accountant integration. More powerful, more expensive, bigger learning curve.</p>
+
+    <p>The tool matters less than the discipline. Whatever you use, reconcile monthly. Don't let transactions stack up. Keep business accounts completely separate from personal — commingling is how investors lose liability protection and create audit exposure at the same time.</p>
+
+    <h2>When It's Worth Hiring Someone</h2>
+
+    <p>One property with a handful of transactions per month? You can probably handle it yourself with Stessa and 30 minutes a month. Three properties, active deal sourcing, or a property you flip? The error risk and time cost of doing it yourself starts to outweigh what a bookkeeper charges.</p>
+
+    <p>A part-time bookkeeper with real estate experience typically runs $300–$800/month depending on transaction volume. That's less than one hour of a CPA's time if they have to clean up a year of disorganized records. The math on hiring gets better fast as your portfolio grows.</p>
+
+    <div className="callout">
+      <p>Clean books are not a tax-season project. They're a year-round discipline that determines how many deductions you actually capture and how much you pay your CPA to do anything useful. Get the records right first — everything else follows from that.</p>
+    </div>
+  </BlogPost>
 );
 
 export default BookkeepersRealEstate;

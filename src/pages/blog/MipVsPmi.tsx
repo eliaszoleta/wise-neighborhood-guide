@@ -1,49 +1,66 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const MipVsPmi = () => (
-  <TopicPage
+  <BlogPost
     title="MIP vs. PMI: Mortgage Insurance Explained for Homebuyers"
-    metaDesc="MIP and PMI are both mortgage insurance — but they work differently and cost differently. Here's what each one is, when you pay it, and how to get rid of it."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="Mortgage insurance exists to protect lenders — not borrowers — when a buyer puts down less than 20%. If you default, the insurance pays the lender. You pay the premium. It's a cost that can add $100–$500 or more per month to your payment, so understanding when you're required to pay it, how much it costs, and when you can eliminate it is worth the time to figure out before you close."
-    sections={[
-      {
-        heading: "What Is PMI (Private Mortgage Insurance)?",
-        content: "PMI applies to conventional loans when your down payment is less than 20% of the purchase price. It's provided by private insurance companies (Genworth, MGIC, Radian, Essent, and others). Cost: typically 0.5–1.5% of the loan balance annually, divided into monthly payments. On a $300,000 loan, that's $125–$375/month. The exact rate depends on your credit score, down payment, loan term, and the insurer. The critical advantage of PMI over FHA MIP: it's cancelable. Once you reach 20% equity (either through payments or appreciation), you can request PMI removal. At 22% equity based on the original amortization schedule, lenders are legally required to cancel it automatically under the Homeowners Protection Act.",
-        links: [],
-      },
-      {
-        heading: "What Is MIP (Mortgage Insurance Premium)?",
-        content: "MIP applies specifically to FHA loans. It's charged by the federal government (FHA). Unlike PMI, MIP has two components: an upfront MIP of 1.75% of the loan amount charged at closing (can be rolled into the loan), and an annual MIP of 0.55–1.05% depending on your loan-to-value and loan term, paid monthly. The most significant difference from PMI: if your FHA loan has a down payment under 10%, annual MIP stays for the life of the loan. If you put down 10% or more, MIP drops off after 11 years. The traditional strategy for FHA borrowers who want to eliminate MIP: once you have 20% equity, refinance into a conventional loan — the refinance pays off the FHA loan and you're no longer subject to FHA's MIP requirements.",
-        links: [],
-      },
-      {
-        heading: "PMI vs. MIP: Side-by-Side Comparison",
-        content: "PMI: conventional loans only; no upfront premium in most cases; 0.5–1.5% annually; cancelable once you reach 20% equity; automatically removed at 22% per HPA. MIP: FHA loans only; 1.75% upfront premium; 0.55–1.05% annually; cannot be cancelled if down payment under 10% (stays for life of loan); must refinance out of FHA to eliminate it. For a buyer with good credit putting down 5%, conventional + PMI is often cheaper long-term than FHA + MIP because the PMI cancels. For a buyer with lower credit (580–620 range) where conventional PMI rates are punishing, FHA MIP may be the more affordable route despite the lifetime requirement. Run the numbers for your specific credit score, down payment, and expected hold period.",
-        links: [],
-      },
-      {
-        heading: "How to Avoid or Eliminate Mortgage Insurance",
-        content: "The cleanest ways: put 20% down on a conventional loan (no PMI required). Use a piggyback loan (80/10/10 — first mortgage at 80% LTV, second mortgage at 10%, 10% cash down) to avoid PMI while keeping cash invested. If you already have MIP on an FHA loan, refinance to conventional once you have 20% equity — this requires a new appraisal and refinance costs but eliminates MIP permanently. For existing conventional loans with PMI, request cancellation once your loan-to-value reaches 80% based on your original purchase price. You can also request a new appraisal if appreciation has pushed your equity above 20% — many lenders allow cancellation based on current value rather than original value.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "How much does mortgage insurance add to my monthly payment?",
-        a: "PMI on a conventional loan typically adds $83–$250/month per $100,000 borrowed (0.5–1.5% annually ÷ 12). FHA MIP adds roughly $46–$88/month per $100,000 borrowed in annual MIP (0.55–1.05%) plus the upfront 1.75% rolled into the loan. These are real costs that need to be in your homebuying budget. On a $300,000 loan, mortgage insurance could add $150–$500/month depending on the loan type and your profile.",
-      },
-      {
-        q: "Can I negotiate my PMI rate?",
-        a: "Not directly — PMI rates are set by the mortgage insurance company based on your credit score, LTV, and other underwriting factors. However, you can shop your overall loan package among lenders, who may be able to access different PMI providers with different rate schedules. Improving your credit score before applying has the most direct impact on reducing PMI cost. Some lenders offer lender-paid PMI (LPMI), where they cover the PMI cost in exchange for a slightly higher interest rate.",
-      },
-      {
-        q: "Is it ever better to pay PMI than put 20% down?",
-        a: "Sometimes. If you have $60,000 available and the home costs $300,000, you could put 20% down and eliminate PMI — or put 5–10% down, pay PMI, and invest the remaining $30,000–$45,000 in other assets. If your investment returns exceed your PMI cost, keeping more cash invested might be the better financial decision. This depends heavily on what alternative investment opportunities you have available and how long you expect to pay PMI before reaching 20% equity through payments or appreciation.",
-      },
-    ]}
-  />
+    metaDesc="MIP and PMI are both mortgage insurance — but they work differently, cost differently, and one of them can follow you for the life of your loan. Here's what you're actually paying for and how to get out."
+  >
+    <p>Nobody tells you this clearly enough when you're buying a house: mortgage insurance protects the bank, not you. If you default, the insurance pays the lender. You pay the premium. It exists entirely to let lenders approve loans with small down payments while limiting their own risk.</p>
+
+    <p>That's not a reason to avoid it — sometimes it's the right trade. But you should know what you're paying for, how much it costs, and when you can stop paying it. Because one type of mortgage insurance can stay on your loan forever, and a lot of buyers don't find that out until after they've closed.</p>
+
+    <h2>PMI — The One That Goes Away</h2>
+
+    <p>PMI (Private Mortgage Insurance) applies to conventional loans when you put down less than 20%. It's provided by private insurance companies — Genworth, MGIC, Radian, and others — not the government.</p>
+
+    <p>Cost: typically 0.5–1.5% of the loan balance annually, divided into monthly payments. On a $300,000 loan, that's $125–$375/month. Your exact rate depends on credit score, down payment size, and the insurer.</p>
+
+    <p>The critical thing about PMI: it cancels. Once your loan balance drops to 80% of the original purchase price — through your regular payments — you can request removal. At 22% equity based on the original amortization schedule, the lender is legally required to cancel it automatically under the Homeowners Protection Act. You don't have to refinance. You don't have to do anything dramatic. You hit the threshold, you request cancellation, it's gone.</p>
+
+    <p>You can also request cancellation early if appreciation has pushed your equity above 20%. Many lenders allow this with a new appraisal — if the home's current value gives you 20%+ equity, PMI comes off even if you haven't paid down that far based on the original price.</p>
+
+    <h2>MIP — The One That Might Not</h2>
+
+    <p>MIP (Mortgage Insurance Premium) applies to FHA loans. It's charged by the federal government, not private insurers, and it has two parts:</p>
+
+    <ul>
+      <li><strong>Upfront MIP:</strong> 1.75% of the loan amount, charged at closing. Most borrowers roll this into the loan rather than paying it out of pocket, which means it's financed and you pay interest on it for the life of the loan.</li>
+      <li><strong>Annual MIP:</strong> 0.55–1.05% depending on your loan-to-value and loan term, paid monthly.</li>
+    </ul>
+
+    <p>Here's the part that catches people off guard. If you put down less than 10% on an FHA loan — which is most FHA borrowers, since the 3.5% minimum down is the main reason people choose FHA — the annual MIP stays for the entire life of the loan. There is no cancellation. You make payments for 30 years and the insurance premium is there on every single one of them.</p>
+
+    <p>If you put down 10% or more, MIP drops after 11 years. Still a long runway, but at least there's an end date.</p>
+
+    <blockquote>
+      On a $300,000 FHA loan with 3.5% down: upfront MIP of $5,775 rolled into the loan, plus roughly $138–$263/month in annual MIP for 30 years. That's $49,000–$94,000 in mortgage insurance over the life of the loan, on top of interest.
+    </blockquote>
+
+    <h2>Which One Is Actually Cheaper?</h2>
+
+    <p>It depends on your credit score and how long you keep the loan.</p>
+
+    <p>For a buyer with good credit putting down 5%, conventional + PMI is almost always cheaper long-term than FHA + MIP. The PMI rate on a 740 credit score with 5% down might be 0.5–0.7% annually — and it cancels once you hit 20% equity. FHA MIP runs 0.55–1.05% on top of the 1.75% upfront, and it doesn't cancel. You're paying for something that could disappear vs. something that won't.</p>
+
+    <p>Where FHA wins: lower credit scores. Conventional PMI rates for a 620 credit score can be punishing — 1.5%+ annually. FHA's MIP is the same regardless of credit score. For buyers who wouldn't qualify for conventional financing, or who can only qualify at rates that make conventional PMI unaffordable, FHA makes sense. Just go in understanding the trade you're making.</p>
+
+    <h2>How to Get Out of Mortgage Insurance</h2>
+
+    <p>For conventional loans with PMI:</p>
+    <ul>
+      <li>Hit 80% LTV on your original purchase price and request cancellation in writing</li>
+      <li>Get a new appraisal if appreciation has pushed your equity to 20%+ — many lenders will cancel based on current value</li>
+      <li>Lenders must automatically cancel at 22% equity per original amortization schedule</li>
+    </ul>
+
+    <p>For FHA loans with lifetime MIP, the only clean exit is refinancing into a conventional loan. Once you have 20% equity — through payments, appreciation, or both — refinance out of FHA, and you're no longer subject to MIP. This requires a new appraisal, closing costs, and qualifying for a conventional loan, but if your credit has improved and your equity is there, it's worth running the math.</p>
+
+    <p>The cleanest way to avoid mortgage insurance entirely: put 20% down on a conventional loan. Or use an 80/10/10 piggyback structure — a first mortgage at 80% LTV, a second mortgage covering 10%, and 10% cash down — which keeps you below the PMI threshold while letting you hold more of your cash.</p>
+
+    <div className="callout">
+      <p>If you have good credit and enough for 5–10% down, run the conventional vs. FHA comparison before you decide. The lower barrier of FHA is real, but so is the cost of lifetime MIP. On a 30-year loan, that difference compounds into real money.</p>
+    </div>
+  </BlogPost>
 );
 
 export default MipVsPmi;

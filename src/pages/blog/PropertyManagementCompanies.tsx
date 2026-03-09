@@ -1,49 +1,74 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const PropertyManagementCompanies = () => (
-  <TopicPage
+  <BlogPost
     title="Property Management Companies: What They Do and Whether You Need One"
-    metaDesc="Property management companies handle tenants, maintenance, rent collection, and compliance on your behalf. Here's what they do, what they cost, and how to decide if hiring one is worth it."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="A property management company takes the day-to-day operations of a rental off your plate: marketing vacancies, screening tenants, collecting rent, coordinating maintenance, handling tenant issues, and keeping the property in compliance with local landlord-tenant law. For some investors, this is essential. For others, it's an unnecessary expense. Here's how to evaluate the decision honestly."
-    sections={[
-      {
-        heading: "What Property Managers Actually Do",
-        content: "Full-service property management typically includes: marketing vacant units on Zillow, Apartments.com, and other rental platforms; showing the property to prospective tenants; running credit, background, and income checks; drafting and executing lease agreements; collecting monthly rent and handling late payments; coordinating routine and emergency maintenance with a contractor network; conducting move-in and move-out inspections; managing security deposit accounting; handling lease renewals and rent increases; and dealing with lease violations, non-payment, and evictions when necessary. Some property managers also provide monthly financial statements, annual tax summaries, and 24/7 maintenance hotlines. The scope of services varies — read the management agreement carefully to understand what's included versus billed separately.",
-        links: [],
-      },
-      {
-        heading: "What Property Management Costs",
-        content: "Standard fee structure: monthly management fee of 8–12% of gross rent collected, plus a leasing fee when a new tenant is placed (typically 50–100% of one month's rent). So on a $1,500/month rental with 10% management and a one-month leasing fee: $150/month management plus $1,500 per tenant placement. Over a two-year tenancy with one placement, that's $3,600 in management fees plus $1,500 in leasing fees — $5,100 total. Watch out for additional fees that some managers charge: lease renewal fee (some charge 25–50% of a month's rent for renewals), maintenance markup (some charge 10–15% on top of contractor invoices), vacancy management fee, and early termination fee.",
-        links: [],
-      },
-      {
-        heading: "Evaluating Whether to Self-Manage or Hire",
-        content: "Self-management saves the 8–12% monthly fee and leasing fees — significant over time. But it costs your time: taking maintenance calls at inconvenient hours, handling tenant disputes, staying current on landlord-tenant law in your jurisdiction, and processing rent payments and late notices. For investors with one or two local properties, self-management is often feasible and worthwhile. It becomes less practical as you scale, as the properties are farther away, or when your time has higher-value uses. The classic decision point: if your hourly rate in your primary work exceeds the cost of management per hour of saved time, hire the manager. Also consider risk tolerance — property managers carry E&O insurance and have legal expertise around tenant screening and eviction procedures that individual landlords often lack.",
-        links: [],
-      },
-      {
-        heading: "How to Find and Vet a Property Manager",
-        content: "Start with referrals from other local investors — the best property managers get most of their new clients through word of mouth. Investor associations and local real estate meetups are good sources. Interview at least 2–3 managers before signing. Questions to ask: How many units do they manage? What's their average vacancy rate? How do they handle maintenance calls? What's their eviction rate and process? How quickly do they fill vacancies? Can they provide references from current clients? Red flags: vague answers on fees, unwillingness to show you sample monthly statements, high staff turnover, or an office that seems disorganized when you visit. Review the management agreement with an attorney before signing — look especially at cancellation terms and what happens if they sell a property on your behalf.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "Is a property manager worth the cost?",
-        a: "For most investors who own properties remotely, have full-time jobs, or own more than 2–3 units, yes — the time savings and professional tenant screening often justify the 8–12% monthly cost. For self-employed investors or those with a single local property, the math is less clear. Run your numbers: calculate your monthly management fee and annual leasing fees, and compare that to the realistic value of your time spent managing.",
-      },
-      {
-        q: "Can a property manager help me if I have a difficult tenant?",
-        a: "Yes, and this is one of the clearest cases where professional management is worth it. Experienced property managers have handled hundreds of difficult tenant situations — payment issues, lease violations, emotional confrontations — and know the legally compliant process for each. They have established relationships with eviction attorneys. Many landlords who try to self-manage a difficult tenant situation make costly procedural mistakes (improper notices, self-help evictions, illegal actions) that extend the problem and expose them to counter-claims.",
-      },
-      {
-        q: "What's the difference between a property manager and a real estate agent?",
-        a: "A real estate agent helps you buy and sell properties. A property manager handles the ongoing operation of a rental property you already own. Some real estate agents also offer property management services, but they're different functions. A dedicated property management company — focused exclusively on operations — is generally more effective for active portfolio management than a sales agent who also manages a few rentals as a side service.",
-      },
-    ]}
-  />
+    metaDesc="Property management companies handle tenants, maintenance, rent collection, and compliance. Here's what they actually cost, what you give up doing it yourself, and how to tell if the fee is worth it."
+  >
+    <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
+
+    <p>Here's what a property management company does, what it really costs over a two-year tenancy, and an honest take on when it's worth the money and when it isn't.</p>
+
+    <h2>What They Actually Handle</h2>
+
+    <p>Full-service property management is more than collecting rent. A competent company handles:</p>
+
+    <ul>
+      <li>Listing vacant units on Zillow, Apartments.com, and rental platforms</li>
+      <li>Showing the property and answering prospective tenant questions</li>
+      <li>Running credit, background, and income verification on applicants</li>
+      <li>Drafting and executing lease agreements that comply with local landlord-tenant law</li>
+      <li>Collecting rent, enforcing late fees, and managing non-payment</li>
+      <li>Coordinating routine maintenance and emergency repairs through their contractor network</li>
+      <li>Conducting move-in and move-out inspections and documenting condition</li>
+      <li>Managing security deposit accounting separately from operating accounts</li>
+      <li>Processing lease renewals and rent increases</li>
+      <li>Handling lease violations and, when necessary, the eviction process</li>
+    </ul>
+
+    <p>Some managers also provide monthly financial statements, annual tax summaries for your CPA, and 24/7 maintenance hotlines. The scope varies — what's "included" vs. "billed separately" is something you need to read in the actual management agreement before you sign.</p>
+
+    <h2>What It Actually Costs</h2>
+
+    <p>The advertised number — 8–12% of gross rent — is not the full number. Here's what a two-year tenancy on a $1,500/month rental actually looks like with a 10% management fee and a standard leasing fee:</p>
+
+    <ul>
+      <li>Monthly management fee: $150/month × 24 months = $3,600</li>
+      <li>Leasing fee at tenant placement: $1,500 (one month's rent is typical)</li>
+      <li>Total over two years: $5,100</li>
+    </ul>
+
+    <p>That leasing fee gets forgotten in pro formas constantly. If you turn the unit every 18–24 months, you're paying it regularly. Some managers also charge a lease renewal fee (25–50% of a month's rent), a maintenance markup on top of contractor invoices (10–15%), and an early termination fee if you want to cancel the management agreement. Read the contract carefully. The monthly percentage is the headline; the ancillary fees are where the surprises are.</p>
+
+    <h2>The Self-Manage vs. Hire Decision</h2>
+
+    <p>Self-managing saves the 8–12% monthly fee and leasing fees — on a $1,500 rental, that's $1,800+ per year in management fees alone, plus avoiding leasing fees at turnover. That's real money. But it costs you something too.</p>
+
+    <p>Self-management means: taking maintenance calls at whatever hour they come in, handling tenant disputes directly, staying current on landlord-tenant law in your jurisdiction (which varies significantly by state and city), knowing the legally correct process for issuing notices and beginning eviction if it comes to that, and processing rent and late fees yourself.</p>
+
+    <p>For one property close to where you live? Self-managing is reasonable if you're willing to learn the requirements. For multiple properties, anything out of state, or if you have a full-time job you're not willing to compromise, the management fee becomes worthwhile fast. One poorly-handled eviction — wrong notice period, improper procedure, self-help violation — can cost $3,000 in legal fees and two months of vacancy. The "savings" from self-managing disappear quickly when something goes wrong and you don't know exactly what you're doing.</p>
+
+    <h2>How to Find a Good One</h2>
+
+    <p>The best property managers get most of their new clients through referrals from other investors. Ask at local investor meetups, real estate associations, or in investor Facebook groups for your market. Interview at least two or three before signing anything.</p>
+
+    <p>Questions worth asking in the interview:</p>
+    <ul>
+      <li>How many units do you currently manage?</li>
+      <li>What's your average vacancy rate across your portfolio?</li>
+      <li>How do you handle maintenance requests — do you have in-house maintenance or use outside contractors?</li>
+      <li>What's your eviction rate and what does your eviction process look like?</li>
+      <li>How quickly do you typically fill a vacancy?</li>
+      <li>Can you show me a sample monthly statement?</li>
+      <li>Can you give me references from two or three current clients?</li>
+    </ul>
+
+    <p>Red flags: vague or evasive answers on fees, unwillingness to show you sample reporting, high staff turnover, an office that feels disorganized, or a manager who won't give you current client references. Review the management agreement with an attorney before signing — pay particular attention to the cancellation clause and what happens if they list your property for sale.</p>
+
+    <div className="callout">
+      <p>Property management is worth paying for when your time, distance, or expertise make self-managing genuinely risky. It's not worth paying for as a convenience when you could handle it yourself and the fee is meaningfully hurting your cash flow. Run your actual numbers — management fee, leasing fees, renewal fees — before the property closes, not after.</p>
+    </div>
+  </BlogPost>
 );
 
 export default PropertyManagementCompanies;
