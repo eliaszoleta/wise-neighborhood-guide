@@ -177,6 +177,13 @@ const blogPosts = [
     image: imgCashOut,
     alt: "Seller and buyer signing seller financing promissory note and deed of trust documents",
   },
+  {
+    title: "Lease Option Real Estate: How It Works, Who It's For, and What to Watch Out For",
+    category: "Financing",
+    slug: "/blog/lease-option-real-estate",
+    image: imgPrivateMoney,
+    alt: "Tenant-buyer and seller signing lease option agreement at table with house keys",
+  },
 ];
 
 const Blog = () => {

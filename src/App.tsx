@@ -59,6 +59,7 @@ import MipVsPmi from "./pages/blog/MipVsPmi";
 import LeadManagementTools from "./pages/blog/LeadManagementTools";
 import SubjectToRealEstate from "./pages/blog/SubjectToRealEstate";
 import SellerFinancingRealEstate from "./pages/blog/SellerFinancingRealEstate";
+import LeaseOptionRealEstate from "./pages/blog/LeaseOptionRealEstate";
 
 const queryClient = new QueryClient();
 
@@ -97,6 +98,7 @@ const App = () => (
             <Route path="/blog/lead-management-tools" element={<LeadManagementTools />} />
             <Route path="/blog/subject-to-real-estate" element={<SubjectToRealEstate />} />
             <Route path="/blog/seller-financing-real-estate" element={<SellerFinancingRealEstate />} />
+            <Route path="/blog/lease-option-real-estate" element={<LeaseOptionRealEstate />} />
             <Route path="/real-estate-investing" element={<Investing />} />
             <Route path="/real-estate-investing/rental-property-investing" element={<RentalPropertyInvesting />} />
             <Route path="/real-estate-investing/brrrr-strategy" element={<BRRRRStrategy />} />
