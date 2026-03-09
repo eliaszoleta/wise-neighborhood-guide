@@ -163,6 +163,20 @@ const blogPosts = [
     image: imgLeadTools,
     alt: "Real estate manager using lead management software on multiple screens with CRM analytics",
   },
+  {
+    title: "Subject-To Real Estate Deals: How They Work and What You're Actually Agreeing To",
+    category: "Financing",
+    slug: "/blog/subject-to-real-estate",
+    image: imgHardMoney,
+    alt: "Real estate investor reviewing subject-to deal documents with seller at closing table",
+  },
+  {
+    title: "Seller Financing in Real Estate: How It Works and When It Makes Sense",
+    category: "Financing",
+    slug: "/blog/seller-financing-real-estate",
+    image: imgCashOut,
+    alt: "Seller and buyer signing seller financing promissory note and deed of trust documents",
+  },
 ];
 
 const Blog = () => {
