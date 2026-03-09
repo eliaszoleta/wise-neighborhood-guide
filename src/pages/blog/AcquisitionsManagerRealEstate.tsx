@@ -1,49 +1,79 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const AcquisitionsManagerRealEstate = () => (
-  <TopicPage
-    title="What Do Acquisitions Managers Do in Real Estate? Roles & Responsibilities"
-    metaDesc="The acquisitions manager is the person who closes deals — meeting sellers, running property analysis, and negotiating contracts. Here's what the role actually looks like."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="In a real estate investment operation, the acquisitions manager is the person who turns qualified leads into signed contracts. They go on seller appointments, evaluate properties, run the numbers to determine maximum allowable offers, present those offers to sellers, and negotiate. In wholesaling businesses, a strong acquisitions manager is often the highest-value person in the entire company — because deals only exist if someone closes them."
-    sections={[
-      {
-        heading: "What Acquisitions Managers Actually Do Day-to-Day",
-        content: "The acquisitions pipeline starts where lead management ends. When a lead manager qualifies a seller as genuinely motivated and willing to consider a below-market offer, that lead gets passed to acquisitions. The acquisitions manager then: schedules a property appointment, physically visits the property to assess condition, runs a comparative market analysis (CMA) to estimate ARV, estimates renovation costs using contractor relationships or their own experience, calculates the maximum allowable offer using the company's formula (typically 70% of ARV minus repairs minus assignment fee), presents and negotiates the offer in person or by phone, and gets the purchase agreement signed. Once a contract is signed, they typically hand it off to dispositions (who find the end buyer) or to the internal team for closing coordination.",
-        links: [],
-      },
-      {
-        heading: "Key Skills the Role Requires",
-        content: "Acquisitions is fundamentally a sales role. The acquisitions manager is selling the seller on accepting a below-market price — which means they need to be genuinely persuasive, good at building rapport quickly, and skilled at uncovering and addressing seller objections. Beyond people skills: they need to run accurate property valuations (bad ARV estimates kill deals or create unwinnable situations at the negotiating table), estimate rehab costs with reasonable precision (wildly inaccurate estimates mean deals that don't work for buyers), and know how to read a seller's motivation level to know when to push and when to back off. This role rewards people who are naturally competitive, persistent without being pushy, and comfortable with the uncertainty of commission-based income.",
-        links: [],
-      },
-      {
-        heading: "How Acquisitions Managers Are Compensated",
-        content: "Most acquisitions managers in wholesaling businesses are paid on a commission-per-deal basis, with a small base salary as a draw. Common structures: $500–$2,000 per contract signed that eventually closes, or a percentage of the assignment fee (5–15%). Full-time acquisitions managers doing volume in active markets can earn $70,000–$150,000+ annually. The role requires thick skin — many seller appointments don't convert, and deals fall through after being signed. Top performers distinguish themselves by conversion rate (the percentage of appointments that result in signed contracts) and by consistent deal quality.",
-        links: [],
-      },
-      {
-        heading: "Building vs. Hiring an Acquisitions Function",
-        content: "Many real estate investors start by doing acquisitions themselves, which is the best way to learn the fundamentals of deal analysis, seller conversations, and negotiation. As volume grows, hiring a dedicated acquisitions manager frees the investor to work on the business rather than in it. When hiring, look for candidates with sales backgrounds (not necessarily real estate), who can demonstrate a track record of hitting metrics, and who aren't deterred by rejection. The first 60–90 days of an acquisitions hire should include shadowing existing appointments, structured roleplay, and a clear ramp-up expectation for deal volume.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "Do acquisitions managers need a real estate license?",
-        a: "In most states, no — acquisitions managers in a wholesaling operation are negotiating contracts on behalf of a principal buyer, which doesn't require a license. However, if the acquisitions manager is being paid per deal and functioning in ways that resemble a licensed real estate activity (representing buyers or sellers for compensation in a way that goes beyond assigning equitable interest), some states may interpret that as requiring a license. Consult a local real estate attorney for your specific business structure.",
-      },
-      {
-        q: "What's the difference between an acquisitions manager and a buyer's agent?",
-        a: "A buyer's agent is a licensed real estate professional representing someone buying a home — typically at or near market value. An acquisitions manager in an investment operation is focused specifically on off-market, below-market purchases of distressed properties. They're doing deal analysis, not representing retail buyers. The skill sets have some overlap (negotiation, property evaluation) but the deal flow, offer methodology, and seller relationships are entirely different.",
-      },
-      {
-        q: "How many deals per month should a good acquisitions manager close?",
-        a: "In a wholesaling operation with consistent marketing, 2–4 contracts per month per acquisitions manager is a reasonable benchmark. Top performers in active markets with strong marketing can do more. The conversion rate from appointment to contract typically ranges from 20–40% — meaning an acquisitions manager needs to go on 5–15 appointments to close 2–4 deals. Deal quality matters as much as volume: signing deals that can't be profitably assigned creates as many problems as not signing enough.",
-      },
-    ]}
-  />
+  <BlogPost
+    title="What Does an Acquisitions Manager Do in a Real Estate Business?"
+    metaDesc="Acquisitions managers go on seller appointments, run deal analysis, negotiate contracts, and close deals. Here's what the role looks like day-to-day and what separates good from great."
+  >
+    <p>
+      Most people who ask about this role picture something like a corporate M&A analyst — spreadsheets, suits, conference rooms. In the wholesale and fix-and-flip world, it's nothing like that. An acquisitions manager is, at its core, a salesperson who happens to work with motivated sellers. And if you're building a real estate investing business and thinking about hiring one, that distinction matters more than almost anything else.
+    </p>
+
+    <h2>What an Acquisitions Manager Actually Does Every Day</h2>
+    <p>
+      The job lives and dies on seller appointments. Every morning starts with a pipeline review — leads that came in overnight from direct mail, PPC, cold calling, or driving for dollars. A good acquisitions manager is on the phone quickly, qualifying leads and booking appointments. Speed to lead matters. Sellers talking to four investors are going to remember whoever called back first.
+    </p>
+    <p>
+      Appointments themselves are usually 45 minutes to an hour, either in person or on a video call. The manager is listening for motivation — why is this person selling, what's their timeline, what's their actual bottom line versus what they say upfront. They're also walking the property (or getting enough photos/info remotely) to build a rough rehab estimate on the spot. That estimate doesn't have to be contractor-level precise, but it needs to be in the right ballpark. A manager who consistently miscalculates rehab costs by $30,000 will destroy your deal margins.
+    </p>
+    <p>
+      After the walkthrough comes the offer presentation. This is where the role shifts from analysis to persuasion. The manager explains the investor's offer in a way that helps the seller understand the value — not just the number, but the speed, the certainty, the lack of showings and contingencies. Then they close. That means asking for the signature. Not hinting at it, not leaving it open — asking directly.
+    </p>
+    <p>
+      Once a contract is signed, the acquisitions manager hands the deal off to dispositions. That handoff needs to include a clean deal summary: purchase price, ARV, estimated rehab, comps used, any quirks with the property or title. A messy handoff creates problems downstream.
+    </p>
+
+    <h2>The Skills That Actually Matter</h2>
+    <p>
+      Sales ability is number one. Not "comfortable talking to people" — actual sales skill. Can they handle objections without flinching? Do they know when to push and when to back off? Can they sit through a long silence after presenting an offer without filling it with nervous chatter?
+    </p>
+    <p>
+      Second is accurate property valuation. Running ARVs isn't complicated once you understand the basics, but it does require judgment. Which comps are actually comparable? What adjustments make sense for condition, square footage, lot size? A manager who can't pull a defensible ARV is going to either over-offer (killing your margins) or under-offer (losing deals that should have been wins).
+    </p>
+    <p>
+      Third is rehab cost estimation. This one takes time to develop. Early on, most acquisitions managers should be walking deals with a contractor or experienced project manager until they build enough reps to do rough estimates independently. The shortcut is a per-square-foot rule of thumb by scope type — light cosmetic might be $15-25/sqft, full gut $60-100+/sqft depending on market — but that's a starting point, not a substitute for experience.
+    </p>
+    <p>
+      Fourth — and this is underrated — is the ability to read motivation. Two sellers can say the same words and mean completely different things. One is genuinely distressed and will take a $40k below-market offer today. Another just tested the waters and isn't going anywhere near that number. A skilled acquisitions manager figures this out in the first ten minutes of a conversation and adjusts accordingly.
+    </p>
+
+    <div className="callout">
+      <strong>Acquisitions Manager vs. Buyer's Agent: Not the Same Thing</strong>
+      <p>
+        These two roles get confused constantly, especially by people coming from a traditional real estate background. A buyer's agent represents someone purchasing a home to live in — they show houses, write offers at or near asking, and guide clients through a transaction. An acquisitions manager in an investing business is doing none of that. They're negotiating deep discounts, often with distressed sellers, for properties that need work. The psychology, the skillset, and the conversation are completely different. If you try to hire a traditional buyer's agent and plug them into an acquisitions role without retraining, it usually doesn't end well.
+      </p>
+    </div>
+
+    <h2>How Acquisitions Managers Get Paid</h2>
+    <p>
+      Compensation structures vary, but commission per deal is the most common model in wholesale and flip businesses. Most pay somewhere between $500 and $2,000 per closed deal depending on deal size and market. Some businesses pay a percentage of the assignment fee — 10-20% is a typical range — which aligns incentives better on larger deals but can create tension when the team is trying to maximize assignment fees versus getting deals done.
+    </p>
+    <p>
+      Top performers in active markets can realistically earn $70,000 to $150,000 a year once they're dialed in. That usually means closing 3-6 deals a month consistently. The ceiling is real but so is the ramp-up period — plan for 60-90 days before someone is operating independently.
+    </p>
+    <p>
+      Some businesses also include a small base salary ($2,000-3,000/month) to reduce churn during the ramp-up phase. Whether you do that depends on your volume and how much training you're investing upfront.
+    </p>
+
+    <h2>How to Actually Hire a Good One</h2>
+    <p>
+      Real estate experience is nice but not required. Sales experience — especially cold-call or door-to-door sales — is far more predictive of success. Someone who spent two years selling solar panels or SaaS to small businesses has probably developed more relevant muscle than someone with a real estate license who spent those years helping buyers find houses on Zillow.
+    </p>
+    <p>
+      In the interview, don't just ask questions. Roleplay a seller call. Give them a scenario: seller has a house worth $180k fixed up, it needs $40k in work, they're behind on payments and want $160k. Watch how they handle the objection when you (playing the seller) say "my neighbor got $175k for their house last year." That moment tells you more than any resume.
+    </p>
+    <p>
+      Set clear ramp-up metrics upfront. Weeks 1-2 are learning the script and systems. Weeks 3-4 are supervised calls and appointments. By week 6, they should be booking their own appointments. By week 10, you should have a clear read on whether they'll close independently. Don't let vague expectations drag out to six months before you acknowledge a hire isn't working.
+    </p>
+
+    <h2>What Separates Good from Great</h2>
+    <p>
+      Good acquisitions managers close deals. Great ones build relationships with sellers who didn't sell today. The seller who said no in March sometimes calls back in July when the situation changes. A manager who burns bridges chasing every deal will underperform over time compared to one who leaves every seller feeling respected — even when the offer didn't work.
+    </p>
+    <p>
+      Great acquisitions managers also bring honest feedback from the field. If your marketing is attracting the wrong types of leads, or your comp analysis keeps coming in wrong, the person sitting across from sellers every day is the first to know. The ones worth keeping treat that feedback loop seriously.
+    </p>
+  </BlogPost>
 );
 
 export default AcquisitionsManagerRealEstate;

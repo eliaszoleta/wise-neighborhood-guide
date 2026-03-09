@@ -1,49 +1,65 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const LeadManagersRealEstate = () => (
-  <TopicPage
+  <BlogPost
     title="What Do Lead Managers Do in a Real Estate Business?"
-    metaDesc="Lead managers are the front-line of a real estate investment operation. Here's what they do, how they differ from acquisitions, and what a good one is worth to a growing business."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="In a real estate investment company — especially a wholesaling or fix-and-flip operation — the lead manager is the person who handles inbound seller inquiries before they're passed to acquisitions. They're the first voice a motivated seller hears, the person who qualifies whether a lead is worth pursuing, and often the difference between a lost opportunity and a deal on the table. Many new investors underestimate this role until they realize how much qualified deal flow they're losing to poor initial follow-up."
-    sections={[
-      {
-        heading: "Core Responsibilities of a Lead Manager",
-        content: "A lead manager's primary job is intake, qualification, and follow-up. When a seller calls or submits a form through marketing, the lead manager makes first contact — answering inbound calls, returning missed calls promptly, and entering all lead information into the CRM. They conduct a preliminary conversation to assess motivation and situation: Why are you selling? What's the condition of the property? What's your timeline? What would you need to get for it? They're not negotiating price at this stage — they're deciding whether the lead has enough motivation and flexibility to be worth sending to acquisitions. Leads that aren't ready get tagged for follow-up sequences; leads that look viable get passed to acquisitions for a property visit and formal offer.",
-        links: [],
-      },
-      {
-        heading: "Lead Manager vs. Acquisitions Manager",
-        content: "These two roles are distinct and sometimes confused. Lead managers work the phone and CRM — they handle volume, qualify leads, and maintain follow-up sequences for sellers who aren't ready yet. Acquisitions managers go on appointments, evaluate properties in person, run the numbers, and present offers. In a small operation, one person sometimes does both. As a business scales, separating the roles makes both functions more effective: lead managers get good at rapid qualification and consistent follow-up; acquisitions managers focus all their energy on high-value in-person deal work. A lead manager who tries to also do acquisitions tends to let follow-up slip; an acquisitions manager doing lead intake tends to spend too much time on unqualified leads.",
-        links: [],
-      },
-      {
-        heading: "What Makes a Strong Lead Manager",
-        content: "The most important trait is systematic follow-up. Most motivated sellers are not ready to accept a low offer the first time you call — they need time, repeated contact, and to feel like they're being heard. The data consistently shows that most deals close on the 5th–12th contact. Lead managers who are disciplined about entering every contact note into the CRM, setting the next follow-up date, and executing their follow-up sequence consistently are the ones who surface deals that less disciplined competitors miss. Beyond follow-up: good phone presence, genuine empathy (many motivated sellers are in difficult situations), and the ability to ask questions that uncover motivation without being aggressive.",
-        links: [],
-      },
-      {
-        heading: "Hiring and Compensating a Lead Manager",
-        content: "Lead managers are often one of the first hires in a growing real estate investment business. The role can be filled by someone without prior real estate experience — the key skills are phone confidence, CRM discipline, and consistent execution. Base salary is typically $35,000–$55,000/year depending on market and experience, often with a per-deal bonus ($200–$500 per deal that closes from their pipeline). Virtual assistants and remote lead managers have become common in this role, which expands the talent pool significantly and can reduce cost. The ROI on a good lead manager is measured simply: how many more deals are closing because leads aren't falling through the cracks.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "Do I need a lead manager if I'm a solo investor?",
-        a: "Early on, no — solo investors handle their own lead intake. But once you're generating consistent deal flow, managing leads yourself while also doing acquisitions, dispositions, and everything else typically results in dropped follow-up and lost deals. Many investors bring in a part-time or virtual lead manager when their marketing spend is generating more inbound volume than they can reliably handle alone.",
-      },
-      {
-        q: "What CRM should a lead manager use?",
-        a: "For real estate investing businesses, common CRM options include REsimpli, Podio (heavily customizable), Salesforce (powerful but complex), and Follow Up Boss. The right choice depends on your volume and tech sophistication. What matters more than the specific platform is that every lead gets entered, every contact gets logged, and follow-up dates get set and executed — a simple CRM used consistently beats a sophisticated one used sporadically.",
-      },
-      {
-        q: "How many leads can one lead manager handle?",
-        a: "A full-time lead manager can typically handle 50–100 active leads in follow-up simultaneously while also managing new inbound volume of 10–20 leads per week. Beyond that, lead quality starts to slip — follow-up gets delayed, conversations get rushed. The right lead-to-manager ratio depends on your market, deal type, and how many marketing channels you're running.",
-      },
-    ]}
-  />
+    metaDesc="Lead managers are the front line of a real estate investment operation — the people who handle incoming seller contacts before acquisitions takes over. Here's what the role actually involves."
+  >
+    <p>A motivated seller calls your business while the acquisitions manager is on an appointment. Nobody picks up. They call a competitor. That deal is gone.</p>
+
+    <p>That scenario happens constantly in wholesaling and fix-and-flip operations — not because of bad marketing, but because of a gap between when leads come in and when someone qualified can respond. Lead managers exist to close that gap.</p>
+
+    <h2>What Lead Managers Actually Do</h2>
+    <p>The job is not glamorous. It's structured, repetitive, and phone-heavy. A lead manager's core functions:</p>
+
+    <ul>
+      <li><strong>Intake:</strong> Answer or promptly return inbound calls from sellers. Speed matters here — a motivated seller who waits an hour is already calling someone else.</li>
+      <li><strong>Qualification:</strong> Work through a consistent script to understand the seller's situation. Why are they selling? What's the timeline? Is there a mortgage? Any liens? What condition is the property in? This isn't casual conversation — it's structured data collection.</li>
+      <li><strong>CRM entry:</strong> Every contact, every detail, every follow-up note goes into the system. A lead manager who doesn't document is actively destroying value.</li>
+      <li><strong>Follow-up sequences:</strong> Most sellers don't sell on the first call. A lead manager runs the follow-up — calls, texts, sometimes direct mail — over days or weeks until the seller is ready or clearly out.</li>
+    </ul>
+
+    <p>What lead managers do <em>not</em> do: negotiate price or terms. That's acquisitions. The moment a seller is qualified and ready to talk numbers, the handoff happens.</p>
+
+    <h2>Lead Manager vs. Acquisitions Manager</h2>
+    <p>These two roles get confused because both involve talking to sellers. The distinction is about depth vs. volume.</p>
+
+    <p>A lead manager handles volume. They might touch 30–50 leads per week — initial contacts, callbacks, follow-up sequences, dead-lead revivals. They need phone presence, CRM discipline, and the ability to stay consistent across dozens of conversations without losing empathy or energy.</p>
+
+    <p>An acquisitions manager handles depth. They take the qualified, warm leads and convert them — which means property visits, comparative market analysis, renovation cost estimates, offer calculations, and negotiation. One good acquisitions manager might close 3–6 deals a month. That's their entire world.</p>
+
+    <p>Trying to have one person do both is a real thing at smaller operations. It works until it doesn't — usually when lead volume crosses the point where consistent follow-up becomes impossible solo.</p>
+
+    <h2>The Follow-Up Problem Most People Underestimate</h2>
+    <p>Industry data from real estate investment operations consistently shows that most deals close after 5 to 12 contact attempts. Not one. Not two. Five to twelve.</p>
+
+    <p>Think about what that means operationally. A seller calls in January, seems interested but isn't ready to move. A systematic lead manager tags them for a 30-day follow-up, then 60-day, then 90-day. In April, the seller's circumstances change — job loss, divorce, estate situation — and whoever has been showing up in their inbox is the first call they make.</p>
+
+    <p>That's not luck. That's a CRM with solid data and someone with the discipline to work it. Most operators have the CRM. Very few have someone consistently working the follow-up sequences. That gap is where leads go to die.</p>
+
+    <h2>What Makes Someone Good at This</h2>
+    <p>The skills that matter in a lead manager are different from what most people expect. You're not looking for a closer. You're looking for:</p>
+
+    <ul>
+      <li>Genuine empathy — many sellers are in difficult situations (foreclosure, probate, divorce, job loss). Callers who can meet people where they are get better information and build trust faster.</li>
+      <li>CRM obsession — every interaction logged, every follow-up scheduled before hanging up. This is a discipline thing, not a tech thing.</li>
+      <li>Phone comfort — comfortable talking to 30+ people a week without burning out or getting robotic about it.</li>
+      <li>Systematic thinking — able to manage multiple open leads at different stages without letting things fall through.</li>
+    </ul>
+
+    <p>High-pressure sales energy is actually counterproductive here. Sellers who feel pushed tend to ghost. The best lead managers are persistent but not aggressive.</p>
+
+    <h2>Hiring and Compensation</h2>
+    <p>Lead managers in real estate investment operations typically earn a base salary of $35,000–$55,000 annually, plus a per-deal bonus of $200–$500 for every closed transaction that originated from their pipeline.</p>
+
+    <p>That bonus structure matters. It keeps the lead manager invested in lead quality — not just volume — and rewards the follow-up discipline that actually drives closings.</p>
+
+    <p>When should you hire one? When your marketing is generating more inbound contacts than you can realistically track and follow up with solo. If you're missing calls, letting leads go cold after one touch, or spending hours on CRM management instead of appointments — that's the signal. Some operators hire at 15–20 inbound leads per week. Others wait until they're at 40+. The right threshold depends on your acquisition pace and how much deal value you're comfortable leaving on the table.</p>
+
+    <div className="callout">
+      <p>The lead manager role is infrastructure. It doesn't close deals directly — it creates the conditions where deals get closed, reliably, over time.</p>
+    </div>
+  </BlogPost>
 );
 
 export default LeadManagersRealEstate;

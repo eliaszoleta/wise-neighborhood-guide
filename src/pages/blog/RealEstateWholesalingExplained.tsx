@@ -1,49 +1,87 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const RealEstateWholesalingExplained = () => (
-  <TopicPage
-    title="Real Estate Wholesaling Explained: How It Works Step by Step"
-    metaDesc="Wholesaling is finding underpriced properties, getting them under contract, and selling that contract to an investor for a fee. Here's a complete explanation of how the process works."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="Real estate wholesaling gets pitched as an easy path to cash without needing credit or capital. The reality is more nuanced: it's a legitimate and potentially lucrative business model, but it requires real skill in marketing, negotiation, and deal analysis. Here's how it actually works — without the hype."
-    sections={[
-      {
-        heading: "The Core Concept",
-        content: "A wholesaler finds a property that's priced below market value — usually because the seller is motivated by financial distress, a pending foreclosure, an inherited property they don't want to manage, or a condition issue that disqualifies the property from conventional financing. The wholesaler puts the property under contract at the below-market price, then sells (assigns) that contract to an end buyer — typically a fix-and-flip investor or landlord — for a higher price. The difference between the contract price and the assignment price is the wholesaler's fee. The wholesaler never takes ownership of the property. The end buyer closes with the original seller. The wholesaler's role is to create a connection between a motivated seller and an investor buyer, and to capture value in the spread.",
-        links: [],
-      },
-      {
-        heading: "Finding Motivated Sellers",
-        content: "This is where most of the work in wholesaling happens. A motivated seller is someone who has a compelling reason to sell quickly and at a price below what the open market would offer. Common sources include: direct mail to absentee owners, pre-foreclosures, vacant properties, and inherited properties; cold calling lists of distressed property owners; driving for dollars (physically identifying vacant or distressed properties in target neighborhoods); online ads targeting homeowners who need to sell fast; and referral networks including real estate attorneys, estate planners, and property managers. Most motivated sellers are not going to come to you — you have to build the systems to find them consistently. Marketing is the core engine of a wholesaling business, and it requires consistent investment of both time and money.",
-        links: [],
-      },
-      {
-        heading: "Analyzing the Deal and Making Offers",
-        content: "Once you have a potentially motivated seller, you need to determine whether the property can be acquired at a price that leaves enough room for your fee and an end buyer's profit. The starting point is the after-repair value (ARV) — what the property will be worth after it's fully renovated. From ARV, subtract estimated renovation costs, then apply your buyer's required margin (typically 70% of ARV), then subtract your assignment fee. That's your maximum offer. Example: ARV $200,000, rehab $40,000, 70% formula gives a max investor cost of $100,000. If you want a $10,000 fee, you can offer no more than $90,000 to the seller. Underestimate ARV or underestimate repairs, and you either can't sell the contract or have to reduce your fee to make it work.",
-        links: [],
-      },
-      {
-        heading: "Assigning the Contract and Closing",
-        content: "Once you have a signed purchase agreement with the seller, you market the deal to your buyers list — investors who have told you what types of properties they buy and in which areas. You present the deal with your analysis: purchase price, estimated ARV, estimated repairs, and photos. Interested buyers typically do a quick walkthrough before committing. When a buyer agrees, you sign an assignment agreement that transfers your rights in the purchase contract to them for your fee. The buyer then closes with the seller using the original contract terms. Your assignment fee is typically paid at closing — either from the buyer directly or through escrow. Some deals are structured as double closes (where the wholesaler briefly takes title) rather than assignments — this is sometimes necessary when the original purchase contract prohibits assignment.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "How much can you make wholesaling real estate?",
-        a: "Assignment fees on residential deals typically range from $5,000 to $20,000, with some deals yielding more in expensive markets or on larger properties. Full-time wholesalers with consistent marketing systems typically close 2–4 deals per month. At $8,000 average fee and 3 deals/month, that's $24,000/month gross — before marketing costs, software, team, and other business expenses. New wholesalers should plan for 2–4 months before closing their first deal as they build their marketing pipeline and seller relationships.",
-      },
-      {
-        q: "Do I need a license to wholesale?",
-        a: "A real estate license is not required for wholesaling in most states, but the legal landscape is evolving. The key legal distinction is that you're assigning your contractual right to purchase (your equitable interest) — not acting as an agent marketing or selling a property you don't own for someone else. Several states have added requirements around how wholesale deals can be marketed and what disclosures must be made to sellers. An attorney familiar with investor transactions in your state is worth consulting before you start.",
-      },
-      {
-        q: "What's the difference between wholesaling and flipping?",
-        a: "Flipping requires you to buy the property, renovate it, and sell it — you take on ownership, renovation risk, and market risk for a larger profit. Wholesaling requires you to find the deal and transfer the contract — you take on marketing and negotiation work but not renovation or ownership risk, for a smaller fee. Flipping typically generates higher per-deal profit; wholesaling generates faster, lower-risk income but requires constant deal flow to maintain revenue.",
-      },
-    ]}
-  />
+  <BlogPost
+    title="What Is Real Estate Wholesaling and How Does It Work?"
+    metaDesc="Wholesaling means finding below-market properties, putting them under contract, and selling that contract to an investor for a fee — without ever owning the property. Here's the full process."
+  >
+    <p>
+      Most people who get into real estate wholesaling have heard the same pitch: find a deal, flip the contract, collect a check — no money down, no risk, no repairs. The pitch isn't entirely wrong, but it leaves out the part where you spend several months doing a lot of work before any of that happens.
+    </p>
+    <p>
+      Let's break down how wholesaling actually works, what the math looks like, and where people run into trouble.
+    </p>
+
+    <h2>The Core Concept</h2>
+    <p>
+      Wholesaling is the process of finding a property that can be purchased below market value, getting it under contract with the seller, and then assigning that contract to an end buyer — typically a fix-and-flip investor or landlord — for a fee. You never take title to the property. What you're selling is the right to purchase it.
+    </p>
+    <p>
+      Your profit comes from the spread between your contracted purchase price and what the end buyer pays for the contract. If you have a property under contract at $95,000 and a buyer will pay $105,000 to take over that contract, you make $10,000. That's your assignment fee.
+    </p>
+    <div className="callout">
+      The key distinction: you're assigning your equitable interest in the contract — not the property itself. You never own it, you never list it, and the transaction closes between the seller and your end buyer.
+    </div>
+
+    <h2>What "Motivated Seller" Actually Means</h2>
+    <p>
+      Every wholesaling course talks about finding "motivated sellers." But motivation isn't a personality trait — it's a circumstance. The sellers who will accept a significant discount on their property almost always have one of a few specific situations going on:
+    </p>
+    <ul>
+      <li><strong>Probate or inherited properties.</strong> Someone inherited a house they didn't ask for, often out of state, often needing repairs. They want it gone more than they want full price.</li>
+      <li><strong>Pre-foreclosure.</strong> The owner is behind on payments and would rather sell at a discount than let the bank take it.</li>
+      <li><strong>Major deferred maintenance.</strong> Properties that need $40,000–$80,000 in work can't qualify for traditional financing. That limits the buyer pool dramatically and creates pricing pressure.</li>
+      <li><strong>Divorce or estate situations.</strong> When life circumstances demand a quick, clean transaction, speed can matter more than maximizing the sale price.</li>
+      <li><strong>Absentee landlords.</strong> An out-of-state owner with a problem tenant and a property they've neglected may just want out.</li>
+    </ul>
+    <p>
+      You find these sellers through direct mail campaigns, cold calling, "driving for dollars" (mapping distressed-looking properties in target neighborhoods), and purchasing probate lead lists. All of these take consistent effort and, realistically, some upfront marketing spend.
+    </p>
+
+    <h2>Running the Numbers</h2>
+    <p>
+      The standard formula wholesalers use starts with the After Repair Value (ARV) — what the property will sell for after it's been fixed up. From there, you apply the 70% rule: the maximum an investor will typically pay is 70% of ARV minus the cost of repairs. That number is your ceiling. Your offer needs to come in under it to leave room for your fee.
+    </p>
+    <p>Here's a concrete example:</p>
+    <ul>
+      <li>ARV: $200,000</li>
+      <li>Estimated rehab cost: $35,000</li>
+      <li>70% of ARV: $140,000</li>
+      <li>Subtract rehab: $140,000 − $35,000 = $105,000 (max investor would pay)</li>
+      <li>Your target assignment fee: $10,000</li>
+      <li>Maximum allowable offer (MAO): $95,000</li>
+    </ul>
+    <p>
+      If you can't get the seller to $95,000 or below, the deal doesn't work as a wholesale. That's not a failure — that's just deal selection. Most leads won't become deals. The ratio that experienced wholesalers talk about is roughly 1 closed deal for every 20–30 motivated seller conversations.
+    </p>
+
+    <h2>The Assignment Process</h2>
+    <p>
+      Once you have the property under contract, you use an assignment agreement to transfer your contractual rights to the end buyer. The end buyer pays you the assignment fee, typically at closing, and they close directly with the seller.
+    </p>
+    <p>
+      Some purchase contracts include language that prohibits assignment. When that happens, wholesalers use a "double close" — two back-to-back transactions where you actually purchase the property briefly before selling it to the end buyer. This requires transactional funding (short-term bridge money for the first leg), which costs around 1–2% of the purchase price. It adds friction, but it's a legitimate option.
+    </p>
+    <p>
+      Building a buyers list — a group of active investors who will look at your deals — is just as important as finding sellers. A great deal with no buyer on the other end is a problem. Most wholesale businesses spend real effort maintaining relationships with 10–30 active buyers who are consistently purchasing in their target markets.
+    </p>
+
+    <h2>The Legal Landscape</h2>
+    <p>
+      Wholesaling is legal in most states, but the line between assigning a contract and acting as an unlicensed real estate agent can get blurry — and regulators in some states have started paying closer attention. The key legal principle is that you're selling your equitable interest in a contract, not brokering a real estate transaction.
+    </p>
+    <p>
+      That said, the rules vary by state. Illinois, for example, has passed legislation requiring wholesalers to disclose their equitable interest in writing. Other states have their own nuances. This is not an area where you want to rely on a course or a YouTube video for your legal framework. Consult a real estate attorney in your specific state before you close your first deal.
+    </p>
+
+    <h2>How Long Does This Actually Take?</h2>
+    <p>
+      Here's what most wholesaling content doesn't say clearly: for most people starting from scratch, it takes 2–4 months of consistent marketing activity before closing a first deal. You'll spend money on direct mail, list purchases, or dialers before you make any. Your first $10,000 assignment fee might represent $3,000–$5,000 in marketing costs and dozens of hours of time.
+    </p>
+    <p>
+      That doesn't make it a bad business model. It makes it a real one with real startup costs. The investors who build sustainable wholesaling operations treat it like a marketing business — because that's what it is.
+    </p>
+  </BlogPost>
 );
 
 export default RealEstateWholesalingExplained;

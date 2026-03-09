@@ -1,49 +1,77 @@
-import TopicPage from "@/components/TopicPage";
+import BlogPost from "@/components/BlogPost";
 
 const BrrrMethodRealEstate = () => (
-  <TopicPage
-    title="The BRRRR Method in Real Estate Investing: What It Is and How It Works"
-    metaDesc="BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. Here's a plain-English walkthrough of how the strategy works, the math behind it, and where it breaks down."
-    parentLabel="Blog"
-    parentHref="/blog"
-    intro="BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. The strategy is built around one idea: use a refinance to pull your invested capital back out of a property so you can redeploy it into the next deal. Done right, you can grow a rental portfolio without constantly needing fresh cash for each purchase. Done poorly, you end up with equity trapped in an over-improved property and a cash flow problem. This is how it actually works."
-    sections={[
-      {
-        heading: "The Five Stages Explained",
-        content: "Buy: You acquire a distressed or underpriced property — typically something that needs enough work that it won't qualify for conventional financing. Hard money loans or cash are the typical purchase mechanism. The buy price plus renovation cost should land you at 70–75% of the after-repair value (ARV), which is what leaves room for the refinance to work. Rehab: You renovate the property to bring it up to rentable condition. The scope of work matters: you're rehabbing to rent, not to resell, so finishes should be durable and functional rather than luxury. Rent: Once rehabbed, you place a tenant. Lenders typically want to see 6 months of rental seasoning before they'll do a cash-out refinance at the new appraised value. Refinance: You refinance with a conventional lender at the new appraised ARV and pull your invested capital back out. If you bought and rehabbed well, the refinance proceeds should cover most or all of your original investment. Repeat: With your capital returned, you start the cycle again.",
-        links: [],
-      },
-      {
-        heading: "The Math That Has to Work",
-        content: "Here's a concrete example. ARV: $200,000. You buy at $110,000 and spend $30,000 on rehab — total invested: $140,000. At 75% of ARV, a refinance would give you $150,000. You pull back $140,000 (your full investment) plus $10,000. The deal stays in the portfolio at essentially zero cost of capital. This math only works if your buy price plus rehab costs stay under the LTV threshold your refinance lender will go to — typically 70–75% of ARV. The common failure mode: renovation costs run over, the appraisal comes in below expectations, or the lender's LTV is more conservative than you modeled. Always stress-test your numbers with a 10–15% cost overrun buffer and a 5–10% appraisal buffer.",
-        links: [],
-      },
-      {
-        heading: "What BRRRR Is Not",
-        content: "BRRRR is not a way to get rich with zero risk. The 'nothing left in the deal' scenario requires discipline on the buy, execution on the rehab, and favorable appraisal conditions — none of which are guaranteed. It's also not a strategy for every market. In high-cost metros where homes trade at 8–10x rent multiples, the numbers often don't support a cash-flowing refinanced rental. BRRRR works best in markets with relatively affordable purchase prices, strong rental demand, and enough distressed inventory to find deals below ARV. And it requires access to bridge financing — either hard money lenders or private money — which isn't free. Hard money typically costs 10–15% annually plus 2–4 origination points.",
-        links: [],
-      },
-      {
-        heading: "Is BRRRR Right for You?",
-        content: "BRRRR is a good fit if you have construction management experience or a reliable contractor network, access to short-term financing, and are investing in a market with cap rates that support cash flow after a refinance. It rewards investors who are operationally capable — finding deals, managing contractors, managing tenants, and navigating the refinance process. If any of those pieces are weak, the strategy amplifies the problem rather than solving it. For investors who aren't ready to manage renovations, a simpler rental acquisition strategy — buying a turnkey or lightly distressed property with conventional financing — is a lower-risk entry point into the same long-term wealth-building outcome.",
-        links: [],
-      },
-    ]}
-    faqs={[
-      {
-        q: "How long does a full BRRRR cycle take?",
-        a: "Typically 9–15 months from purchase to when the refinance is complete. The rehab phase usually takes 2–4 months depending on scope, followed by a 6-month rental seasoning period most lenders require before they'll do a cash-out refinance at the improved value. Lenders who do DSCR loans sometimes waive seasoning for investors with strong cash flow documentation, which can shorten the cycle.",
-      },
-      {
-        q: "What's the biggest risk in a BRRRR deal?",
-        a: "The appraisal coming in below your projected ARV, which means the refinance won't return as much capital as planned. This can happen because your ARV estimate was off, comparable sales shifted during your hold period, or the appraiser is conservative. Building a 10% buffer into your ARV estimate on the front end is the best protection. The second biggest risk is renovation cost overruns — almost universal on first deals, and something experienced investors budget for explicitly.",
-      },
-      {
-        q: "Can you BRRRR with no money down?",
-        a: "Not in a practical sense. Even if the refinance returns 100% of your capital, you need capital to start: purchase price, rehab costs, carrying costs during the rehab and seasoning period, and closing costs on both the buy and the refinance. The BRRRR strategy recycles capital — it doesn't create it. You need a starting pool of money or private lender backing to run the first deal.",
-      },
-    ]}
-  />
+  <BlogPost
+    title="The BRRRR Method in Real Estate — What It Is and How It Actually Works"
+    metaDesc="BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. It's a capital-recycling strategy for building a rental portfolio. Here's a plain walkthrough of the math and where deals break down."
+  >
+    <p>
+      The BRRRR method gets pitched at every real estate meetup as a way to build a portfolio without ever running out of money. Buy a house, fix it up, rent it out, refinance your capital back out, and do it again with the same money. Repeat until you're rich.
+    </p>
+    <p>
+      The strategy is real. People do execute it successfully. But the version that circulates at meetups leaves out the part where it's hard — and those hard parts are exactly where most beginners lose money or get stuck. Here's what BRRRR actually looks like in practice.
+    </p>
+
+    <h2>Buy: The Number That Has to Work From Day One</h2>
+    <p>
+      BRRRR starts with finding a distressed property priced below its after-repair value (ARV). The distress is the point — it's what makes the property un-financeable through conventional channels and creates room for the strategy to work. Hard money lenders or private individuals provide the purchase capital, since banks won't touch properties in poor condition.
+    </p>
+    <p>
+      The non-negotiable rule: <strong>your purchase price plus all renovation costs must stay at or below 70–75% of ARV</strong>. This threshold isn't a guideline. It's the number that determines whether your refinance can eventually return your capital. At 80% of ARV, the math breaks. Build that constraint into your offer before you get emotionally attached to a property.
+    </p>
+
+    <h2>Rehab: Where Most Beginners Lose Margin</h2>
+    <p>
+      The renovation phase in a BRRRR deal has one goal: bring the property to a condition that attracts tenants and appraises at ARV. That's it. Not to create something beautiful. Not to match the nicest house on the block.
+    </p>
+    <p>
+      The most common mistake here is over-improving — spending money on finishes that make you proud of the property but don't affect the appraisal or the rent. Granite countertops and custom tile in a market where rental comps are $950/month don't add to your refinance outcome. They just eat your margin. Durable flooring, solid mechanicals, clean functional bathrooms — that's what moves the needle.
+    </p>
+    <p>
+      Budget 15–20% above your contractor's estimate before deciding whether a deal works. Renovations find problems. Opening a wall reveals plumbing that wasn't in the scope. The permit process takes longer than expected. Costs run over almost every time. Build for it.
+    </p>
+
+    <h2>Rent: The Waiting Period That Gets Expensive</h2>
+    <p>
+      Once the property is rehabbed, you place a tenant. Conventional lenders typically want to see the property occupied and generating income for 6 months before they'll conduct a cash-out refinance at the improved value — this is called the seasoning period.
+    </p>
+    <p>
+      During those six months, you're still paying interest on the hard money or private money loan used for the purchase. At 12% on a $150,000 balance, that's $9,000 in interest just during the seasoning window — before any renovation holding costs. That number belongs in your deal model from the start, not as an afterthought.
+    </p>
+
+    <h2>Refinance: Where You Find Out If the Math Worked</h2>
+    <p>
+      After seasoning, you apply for a conventional investment property loan. The lender orders an appraisal. If your rehab was executed well and your ARV estimate was accurate, the appraised value comes in at or near your target. You borrow at 70–75% LTV, pay off the bridge financing, and — ideally — receive some cash back.
+    </p>
+    <p>
+      Here's a concrete example:
+    </p>
+    <ul>
+      <li>ARV: $200,000</li>
+      <li>Purchase price: $90,000</li>
+      <li>Renovation cost: $42,000</li>
+      <li>Total invested (after hard money points and interest): ~$143,000</li>
+      <li>Refinance at 75% of ARV: $150,000</li>
+      <li>Cash back after paying off bridge: $7,000</li>
+    </ul>
+    <p>
+      That's a deal where most of the original capital comes back. The property stays in the portfolio with a conventional 30-year mortgage at investment property rates — much cheaper than the bridge loan it replaced.
+    </p>
+    <p>
+      What breaks this math: the appraiser values the property at $180,000 instead of $200,000. Now the refinance at 75% is only $135,000, not enough to fully pay off the bridge. You have to bring cash to close the gap. The buffer in your ARV estimate protects against this. Investors who appraise right at the edge have no room for error.
+    </p>
+
+    <h2>Repeat: The Actual Point of the Strategy</h2>
+    <p>
+      If you recycled most of your capital through the refinance, you now have that money available for the next deal. That's what makes BRRRR meaningful over time — not that any single deal is miraculous, but that the same pool of capital can fund multiple acquisitions instead of being permanently buried in each one.
+    </p>
+    <p>
+      The strategy works in markets where distressed properties can be acquired at 70% of ARV or less — meaning there's enough room for renovation, holding costs, and still end up at 70–75% after repair. In high-cost markets where everything trades at 90%+ of value regardless of condition, BRRRR doesn't pencil. Know your market before you build your strategy around it.
+    </p>
+    <div className="callout">
+      <p><strong>One thing worth saying plainly:</strong> BRRRR is an execution-heavy strategy. It rewards people who can manage contractors, read deals accurately, and stay disciplined about the 70% rule when a property is tempting but marginal. The investors who struggle with it are usually the ones who bent the rule once and learned the hard way why it exists.</p>
+    </div>
+  </BlogPost>
 );
 
 export default BrrrMethodRealEstate;
