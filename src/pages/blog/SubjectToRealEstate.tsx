@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const SubjectToRealEstate = () => (
@@ -17,7 +18,7 @@ const SubjectToRealEstate = () => (
   >
     <p>The premise sounds almost too convenient: you buy a property, take title, start collecting rent or reselling — but the original seller's mortgage stays in place and you just make the payments. No loan application. No down payment requirement. No credit check. No dealing with a bank at all.</p>
 
-    <p>That's the basic structure of a subject-to deal, and it's entirely legal. It's also not as clean as that pitch sounds, and anyone who tells you otherwise is selling you a course. Let's go through what's actually happening in these transactions.</p>
+    <p>That's the basic structure of a subject-to deal, and it's entirely legal. It's worth comparing this to <Link to="/blog/seller-financing-real-estate">seller financing</Link>, where the seller extends new credit directly rather than leaving their existing mortgage in place. It's also not as clean as that pitch sounds, and anyone who tells you otherwise is selling you a course. Let's go through what's actually happening in these transactions.</p>
 
     <h2>The Mechanics of a Subject-To</h2>
 
@@ -42,7 +43,7 @@ const SubjectToRealEstate = () => (
 
     <p>Here's the thing — in practice, lenders often don't enforce it. As long as payments are coming in, many lenders are indifferent to who's actually making them. But "often don't enforce" is not a guarantee, and the risk doesn't disappear because it's rarely triggered. If the lender does decide to call the loan, the buyer may be forced to sell quickly, refinance in an environment they didn't plan for, or lose the property entirely.</p>
 
-    <p>Some investors use land trusts or LLCs to obscure the title transfer and reduce the chance of triggering the clause. This is a gray area. It works until it doesn't, and if a lender is motivated to look, they'll find the transfer. Build your deal assuming the due-on-sale clause could be invoked. If your numbers only work if the lender never finds out, your deal has a flaw.</p>
+    <p>Some investors use land trusts or LLCs to obscure the title transfer. For comparison, <Link to="/blog/lease-option-real-estate">lease options</Link> offer a way to control property without triggering due-on-sale concerns. and reduce the chance of triggering the clause. This is a gray area. It works until it doesn't, and if a lender is motivated to look, they'll find the transfer. Build your deal assuming the due-on-sale clause could be invoked. If your numbers only work if the lender never finds out, your deal has a flaw.</p>
 
     <h2>Why Would a Seller Agree to This?</h2>
 
@@ -72,7 +73,7 @@ const SubjectToRealEstate = () => (
     <p>Have a real estate attorney review every subject-to transaction before closing. Not a title company. Not a template contract from a course. An attorney who understands your state's foreclosure law, disclosure requirements, and the specific risks of what you're structuring. The complexity here is not hypothetical — it's real enough that cutting corners on legal review has cost investors and sellers alike.</p>
 
     <div className="callout">
-      <p>A subject-to deal is not a loophole. It's a structure with genuine advantages and genuine risks — for both parties. If the seller doesn't fully understand they're leaving their mortgage in their name, the deal shouldn't close. If you don't have an answer for what happens if the lender calls the loan, your exit strategy isn't done.</p>
+      <p>Explore more creative financing strategies on our <Link to="/real-estate-investing/funding-financing">funding and financing page</Link>. The <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-due-on-sale-clause-en-1943/" target="_blank" rel="noopener noreferrer">CFPB's explanation of due-on-sale clauses</a> covers the lender's legal rights in these situations. A subject-to deal is not a loophole. It's a structure with genuine advantages and genuine risks — for both parties. If the seller doesn't fully understand they're leaving their mortgage in their name, the deal shouldn't close. If you don't have an answer for what happens if the lender calls the loan, your exit strategy isn't done.</p>
     </div>
   </BlogPost>
 );

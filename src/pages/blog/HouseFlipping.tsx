@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const HouseFlipping = () => (
@@ -39,7 +40,7 @@ const HouseFlipping = () => (
     </p>
     <ul>
       <li><strong>Acquisition closing costs:</strong> 1-3% of purchase price. Lender fees, title, escrow, recording fees. On a $125,000 purchase, that's $1,250-$3,750 you're paying before you own the house.</li>
-      <li><strong>Hard money financing:</strong> Most flippers use hard money loans or private money — not conventional mortgages. Hard money typically runs 10-15% interest annually plus 2-4 points upfront. On a $125,000 loan at 12% for 6 months, that's $7,500 in interest alone, plus potentially $3,750 in points at 3%.</li>
+      <li><strong>Hard money financing:</strong> Most flippers use hard money loans or private money — not conventional mortgages. <Link to="/blog/hard-money-lender">Hard money loans</Link> typically run 10-15% interest annually plus 2-4 points upfront. On a $125,000 loan at 12% for 6 months, that's $7,500 in interest alone, plus potentially $3,750 in points at 3%.</li>
       <li><strong>Carrying costs:</strong> While you own the property, you're paying for it. Property taxes, utilities, insurance, lawn maintenance, possibly HOA. Budget $1,500-$3,000 per month depending on the property. A 6-month flip costs $9,000-$18,000 in carry.</li>
       <li><strong>Selling costs:</strong> Real estate commissions (5-6%), closing costs, seller concessions if the buyer negotiates them, staging. Total selling costs are typically 8-10% of the sale price. On a $250,000 sale, that's $20,000-$25,000 gone before you see a dollar.</li>
     </ul>
@@ -79,7 +80,7 @@ const HouseFlipping = () => (
     <div className="callout">
       <strong>Taxes on Flips: The Part No One Mentions</strong>
       <p>
-        If you flip a house and sell it within 12 months of purchase, your profit is taxed as ordinary income — not at the lower long-term capital gains rate. Depending on your total income, that could mean a federal tax rate of 22-37%. On a $40,000 profit, you might owe $10,000-$15,000 to the IRS. Add self-employment tax if you're operating as a sole proprietor. Flipping through an LLC or S-corp changes some of the mechanics but doesn't eliminate the tax burden. Talk to a CPA who works with real estate investors before you do your first deal.
+        If you flip a house and sell it within 12 months of purchase, your profit is taxed as ordinary income — not at the lower long-term capital gains rate. Depending on your total income, that could mean a federal tax rate of 22-37%. On a $40,000 profit, you might owe $10,000-$15,000 to the IRS. Add self-employment tax if you're operating as a sole proprietor. Flipping through an LLC or S-corp changes some of the mechanics but doesn't eliminate the tax burden. The <a href="https://www.irs.gov/taxtopics/tc409" target="_blank" rel="noopener noreferrer">IRS guidance on capital gains tax</a> explains how short-term versus long-term rates apply. Talk to a CPA who works with real estate investors before you do your first deal. Explore the <Link to="/real-estate-investing/cash-flow-roi">cash flow and ROI topic page</Link> to learn how investors model flip profitability.
       </p>
     </div>
 
@@ -88,7 +89,7 @@ const HouseFlipping = () => (
       After the numbers, the most common failure modes are timeline and contractor problems. A flip that was supposed to take 90 days stretching to 180 days doubles your carrying costs and your interest expense. Contractors who go dark mid-project, do shoddy work that has to be redone, or pull permits incorrectly can add months and tens of thousands of dollars to a project.
     </p>
     <p>
-      The second biggest killer is market timing. If you buy in a hot market, renovate over six months, and the market softens — your ARV assumptions no longer hold. You've locked in your costs but your exit price has moved. Unlike wholesaling, flipping concentrates all the market risk on you.
+      The second biggest killer is market timing. If you buy in a hot market, renovate over six months, and the market softens — your ARV assumptions no longer hold. You've locked in your costs but your exit price has moved. Unlike <Link to="/blog/real-estate-wholesaling-explained">wholesaling</Link>, flipping concentrates all the market risk on you.
     </p>
     <p>
       None of this means flipping is a bad strategy. It can generate substantial income. But it requires real capital, real systems, and a realistic view of what you're getting into. The numbers work when you execute. They don't forgive bad assumptions.

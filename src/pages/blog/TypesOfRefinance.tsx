@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const TypesOfRefinance = () => (
@@ -19,7 +20,7 @@ const TypesOfRefinance = () => (
       Refinancing means replacing your existing mortgage with a new one — but why you'd do that varies a lot. Lower your payment. Pull out equity. Ditch mortgage insurance. Qualify based on property income instead of your W-2. Each of those goals corresponds to a different type of refinance, and picking the wrong one means either leaving money on the table or not getting approved at all.
     </p>
     <p>
-      Here's how each type works and when it makes sense.
+      Here's how each type works and when it makes sense. All of these strategies connect to broader <Link to="/real-estate-investing/funding-financing">financing and funding options</Link> investors use across a portfolio.
     </p>
 
     <h2>Rate-and-Term Refinance</h2>
@@ -32,7 +33,7 @@ const TypesOfRefinance = () => (
     <ul>
       <li><strong>Lower the interest rate.</strong> If rates have dropped since you bought, refinancing can reduce your monthly payment and total interest paid over the life of the loan.</li>
       <li><strong>Change the loan term.</strong> Going from a 30-year to a 15-year accelerates equity build-up (and raises your payment). Going from a 15-year to a 30-year lowers your payment and frees up monthly cash flow.</li>
-      <li><strong>Remove private mortgage insurance (PMI).</strong> If you put less than 20% down, you're paying PMI. Once you have 20% equity — either from payments or appreciation — a refinance officially gets rid of it.</li>
+      <li><strong>Remove private mortgage insurance (PMI). See our guide to <Link to="/blog/mip-vs-pmi-explained">MIP vs. PMI</Link> for more on how mortgage insurance cancellation works.</strong> If you put less than 20% down, you're paying PMI. Once you have 20% equity — either from payments or appreciation — a refinance officially gets rid of it.</li>
     </ul>
     <p>
       The calculation that actually matters here is break-even. Refinancing costs money — typically 2–3% of the loan amount in closing costs. Divide the closing costs by your monthly savings to figure out how many months until you recoup the expense.
@@ -58,7 +59,7 @@ const TypesOfRefinance = () => (
       Real estate investors use cash-out refis to fund new acquisitions, execute the refinance step in a BRRRR strategy, or retire expensive hard money loans. The key discipline: every dollar extracted carries an ongoing interest cost. If you can't deploy that capital at a return exceeding your borrowing cost, leaving the equity in the property is the better move.
     </p>
     <p>
-      For a full breakdown of how cash-out refinancing works — including a detailed dollar example — see our dedicated article on cash-out refinances.
+      For a full breakdown of how cash-out refinancing works — including a detailed dollar example — see our <Link to="/blog/cash-out-refinance">dedicated article on cash-out refinances</Link>.
     </p>
 
     <h2>Streamline Refinance (FHA and VA)</h2>
@@ -115,7 +116,7 @@ const TypesOfRefinance = () => (
     </p>
 
     <blockquote>
-      Understanding what type of refinance applies to your situation is half the battle. The other half is running the actual numbers — closing costs, new rate, new payment, and break-even timeline — before you commit. A refinance that saves you money on paper can still be a bad decision if the costs don't recoup within your holding period.
+      The <a href="https://www.consumerfinance.gov/owning-a-home/loan-options/" target="_blank" rel="noopener noreferrer">CFPB's mortgage options guide</a> covers how lenders evaluate refinance applications. Understanding what type of refinance applies to your situation is half the battle. The other half is running the actual numbers — closing costs, new rate, new payment, and break-even timeline — before you commit. A refinance that saves you money on paper can still be a bad decision if the costs don't recoup within your holding period.
     </blockquote>
   </BlogPost>
 );

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const LeaseOptionRealEstate = () => (
@@ -17,7 +18,7 @@ const LeaseOptionRealEstate = () => (
   >
     <p>Say your credit score is 620 and you need a 680 to qualify for a conventional mortgage. Or you're self-employed and two years into the business — not enough history yet for a bank to approve you. You want to buy, you're not financially irresponsible, you just need time. A lease option is built for exactly that situation.</p>
 
-    <p>It's also one of the more misunderstood structures in real estate — partly because people use "lease option," "lease purchase," and "rent-to-own" interchangeably when they actually mean different things with different legal consequences. Getting those terms wrong in a contract can cost you real money.</p>
+    <p>It's also one of the more misunderstood structures in real estate — compare it to <Link to="/blog/seller-financing-real-estate">seller financing</Link>, where the seller extends a new loan directly, and <Link to="/blog/subject-to-real-estate">subject-to deals</Link>, where the buyer takes over the seller's existing mortgage. — partly because people use "lease option," "lease purchase," and "rent-to-own" interchangeably when they actually mean different things with different legal consequences. Getting those terms wrong in a contract can cost you real money.</p>
 
     <h2>What a Lease Option Actually Is</h2>
 
@@ -73,7 +74,7 @@ const LeaseOptionRealEstate = () => (
 
     <p>A lease option involves two separate legal documents — the lease agreement and the option contract — and the terms in both must be unambiguous. The price, the option period, the option fee amount and whether it's credited at purchase, the rent credit structure if any, who handles maintenance and repairs, and exactly what happens if either party defaults.</p>
 
-    <p>Don't use a template you found online. Don't rely on the other party's attorney to look out for your interests. Get your own real estate attorney who does these transactions in your state. Foreclosure law is state-specific, lease terms are state-specific, and what makes an option contract enforceable varies. The legal fee is small compared to what goes wrong with a badly drafted agreement.</p>
+    <p>The <a href="https://www.investopedia.com/terms/l/lease_option.asp" target="_blank" rel="noopener noreferrer">Investopedia lease option guide</a> covers the core legal and financial concepts. Explore all creative financing strategies on our <Link to="/real-estate-investing/funding-financing">funding and financing page</Link>. Don't use a template you found online. Don't rely on the other party's attorney to look out for your interests. Get your own real estate attorney who does these transactions in your state. Foreclosure law is state-specific, lease terms are state-specific, and what makes an option contract enforceable varies. The legal fee is small compared to what goes wrong with a badly drafted agreement.</p>
 
     <div className="callout">
       <p>A lease option is a legitimate path to homeownership for buyers who need time, and a useful tool for investors who want to control property without owning it. The structure only works when both sides understand exactly what they're agreeing to — which starts with getting the right kind of attorney involved before anything is signed.</p>

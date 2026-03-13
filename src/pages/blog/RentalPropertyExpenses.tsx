@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const RentalPropertyExpenses = () => (
@@ -17,7 +18,7 @@ const RentalPropertyExpenses = () => (
   >
     <p>Here's a mistake that costs landlords real money: they look at rent as revenue and the mortgage payment as the only expense. Everything in between — vacancy, management, maintenance, reserves — gets forgotten until it bites them.</p>
 
-    <p>A property renting for $1,500/month with an $1,100 mortgage payment is not generating $400/month in profit. It might be generating $0. It might be negative. Here's the actual math.</p>
+    <p>A property renting for $1,500/month with an $1,100 mortgage payment is not generating $400/month in profit. Our <Link to="/blog/first-rental-property">first rental property guide</Link> covers how to build an accurate expense model before you make an offer. It might be generating $0. It might be negative. Here's the actual math.</p>
 
     <h2>Fixed Monthly Expenses</h2>
     <p>These don't change month to month, which makes them easy to account for — and yet people still miss them:</p>
@@ -84,10 +85,10 @@ const RentalPropertyExpenses = () => (
     <h2>Self-Managing vs. Hiring a Property Manager</h2>
     <p>Keeping the 10% management fee in your pocket is real — on a $1,500 rental, that's $1,800/year. But self-managing costs you something too: time, knowledge of landlord-tenant law in your state, the stress of late-night maintenance calls, and the expertise to handle evictions without making expensive legal mistakes.</p>
 
-    <p>For one property in your backyard: self-managing is reasonable if you're willing to learn the legal requirements. For multiple properties, properties out of state, or if you have a day job you're not willing to compromise — the management fee is almost certainly worth it. The math changes when one poorly-handled eviction costs you $3,000 in legal fees and two months of vacancy.</p>
+    <p>For more on what professional management entails, see our breakdown of <Link to="/blog/property-management-companies">property management companies</Link>. For one property in your backyard: self-managing is reasonable if you're willing to learn the legal requirements. For multiple properties, properties out of state, or if you have a day job you're not willing to compromise — the management fee is almost certainly worth it. The math changes when one poorly-handled eviction costs you $3,000 in legal fees and two months of vacancy.</p>
 
     <div className="callout">
-      <p>The question is never just "what does rent cover?" The question is: after mortgage, taxes, insurance, management, maintenance, vacancy, and CapEx reserves — is there anything left? Model it honestly before you buy.</p>
+      <p>The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/tips-on-rental-real-estate-income-deductions-and-recordkeeping" target="_blank" rel="noopener noreferrer">IRS guidance on rental income and deductions</a> covers what qualifies for each category. The question is never just "what does rent cover?" The question is: after mortgage, taxes, insurance, management, maintenance, vacancy, and CapEx reserves — is there anything left? For more on what this all adds up to, explore the <Link to="/real-estate-investing/rental-property-investing">rental property investing overview</Link>. Model it honestly before you buy.</p>
     </div>
   </BlogPost>
 );

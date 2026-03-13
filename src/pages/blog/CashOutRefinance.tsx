@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const CashOutRefinance = () => (
@@ -45,7 +46,7 @@ const CashOutRefinance = () => (
     <ul>
       <li><strong>HELOC</strong> — a revolving line of credit secured by your equity. Variable rate, flexible draws, interest-only payments during the draw period. Good for short-term needs where you want to borrow in pieces.</li>
       <li><strong>Home equity loan</strong> — a second mortgage, fixed rate, lump sum. You keep your original mortgage and add a second loan on top of it. Two separate payments, two separate loans.</li>
-      <li><strong>Cash-out refinance</strong> — replaces your existing mortgage entirely. One loan, one payment. Usually fixed rate. Better when you want to restructure your whole debt picture or lock in a lower rate while pulling cash.</li>
+      <li><strong>Cash-out refinance</strong> — replaces your existing mortgage entirely. See our <Link to="/blog/types-of-refinance">types of refinance guide</Link> to compare this with rate-and-term and streamline options. One loan, one payment. Usually fixed rate. Better when you want to restructure your whole debt picture or lock in a lower rate while pulling cash.</li>
     </ul>
     <p>
       The right choice depends on your rate environment and what you're trying to do. If your current mortgage rate is 3.5% and the new refinance rate is 7%, pulling a HELOC at 8% might actually be cheaper on a blended basis. Run the numbers before you assume a refi is the right move.
@@ -61,10 +62,10 @@ const CashOutRefinance = () => (
 
     <h2>How Investors Actually Use Cash-Out Refis</h2>
     <p>
-      There are three situations I see this used most often:
+      There are three situations I see this used most often — and all three are covered in more detail on our <Link to="/real-estate-investing/funding-financing">funding and financing page</Link>:
     </p>
     <ol>
-      <li><strong>Funding the next acquisition.</strong> You've built equity in property A. You pull it out and use it as a down payment on property B. This is how investors build portfolios without constantly waiting to save up fresh capital. The BRRRR strategy — Buy, Rehab, Rent, Refinance, Repeat — is built entirely on this idea.</li>
+      <li><strong>Funding the next acquisition.</strong> You've built equity in property A. You pull it out and use it as a down payment on property B. This is how investors build portfolios without constantly waiting to save up fresh capital. The <Link to="/blog/brrrr-method-real-estate">BRRRR strategy</Link> — Buy, Rehab, Rent, Refinance, Repeat — is built entirely on this idea.</li>
       <li><strong>Exiting hard money or private money loans.</strong> Short-term loans are expensive. Once a property is stabilized and rentable, a cash-out refi at a conventional rate replaces the high-interest bridge loan and often returns most of the original down payment.</li>
       <li><strong>Portfolio repositioning.</strong> Sometimes you own a property with significant equity but the cash flow is mediocre. Pulling equity out and redeploying it into a higher-returning asset is a legitimate financial move — but only if the math on both sides works.</li>
     </ol>
@@ -77,7 +78,7 @@ const CashOutRefinance = () => (
       If you pull $90,000 at 7% and park it in a savings account at 4.5%, you're losing ground every month. If you pull it to fund a renovation that creates $40,000 in forced appreciation and improves cash flow, that's a different story.
     </p>
     <div className="callout">
-      The question to ask before every cash-out refi: what will this money earn, and is that return greater than the cost of borrowing it? If you can't answer that concretely, wait until you can.
+      The <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-cash-out-refinance-en-110/" target="_blank" rel="noopener noreferrer">CFPB's cash-out refinance overview</a> lays out the lender review process. The question to ask before every cash-out refi: what will this money earn, and is that return greater than the cost of borrowing it? If you can't answer that concretely, wait until you can.
     </div>
     <p>
       Investors who treat equity like a piggy bank — pulling it to cover operating losses, fund lifestyle expenses, or just because it's available — tend to end up with highly leveraged properties and thin margins. When the market softens or a tenant stops paying, there's no buffer. The equity that felt like a safety net is gone.

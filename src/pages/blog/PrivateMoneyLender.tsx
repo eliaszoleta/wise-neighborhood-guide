@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const PrivateMoneyLender = () => (
@@ -9,7 +10,7 @@ const PrivateMoneyLender = () => (
     category="Financing"
     faqs={[
       { q: "What is a private money lender in real estate?", a: "A private money lender is an individual — often a retiree, professional, or former investor — who funds real estate deals from their own capital in exchange for interest payments secured by the property. Unlike hard money companies with standardized programs, private lenders set their own terms, making rates and structure fully negotiable based on the relationship and deal quality." },
-      { q: "What interest rate do private money lenders charge?", a: "Private money rates typically range from 6–10%, depending on the lender's risk appetite, how well they know the investor, and the deal structure. This is meaningfully cheaper than hard money (12–15% plus points) because private lending is relationship-based — the lender's familiarity with the borrower reduces their perceived risk." },
+      { q: "What interest rate do private money lenders charge?", a: "Private money rates typically range from 6–10%, depending on the lender's risk appetite, how well they know the investor, and the deal structure. This is meaningfully cheaper than <Link to="/blog/hard-money-lender">hard money</Link> (12–15% plus points) because private lending is relationship-based — the lender's familiarity with the borrower reduces their perceived risk." },
       { q: "How do you find private money lenders for real estate?", a: "Private lenders are found through relationships, not advertising. Start with people who already know you — professional contacts, REIA members, family, and friends — and educate them on how the arrangement works: first lien position, specific property as collateral, fixed rate, defined term. Most people don't know this is possible, and your job is to explain it clearly, not to hard-sell." },
       { q: "Can you use a self-directed IRA to lend private money?", a: "Yes — many private lenders use self-directed IRAs or Roth IRAs to fund real estate deals, earning interest tax-deferred or tax-free depending on account type. The arrangement requires a custodian who specializes in alternative assets (such as Equity Trust or Midland IRA), and the loan documents are in the name of the IRA, not the individual. The IRS prohibits self-dealing, meaning lenders can't fund deals on property they or close family members will benefit from personally." },
       { q: "What documents are needed for a private money loan?", a: "Every private money deal needs a promissory note spelling out the loan amount, interest rate, payment schedule, maturity date, and default terms, plus a deed of trust (or mortgage in some states) recorded with the county that gives the lender a security interest in the property. Never rely on a handshake or informal note — have a real estate attorney draft or review the documents, and record the deed of trust to protect both parties." },
@@ -162,7 +163,7 @@ const PrivateMoneyLender = () => (
     </p>
     <ol>
       <li>
-        Do your first deal with hard money or your own cash. Document everything —
+        Do your first deal with <Link to="/blog/hard-money-lender">hard money</Link> or your own cash. Document everything —
         timeline, budget vs. actual, final numbers. That deal becomes your track
         record.
       </li>
@@ -213,7 +214,7 @@ const PrivateMoneyLender = () => (
       </li>
     </ul>
     <p>
-      Have your attorney formalize whatever you agree on. Handshakes are for
+      The <a href="https://www.irs.gov/retirement-plans/self-directed-ira-using-a-self-directed-ira-to-invest-in-real-estate" target="_blank" rel="noopener noreferrer">IRS guidance on self-directed IRAs</a> explains the prohibited transaction rules that affect private lenders using retirement accounts. Explore all borrowing options on our <Link to="/real-estate-investing/funding-financing">funding and financing page</Link>. Have your attorney formalize whatever you agree on. Handshakes are for
       introductions, not for loan terms secured by real property.
     </p>
   </BlogPost>

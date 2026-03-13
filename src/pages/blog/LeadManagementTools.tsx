@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const LeadManagementTools = () => (
@@ -15,7 +16,7 @@ const LeadManagementTools = () => (
       { q: "What should I look for in a real estate CRM?", a: "The most important feature is automated follow-up sequencing — the ability to keep leads in play over weeks and months without requiring your team to manually remember every touchpoint. After that, look for integrations with your lead sources, ease of use for your specific team, and mobile access. A simple system used consistently beats a sophisticated system your team works around." },
     ]}
   >
-    <p>Most real estate operators have a CRM graveyard somewhere. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
+    <p>Most real estate operators have a CRM graveyard somewhere. For how <Link to="/blog/lead-managers-real-estate">lead managers</Link> use these tools day-to-day, and how they hand off to <Link to="/blog/acquisitions-manager-real-estate">acquisitions managers</Link>, see our role-specific guides. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
 
     <p>The most important feature in any CRM is that your team will actually open it. Everything else is secondary. A simple system used consistently will beat a sophisticated system that half your people find confusing every single time.</p>
 
@@ -57,7 +58,7 @@ const LeadManagementTools = () => (
 
     <h2>What to Actually Look For</h2>
 
-    <p>The data in real estate sales and investing consistently shows that most deals close between the 5th and 12th contact. Most operators give up after one or two attempts. The CRM that solves this problem isn't the one with the most features — it's the one that automatically keeps leads in play with sequenced follow-up until they convert or opt out, without requiring your team to remember to do it manually.</p>
+    <p>The data in real estate sales and investing consistently shows that most deals close between the 5th and 12th contact. The <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer">NAR research reports</a> track buyer and seller behavior across the industry. Most operators give up after one or two attempts. The CRM that solves this problem isn't the one with the most features — it's the one that automatically keeps leads in play with sequenced follow-up until they convert or opt out, without requiring your team to remember to do it manually.</p>
 
     <p>Match the tool to your business model:</p>
 
@@ -69,7 +70,7 @@ const LeadManagementTools = () => (
     </ul>
 
     <div className="callout">
-      <p>Pick the simplest option you'll actually use. Build the habit of entering every lead and logging every contact. You can upgrade to a more sophisticated system once you've outgrown the simple one — you can't recover leads that fell through the cracks because nobody was tracking them.</p>
+      <p>Explore our full <Link to="/real-estate-marketing/crm-automation">CRM and automation topic page</Link> for a broader look at how systematic follow-up drives deal volume. Pick the simplest option you'll actually use. Build the habit of entering every lead and logging every contact. You can upgrade to a more sophisticated system once you've outgrown the simple one — you can't recover leads that fell through the cracks because nobody was tracking them.</p>
     </div>
   </BlogPost>
 );

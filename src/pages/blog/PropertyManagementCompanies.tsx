@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const PropertyManagementCompanies = () => (
@@ -15,7 +16,7 @@ const PropertyManagementCompanies = () => (
       { q: "Can a property manager handle evictions?", a: "Yes — most full-service property managers handle the eviction process on your behalf, which is one of the biggest advantages of hiring one. Evictions require precise compliance with state-specific notice periods, filing procedures, and court appearances. An improperly served notice or incorrect paperwork can reset the timeline by weeks, making a manager who knows your state's process worth the fee alone." },
     ]}
   >
-    <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
+    <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income — our <Link to="/blog/rental-property-expenses">rental property expenses guide</Link> breaks down every cost category they miss. and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
 
     <p>Here's what a property management company does, what it really costs over a two-year tenancy, and an honest take on when it's worth the money and when it isn't.</p>
 
@@ -60,7 +61,7 @@ const PropertyManagementCompanies = () => (
 
     <h2>How to Find a Good One</h2>
 
-    <p>The best property managers get most of their new clients through referrals from other investors. Ask at local investor meetups, real estate associations, or in investor Facebook groups for your market. Interview at least two or three before signing anything.</p>
+    <p>When you're ready to place a tenant yourself, see our <Link to="/blog/find-tenant-rental-property">guide to finding and screening tenants</Link>. The best property managers get most of their new clients through referrals from other investors. Ask at local investor meetups, real estate associations, or in investor Facebook groups for your market. Interview at least two or three before signing anything.</p>
 
     <p>Questions worth asking in the interview:</p>
     <ul>
@@ -76,7 +77,7 @@ const PropertyManagementCompanies = () => (
     <p>Red flags: vague or evasive answers on fees, unwillingness to show you sample reporting, high staff turnover, an office that feels disorganized, or a manager who won't give you current client references. Review the management agreement with an attorney before signing — pay particular attention to the cancellation clause and what happens if they list your property for sale.</p>
 
     <div className="callout">
-      <p>Property management is worth paying for when your time, distance, or expertise make self-managing genuinely risky. It's not worth paying for as a convenience when you could handle it yourself and the fee is meaningfully hurting your cash flow. Run your actual numbers — management fee, leasing fees, renewal fees — before the property closes, not after.</p>
+      <p>The <a href="https://www.narpm.org/consumers/working-with-a-professional-property-manager/" target="_blank" rel="noopener noreferrer">NARPM guide to working with a property manager</a> covers what accredited managers are expected to provide. Explore the full <Link to="/real-estate-investing/rental-property-investing">rental property investing topic</Link> for more landlord resources. Property management is worth paying for when your time, distance, or expertise make self-managing genuinely risky. It's not worth paying for as a convenience when you could handle it yourself and the fee is meaningfully hurting your cash flow. Run your actual numbers — management fee, leasing fees, renewal fees — before the property closes, not after.</p>
     </div>
   </BlogPost>
 );

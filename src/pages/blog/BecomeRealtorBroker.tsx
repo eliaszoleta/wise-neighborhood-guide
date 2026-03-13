@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const BecomeRealtorBroker = () => (
@@ -27,7 +28,7 @@ const BecomeRealtorBroker = () => (
       These three terms get used interchangeably but they mean different things. An <strong>agent</strong> is anyone who has passed a state licensing exam and is authorized to represent buyers or sellers in real estate transactions. They must work under a licensed broker — they cannot operate independently.
     </p>
     <p>
-      A <strong>Realtor</strong> is simply an agent or broker who is a member of the National Association of Realtors (NAR). NAR membership is voluntary. It comes with access to the Multiple Listing Service in most markets and a commitment to NAR's Code of Ethics. Not every licensed agent is a Realtor, though in practice the majority join because MLS access is essentially required to serve clients effectively.
+      A <strong>Realtor</strong> is simply an agent or broker who is a member of the National Association of Realtors (NAR). For the key distinctions, see our <Link to="/blog/real-estate-agent-realtor-broker">agent vs. Realtor vs. broker breakdown</Link>. NAR membership is voluntary. It comes with access to the Multiple Listing Service in most markets and a commitment to NAR's Code of Ethics. Not every licensed agent is a Realtor, though in practice the majority join because MLS access is essentially required to serve clients effectively.
     </p>
     <p>
       A <strong>broker</strong> has completed additional education beyond the standard agent license and has passed a separate broker exam. Brokers can operate their own firms, supervise agents, and hold earnest money and escrow funds. Some brokers work independently; others work under another broker (they're called "associate brokers").
@@ -51,7 +52,7 @@ const BecomeRealtorBroker = () => (
     <ol>
       <li><strong>Complete pre-license education.</strong> Depending on your state, this is 40 to 180 hours of coursework. California requires 135 hours. New York requires 77. Some states let you do it entirely online.</li>
       <li><strong>Pass the state licensing exam.</strong> There's typically a national portion and a state-specific portion. Many people need two attempts to pass.</li>
-      <li><strong>Get sponsored by a broker.</strong> You need an active broker to "hang your license" with before you can practice. This is where choosing your first brokerage becomes important.</li>
+      <li><strong>Get sponsored by a broker. Check our <Link to="/real-estate-license">state-by-state real estate license hub</Link> for the exact coursework and exam requirements in your state.</strong> You need an active broker to "hang your license" with before you can practice. This is where choosing your first brokerage becomes important.</li>
       <li><strong>Maintain continuing education.</strong> Most states require ongoing CE every 1–2 years to keep your license active.</li>
     </ol>
     <p>
@@ -77,7 +78,7 @@ const BecomeRealtorBroker = () => (
       Real estate is a 1099 business. No base salary, no benefits, no paid time off. Budget accordingly for your first year, and treat it as a business with real startup costs.
     </div>
     <p>
-      The agents who make it tend to have one thing in common: a consistent, systematic approach to building relationships and staying in contact with their sphere. The technical skills matter, but they're learnable. The discipline to stay in front of people month after month is what separates the 10–20% who build lasting careers from the majority who don't.
+      The <a href="https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm" target="_blank" rel="noopener noreferrer">Bureau of Labor Statistics data on real estate agents</a> covers employment, income, and outlook across the industry. The agents who make it tend to have one thing in common: a consistent, systematic approach to building relationships and staying in contact with their sphere. The technical skills matter, but they're learnable. The discipline to stay in front of people month after month is what separates the 10–20% who build lasting careers from the majority who don't.
     </p>
 
     <h2>When to Think About Getting Your Broker License</h2>

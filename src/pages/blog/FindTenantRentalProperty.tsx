@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const FindTenantRentalProperty = () => (
@@ -19,7 +20,7 @@ const FindTenantRentalProperty = () => (
       Before you post your listing, do this math.
     </p>
     <p>
-      A bad tenant costs you more than a vacancy. A tenant who doesn't pay, damages the property, or requires eviction will typically consume 8–10 months of rent by the time you account for lost income during the process, legal fees, repairs, and re-leasing costs. A vacancy between good tenants? Maybe 3–4 weeks. The incentive to just "get someone in there" is one of the most expensive mistakes a landlord can make.
+      A bad tenant costs you more than a vacancy. For a complete picture of what a rental property actually costs — including management fees — see our <Link to="/blog/rental-property-expenses">rental property expenses breakdown</Link>. A tenant who doesn't pay, damages the property, or requires eviction will typically consume 8–10 months of rent by the time you account for lost income during the process, legal fees, repairs, and re-leasing costs. A vacancy between good tenants? Maybe 3–4 weeks. The incentive to just "get someone in there" is one of the most expensive mistakes a landlord can make.
     </p>
     <p>
       Good tenant placement is mostly process. Here's the process.
@@ -90,13 +91,13 @@ const FindTenantRentalProperty = () => (
       The move-in process sets the tone for the entire tenancy. Do it right.
     </p>
     <ul>
-      <li><strong>Use a state-specific lease.</strong> Generic leases from the internet may have provisions that are unenforceable in your state. Your local landlord association or a real estate attorney can provide a lease written for your jurisdiction.</li>
+      <li><strong>For landlords who prefer professional help, see our guide to <Link to="/blog/property-management-companies">property management companies</Link>. Use a state-specific lease.</strong> Generic leases from the internet may have provisions that are unenforceable in your state. Your local landlord association or a real estate attorney can provide a lease written for your jurisdiction.</li>
       <li><strong>Conduct a documented walk-through.</strong> Go through every room together before move-in. Note every scuff, every scratch, every existing issue. Both parties sign the move-in condition report. Take photos. This document is your protection when the tenant moves out and claims they didn't cause the damage to the wall they definitely caused.</li>
       <li><strong>Collect first month, last month, and security deposit before handing over keys.</strong> No exceptions, no partial payments, no "I'll get you the rest next week." Money collected before keys is the only money that's easy to collect.</li>
     </ul>
 
     <blockquote>
-      The landlords who have the fewest tenant problems are almost never the ones who got lucky with good tenants. They're the ones who built a real screening process and stuck to it — even when a unit had been sitting vacant for two weeks and someone eager was standing in front of them.
+      The <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview" target="_blank" rel="noopener noreferrer">HUD Fair Housing Act overview</a> covers the full list of protected classes and landlord obligations. Explore our <Link to="/real-estate-investing/rental-property-investing">rental property investing topic page</Link> for more landlord guidance. The landlords who have the fewest tenant problems are almost never the ones who got lucky with good tenants. They're the ones who built a real screening process and stuck to it — even when a unit had been sitting vacant for two weeks and someone eager was standing in front of them.
     </blockquote>
 
     <p>

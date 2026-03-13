@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const FirstRentalProperty = () => (
@@ -79,7 +80,7 @@ const FirstRentalProperty = () => (
       <p>If your mortgage payment on this property is $750, you're at $44/month cash flow. Not $600. That's why the analysis matters.</p>
     </div>
     <p>
-      A property that pencils at thin margins after full expenses isn't necessarily a bad investment — equity paydown and appreciation contribute to total return. But you need to know what you're actually buying.
+      For a detailed breakdown of every cost category, see our <Link to="/blog/rental-property-expenses">complete rental property expenses guide</Link>. A property that pencils at thin margins after full expenses isn't necessarily a bad investment — equity paydown and appreciation contribute to total return. But you need to know what you're actually buying.
     </p>
 
     <h2>Step 3: Understand the Financing</h2>
@@ -93,7 +94,7 @@ const FirstRentalProperty = () => (
       <li>Higher reserves requirement — many lenders want 6 months of PITI in the bank after closing</li>
     </ul>
     <p>
-      There's one major exception worth knowing: if you're buying a 2–4 unit property and plan to live in one of the units (house hacking), you can use an FHA loan with as little as 3.5% down. The income from the other units offsets your housing cost. It's one of the best first moves in real estate for investors who are willing to live near their tenants, at least temporarily.
+      There's one major exception worth knowing: if you're buying a 2–4 unit property and plan to live in one of the units (house hacking), you can use an <Link to="/blog/mortgage-loans-first-time-homebuyers">FHA loan</Link> with as little as 3.5% down. The income from the other units offsets your housing cost. It's one of the best first moves in real estate for investors who are willing to live near their tenants, at least temporarily.
     </p>
 
     <h2>Step 4: Do Real Due Diligence</h2>
@@ -112,11 +113,11 @@ const FirstRentalProperty = () => (
     <ol>
       <li><strong>Read the actual lease.</strong> When does it expire? What does it say about rent increases, pets, subletting? Are there any side agreements or verbal promises you'll need to honor?</li>
       <li><strong>Talk to the tenant directly.</strong> Even a five-minute conversation tells you a lot. Do they seem stable? Are there maintenance issues the seller hasn't mentioned?</li>
-      <li><strong>Check local landlord-tenant laws.</strong> Some cities have rent control. Some states have extremely tenant-friendly eviction processes that take 6+ months. You need to know the legal landscape before you're in it.</li>
+      <li><strong>Check local landlord-tenant laws. When you're ready to find a tenant, see our guide to <Link to="/blog/find-tenant-rental-property">tenant screening and placement</Link>.</strong> Some cities have rent control. Some states have extremely tenant-friendly eviction processes that take 6+ months. You need to know the legal landscape before you're in it.</li>
     </ol>
 
     <blockquote>
-      Buying your first rental property is supposed to be uncomfortable. You're putting real money into a deal with real risks, operating in a market you're still learning. The goal isn't to eliminate that discomfort — it's to make sure the discomfort is from appropriate risk, not from mistakes you could have avoided with better preparation.
+      The <a href="https://www.hud.gov/topics/buying_a_home" target="_blank" rel="noopener noreferrer">HUD homebuying guide</a> covers federal protections for buyers. Explore the full <Link to="/real-estate-investing/rental-property-investing">rental property investing topic page</Link> for more guidance. Buying your first rental property is supposed to be uncomfortable. You're putting real money into a deal with real risks, operating in a market you're still learning. The goal isn't to eliminate that discomfort — it's to make sure the discomfort is from appropriate risk, not from mistakes you could have avoided with better preparation.
     </blockquote>
 
     <p>

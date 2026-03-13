@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const TypesOfRealEstateProperty = () => (
@@ -25,7 +26,7 @@ const TypesOfRealEstateProperty = () => (
 
     <p>It doesn't matter if the building looks like townhomes. It doesn't matter if every unit is identical to a single-family house. Five or more units is commercial. Full stop.</p>
 
-    <p>Residential is where most investors start because it's accessible — the financing is workable, the inventory is deep, and people always need somewhere to live. That demand doesn't evaporate the way office or retail demand can during a downturn. It's not glamorous, but it's consistent.</p>
+    <p>Residential is where most investors start because it's accessible — see our guide to <Link to="/blog/first-rental-property">buying your first rental property</Link> for a step-by-step breakdown. — the financing is workable, the inventory is deep, and people always need somewhere to live. That demand doesn't evaporate the way office or retail demand can during a downturn. It's not glamorous, but it's consistent.</p>
 
     <h2>Commercial Real Estate</h2>
 
@@ -49,15 +50,15 @@ const TypesOfRealEstateProperty = () => (
 
     <p>That said, land has a real niche in investing — specifically through wholesaling. The play is finding rural or suburban land from owners who aren't using it: inherited parcels, delinquent tax properties, absentee owners who paid the land off decades ago and never think about it. You make them a below-market cash offer, get it under contract, and assign the contract to a developer or land investor for a fee. Competition is thinner than residential wholesaling, and the capital requirements are lower. It's not glamorous, but operators who know their local market do well with it.</p>
 
-    <p>Land also works as a long-term appreciation play when you have a genuine read on a growth corridor — buying raw acres in the path of an expanding suburb and sitting on it until development pressure arrives. The downside is patience. Land is illiquid. Finding the right buyer can take years, and there's no cash flow carrying you while you wait.</p>
+    <p>Land also works as a long-term appreciation play. For the most accessible entry point, most investors start with residential units and the <Link to="/blog/brrrr-method-real-estate">BRRRR method</Link> before moving to other asset classes. when you have a genuine read on a growth corridor — buying raw acres in the path of an expanding suburb and sitting on it until development pressure arrives. The downside is patience. Land is illiquid. Finding the right buyer can take years, and there's no cash flow carrying you while you wait.</p>
 
     <h2>Where to Start</h2>
 
-    <p>New investor with limited capital? Start with residential 1–4 units. The financing is accessible, the risk is manageable, and you'll build deal analysis and management skills before the complexity scales up. First-time homebuyer? Same category — pay attention to where the neighborhood is headed in five to ten years, not just what it is today.</p>
+    <p>New investor with limited capital? Start with residential 1–4 units. The <a href="https://www.nar.realtor/research-and-statistics/housing-statistics" target="_blank" rel="noopener noreferrer">National Association of Realtors' housing statistics</a> track demand trends across residential categories. The financing is accessible, the risk is manageable, and you'll build deal analysis and management skills before the complexity scales up. First-time homebuyer? Same category — pay attention to where the neighborhood is headed in five to ten years, not just what it is today.</p>
 
     <p>Scaling up and looking for better yields? Commercial multifamily or net-lease retail can get you there, but expect more complexity at every step. Specialist with specific local knowledge about zoning, utilities, and development pipelines? Land can be interesting. For most people without that specific expertise, it's speculative.</p>
 
-    <p>Most experienced investors end up with exposure across more than one type. The key thing is knowing that each category operates by its own rules — and treating them as interchangeable is how people get burned.</p>
+    <p>Most experienced investors end up with exposure across more than one type. Explore our full <Link to="/real-estate-investing">real estate investing resource hub</Link> for strategies across all categories. The key thing is knowing that each category operates by its own rules — and treating them as interchangeable is how people get burned.</p>
   </BlogPost>
 );
 

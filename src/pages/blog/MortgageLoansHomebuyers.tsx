@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const MortgageLoansHomebuyers = () => (
@@ -33,14 +34,14 @@ const MortgageLoansHomebuyers = () => (
 
     <p>Debt-to-income requirements are more flexible than conventional — you can sometimes qualify with a DTI above 50% if other factors are strong. For buyers rebuilding credit or with limited savings, FHA can be the only viable path.</p>
 
-    <p>Here's the trap that catches a lot of first-time buyers: the mortgage insurance structure on FHA loans is different — and worse — than conventional.</p>
+    <p>Here's the trap that catches a lot of first-time buyers: the mortgage insurance structure on FHA loans is different — and worse — than conventional. For a detailed breakdown, see our <Link to="/blog/mip-vs-pmi-explained">MIP vs. PMI guide</Link>.</p>
 
     <ul>
       <li><strong>Upfront MIP:</strong> 1.75% of the loan amount, paid at closing (or rolled into the loan). On a $250,000 loan, that's $4,375 added to your balance on day one.</li>
       <li><strong>Annual MIP:</strong> 0.55–1.05% of the loan balance per year, paid monthly. On $250,000, that's roughly $115–$219/month added to your payment.</li>
     </ul>
 
-    <p>And critically: if you put down less than 10%, that annual MIP <em>never goes away</em> for the life of the loan. You cannot cancel it the way you can cancel PMI on a conventional loan. The only way to get rid of it is to refinance into a conventional loan once you have 20% equity — which costs you closing costs all over again.</p>
+    <p>And critically: if you put down less than 10%, that annual MIP <em>never goes away</em> for the life of the loan. You cannot cancel it the way you can cancel PMI on a conventional loan. The only way to get rid of it is to <Link to="/blog/types-of-refinance">refinance</Link> into a conventional loan once you have 20% equity — which costs you closing costs all over again.</p>
 
     <p>This doesn't make FHA a bad loan. It makes it a specific tool for a specific situation. If your credit is 580–680 and you can't put 20% down, FHA may be your best or only option. Just go in knowing the insurance cost is permanent unless you refinance.</p>
 
@@ -76,7 +77,7 @@ const MortgageLoansHomebuyers = () => (
       <p>If you're between conventional and FHA, run both scenarios side-by-side with actual loan estimates from lenders — monthly payment, total insurance cost over 5–7 years (a realistic hold before refinancing), and break-even point. The right answer depends on your specific numbers.</p>
     </div>
 
-    <p>The one thing to avoid: choosing a loan because someone told you it was "easier" without understanding what it costs. Easy to qualify for and inexpensive to carry are different things. Know both before you commit.</p>
+    <p>Review the official <a href="https://www.hud.gov/buying/loans" target="_blank" rel="noopener noreferrer">HUD loan programs page</a> and the <a href="https://www.benefits.va.gov/homeloans/" target="_blank" rel="noopener noreferrer">VA Home Loans portal</a> for current eligibility requirements. Explore our <Link to="/real-estate-investing/funding-financing">funding and financing overview</Link> for investment-focused financing options beyond these programs. The one thing to avoid: choosing a loan because someone told you it was "easier" without understanding what it costs. Easy to qualify for and inexpensive to carry are different things. Know both before you commit.</p>
   </BlogPost>
 );
 

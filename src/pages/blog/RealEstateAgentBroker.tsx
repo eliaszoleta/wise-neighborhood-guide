@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const RealEstateAgentBroker = () => (
@@ -49,9 +50,9 @@ const RealEstateAgentBroker = () => (
 
     <p><strong>For buyers and sellers:</strong> Your agent's broker is legally responsible for your agent's conduct. If something goes wrong in a transaction — a misrepresentation, a paperwork error — the broker is the one with the liability. This is why brokerage matters, not just agent selection.</p>
 
-    <p><strong>For real estate investors:</strong> You want an agent who understands investment property analysis — ARV, cap rates, cash-on-cash return — not just someone who can navigate a residential sale. The license type is less important than experience with investment transactions and solid MLS access. An agent embedded in investor networks is worth more than a broker who only does retail.</p>
+    <p><strong>For real estate investors:</strong> You want an agent who understands investment property analysis — ARV, cap rates, cash-on-cash return — not just someone who can navigate a residential sale. The license type is less important than experience with investment transactions. Check out <Link to="/real-estate-license">our state-by-state real estate license resource</Link> for requirements in your state. and solid MLS access. An agent embedded in investor networks is worth more than a broker who only does retail.</p>
 
-    <p><strong>For career decisions:</strong> Getting your broker's license is a meaningful step up — more autonomy, higher earning ceiling, ability to build a team. But it also means more responsibility and usually a year or more of serious coursework on top of an already busy production schedule. Most agents pursue it when they want to expand beyond being a solo producer.</p>
+    <p><strong>For career decisions:</strong> Getting your broker's license is a meaningful step up — for the full licensing process, see our guide to <Link to="/blog/become-realtor-broker">becoming a Realtor or broker</Link>. — more autonomy, higher earning ceiling, ability to build a team. But it also means more responsibility and usually a year or more of serious coursework on top of an already busy production schedule. Most agents pursue it when they want to expand beyond being a solo producer.</p>
 
     <h2>The Income Reality</h2>
     <p>Median earnings for real estate agents in the U.S. run roughly $50,000–$60,000 per year, but that number is nearly meaningless because the distribution is so wide. A significant portion of licensed agents do fewer than 5 transactions per year — often people keeping their license active as a side pursuit. Top producers in active markets easily clear six figures. Some do much more.</p>
@@ -59,7 +60,7 @@ const RealEstateAgentBroker = () => (
     <p>It's almost entirely commission-based income, which means it's front-loaded with risk when you start and highly variable year to year. The agents who build durable income are the ones who build referral networks and repeat clients — not the ones who chase every sign-call.</p>
 
     <div className="callout">
-      <p>Quick reference: Agent = licensed, works under broker. Realtor = NAR member, code of ethics applies. Broker = additional license, can operate independently and supervise agents.</p>
+      <p>The <a href="https://www.nar.realtor/about-nar/governing-documents/the-code-of-ethics" target="_blank" rel="noopener noreferrer">NAR Code of Ethics</a> outlines the standards Realtors commit to. Quick reference: Agent = licensed, works under broker. Realtor = NAR member, code of ethics applies. Broker = additional license, can operate independently and supervise agents.</p>
     </div>
   </BlogPost>
 );

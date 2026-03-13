@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const HardMoneyLender = () => (
@@ -118,7 +119,7 @@ const HardMoneyLender = () => (
       wrong with the rehab.
     </p>
     <blockquote>
-      Hard money is a tool, not a shortcut. The cost of that money has to be
+      <Link to="/blog/private-money-lender">Private money lenders</Link> often offer cheaper rates than hard money — typically 6–10% versus 12–15% — but require an established relationship first. Hard money is a tool, not a shortcut. The cost of that money has to be
       built into your deal analysis from the start, not added in as an
       afterthought.
     </blockquote>
@@ -159,7 +160,7 @@ const HardMoneyLender = () => (
       paying more in interest than you have to. Hard money on a rental property
       you plan to hold long-term is a bad idea unless you're bridging to a
       refinance quickly. Paying 12% on a rental that cash flows at maybe 8% cap
-      rate means you're losing money every month you hold it.
+      rate means you're losing money every month you hold it. Investors executing the <Link to="/blog/brrrr-method-real-estate">BRRRR strategy</Link> use hard money as a bridge, then refinance into a long-term loan once the property stabilizes.
     </p>
     <p>
       I've also seen investors use hard money on deals where the margin was too
@@ -171,7 +172,7 @@ const HardMoneyLender = () => (
 
     <h2>How to Find a Good Hard Money Lender</h2>
     <p>
-      The best referrals come from other investors. Go to your local REIA (Real
+      The <a href="https://www.investopedia.com/terms/h/hard_money_loan.asp" target="_blank" rel="noopener noreferrer">Investopedia overview of hard money loans</a> covers the basics of asset-based lending. The best referrals come from other investors. Explore <Link to="/real-estate-investing/funding-financing">our funding and financing page</Link> for more borrowing options. Go to your local REIA (Real
       Estate Investors Association) meeting and ask around. Experienced flippers
       in your market have already vetted lenders and can tell you who's reliable
       and who's a nightmare to work with.

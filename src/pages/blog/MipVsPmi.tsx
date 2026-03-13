@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const MipVsPmi = () => (
@@ -52,7 +53,7 @@ const MipVsPmi = () => (
 
     <p>For a buyer with good credit putting down 5%, conventional + PMI is almost always cheaper long-term than FHA + MIP. The PMI rate on a 740 credit score with 5% down might be 0.5–0.7% annually — and it cancels once you hit 20% equity. FHA MIP runs 0.55–1.05% on top of the 1.75% upfront, and it doesn't cancel. You're paying for something that could disappear vs. something that won't.</p>
 
-    <p>Where FHA wins: lower credit scores. Conventional PMI rates for a 620 credit score can be punishing — 1.5%+ annually. FHA's MIP is the same regardless of credit score. For buyers who wouldn't qualify for conventional financing, or who can only qualify at rates that make conventional PMI unaffordable, FHA makes sense. Just go in understanding the trade you're making.</p>
+    <p>Where FHA wins: lower credit scores. For a side-by-side look at all loan options including FHA, see our <Link to="/blog/mortgage-loans-first-time-homebuyers">first-time homebuyer mortgage guide</Link>. Conventional PMI rates for a 620 credit score can be punishing — 1.5%+ annually. FHA's MIP is the same regardless of credit score. For buyers who wouldn't qualify for conventional financing, or who can only qualify at rates that make conventional PMI unaffordable, FHA makes sense. Just go in understanding the trade you're making.</p>
 
     <h2>How to Get Out of Mortgage Insurance</h2>
 
@@ -63,12 +64,12 @@ const MipVsPmi = () => (
       <li>Lenders must automatically cancel at 22% equity per original amortization schedule</li>
     </ul>
 
-    <p>For FHA loans with lifetime MIP, the only clean exit is refinancing into a conventional loan. Once you have 20% equity — through payments, appreciation, or both — refinance out of FHA, and you're no longer subject to MIP. This requires a new appraisal, closing costs, and qualifying for a conventional loan, but if your credit has improved and your equity is there, it's worth running the math.</p>
+    <p>For FHA loans with lifetime MIP, the only clean exit is <Link to="/blog/types-of-refinance">refinancing</Link> into a conventional loan. Once you have 20% equity — through payments, appreciation, or both — refinance out of FHA, and you're no longer subject to MIP. This requires a new appraisal, closing costs, and qualifying for a conventional loan, but if your credit has improved and your equity is there, it's worth running the math.</p>
 
     <p>The cleanest way to avoid mortgage insurance entirely: put 20% down on a conventional loan. Or use an 80/10/10 piggyback structure — a first mortgage at 80% LTV, a second mortgage covering 10%, and 10% cash down — which keeps you below the PMI threshold while letting you hold more of your cash.</p>
 
     <div className="callout">
-      <p>If you have good credit and enough for 5–10% down, run the conventional vs. FHA comparison before you decide. The lower barrier of FHA is real, but so is the cost of lifetime MIP. On a 30-year loan, that difference compounds into real money.</p>
+      <p>The <a href="https://www.hud.gov/program_offices/housing/sfh/ins/203b-df" target="_blank" rel="noopener noreferrer">HUD FHA loan information</a> covers current MIP rates and requirements. Explore our <Link to="/real-estate-investing/funding-financing">funding and financing overview</Link> for how MIP and PMI fit into the broader financing picture. If you have good credit and enough for 5–10% down, run the conventional vs. FHA comparison before you decide. The lower barrier of FHA is real, but so is the cost of lifetime MIP. On a 30-year loan, that difference compounds into real money.</p>
     </div>
   </BlogPost>
 );

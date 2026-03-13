@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogPost from "@/components/BlogPost";
 
 const SellerFinancingRealEstate = () => (
@@ -10,7 +11,7 @@ const SellerFinancingRealEstate = () => (
     faqs={[
       { q: "What is seller financing in real estate?", a: "Seller financing is when the property seller acts as the lender — instead of getting paid in full at closing, the seller accepts a down payment and then monthly principal and interest payments from the buyer until the loan is paid off or the buyer refinances into a conventional loan. The property is the collateral, secured by a promissory note and deed of trust recorded with the county." },
       { q: "What are typical seller financing interest rates and terms?", a: "Seller financing rates typically run 6–10%, above conventional mortgage rates because the seller is assuming credit risk without a bank's underwriting infrastructure. Most deals use a 15–30 year amortization schedule with a balloon payment due in 3–7 years, meaning the buyer must pay off the remaining balance or refinance when the balloon comes due." },
-      { q: "Why would a seller agree to seller financing?", a: "Sellers with paid-off properties benefit from an installment sale under IRS rules — spreading capital gains over the life of the loan rather than taking a large tax hit in one year. They also earn ongoing interest income, which can function as a steady revenue stream in retirement. Seller financing also helps move properties that conventional buyers can't finance through a bank." },
+      { q: "Why would a seller agree to seller financing?", a: "Sellers with paid-off properties benefit from an installment sale under IRS rules — spreading capital gains over the life of the loan rather than taking a large tax hit in one year. The <a href="https://www.irs.gov/taxtopics/tc705" target="_blank" rel="noopener noreferrer">IRS installment sale rules (Topic 705)</a> govern how this deferred tax treatment works. They also earn ongoing interest income, which can function as a steady revenue stream in retirement. Seller financing also helps move properties that conventional buyers can't finance through a bank." },
       { q: "What is a balloon payment in seller financing?", a: "A balloon payment is the lump sum of the remaining loan balance that comes due at the end of the seller financing term — typically 3–7 years. When the balloon hits, the buyer must either pay it off in full or refinance into a conventional loan. Buyers who can't do either at that point are in default, which is why entering seller financing without a credible balloon exit plan is a serious risk." },
       { q: "What documents are needed for a seller-financed real estate deal?", a: "Every seller-financed transaction requires two key documents: a promissory note spelling out the loan amount, interest rate, payment schedule, maturity date, and default provisions, and a deed of trust (or mortgage in some states) recorded with the county that creates a lien on the property in the seller's favor. Both documents must be drafted correctly for your state and reviewed by a real estate attorney — discrepancies between the two documents create legal problems for both parties." },
     ]}
@@ -27,7 +28,7 @@ const SellerFinancingRealEstate = () => (
 
     <p><strong>The deed of trust (or mortgage, depending on state)</strong> is the security instrument. It's recorded with the county and creates a lien on the property in the seller's favor. If the buyer stops paying, the seller can foreclose through this lien. The deed of trust works in lockstep with the promissory note — the terms in both documents must match exactly. If there's a discrepancy between interest rates, payment amounts, or maturity dates across the two documents, you've created a legal problem.</p>
 
-    <p>At closing, the buyer takes title to the property. The seller holds the lien. Once the loan is fully paid, the seller releases it and the buyer owns free and clear.</p>
+    <p>At closing, the buyer takes title to the property — compare this to <Link to="/blog/subject-to-real-estate">subject-to deals</Link>, where the seller's existing mortgage stays in place. The seller holds the lien. Once the loan is fully paid, the seller releases it and the buyer owns free and clear.</p>
 
     <h2>What the Terms Actually Look Like</h2>
 
@@ -43,7 +44,7 @@ const SellerFinancingRealEstate = () => (
 
     <p>Not every seller wants a lump sum. Counterintuitive as that sounds, a seller who has a paid-off property and accepts seller financing spreads their capital gains over the life of the loan — this is an installment sale under IRS rules, and it can significantly reduce the tax hit compared to receiving the full purchase price in one year. The seller also earns interest income, which can function as a steady revenue stream, especially for retired sellers who don't need all the cash immediately.</p>
 
-    <p>Sellers also use it to move properties that would otherwise be hard to sell conventionally — older buildings, mixed-use, rural land, or anything that a bank appraiser might struggle to value or approve. If the bank won't lend on it, seller financing is often the only way to find a buyer.</p>
+    <p>Sellers also use it to move properties that would otherwise be hard to sell conventionally — the same properties that are often targeted by <Link to="/blog/hard-money-lender">hard money lenders</Link>. — older buildings, mixed-use, rural land, or anything that a bank appraiser might struggle to value or approve. If the bank won't lend on it, seller financing is often the only way to find a buyer.</p>
 
     <h2>Why Buyers Pursue It</h2>
 
@@ -68,7 +69,7 @@ const SellerFinancingRealEstate = () => (
       <li><strong>Deals where negotiating the terms directly creates better structure</strong> than what a bank would offer</li>
     </ul>
 
-    <p>Get an attorney for every seller-financed deal. The promissory note and deed of trust need to be drafted correctly for your state — foreclosure law is state-specific and inconsistencies in the documents create risk for both sides. This is not the place for a template from the internet. The cost of proper legal documentation is small relative to what goes wrong when it isn't done right.</p>
+    <p>Learn more about creative financing options on our <Link to="/real-estate-investing/funding-financing">funding and financing topic page</Link>. Get an attorney for every seller-financed deal. The promissory note and deed of trust need to be drafted correctly for your state — foreclosure law is state-specific and inconsistencies in the documents create risk for both sides. This is not the place for a template from the internet. The cost of proper legal documentation is small relative to what goes wrong when it isn't done right.</p>
 
     <div className="callout">
       <p>Seller financing is a real tool, not a workaround. When the structure fits — the seller's tax situation, the buyer's financing challenge, or a property banks won't touch — it can make deals happen that otherwise wouldn't. Understand the balloon, know your exit, and document everything properly.</p>
