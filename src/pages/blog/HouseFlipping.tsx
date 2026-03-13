@@ -4,6 +4,9 @@ const HouseFlipping = () => (
   <BlogPost
     title="House Flipping: What It Is, How It Works, and What It Actually Costs"
     metaDesc="House flipping means buying undervalued homes, renovating them, and selling for profit. Here's an honest breakdown of how the model works, what total costs look like, and what makes flips fail."
+    slug="house-flipping"
+    datePublished="2026-02-13"
+    category="Investing"
   >
     <p>
       Cable TV did a number on house flipping. The shows make it look like you find a beat-up house, spend a few weekends painting and installing subway tile, and walk away with $80,000. In reality, the investors you see on those shows are often working with producers who help source deals, the renovations take months not weeks, and the "profit" shown rarely accounts for every cost. This is a real business model — a good one when done right — but the math is uglier and more complicated than it looks on screen.

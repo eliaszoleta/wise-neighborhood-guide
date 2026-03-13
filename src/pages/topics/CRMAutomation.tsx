@@ -4,6 +4,8 @@ const CRMAutomation = () => (
   <TopicPage
     title="Real Estate CRM & Automation: How to Build a Follow-Up System That Actually Works"
     metaDesc="How to choose and use a real estate CRM for lead management, follow-up automation, and deal tracking — with specific recommendations for investors vs. agents."
+    slug="/real-estate-marketing/crm-automation"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Marketing"
     parentHref="/real-estate-marketing"
     intro="The most common reason real estate agents and investors lose deals isn't a bad pitch or wrong price — it's a failure to follow up. Most motivated sellers don't sign a contract the first time you talk to them. Most buyers don't make an offer after the first showing. Deals are won in the follow-up, and follow-up at any scale requires a system. A CRM (Customer Relationship Management) is that system. Without one, you're relying on memory and good intentions — and both will fail you when you're busy."

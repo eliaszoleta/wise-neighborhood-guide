@@ -4,6 +4,9 @@ const BookkeepersRealEstate = () => (
   <BlogPost
     title="How Bookkeepers Help Real Estate Businesses Stay Organized and Tax-Ready"
     metaDesc="Real estate investors who don't track their finances properly lose money to missed deductions, disorganized records, and costly accounting errors. Here's what good bookkeeping looks like."
+    slug="bookkeepers-real-estate"
+    datePublished="2026-02-13"
+    category="Business"
   >
     <p>Every April, some version of this happens: a landlord drops a grocery bag full of receipts on their CPA's desk and says "here's everything from last year." The CPA charges $300/hour to sort through it. Half the receipts are missing. Some expenses get misclassified. Deductions get left on the table. The whole thing costs twice what it should have.</p>
 

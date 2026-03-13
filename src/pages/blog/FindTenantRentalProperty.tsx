@@ -4,6 +4,9 @@ const FindTenantRentalProperty = () => (
   <BlogPost
     title="How to Find a Tenant for Your Rental Property"
     metaDesc="Finding a good tenant involves more than posting a listing. Here's how to market your vacancy, screen applicants properly, and avoid costly placement mistakes."
+    slug="find-tenant-rental-property"
+    datePublished="2026-02-13"
+    category="Property Management"
   >
     <p>
       Before you post your listing, do this math.

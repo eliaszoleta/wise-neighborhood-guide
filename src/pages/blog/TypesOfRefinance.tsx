@@ -4,6 +4,9 @@ const TypesOfRefinance = () => (
   <BlogPost
     title="Types of Refinance in Real Estate: Rate-and-Term, Cash-Out, Streamline & More"
     metaDesc="Not all refinances work the same way. Rate-and-term, cash-out, streamline, and DSCR refinances each serve different goals. Here's when to use each one."
+    slug="types-of-refinance"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>
       Refinancing means replacing your existing mortgage with a new one — but why you'd do that varies a lot. Lower your payment. Pull out equity. Ditch mortgage insurance. Qualify based on property income instead of your W-2. Each of those goals corresponds to a different type of refinance, and picking the wrong one means either leaving money on the table or not getting approved at all.

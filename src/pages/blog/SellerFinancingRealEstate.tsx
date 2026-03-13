@@ -4,6 +4,9 @@ const SellerFinancingRealEstate = () => (
   <BlogPost
     title="Seller Financing in Real Estate: How It Works and When It Makes Sense"
     metaDesc="Seller financing is when the person selling a property acts as the bank. Here's how the deal is structured, what rates and terms look like, and when it's actually worth pursuing."
+    slug="seller-financing-real-estate"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>The conventional path to buying real estate runs through a bank. You apply, they underwrite, they decide, they set the terms. For most transactions that's fine. But banks say no to a lot of deals that have real logic behind them — the credit score is a few points low, the property needs work and won't appraise, the income is self-employment and complicated to document, or the timeline doesn't fit a 30–45 day close.</p>
 

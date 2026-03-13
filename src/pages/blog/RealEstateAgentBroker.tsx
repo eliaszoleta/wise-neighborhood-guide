@@ -4,6 +4,9 @@ const RealEstateAgentBroker = () => (
   <BlogPost
     title="What Is a Real Estate Agent, Realtor, and Broker? Key Differences Explained"
     metaDesc="Agent, Realtor, and broker get used interchangeably but they mean different things. Here's what actually separates them and why it matters when you're buying, selling, or building a career."
+    slug="real-estate-agent-realtor-broker"
+    datePublished="2026-02-13"
+    category="Careers"
   >
     <p>Most people use agent, Realtor, and broker like they mean the same thing. They don't — and in some situations, knowing the difference matters quite a bit.</p>
 

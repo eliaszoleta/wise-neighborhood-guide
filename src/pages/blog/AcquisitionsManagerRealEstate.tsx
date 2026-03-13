@@ -4,6 +4,9 @@ const AcquisitionsManagerRealEstate = () => (
   <BlogPost
     title="What Does an Acquisitions Manager Do in a Real Estate Business?"
     metaDesc="Acquisitions managers go on seller appointments, run deal analysis, negotiate contracts, and close deals. Here's what the role looks like day-to-day and what separates good from great."
+    slug="acquisitions-manager-real-estate"
+    datePublished="2026-02-13"
+    category="Business"
   >
     <p>
       Most people who ask about this role picture something like a corporate M&A analyst — spreadsheets, suits, conference rooms. In the wholesale and fix-and-flip world, it's nothing like that. An acquisitions manager is, at its core, a salesperson who happens to work with motivated sellers. And if you're building a real estate investing business and thinking about hiring one, that distinction matters more than almost anything else.

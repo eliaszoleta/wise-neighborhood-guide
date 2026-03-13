@@ -4,6 +4,8 @@ const FundingFinancing = () => (
   <TopicPage
     title="Real Estate Financing: How to Fund Investment Property Deals"
     metaDesc="A practical breakdown of real estate financing options — conventional mortgages, hard money loans, DSCR loans, private money, and creative strategies — with honest tradeoffs for each."
+    slug="/real-estate-investing/funding-financing"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Investing"
     parentHref="/real-estate-investing"
     intro="One of the biggest myths in real estate investing is that you need a lot of money to get started. You do need access to capital — but your own savings are just one source among several. Understanding your financing options, and more importantly when to use each one, is what separates investors who get stuck after their first deal from those who keep moving."

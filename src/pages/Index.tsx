@@ -57,13 +57,36 @@ const Index = () => {
         <meta name="twitter:description" content="Free real estate education on investing, wholesaling, marketing, and licensing guides for all 50 states." />
       </Helmet>
 
-      {/* JSON-LD Schema */}
+      {/* JSON-LD: WebSite */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
         name: "Peasant House",
         description: "Free real estate education on investing, wholesaling, marketing, and state licensing guides for all 50 states.",
         url: "https://peasanthouse.com",
+        potentialAction: {
+          "@type": "SearchAction",
+          target: "https://peasanthouse.com/blog?q={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
+      })}} />
+
+      {/* JSON-LD: Organization */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: "Peasant House",
+        url: "https://peasanthouse.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://peasanthouse.com/favicon.svg",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: "contact@peasanthouse.com",
+          contactType: "customer support",
+        },
+        sameAs: [],
       })}} />
 
       {/* HERO SECTION */}

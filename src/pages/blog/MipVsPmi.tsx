@@ -4,6 +4,9 @@ const MipVsPmi = () => (
   <BlogPost
     title="MIP vs. PMI: Mortgage Insurance Explained for Homebuyers"
     metaDesc="MIP and PMI are both mortgage insurance — but they work differently, cost differently, and one of them can follow you for the life of your loan. Here's what you're actually paying for and how to get out."
+    slug="mip-vs-pmi-explained"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>Nobody tells you this clearly enough when you're buying a house: mortgage insurance protects the bank, not you. If you default, the insurance pays the lender. You pay the premium. It exists entirely to let lenders approve loans with small down payments while limiting their own risk.</p>
 

@@ -4,6 +4,9 @@ const CashOutRefinance = () => (
   <BlogPost
     title="Cash-Out Refinance in Real Estate: How Investors Use It to Access Equity"
     metaDesc="A cash-out refinance replaces your mortgage with a larger loan and gives you the difference in cash. Here's how investors use it, what it costs, and the risk of doing it wrong."
+    slug="cash-out-refinance"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>
       Most people think of equity as money they've made. It isn't. It's money that's sitting still — locked up in a property, doing nothing. A cash-out refinance is one of the most common tools investors use to put that equity back to work.

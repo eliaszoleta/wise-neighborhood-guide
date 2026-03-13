@@ -4,6 +4,8 @@ const LeadGeneration = () => (
   <TopicPage
     title="Real Estate Lead Generation: What Actually Works and What Doesn't"
     metaDesc="Honest breakdown of real estate lead generation strategies for agents and investors — SEO, PPC, direct mail, referrals, and social media with realistic expectations for each."
+    slug="/real-estate-marketing/lead-generation"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Marketing"
     parentHref="/real-estate-marketing"
     intro="Every real estate business lives or dies on its ability to generate leads — qualified buyers, sellers, or motivated property owners depending on your business model. The challenge is that there are dozens of lead generation methods, each with different costs, timelines, and conversion rates. Most agents and investors spread themselves too thin, half-heartedly trying five channels at once instead of mastering one or two. Here's a realistic breakdown of what works, what it costs, and what to expect."

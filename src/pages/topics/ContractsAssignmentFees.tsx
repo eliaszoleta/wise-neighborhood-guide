@@ -4,6 +4,8 @@ const ContractsAssignmentFees = () => (
   <TopicPage
     title="Wholesale Contracts & Assignment Fees: What You Need to Know"
     metaDesc="How real estate wholesale contracts work — purchase agreements, assignment contracts, double closings, structuring your fee, and the legal compliance issues wholesalers can't afford to ignore."
+    slug="/real-estate-wholesaling/contracts-assignment-fees"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Wholesaling"
     parentHref="/real-estate-wholesaling"
     intro="Contracts are what transform a verbal agreement with a motivated seller into a legally enforceable deal you can assign to a buyer. Getting this part wrong — using improperly drafted agreements, skipping required disclosures, or misrepresenting your role — can kill deals, expose you to liability, or violate state licensing laws. Here's what you actually need to understand before you start putting properties under contract."

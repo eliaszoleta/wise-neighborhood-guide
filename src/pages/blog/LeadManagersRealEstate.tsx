@@ -4,6 +4,9 @@ const LeadManagersRealEstate = () => (
   <BlogPost
     title="What Do Lead Managers Do in a Real Estate Business?"
     metaDesc="Lead managers are the front line of a real estate investment operation — the people who handle incoming seller contacts before acquisitions takes over. Here's what the role actually involves."
+    slug="lead-managers-real-estate"
+    datePublished="2026-02-13"
+    category="Business"
   >
     <p>A motivated seller calls your business while the acquisitions manager is on an appointment. Nobody picks up. They call a competitor. That deal is gone.</p>
 

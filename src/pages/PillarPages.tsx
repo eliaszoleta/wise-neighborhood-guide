@@ -7,25 +7,52 @@ interface PillarPageProps {
   title: string;
   metaTitle: string;
   metaDesc: string;
+  slug: string;
+  datePublished: string;
   intro: string;
   topics: { title: string; desc: string; link: string }[];
 }
 
-const PillarPage = ({ title, metaTitle, metaDesc, intro, topics }: PillarPageProps) => (
+const PillarPage = ({ title, metaTitle, metaDesc, slug, datePublished, intro, topics }: PillarPageProps) => {
+  const canonicalUrl = `https://peasanthouse.com${slug}`;
+  return (
   <Layout>
     <Helmet>
       <title>{metaTitle}</title>
       <meta name="description" content={metaDesc} />
+      <link rel="canonical" href={canonicalUrl} />
       <meta property="og:title" content={metaTitle} />
       <meta property="og:description" content={metaDesc} />
       <meta property="og:type" content="article" />
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:site_name" content="Peasant House" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={metaTitle} />
+      <meta name="twitter:description" content={metaDesc} />
     </Helmet>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Article",
       headline: title,
       description: metaDesc,
-      publisher: { "@type": "Organization", name: "Peasant House", url: "https://peasanthouse.com" },
+      datePublished,
+      dateModified: datePublished,
+      author: { "@type": "Organization", name: "Peasant House", url: "https://peasanthouse.com" },
+      publisher: {
+        "@type": "Organization",
+        name: "Peasant House",
+        url: "https://peasanthouse.com",
+        logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+      },
+      mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
+    })}} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://peasanthouse.com" },
+        { "@type": "ListItem", position: 2, name: title, item: canonicalUrl },
+      ],
     })}} />
     <section className="section-padding">
       <div className="container-narrow max-w-3xl">
@@ -45,13 +72,16 @@ const PillarPage = ({ title, metaTitle, metaDesc, intro, topics }: PillarPagePro
       </div>
     </section>
   </Layout>
-);
+  );
+};
 
 export const Investing = () => (
   <PillarPage
     title="Real Estate Investing"
     metaTitle="Real Estate Investing Guide: Rentals, BRRRR, Financing & Cash Flow | Peasant House"
     metaDesc="Learn real estate investing from the ground up — rental properties, the BRRRR strategy, financing options, and how to calculate cash flow and ROI before you buy."
+    slug="/real-estate-investing"
+    datePublished="2026-02-13"
     intro="Real estate investing is one of the most proven ways ordinary people build lasting wealth — but it's not a shortcut, and the strategy that works in one market can fail badly in another. These guides focus on the practical side: how to analyze deals, find financing, manage properties, and scale responsibly over time."
     topics={[
       {
@@ -83,6 +113,8 @@ export const Wholesaling = () => (
     title="Real Estate Wholesaling"
     metaTitle="Real Estate Wholesaling Guide: How It Works, Finding Sellers & Closing Deals | Peasant House"
     metaDesc="Complete guide to real estate wholesaling — how the process works, how to find motivated sellers, how to build a buyers list, and how to legally assign contracts for a profit."
+    slug="/real-estate-wholesaling"
+    datePublished="2026-02-13"
     intro="Wholesaling is one of the few ways to get active in real estate with limited capital — you're not buying property, you're finding deals and selling the right to buy them to investors who will. It takes more hustle than money to start, but it has a legitimate business model behind it. These guides cover the process honestly, including the legal side that a lot of wholesaling content glosses over."
     topics={[
       {
@@ -114,6 +146,8 @@ export const Marketing = () => (
     title="Real Estate Marketing"
     metaTitle="Real Estate Marketing Guide: Lead Generation, Digital Ads, Cold Calling & CRM | Peasant House"
     metaDesc="Real estate marketing strategies that actually drive leads — SEO and content, Facebook and Google ads, cold calling and SMS campaigns, and CRM automation for agents and investors."
+    slug="/real-estate-marketing"
+    datePublished="2026-02-13"
     intro="Every real estate business runs on leads — and every agent and investor has to figure out how to generate them consistently without spending money they don't have. These guides cover the main marketing channels used by working real estate professionals, with enough detail to actually implement them rather than just understand them conceptually."
     topics={[
       {

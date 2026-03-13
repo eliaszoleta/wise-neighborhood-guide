@@ -4,6 +4,8 @@ const FindingMotivatedSellers = () => (
   <TopicPage
     title="Finding Motivated Sellers: Real Strategies That Produce Leads"
     metaDesc="How to find motivated sellers for real estate wholesaling and investing — direct mail, driving for dollars, cold calling, skip tracing, and online methods that actually work."
+    slug="/real-estate-wholesaling/finding-motivated-sellers"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Wholesaling"
     parentHref="/real-estate-wholesaling"
     intro="Every wholesale deal starts with a motivated seller — someone with a property they need to sell quickly, usually at a price that reflects their urgency more than the market's value. Finding these sellers consistently is the hardest part of wholesaling. There are many methods that work, but none of them work without sustained effort. Here's an honest breakdown of the main channels, what they cost, and what to expect from each."

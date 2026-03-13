@@ -4,6 +4,8 @@ const FacebookGoogleAds = () => (
   <TopicPage
     title="Facebook & Google Ads for Real Estate: A Practical Guide"
     metaDesc="How to run Facebook and Google ad campaigns that generate real estate leads — targeting, budgets, ad copy, cost benchmarks, and how to tell if your campaigns are actually working."
+    slug="/real-estate-marketing/facebook-google-ads"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Marketing"
     parentHref="/real-estate-marketing"
     intro="Paid digital advertising is the fastest way to generate real estate leads — you can have campaigns running and leads coming in within 24 hours. It's also the fastest way to burn through a budget without results if you don't understand what you're doing. Facebook and Google Ads serve very different purposes and attract different types of leads. Understanding the difference — and how to optimize each — is what separates profitable campaigns from expensive experiments."

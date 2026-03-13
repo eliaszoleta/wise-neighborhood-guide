@@ -4,6 +4,9 @@ const BecomeRealtorBroker = () => (
   <BlogPost
     title="What Do Realtors and Brokers Do — and How Do You Become One?"
     metaDesc="Real estate agents represent buyers and sellers in transactions. Brokers run their own offices. Here's what each role actually involves, what the licensing process looks like, and what income to realistically expect."
+    slug="become-realtor-broker"
+    datePublished="2026-02-13"
+    category="Careers"
   >
     <p>
       The dropout rate in real estate is brutal. Somewhere between 80 and 90 percent of people who get licensed are out of the business within five years. That's not a reason to avoid the career — plenty of people build genuinely great livelihoods in real estate — but it does mean you should go in with accurate expectations rather than the income highlight reels you see on social media.

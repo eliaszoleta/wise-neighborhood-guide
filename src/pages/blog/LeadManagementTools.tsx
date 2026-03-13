@@ -4,6 +4,9 @@ const LeadManagementTools = () => (
   <BlogPost
     title="Lead Management Tools for Real Estate: What Actually Works"
     metaDesc="A plain-English breakdown of the CRM and lead management platforms real estate investors and agents actually use — what each one is good for and who should use it."
+    slug="lead-management-tools"
+    datePublished="2026-02-13"
+    category="Marketing"
   >
     <p>Most real estate operators have a CRM graveyard somewhere. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
 

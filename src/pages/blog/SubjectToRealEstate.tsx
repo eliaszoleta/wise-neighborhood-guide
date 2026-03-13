@@ -4,6 +4,9 @@ const SubjectToRealEstate = () => (
   <BlogPost
     title="Subject-To Real Estate Deals: How They Work and What You're Actually Agreeing To"
     metaDesc="A subject-to deal lets you take over a property without qualifying for a new mortgage. Here's how it works, why sellers agree to it, and the real risks both sides are taking on."
+    slug="subject-to-real-estate"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>The premise sounds almost too convenient: you buy a property, take title, start collecting rent or reselling — but the original seller's mortgage stays in place and you just make the payments. No loan application. No down payment requirement. No credit check. No dealing with a bank at all.</p>
 

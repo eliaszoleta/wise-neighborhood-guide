@@ -4,6 +4,8 @@ const HowWholesalingWorks = () => (
   <TopicPage
     title="How Real Estate Wholesaling Works: The Honest Step-by-Step Guide"
     metaDesc="A practical explanation of how real estate wholesaling works — the full process from finding distressed properties to collecting your assignment fee, including what actually goes wrong."
+    slug="/real-estate-wholesaling/how-wholesaling-works"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Wholesaling"
     parentHref="/real-estate-wholesaling"
     intro="Real estate wholesaling is the business of finding properties priced significantly below market value, getting them under contract, and selling that contract to an end buyer — usually a fix-and-flip investor or landlord — before ever closing on the property yourself. You never own the house. Your profit is the spread between what the seller agreed to and what the end buyer pays. It sounds simple, but each step requires real skill and consistent effort to execute reliably. Here's what the process actually looks like."

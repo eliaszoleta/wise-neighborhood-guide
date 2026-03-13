@@ -4,6 +4,9 @@ const HardMoneyLender = () => (
   <BlogPost
     title="What Is a Hard Money Lender in Real Estate Investing?"
     metaDesc="Hard money lenders provide short-term, asset-based loans for real estate investors buying distressed properties. Here's how they work, what they really cost, and when to use one."
+    slug="hard-money-lender"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>
       Let's say you find a beat-up house for $120,000. After renovations, it's

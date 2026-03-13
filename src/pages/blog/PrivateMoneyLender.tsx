@@ -4,6 +4,9 @@ const PrivateMoneyLender = () => (
   <BlogPost
     title="Private Money Lenders in Real Estate: How to Find Them and Work With Them"
     metaDesc="Private money lenders are individuals who fund deals from their own capital. Here's how private money differs from hard money, how deals are structured, and how to build your lender network."
+    slug="private-money-lender"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>
       A few years back, I was talking to a dentist at a local real estate meetup.

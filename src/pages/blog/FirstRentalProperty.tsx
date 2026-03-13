@@ -4,6 +4,9 @@ const FirstRentalProperty = () => (
   <BlogPost
     title="How to Find and Buy Your First Rental Property"
     metaDesc="Buying your first rental requires different thinking than buying a home to live in. Here's a practical guide to finding the right property, analyzing it correctly, and closing without regrets."
+    slug="first-rental-property"
+    datePublished="2026-02-13"
+    category="Investing"
   >
     <p>
       There are two versions of how a first rental property goes.

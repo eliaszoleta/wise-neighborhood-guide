@@ -4,6 +4,8 @@ const BRRRRStrategy = () => (
   <TopicPage
     title="The BRRRR Strategy: How to Recycle Capital and Grow a Real Estate Portfolio"
     metaDesc="A real guide to the BRRRR method — Buy, Rehab, Rent, Refinance, Repeat. What it actually takes, what goes wrong, and how to run the numbers before you commit."
+    slug="/real-estate-investing/brrrr-strategy"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Investing"
     parentHref="/real-estate-investing"
     intro="The BRRRR strategy appeals to investors because the math looks compelling on paper: buy a distressed property below market value, fix it up, rent it out, then refinance based on the new appraised value to pull your money back out and do it again. When it works, you end up with a cash-flowing rental property and most of your capital returned to invest elsewhere. When it doesn't work — which is more often than most BRRRR content admits — you're left with less money than you started with and a property you're now stuck in. Here's what actually determines whether a deal succeeds."

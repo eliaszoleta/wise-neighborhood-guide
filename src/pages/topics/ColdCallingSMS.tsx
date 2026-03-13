@@ -4,6 +4,8 @@ const ColdCallingSMS = () => (
   <TopicPage
     title="Cold Calling & SMS Marketing for Real Estate: What Works in Practice"
     metaDesc="How to run effective real estate cold calling and SMS campaigns — list building, scripts, compliance with TCPA, dialers, and realistic performance benchmarks."
+    slug="/real-estate-marketing/cold-calling-sms"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Marketing"
     parentHref="/real-estate-marketing"
     intro="Cold calling and SMS are direct outbound channels — you're reaching property owners who didn't raise their hand, which means you need high volume, thick skin, and consistent daily effort to make them work. They're not glamorous, and the rejection rate is high. But for investors and wholesalers willing to put in the work, these channels can generate motivated seller leads at a lower cost per deal than most digital advertising, particularly in markets where online competition is fierce."

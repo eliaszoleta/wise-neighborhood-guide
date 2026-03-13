@@ -4,6 +4,8 @@ const DispositionsAcquisitions = () => (
   <TopicPage
     title="Dispositions & Acquisitions in Wholesaling: Running Both Sides of the Business"
     metaDesc="How acquisitions and dispositions work in real estate wholesaling — finding and contracting deals, building a buyers list, marketing to investors, and closing consistently."
+    slug="/real-estate-wholesaling/dispositions-acquisitions"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Wholesaling"
     parentHref="/real-estate-wholesaling"
     intro="A wholesale business has two distinct functions: acquisitions (finding deals and getting properties under contract with motivated sellers) and dispositions (finding buyers and selling those contracts to investors). In early-stage wholesaling, one person typically does both. As the business grows, most operators separate these into distinct roles. Understanding both sides — and how they need to work together — is what separates wholesalers who close one deal from those who build a real operation."

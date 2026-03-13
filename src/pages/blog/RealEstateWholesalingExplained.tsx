@@ -4,6 +4,9 @@ const RealEstateWholesalingExplained = () => (
   <BlogPost
     title="What Is Real Estate Wholesaling and How Does It Work?"
     metaDesc="Wholesaling means finding below-market properties, putting them under contract, and selling that contract to an investor for a fee — without ever owning the property. Here's the full process."
+    slug="real-estate-wholesaling-explained"
+    datePublished="2026-02-13"
+    category="Wholesaling"
   >
     <p>
       Most people who get into real estate wholesaling have heard the same pitch: find a deal, flip the contract, collect a check — no money down, no risk, no repairs. The pitch isn't entirely wrong, but it leaves out the part where you spend several months doing a lot of work before any of that happens.

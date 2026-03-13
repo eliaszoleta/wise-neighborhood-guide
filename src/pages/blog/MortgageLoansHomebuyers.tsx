@@ -4,6 +4,9 @@ const MortgageLoansHomebuyers = () => (
   <BlogPost
     title="Types of Mortgage Loans for First-Time Homebuyers"
     metaDesc="FHA, VA, USDA, and conventional loans all work differently. Here's a clear comparison of what each program offers, who qualifies, and how to pick the right one for your situation."
+    slug="mortgage-loans-first-time-homebuyers"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>The loan you pick affects more than just your monthly payment. It affects your down payment today, your total interest over 30 years, and whether you're stuck paying mortgage insurance for life. For a first-time buyer, this is worth understanding before you start shopping.</p>
 

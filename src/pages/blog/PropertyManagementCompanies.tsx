@@ -4,6 +4,9 @@ const PropertyManagementCompanies = () => (
   <BlogPost
     title="Property Management Companies: What They Do and Whether You Need One"
     metaDesc="Property management companies handle tenants, maintenance, rent collection, and compliance. Here's what they actually cost, what you give up doing it yourself, and how to tell if the fee is worth it."
+    slug="property-management-companies"
+    datePublished="2026-02-13"
+    category="Property Management"
   >
     <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
 

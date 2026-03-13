@@ -4,6 +4,9 @@ const LeaseOptionRealEstate = () => (
   <BlogPost
     title="Lease Option Real Estate: How It Works, Who It's For, and What to Watch Out For"
     metaDesc="A lease option lets you rent a property today with the right to buy it later at a locked-in price. Here's how the deal is structured, who benefits, and the risks both sides need to understand."
+    slug="lease-option-real-estate"
+    datePublished="2026-02-13"
+    category="Financing"
   >
     <p>Say your credit score is 620 and you need a 680 to qualify for a conventional mortgage. Or you're self-employed and two years into the business — not enough history yet for a bank to approve you. You want to buy, you're not financially irresponsible, you just need time. A lease option is built for exactly that situation.</p>
 

@@ -4,6 +4,9 @@ const RentalPropertyExpenses = () => (
   <BlogPost
     title="Monthly Expenses Every Rental Property Owner Should Budget For"
     metaDesc="Most first-time landlords treat rent as profit. It isn't. Here's a complete breakdown of what rental properties actually cost to own, including the expenses that catch beginners off guard."
+    slug="rental-property-expenses"
+    datePublished="2026-02-13"
+    category="Property Management"
   >
     <p>Here's a mistake that costs landlords real money: they look at rent as revenue and the mortgage payment as the only expense. Everything in between — vacancy, management, maintenance, reserves — gets forgotten until it bites them.</p>
 

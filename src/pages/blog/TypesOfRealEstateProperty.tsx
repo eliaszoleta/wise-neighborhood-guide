@@ -4,6 +4,9 @@ const TypesOfRealEstateProperty = () => (
   <BlogPost
     title="3 Main Types of Real Estate Property for Home Buyers, Sellers & Investors"
     metaDesc="Residential, commercial, and land — they all fall under 'real estate' but they work completely differently. Here's what separates them and why it matters for your goals."
+    slug="types-of-real-estate-property"
+    datePublished="2026-02-13"
+    category="Investing"
   >
     <p>A strip mall in Texas, a self-storage facility in Ohio, a duplex in Phoenix, and 50 acres of raw farmland in Nebraska are all "real estate." Same word, completely different animals. Financing, valuation, risk, management — almost nothing works the same way across these categories. Knowing which type you're dealing with before you start is not just helpful. It changes everything about how you approach the deal.</p>
 

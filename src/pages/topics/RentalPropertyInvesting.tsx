@@ -4,6 +4,8 @@ const RentalPropertyInvesting = () => (
   <TopicPage
     title="Rental Property Investing: How to Build Real Passive Income"
     metaDesc="A practical guide to rental property investing — how to find profitable properties, run the numbers correctly, secure financing, and manage tenants without it consuming your life."
+    slug="/real-estate-investing/rental-property-investing"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Investing"
     parentHref="/real-estate-investing"
     intro="Rental property investing works for a lot of people because the core mechanics are straightforward: buy a property, rent it out, collect more than you spend, and let appreciation and equity build in the background. The hard part is doing that first step correctly — because buying the wrong property at the wrong price undoes everything else. Here's how to approach it without common beginner mistakes."

@@ -4,6 +4,9 @@ const BrrrMethodRealEstate = () => (
   <BlogPost
     title="The BRRRR Method in Real Estate — What It Is and How It Actually Works"
     metaDesc="BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. It's a capital-recycling strategy for building a rental portfolio. Here's a plain walkthrough of the math and where deals break down."
+    slug="brrrr-method-real-estate"
+    datePublished="2026-02-13"
+    category="Investing"
   >
     <p>
       The BRRRR method gets pitched at every real estate meetup as a way to build a portfolio without ever running out of money. Buy a house, fix it up, rent it out, refinance your capital back out, and do it again with the same money. Repeat until you're rich.

@@ -4,6 +4,8 @@ const CashFlowROI = () => (
   <TopicPage
     title="Cash Flow & ROI: How to Actually Analyze a Rental Property Deal"
     metaDesc="Learn to calculate cash flow, cap rate, cash-on-cash return, and NOI for rental properties. The real numbers behind investment decisions — with examples and common mistakes."
+    slug="/real-estate-investing/cash-flow-roi"
+    datePublished="2026-02-13"
     parentLabel="Real Estate Investing"
     parentHref="/real-estate-investing"
     intro="More investors lose money because of bad math than bad luck. Understanding how to calculate what a property will actually earn — not what you hope it will earn — is the single most important skill in rental property investing. These metrics aren't just academic concepts; they're the filter that keeps you out of deals that look attractive but aren't."
