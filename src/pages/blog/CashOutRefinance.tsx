@@ -7,6 +7,13 @@ const CashOutRefinance = () => (
     slug="cash-out-refinance"
     datePublished="2026-02-13"
     category="Financing"
+    faqs={[
+      { q: "What is a cash-out refinance and how does it work?", a: "A cash-out refinance replaces your existing mortgage with a new, larger loan. The lender pays off your old balance and sends you the difference in cash. The limit is typically 80% of the home's appraised value for primary residences and 75% for investment properties." },
+      { q: "How much equity do you need for a cash-out refinance?", a: "Most lenders require you to keep at least 20% equity in the property after the refinance, which means you can borrow up to 80% of the appraised value on a primary residence. On a $300,000 home with a $150,000 balance, you could take out up to $240,000 and receive $90,000 in cash." },
+      { q: "What are the closing costs on a cash-out refinance?", a: "Closing costs on a refinance typically run 2–5% of the new loan amount. On a $240,000 loan, that's $4,800 to $12,000 in fees paid before you touch any of the equity you've extracted, and those costs can be rolled into the loan at the expense of paying interest on them for years." },
+      { q: "What is the difference between a cash-out refinance and a HELOC?", a: "A cash-out refinance replaces your existing mortgage entirely with one larger loan at a fixed rate. A HELOC is a revolving line of credit added on top of your existing mortgage, with a variable rate and flexible draws. A refi is better for restructuring your whole debt picture; a HELOC is better for borrowing in pieces over time." },
+      { q: "Is a cash-out refinance a good idea for buying rental property?", a: "It can be a powerful tool if the equity you extract is deployed into a property that earns more than the cost of the new borrowing rate. If you pull equity at 7% and the next investment generates 10%+ returns, the math works. If you can't define a clear productive use for the cash before pulling it, wait until you can." },
+    ]}
   >
     <p>
       Most people think of equity as money they've made. It isn't. It's money that's sitting still — locked up in a property, doing nothing. A cash-out refinance is one of the most common tools investors use to put that equity back to work.

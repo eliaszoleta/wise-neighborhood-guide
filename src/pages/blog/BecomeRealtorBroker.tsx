@@ -7,6 +7,13 @@ const BecomeRealtorBroker = () => (
     slug="become-realtor-broker"
     datePublished="2026-02-13"
     category="Careers"
+    faqs={[
+      { q: "How do you become a real estate agent?", a: "You need to complete state-required pre-license coursework (40–180 hours depending on the state), pass a state licensing exam with national and state-specific portions, and then affiliate with a licensed broker who will sponsor your license. Total upfront cost typically runs $1,000–$2,500." },
+      { q: "What is the difference between a Realtor and a real estate agent?", a: "A real estate agent is anyone with a valid state license. A Realtor is specifically an agent or broker who is a dues-paying member of the National Association of Realtors and has agreed to follow their Code of Ethics. Not every licensed agent is a Realtor, though most join because NAR membership provides MLS access." },
+      { q: "How much do real estate agents make in their first year?", a: "The median income for first-year agents is under $10,000, and many earn nothing at all because it takes time to build a pipeline and transactions take 30–60 days to close. By years three to five, consistent producers typically earn $50,000–$100,000 annually." },
+      { q: "How do you become a real estate broker?", a: "Most states require 2–4 years of active sales experience as a licensed agent, an additional 45–90 hours of coursework, and passing a separate, more difficult broker licensing exam. A broker's license allows you to operate your own firm and supervise other agents." },
+      { q: "What should new real estate agents look for in a brokerage?", a: "New agents should prioritize training, mentorship, and lead support over commission split percentages. A 70/30 split at a brokerage with strong training and steady leads is far more valuable than an 85/15 split at a firm that hands you a desk and offers no support." },
+    ]}
   >
     <p>
       The dropout rate in real estate is brutal. Somewhere between 80 and 90 percent of people who get licensed are out of the business within five years. That's not a reason to avoid the career — plenty of people build genuinely great livelihoods in real estate — but it does mean you should go in with accurate expectations rather than the income highlight reels you see on social media.

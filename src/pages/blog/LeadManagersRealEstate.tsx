@@ -7,6 +7,13 @@ const LeadManagersRealEstate = () => (
     slug="lead-managers-real-estate"
     datePublished="2026-02-13"
     category="Business"
+    faqs={[
+      { q: "What does a lead manager do in a real estate investing business?", a: "A lead manager handles the front-line intake of inbound seller contacts — answering calls, qualifying sellers through a structured script, entering data into the CRM, and running follow-up sequences over days and weeks. Their job is to keep leads organized and warm until they're ready for an acquisitions manager to take over and negotiate." },
+      { q: "What is the difference between a lead manager and an acquisitions manager?", a: "A lead manager handles volume — touching 30–50 leads per week across intake, qualification, and follow-up, without ever discussing price or terms. An acquisitions manager handles depth — taking qualified, motivated leads and converting them through market analysis, property visits, offer presentations, and negotiation. Trying to do both roles with one person works until it doesn't." },
+      { q: "How much does a real estate lead manager make?", a: "Lead managers in real estate investing operations typically earn a base salary of $35,000–$55,000 per year, plus a per-deal bonus of $200–$500 for every closed transaction that originated from their pipeline. The bonus structure keeps them invested in lead quality, not just call volume." },
+      { q: "How many follow-ups does it take to close a real estate deal?", a: "Industry data from real estate investment operations consistently shows that most deals close between the 5th and 12th contact attempt. A lead manager running a CRM with proper follow-up sequences — 30-day, 60-day, 90-day touches — captures sellers who weren't ready in January but become motivated in April when their circumstances change." },
+      { q: "When should a real estate business hire a lead manager?", a: "The signal is when your marketing generates more inbound contacts than you can realistically track and follow up with solo — typically 15–40 inbound leads per week depending on your market and acquisition pace. If you're missing calls, letting leads go cold after one touch, or spending hours on CRM management instead of doing appointments, you need a dedicated lead manager." },
+    ]}
   >
     <p>A motivated seller calls your business while the acquisitions manager is on an appointment. Nobody picks up. They call a competitor. That deal is gone.</p>
 

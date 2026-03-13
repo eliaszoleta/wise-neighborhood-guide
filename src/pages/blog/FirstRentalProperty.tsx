@@ -7,6 +7,13 @@ const FirstRentalProperty = () => (
     slug="first-rental-property"
     datePublished="2026-02-13"
     category="Investing"
+    faqs={[
+      { q: "How much money do you need to buy your first rental property?", a: "For a conventional investment property loan, expect to put down 20–25% plus closing costs and 6 months of reserves. On a $150,000 property that means roughly $35,000–$45,000 in total cash needed before you collect a dollar in rent. The exception is house hacking a 2–4 unit property with an FHA loan, which can reduce the down payment to 3.5%." },
+      { q: "What is a good cash-on-cash return for a rental property?", a: "A cash-on-cash return of 8–12% is generally considered solid for a buy-and-hold rental, though what's achievable varies significantly by market. Cash-flow-focused markets like the Midwest or Southeast often hit this range; appreciation markets on the coasts frequently produce negative cash-on-cash returns with the expectation that equity gains make up the difference over time." },
+      { q: "Is it better to buy a rental property locally or out of state?", a: "Local investing lets you manage easily and know the neighborhood firsthand, but many local markets don't produce positive cash flow. Out-of-state investing opens up markets where the price-to-rent ratios work, but requires a reliable property manager and more upfront research. Neither is universally better — match your strategy to your market and management capacity." },
+      { q: "What expenses do first-time landlords typically underestimate?", a: "The four most underestimated expense categories are vacancy (budget 5–8% of annual rent), CapEx reserves for major replacements like roofs and HVAC (5–10% of rent), property management fees including the leasing fee at tenant placement, and maintenance that averages out to 5–10% of rent annually even if some months are zero." },
+      { q: "Should you get a home inspection on an investment property?", a: "Yes — and go beyond a standard inspection. Always add a sewer scope ($150–$300), which a general inspection won't catch, since sewer line replacement can run $8,000–$20,000. Get the roof condition documented separately if the inspector flags anything, and verify the age and condition of the HVAC system before you close." },
+    ]}
   >
     <p>
       There are two versions of how a first rental property goes.

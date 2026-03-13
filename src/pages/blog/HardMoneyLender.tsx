@@ -7,6 +7,13 @@ const HardMoneyLender = () => (
     slug="hard-money-lender"
     datePublished="2026-02-13"
     category="Financing"
+    faqs={[
+      { q: "What is a hard money loan in real estate?", a: "A hard money loan is a short-term, asset-based loan from a private lender used to buy distressed properties that conventional banks won't finance. The lender cares primarily about the property's after-repair value (ARV) — not your income, W-2s, or credit score in the way a bank does — and typically lends 65–75% of ARV." },
+      { q: "What are typical hard money loan rates and terms?", a: "Hard money loans typically run 10–15% annual interest plus 2–4 points paid upfront at closing, with terms of 6–18 months. On a $175,000 loan at 12% with 3 points held for 8 months, your total financing cost is roughly $19,250 — a number that must be built into your deal analysis before you commit." },
+      { q: "How fast can you close with a hard money lender?", a: "Most hard money lenders can close in 7–10 business days, compared to 30–45 days for a conventional bank loan. This speed is the primary reason flippers and investors use hard money — it allows them to compete for distressed properties where sellers want a fast close." },
+      { q: "What is the difference between hard money and private money?", a: "Hard money comes from professional lending companies with standardized programs and non-negotiable rates (typically 12–15% plus points). Private money comes from individuals — retirees, professionals, former investors — with flexible, negotiable terms that typically run 6–10% because it's relationship-based. Private money is cheaper but takes longer to build; hard money is faster to access early on." },
+      { q: "How do renovation draws work with a hard money loan?", a: "Renovation funds are typically held in reserve and released in phases — you complete a stage of work, the lender inspects (or reviews photos), and then releases the next draw. You pay interest on the full loan amount from day one even while waiting for draws, so investors who count on early draw funds to start the next phase of work can end up in a cash crunch if they don't have reserves." },
+    ]}
   >
     <p>
       Let's say you find a beat-up house for $120,000. After renovations, it's

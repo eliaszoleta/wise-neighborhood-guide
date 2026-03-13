@@ -7,6 +7,13 @@ const LeadManagementTools = () => (
     slug="lead-management-tools"
     datePublished="2026-02-13"
     category="Marketing"
+    faqs={[
+      { q: "What is the best CRM for real estate investors?", a: "REsimpli is purpose-built for investors — it combines CRM, skip tracing, direct mail, calling, and deal tracking in one platform, making it a strong choice for wholesalers and fix-and-flip operations under 50 deals per year. For high-volume operations with specific workflow needs, a custom Podio build or Salesforce configuration may be necessary, but the implementation cost and complexity are substantial." },
+      { q: "What CRM do real estate agents use?", a: "Follow Up Boss is the most widely adopted CRM among agents and agent teams because it integrates directly with Zillow, Realtor.com, and Facebook Leads, auto-routes incoming leads, and has strong follow-up automation built for agent workflows. It starts at $69/month for solo agents and scales with team size." },
+      { q: "Is HubSpot good for real estate?", a: "HubSpot's free CRM tier is a legitimate starting point for solo operators — you get contact management, deal pipelines, and basic email tracking at no cost. The limitation is that the automation and follow-up sequences that make a CRM truly valuable for lead nurturing require paid tiers, which can become expensive relative to purpose-built real estate tools." },
+      { q: "How many follow-up attempts does it take to close a real estate deal?", a: "Industry data from real estate investment and sales operations consistently shows that most deals close between the 5th and 12th contact attempt. Most operators abandon leads after one or two attempts, which means the investors and agents who run systematic follow-up sequences capture a disproportionate share of deals from the same marketing spend." },
+      { q: "What should I look for in a real estate CRM?", a: "The most important feature is automated follow-up sequencing — the ability to keep leads in play over weeks and months without requiring your team to manually remember every touchpoint. After that, look for integrations with your lead sources, ease of use for your specific team, and mobile access. A simple system used consistently beats a sophisticated system your team works around." },
+    ]}
   >
     <p>Most real estate operators have a CRM graveyard somewhere. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
 

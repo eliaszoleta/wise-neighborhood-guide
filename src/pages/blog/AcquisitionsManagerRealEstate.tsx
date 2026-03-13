@@ -7,6 +7,13 @@ const AcquisitionsManagerRealEstate = () => (
     slug="acquisitions-manager-real-estate"
     datePublished="2026-02-13"
     category="Business"
+    faqs={[
+      { q: "What does an acquisitions manager do in real estate?", a: "An acquisitions manager handles the seller-facing side of an investing business — qualifying leads, going on appointments, analyzing deals, and negotiating contracts with motivated sellers. They are essentially a specialized salesperson who converts seller conversations into signed purchase contracts." },
+      { q: "How much does a real estate acquisitions manager make?", a: "Most acquisitions managers earn $500–$2,000 per closed deal in commission, with top performers in active markets making $70,000–$150,000 per year. Some businesses add a small base salary of $2,000–$3,000/month during the initial ramp-up period." },
+      { q: "What skills does an acquisitions manager need?", a: "The most important skills are sales ability (handling objections, closing), accurate property valuation (running ARVs), rehab cost estimation, and the ability to read seller motivation quickly. Real estate experience is helpful but not required — strong sales experience is more predictive of success." },
+      { q: "What is the difference between an acquisitions manager and a buyer's agent?", a: "A buyer's agent helps retail homebuyers find and purchase homes at or near asking price. An acquisitions manager negotiates deep discounts with distressed sellers on behalf of an investing business — a completely different skill set, conversation, and psychology." },
+      { q: "How long does it take to ramp up a new acquisitions manager?", a: "Plan for 60–90 days before someone is operating independently. The first two weeks are spent learning scripts and systems, weeks three and four involve supervised calls, and by week six they should be booking their own appointments. You should have a clear read on long-term fit by week ten." },
+    ]}
   >
     <p>
       Most people who ask about this role picture something like a corporate M&A analyst — spreadsheets, suits, conference rooms. In the wholesale and fix-and-flip world, it's nothing like that. An acquisitions manager is, at its core, a salesperson who happens to work with motivated sellers. And if you're building a real estate investing business and thinking about hiring one, that distinction matters more than almost anything else.

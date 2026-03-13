@@ -7,6 +7,13 @@ const RentalPropertyExpenses = () => (
     slug="rental-property-expenses"
     datePublished="2026-02-13"
     category="Property Management"
+    faqs={[
+      { q: "What is the 50% rule in rental property investing?", a: "The 50% rule states that operating expenses (excluding the mortgage payment) on a rental property will average about 50% of gross rent over time. On a $1,500/month rental, that means budgeting $750/month for taxes, insurance, management, maintenance, vacancy, and CapEx reserves — before your mortgage payment. It's a quick filter for deal analysis, not a replacement for detailed underwriting." },
+      { q: "What is a CapEx reserve for rental properties?", a: "CapEx (capital expenditure) reserves are funds set aside monthly to cover major one-time replacements like roofs ($8,000–$20,000), HVAC systems ($4,000–$8,000), water heaters, flooring, and windows. Most investors budget 5–10% of monthly rent specifically for CapEx, kept separate from the maintenance budget, so that large expenses don't create a cash crisis when they hit." },
+      { q: "How much should I budget for maintenance on a rental property?", a: "Budget 5–10% of gross monthly rent for ongoing maintenance — toilets, appliances, HVAC filters, minor repairs. On a $1,500/month rental, that's $75–$150/month. Some months will be zero; some months an appliance fails or a plumbing issue requires $1,500. The average holds over time, which is why budgeting it consistently — not just when something breaks — matters." },
+      { q: "What expenses can landlords deduct on their taxes?", a: "Landlords can deduct mortgage interest, property taxes, insurance premiums, management fees, repairs and maintenance, depreciation (1/27.5th of the building's cost basis annually), advertising, legal and professional fees, and travel for property management purposes. Depreciation is the most valuable deduction because it's non-cash — it reduces taxable income without reducing actual cash flow." },
+      { q: "What is vacancy rate and how does it affect rental income?", a: "Vacancy rate is the percentage of time a rental unit sits empty in a given year. A 7% vacancy rate means you budget for roughly 25 days of vacancy per year — about 2.5 weeks between tenants or during turnover. On $1,500/month rent, that's $1,050/year in lost income. Always model vacancy in your cash flow analysis; assuming 100% occupancy sets you up for disappointment." },
+    ]}
   >
     <p>Here's a mistake that costs landlords real money: they look at rent as revenue and the mortgage payment as the only expense. Everything in between — vacancy, management, maintenance, reserves — gets forgotten until it bites them.</p>
 

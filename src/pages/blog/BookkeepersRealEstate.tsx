@@ -7,6 +7,13 @@ const BookkeepersRealEstate = () => (
     slug="bookkeepers-real-estate"
     datePublished="2026-02-13"
     category="Business"
+    faqs={[
+      { q: "Do real estate investors need a bookkeeper?", a: "Investors with one property and minimal transactions can often manage their own books with tools like Stessa and 30 minutes per month. Once you have three or more properties, active deal activity, or complex transactions, the error risk and time cost of self-bookkeeping usually outweigh what a part-time bookkeeper charges ($300–$800/month)." },
+      { q: "What is the difference between a bookkeeper and a CPA for real estate?", a: "A bookkeeper records, categorizes, and reconciles transactions — keeping your records accurate and current. A CPA uses those clean records to advise on tax strategy, entity structure, cost segregation, and 1031 exchanges. Conflating the two roles is one of the most expensive mistakes real estate investors make." },
+      { q: "What accounting software should real estate investors use?", a: "Stessa is purpose-built for rental property tracking and is free for basic use — a strong choice for portfolios of 1–10 units. QuickBooks Online is the standard for more complex operations, including property management businesses, active flipping, or large portfolios that need a real chart of accounts." },
+      { q: "What is the difference between a repair and a capital improvement for tax purposes?", a: "Repairs fix something broken and are immediately deductible in the year they occur. Capital improvements add value or extend useful life and must be depreciated over time. Misclassifying them is an audit risk and can either cost you money in taxes (improvements logged as repairs) or result in missed deductions (repairs logged as improvements)." },
+      { q: "How does depreciation work for rental property?", a: "The IRS allows you to deduct the cost of a residential rental building over 27.5 years, even though no cash is leaving your account — it's a paper deduction. On a building with $200,000 allocated to the structure, that's $7,272 per year in tax-reducing depreciation deductions, year after year." },
+    ]}
   >
     <p>Every April, some version of this happens: a landlord drops a grocery bag full of receipts on their CPA's desk and says "here's everything from last year." The CPA charges $300/hour to sort through it. Half the receipts are missing. Some expenses get misclassified. Deductions get left on the table. The whole thing costs twice what it should have.</p>
 

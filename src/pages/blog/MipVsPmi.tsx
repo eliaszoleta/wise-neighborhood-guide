@@ -7,6 +7,13 @@ const MipVsPmi = () => (
     slug="mip-vs-pmi-explained"
     datePublished="2026-02-13"
     category="Financing"
+    faqs={[
+      { q: "What is the difference between MIP and PMI?", a: "PMI (Private Mortgage Insurance) applies to conventional loans and can be cancelled once you reach 20% equity — either through payments or appreciation. MIP (Mortgage Insurance Premium) applies to FHA loans and, if you put down less than 10%, stays for the entire life of the loan with no cancellation option short of refinancing into a conventional loan." },
+      { q: "How do I get rid of PMI on my mortgage?", a: "Request cancellation in writing once your loan balance reaches 80% of the original purchase price, or get a new appraisal if appreciation has pushed your equity above 20% based on current value. Lenders are legally required to automatically cancel PMI at 22% equity per the original amortization schedule under the Homeowners Protection Act." },
+      { q: "How much does FHA mortgage insurance cost?", a: "FHA MIP has two parts: an upfront premium of 1.75% of the loan amount (paid at closing or rolled into the loan) and an annual premium of 0.55–1.05% divided into monthly payments. On a $300,000 FHA loan with 3.5% down, that's roughly $5,775 upfront plus $138–$263 per month — which adds up to $49,000–$94,000 over 30 years." },
+      { q: "Can you refinance out of FHA to get rid of MIP?", a: "Yes — refinancing into a conventional loan is the only way to eliminate FHA's lifetime MIP. Once you have 20% equity through payments, appreciation, or both, you can refinance, but you'll pay new closing costs (typically 2–5% of the loan amount) and need to qualify for the conventional loan. Run the math on whether the MIP savings over your remaining holding period justify the refinance cost." },
+      { q: "Is an FHA loan or conventional loan better for first-time buyers?", a: "Conventional is usually better for buyers with credit scores above 680 who can manage 3–5% down, because PMI is cancellable and the long-term cost structure is lower. FHA makes sense when your credit score is 580–680, because its MIP rate doesn't vary with credit score the way PMI does, making it more affordable for buyers who would face punishing PMI rates conventionally." },
+    ]}
   >
     <p>Nobody tells you this clearly enough when you're buying a house: mortgage insurance protects the bank, not you. If you default, the insurance pays the lender. You pay the premium. It exists entirely to let lenders approve loans with small down payments while limiting their own risk.</p>
 

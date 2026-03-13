@@ -7,6 +7,13 @@ const RealEstateAgentBroker = () => (
     slug="real-estate-agent-realtor-broker"
     datePublished="2026-02-13"
     category="Careers"
+    faqs={[
+      { q: "What is the difference between a real estate agent and a Realtor?", a: "A real estate agent is anyone with an active state license authorizing them to represent buyers or sellers. A Realtor is specifically an agent or broker who is a dues-paying member of the National Association of Realtors (NAR) and has agreed to follow the NAR Code of Ethics. Most agents are Realtors because NAR membership provides MLS access, but not every licensed agent belongs to NAR." },
+      { q: "What is the difference between a real estate agent and a broker?", a: "A licensed agent must work under a broker — they cannot operate independently or hold escrow funds. A broker has completed additional education beyond the agent license, passed a separate harder exam, and can legally run their own real estate firm and supervise other agents. Most states require 2–4 years of agent experience before you can apply for a broker's license." },
+      { q: "Do I need a Realtor to buy or sell a house?", a: "You are not legally required to use a Realtor to buy or sell a home, but most buyers and sellers benefit from professional representation — especially in complex negotiations, multiple-offer situations, or unfamiliar markets. The 2024 NAR settlement changed how buyer's agent compensation is disclosed and negotiated, but the option to work with or without an agent remains." },
+      { q: "How much do real estate agents make per sale?", a: "Commission on the buy or sell side typically runs 2.5–3% of the sale price. On a $400,000 home, that's $10,000–$12,000 in gross commission — which then gets split between the agent and their brokerage according to their agreement, often 50/50 for new agents or up to 80/20 for experienced producers. After the split, income taxes, and business expenses, net income per deal is substantially lower than the gross commission." },
+      { q: "What does a real estate broker do differently than an agent?", a: "A managing broker runs the brokerage, supervises agents, handles compliance, and holds earnest money and escrow funds — all things agents cannot legally do. An associate broker holds the broker's license but works under another broker rather than running their own firm. Brokers are legally responsible for their agents' conduct in transactions, which is why the choice of brokerage matters beyond commission splits." },
+    ]}
   >
     <p>Most people use agent, Realtor, and broker like they mean the same thing. They don't — and in some situations, knowing the difference matters quite a bit.</p>
 

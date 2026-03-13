@@ -7,6 +7,13 @@ const RealEstateWholesalingExplained = () => (
     slug="real-estate-wholesaling-explained"
     datePublished="2026-02-13"
     category="Wholesaling"
+    faqs={[
+      { q: "How does real estate wholesaling work?", a: "Wholesaling involves finding a distressed property, getting it under contract with the seller at a below-market price, and then assigning that contract to an investor buyer for an assignment fee. You never take title to the property — you're selling your right to purchase it. Your profit is the spread between your contracted price and what the end buyer pays for the contract." },
+      { q: "How much money do wholesalers make per deal?", a: "Assignment fees typically range from $5,000–$20,000 per deal, though fees on larger deals or in competitive markets can go higher. Most new wholesalers do 1–3 deals in their first year after spending several months on marketing before closing anything. Experienced wholesalers running systematic marketing operations can close 2–4 deals per month." },
+      { q: "Do you need a real estate license to wholesale?", a: "You don't need a license to wholesale — you're selling your equitable interest in a contract, not acting as a buyer's or seller's agent. However, some states have passed disclosure requirements for wholesalers, and the line between contract assignment and unlicensed brokerage gets scrutinized more in some states. Check with a real estate attorney in your state before closing your first deal." },
+      { q: "How do wholesalers find motivated sellers?", a: "The most common methods are direct mail campaigns to distressed-property lists (pre-foreclosure, probate, vacant properties, tax-delinquent), cold calling and SMS marketing, 'driving for dollars' to find neglected properties, and pulling leads from public records. All of these require consistent effort and some upfront marketing spend — the 'no money down' version of wholesaling leaves this part out." },
+      { q: "What is an assignment fee in real estate wholesaling?", a: "An assignment fee is the profit a wholesaler earns by selling their contractual right to purchase a property. If you put a property under contract at $95,000 and an investor buyer pays $108,000 to take over that contract, your assignment fee is $13,000. The fee is paid by the end buyer at closing and is disclosed to all parties in the assignment agreement." },
+    ]}
   >
     <p>
       Most people who get into real estate wholesaling have heard the same pitch: find a deal, flip the contract, collect a check — no money down, no risk, no repairs. The pitch isn't entirely wrong, but it leaves out the part where you spend several months doing a lot of work before any of that happens.

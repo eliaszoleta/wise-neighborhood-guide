@@ -7,6 +7,13 @@ const MortgageLoansHomebuyers = () => (
     slug="mortgage-loans-first-time-homebuyers"
     datePublished="2026-02-13"
     category="Financing"
+    faqs={[
+      { q: "What is the easiest mortgage to get approved for as a first-time buyer?", a: "FHA loans have the lowest credit score requirements — 3.5% down with a 580 score, or 10% down with a 500–579 score — and more flexible debt-to-income limits than conventional loans. However, FHA's mortgage insurance premium (MIP) doesn't cancel if you put down less than 10%, so 'easiest to get' is not the same as 'cheapest to carry.'" },
+      { q: "What is the minimum down payment for a first-time homebuyer?", a: "It depends on the loan type: FHA requires 3.5% down (with a 580+ credit score), conventional HomeReady and Home Possible programs allow 3–5% down, VA and USDA loans require 0% down for qualifying borrowers. The lower the down payment, the higher your monthly payment and the more you'll pay in mortgage insurance over time." },
+      { q: "Who qualifies for a VA home loan?", a: "VA loans are available to active-duty military members, veterans who meet minimum service requirements, and eligible surviving spouses. If you qualify, VA loans are the best mortgage program available — 0% down, no monthly mortgage insurance, competitive rates, and only a one-time funding fee (which can be waived for veterans with a service-connected disability)." },
+      { q: "What is a USDA loan and who qualifies?", a: "USDA loans are zero-down mortgages backed by the U.S. Department of Agriculture for properties in rural and some suburban areas — more areas qualify than most people expect. Income must be below 115% of the area median income. The mortgage insurance cost is significantly lower than FHA: a 1% upfront guarantee fee and 0.35% annually versus FHA's 1.75% upfront and 0.55–1.05% annually." },
+      { q: "What credit score do you need to buy a house for the first time?", a: "You need a minimum 580 to use an FHA loan with 3.5% down, 500–579 with 10% down. Conventional loans technically allow 620 but you'll get meaningfully better rates above 700. VA and USDA loans don't have a strict minimum but most lenders set a floor around 620. For the best conventional mortgage rates, aim for 740+." },
+    ]}
   >
     <p>The loan you pick affects more than just your monthly payment. It affects your down payment today, your total interest over 30 years, and whether you're stuck paying mortgage insurance for life. For a first-time buyer, this is worth understanding before you start shopping.</p>
 

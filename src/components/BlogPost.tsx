@@ -140,6 +140,20 @@ const BlogPost = ({
             </div>
           </article>
 
+          {faqs && faqs.length > 0 && (
+            <div className="mt-12 border-t border-border pt-8">
+              <h2 className="font-heading text-2xl font-bold text-foreground mb-6">Frequently Asked Questions</h2>
+              <div className="space-y-5">
+                {faqs.map((faq, i) => (
+                  <div key={i} className="rounded-lg border border-border bg-muted/40 p-5">
+                    <h3 className="font-heading text-base font-semibold text-foreground mb-2">{faq.q}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="mt-12 border-t border-border pt-8">
             <Link to="/blog" className="inline-flex items-center gap-2 text-accent font-semibold hover:underline">
               <ArrowLeft className="h-4 w-4" /> Back to Blog

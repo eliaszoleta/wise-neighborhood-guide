@@ -7,6 +7,13 @@ const BrrrMethodRealEstate = () => (
     slug="brrrr-method-real-estate"
     datePublished="2026-02-13"
     category="Investing"
+    faqs={[
+      { q: "What does BRRRR stand for in real estate?", a: "BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. It's a capital-recycling strategy where you acquire a distressed property, renovate it, place a tenant, refinance to pull your investment capital back out, and then deploy that same capital into the next deal." },
+      { q: "What is the 70% rule in BRRRR investing?", a: "The 70% rule states that your total acquisition and renovation costs must stay at or below 70–75% of the property's after-repair value (ARV). This threshold is what allows the refinance to return most or all of your invested capital — at 80% of ARV, the math breaks and you can't fully recycle your investment." },
+      { q: "What is seasoning in a BRRRR deal?", a: "Seasoning is the waiting period conventional lenders require before they'll appraise a renovated property at its improved value for a cash-out refinance — typically 6 months of the property being occupied and generating rental income. During this period you're still paying interest on the higher-cost bridge financing." },
+      { q: "How much money do you need to start BRRRR investing?", a: "You need enough capital to cover the down payment or purchase price for bridge financing, the renovation costs, and several months of carrying costs during the rehab and seasoning period. On a deal with a $150,000 balance at 12%, holding costs alone run $9,000+ over a six-month seasoning window before you see any capital returned." },
+      { q: "What happens if the appraisal comes in low on a BRRRR refinance?", a: "If the appraisal comes in below your target ARV, the refinance loan at 75% LTV may not be large enough to fully pay off your bridge financing — you'd have to bring cash to closing to cover the gap. This is why building a buffer into your ARV estimate matters: investors who model right at the edge have no margin for appraisal variance." },
+    ]}
   >
     <p>
       The BRRRR method gets pitched at every real estate meetup as a way to build a portfolio without ever running out of money. Buy a house, fix it up, rent it out, refinance your capital back out, and do it again with the same money. Repeat until you're rich.

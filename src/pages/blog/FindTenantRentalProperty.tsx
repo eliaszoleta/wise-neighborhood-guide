@@ -7,6 +7,13 @@ const FindTenantRentalProperty = () => (
     slug="find-tenant-rental-property"
     datePublished="2026-02-13"
     category="Property Management"
+    faqs={[
+      { q: "Where should I list my rental property to find tenants?", a: "Zillow Rental Manager, Apartments.com, and Facebook Marketplace each have massive reach, and listing on two of the three generates enough leads for most markets. What separates a high-performing listing from a low-performing one is the quality of photos, an accurate description, and competitive pricing — not which platforms you use." },
+      { q: "What income do tenants need to qualify for a rental?", a: "The standard rule is that an applicant's gross monthly income should be at least 3 times the monthly rent. If rent is $1,200, the applicant needs to earn at least $3,600/month gross. This is the single most predictive indicator of whether a tenant will pay consistently." },
+      { q: "Can a landlord reject a tenant based on credit score?", a: "Yes, as long as you apply the same credit criteria consistently to every applicant and document your standards in writing before you review any applications. A prior eviction judgment or landlord-related collections are typically stronger disqualifying factors than credit score alone, which requires reading the report in context." },
+      { q: "What does a landlord ask when calling a previous landlord reference?", a: "The most valuable questions are: Did they pay on time? Would you rent to them again? Did they give proper notice when they moved out? An actual prior landlord won't lie to another landlord the way friends or family will, making this reference call far more reliable than character references." },
+      { q: "What documents should a landlord collect before a tenant moves in?", a: "You should collect first month's rent, last month's rent, and the full security deposit before handing over keys — no exceptions or partial payments. You should also conduct a documented move-in walk-through where both parties sign a condition report with photos, which becomes your protection when disputes arise at move-out." },
+    ]}
   >
     <p>
       Before you post your listing, do this math.
