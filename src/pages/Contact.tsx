@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Layout from "@/components/Layout";
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, CheckCircle, AlertCircle } from "lucide-react";
 
@@ -38,6 +39,27 @@ const Contact = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Contact Peasant House | Get in Touch</title>
+        <meta name="description" content="Have a question, partnership inquiry, or feedback? Reach out to Peasant House — free real estate education for investors, wholesalers, and aspiring agents." />
+        <link rel="canonical" href="https://peasanthouse.com/contact" />
+        <meta property="og:title" content="Contact Peasant House" />
+        <meta property="og:description" content="Have a question or feedback? Contact the Peasant House team." />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "Contact Peasant House",
+          description: "Have a question, partnership inquiry, or feedback? Reach out to Peasant House.",
+          url: "https://peasanthouse.com/contact",
+          publisher: {
+            "@type": "Organization",
+            name: "Peasant House",
+            url: "https://peasanthouse.com",
+            email: "contact@peasanthouse.com",
+          },
+        })}</script>
+      </Helmet>
       <section className="section-padding">
         <div className="container-narrow max-w-2xl">
           <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl">Contact Us</h1>

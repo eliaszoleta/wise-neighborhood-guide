@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
+import { Helmet } from "react-helmet-async";
 
 import imgTypesProperty from "@/assets/blog/types-of-real-estate-property.jpg";
 import imgBrrrr from "@/assets/blog/brrrr-method-real-estate.jpg";
@@ -189,6 +190,27 @@ const blogPosts = [
 const Blog = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Real Estate Blog | Investing, Wholesaling & Financing Guides — Peasant House</title>
+        <meta name="description" content="Expert guides on real estate investing, wholesaling, financing, and property management to help you build wealth." />
+        <link rel="canonical" href="https://peasanthouse.com/blog" />
+        <meta property="og:title" content="Real Estate Blog | Peasant House" />
+        <meta property="og:description" content="Expert guides on real estate investing, wholesaling, financing, and property management." />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "Peasant House Real Estate Blog",
+          description: "Expert guides on real estate investing, wholesaling, financing, and property management to help you build wealth.",
+          url: "https://peasanthouse.com/blog",
+          publisher: {
+            "@type": "Organization",
+            name: "Peasant House",
+            url: "https://peasanthouse.com",
+            logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+          },
+        })}</script>
+      </Helmet>
       <section className="section-padding">
         <div className="container-wide">
           <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl">Real Estate Blog</h1>

@@ -11,6 +11,19 @@ const About = () => {
         <meta property="og:title" content="About Peasant House | Who We Are and Why This Site Exists" />
         <meta property="og:description" content="Free real estate education — investing, wholesaling, marketing, and licensing guides for all 50 states. No courses to sell." />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          name: "About Peasant House",
+          description: "Peasant House is a free real estate education resource. No courses to sell, no upsells — just clear, researched guides on investing, wholesaling, marketing, and state licensing.",
+          url: "https://peasanthouse.com/about",
+          publisher: {
+            "@type": "Organization",
+            name: "Peasant House",
+            url: "https://peasanthouse.com",
+            logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+          },
+        })}</script>
       </Helmet>
 
       <section className="section-padding">

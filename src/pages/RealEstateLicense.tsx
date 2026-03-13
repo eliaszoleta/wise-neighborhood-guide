@@ -20,6 +20,18 @@ const RealEstateLicense = () => {
         <meta property="og:title" content="How to Get a Real Estate License — All 50 States" />
         <meta property="og:description" content="Complete licensing guides for all 50 states — education requirements, exam info, costs, and how to apply." />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "How to Get a Real Estate License — All 50 States",
+          description: "State-by-state real estate licensing guides covering education hour requirements, exam providers, total costs, renewal schedules, and step-by-step application walkthroughs for all 50 states.",
+          url: "https://peasanthouse.com/real-estate-license",
+          publisher: {
+            "@type": "Organization",
+            name: "Peasant House",
+            url: "https://peasanthouse.com",
+          },
+        })}</script>
       </Helmet>
 
       <section className="section-padding">

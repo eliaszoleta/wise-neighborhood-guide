@@ -41,6 +41,18 @@ const StartHere = () => {
         <meta property="og:title" content="Start Here | Real Estate Beginner's Guide — Peasant House" />
         <meta property="og:description" content="New to real estate? Pick a path — investing, wholesaling, licensing, or marketing — and start learning with free step-by-step guides." />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: "Start Here | Real Estate Beginner's Guide — Peasant House",
+          description: "New to real estate? Start here. Choose between investing, wholesaling, getting licensed, or marketing — and we'll walk you through it step by step.",
+          url: "https://peasanthouse.com/start-here",
+          publisher: {
+            "@type": "Organization",
+            name: "Peasant House",
+            url: "https://peasanthouse.com",
+          },
+        })}</script>
       </Helmet>
 
       <section className="section-padding">
