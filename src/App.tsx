@@ -60,6 +60,13 @@ import LeadManagementTools from "./pages/blog/LeadManagementTools";
 import SubjectToRealEstate from "./pages/blog/SubjectToRealEstate";
 import SellerFinancingRealEstate from "./pages/blog/SellerFinancingRealEstate";
 import LeaseOptionRealEstate from "./pages/blog/LeaseOptionRealEstate";
+import AssumableMortgage from "./pages/blog/AssumableMortgage";
+import BlanketMortgage from "./pages/blog/BlanketMortgage";
+import HelocRealEstate from "./pages/blog/HelocRealEstate";
+import BridgeLoanRealEstate from "./pages/blog/BridgeLoanRealEstate";
+import SelfDirectedIraRealEstate from "./pages/blog/SelfDirectedIraRealEstate";
+import TenantNotPayingRent from "./pages/blog/TenantNotPayingRent";
+import EvictionProcessLandlord from "./pages/blog/EvictionProcessLandlord";
 
 const queryClient = new QueryClient();
 
@@ -99,6 +106,13 @@ const App = () => (
             <Route path="/blog/subject-to-real-estate" element={<SubjectToRealEstate />} />
             <Route path="/blog/seller-financing-real-estate" element={<SellerFinancingRealEstate />} />
             <Route path="/blog/lease-option-real-estate" element={<LeaseOptionRealEstate />} />
+            <Route path="/blog/assumable-mortgage" element={<AssumableMortgage />} />
+            <Route path="/blog/blanket-mortgage" element={<BlanketMortgage />} />
+            <Route path="/blog/heloc-real-estate" element={<HelocRealEstate />} />
+            <Route path="/blog/bridge-loan-real-estate" element={<BridgeLoanRealEstate />} />
+            <Route path="/blog/self-directed-ira-real-estate" element={<SelfDirectedIraRealEstate />} />
+            <Route path="/blog/tenant-not-paying-rent" element={<TenantNotPayingRent />} />
+            <Route path="/blog/eviction-process-landlord" element={<EvictionProcessLandlord />} />
             <Route path="/real-estate-investing" element={<Investing />} />
             <Route path="/real-estate-investing/rental-property-investing" element={<RentalPropertyInvesting />} />
             <Route path="/real-estate-investing/brrrr-strategy" element={<BRRRRStrategy />} />

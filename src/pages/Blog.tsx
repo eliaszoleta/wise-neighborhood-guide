@@ -185,6 +185,55 @@ const blogPosts = [
     image: imgPrivateMoney,
     alt: "Tenant-buyer and seller signing lease option agreement at table with house keys",
   },
+  {
+    title: "What Is an Assumable Mortgage? How Buyers Can Take Over a 3% Rate in a 7% Market",
+    category: "Financing",
+    slug: "/blog/assumable-mortgage",
+    image: imgMortgageLoans,
+    alt: "Buyer and seller reviewing assumable mortgage loan documents at closing table",
+  },
+  {
+    title: "What Is a Blanket Mortgage? A Guide for Real Estate Investors With Multiple Properties",
+    category: "Financing",
+    slug: "/blog/blanket-mortgage",
+    image: imgHardMoney,
+    alt: "Real estate investor reviewing blanket mortgage portfolio documents with multiple property files",
+  },
+  {
+    title: "How Real Estate Investors Use a HELOC to Fund Deals",
+    category: "Financing",
+    slug: "/blog/heloc-real-estate",
+    image: imgCashOut,
+    alt: "Homeowner reviewing HELOC home equity line of credit documents for real estate investment",
+  },
+  {
+    title: "What Is a Bridge Loan in Real Estate and When Does One Actually Make Sense?",
+    category: "Financing",
+    slug: "/blog/bridge-loan-real-estate",
+    image: imgHardMoney,
+    alt: "Real estate investor signing bridge loan documents for short-term property financing",
+  },
+  {
+    title: "How to Buy Real Estate With a Self-Directed IRA",
+    category: "Financing",
+    slug: "/blog/self-directed-ira-real-estate",
+    image: imgFirstRental,
+    alt: "Investor reviewing self-directed IRA real estate investment documents with retirement account statements",
+  },
+  {
+    title: "Tenant Stopped Paying Rent? Here's What to Do Step by Step",
+    category: "Property Management",
+    slug: "/blog/tenant-not-paying-rent",
+    image: imgFindTenant,
+    alt: "Landlord reviewing late rent notice documents and tenant communication records",
+  },
+  {
+    title: "The Eviction Process for Landlords: Step-by-Step Legal Guide",
+    category: "Property Management",
+    slug: "/blog/eviction-process-landlord",
+    image: imgRentalExpenses,
+    alt: "Landlord reviewing eviction process legal documents and court filing paperwork",
+  },
 ];
 
 const Blog = () => {
