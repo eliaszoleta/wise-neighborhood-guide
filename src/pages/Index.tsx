@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
-import { Shield, TrendingUp, Users, ArrowRight, Mail, Building2, DollarSign, Megaphone, MapPin, BookOpen, CheckCircle } from "lucide-react";
+import { Shield, TrendingUp, Users, ArrowRight, Mail, Building2, DollarSign, Megaphone, MapPin, BookOpen, CheckCircle, ChevronDown } from "lucide-react";
 import Layout from "@/components/Layout";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -17,8 +17,14 @@ const US_STATES = [
   "South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"
 ];
 
+const POPULAR_STATES = ["California","Texas","Florida","New York","Georgia","Arizona","Colorado","Washington"];
+
+const toSlug = (state: string) => state.toLowerCase().replace(/\s+/g, "-");
+
 const Index = () => {
   const [emailStatus, setEmailStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [selectedState, setSelectedState] = useState("");
+  const navigate = useNavigate();
 
   const handleNewsletterSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -234,22 +240,57 @@ const Index = () => {
       {/* GET LICENSED SECTION */}
       <section className="section-alt section-padding" aria-label="Get licensed by state">
         <div className="container-wide">
-          <div className="mb-12 text-center">
+          <div className="mb-8 text-center">
             <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">Get Your Real Estate License</h2>
             <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-              Every state has different hour requirements, exam providers, costs, and renewal cycles. We break down exactly what's needed in all 50 states — no guessing, no generic answers.
+              Every state has different hour requirements, exam providers, costs, and renewal cycles. Select yours below for the full breakdown.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-            {US_STATES.map((state) => (
-              <Link
-                key={state}
-                to={`/real-estate-license/${state.toLowerCase().replace(/\s+/g, '-')}`}
-                className="rounded-md border border-border bg-card px-3 py-2.5 text-center text-sm font-medium text-card-foreground transition-colors hover:border-accent hover:text-accent"
+
+          {/* Compact State Picker */}
+          <div className="mx-auto max-w-xl">
+            <div className="flex gap-2">
+              <div className="relative flex-1">
+                <select
+                  value={selectedState}
+                  onChange={(e) => setSelectedState(e.target.value)}
+                  className="w-full appearance-none rounded-lg border border-border bg-card px-4 py-3 pr-10 text-sm font-medium text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-accent cursor-pointer"
+                >
+                  <option value="" disabled>Select your state…</option>
+                  {US_STATES.map((state) => (
+                    <option key={state} value={toSlug(state)}>{state}</option>
+                  ))}
+                </select>
+                <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              </div>
+              <Button
+                onClick={() => selectedState && navigate(`/real-estate-license/${selectedState}`)}
+                disabled={!selectedState}
+                className="shrink-0"
               >
-                {state}
+                View Guide <ArrowRight className="ml-1 h-4 w-4" />
+              </Button>
+            </div>
+
+            {/* Popular states quick links */}
+            <div className="mt-4 flex flex-wrap gap-2 justify-center">
+              <span className="text-xs text-muted-foreground self-center">Popular:</span>
+              {POPULAR_STATES.map((state) => (
+                <Link
+                  key={state}
+                  to={`/real-estate-license/${toSlug(state)}`}
+                  className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-card-foreground hover:border-accent hover:text-accent transition-colors"
+                >
+                  {state}
+                </Link>
+              ))}
+            </div>
+
+            <p className="mt-4 text-center text-xs text-muted-foreground">
+              <Link to="/real-estate-license" className="text-accent hover:underline font-medium">
+                Browse all 50 state licensing guides →
               </Link>
-            ))}
+            </p>
           </div>
         </div>
       </section>
