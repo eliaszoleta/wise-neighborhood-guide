@@ -16,6 +16,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import Disclaimer from "./pages/Disclaimer";
 import CookiePolicy from "./pages/CookiePolicy";
+import Author from "./pages/Author";
 import NotFound from "./pages/NotFound";
 
 // Topic subpages - Investing
@@ -99,6 +100,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/start-here" element={<StartHere />} />
             <Route path="/about" element={<About />} />
+            <Route path="/author" element={<Author />} />
             <Route path="/contact" element={<Contact />} />
 
             {/* Blog index */}

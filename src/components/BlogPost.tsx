@@ -213,7 +213,9 @@ const BlogPost = ({
                   <span aria-hidden>·</span>
                 </>
               )}
-              <span>By the Peasant House Editorial Team</span>
+              <Link to="/author" className="hover:text-accent hover:underline transition-colors">
+                By the Peasant House Editorial Team
+              </Link>
               {readTime > 0 && (
                 <>
                   <span aria-hidden>·</span>
