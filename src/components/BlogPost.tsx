@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
@@ -21,6 +21,10 @@ interface BlogPostProps {
   dateModified?: string;
   /** Display label — e.g. "Financing" */
   category?: string;
+  /** One or two sentence direct answer shown above the TOC */
+  quickAnswer?: string;
+  /** Bullet points shown at the end of the article body */
+  keyTakeaways?: string[];
   faqs?: { q: string; a: string }[];
   children: ReactNode;
 }
@@ -41,16 +45,45 @@ const BlogPost = ({
   datePublished,
   dateModified,
   category,
+  quickAnswer,
+  keyTakeaways,
   faqs,
   children,
 }: BlogPostProps) => {
   const canonicalUrl = `https://peasanthouse.com/blog/${slug}`;
 
-  // Derive category slug from the first segment of slug (e.g. "financing" from "financing/hard-money-lender")
   const slugParts = slug.split("/");
   const categorySlug = slugParts.length > 1 ? slugParts[0] : null;
   const categoryLabel = categorySlug ? (categoryDisplayNames[categorySlug] ?? category) : category;
   const categoryUrl = categorySlug ? `https://peasanthouse.com/blog/${categorySlug}` : null;
+
+  const articleRef = useRef<HTMLDivElement>(null);
+  const [toc, setToc] = useState<{ id: string; text: string }[]>([]);
+  const [readTime, setReadTime] = useState(0);
+
+  useEffect(() => {
+    const el = articleRef.current;
+    if (!el) return;
+
+    // Build TOC from H2 elements and assign IDs
+    const h2s = el.querySelectorAll("h2");
+    const items: { id: string; text: string }[] = [];
+    h2s.forEach((h2) => {
+      const text = h2.textContent?.trim() ?? "";
+      if (!text) return;
+      const id = text
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+      h2.id = id;
+      items.push({ id, text });
+    });
+    setToc(items);
+
+    // Read time from word count (~200 wpm)
+    const words = (el.textContent ?? "").trim().split(/\s+/).filter(Boolean).length;
+    setReadTime(Math.max(1, Math.round(words / 200)));
+  }, []);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -166,21 +199,76 @@ const BlogPost = ({
             <h1 className="font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl leading-tight">
               {title}
             </h1>
-            {categoryLabel && (
-              <div className="mt-3 flex items-center gap-3 text-sm text-muted-foreground">
-                <Link
-                  to={`/blog/${categorySlug}`}
-                  className="inline-block rounded-sm bg-accent/10 px-2.5 py-1 text-xs font-semibold text-accent hover:bg-accent/20 transition-colors"
-                >
-                  {categoryLabel}
-                </Link>
-                <span>·</span>
-                <span>By the Peasant House Editorial Team</span>
+
+            {/* Byline */}
+            <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground">
+              {categoryLabel && (
+                <>
+                  <Link
+                    to={`/blog/${categorySlug}`}
+                    className="inline-block rounded-sm bg-accent/10 px-2.5 py-1 text-xs font-semibold text-accent hover:bg-accent/20 transition-colors"
+                  >
+                    {categoryLabel}
+                  </Link>
+                  <span aria-hidden>·</span>
+                </>
+              )}
+              <span>By the Peasant House Editorial Team</span>
+              {readTime > 0 && (
+                <>
+                  <span aria-hidden>·</span>
+                  <span>{readTime} min read</span>
+                </>
+              )}
+            </div>
+
+            {/* Quick Answer box */}
+            {quickAnswer && (
+              <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/5 px-5 py-4">
+                <p className="text-xs font-bold uppercase tracking-wider text-accent mb-1">Quick Answer</p>
+                <p className="text-sm leading-relaxed text-foreground">{quickAnswer}</p>
               </div>
             )}
-            <div className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
+
+            {/* Table of Contents */}
+            {toc.length >= 3 && (
+              <nav aria-label="Table of contents" className="mt-6 rounded-lg border border-border bg-muted/40 px-5 py-4">
+                <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">In This Article</p>
+                <ol className="space-y-1.5 list-none m-0 p-0">
+                  {toc.map((item, i) => (
+                    <li key={item.id} className="flex items-baseline gap-2.5">
+                      <span className="text-xs font-semibold text-accent tabular-nums w-4 shrink-0">{i + 1}.</span>
+                      <a
+                        href={`#${item.id}`}
+                        className="text-sm text-foreground hover:text-accent hover:underline transition-colors leading-snug"
+                      >
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </nav>
+            )}
+
+            {/* Article body */}
+            <div ref={articleRef} className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
               {children}
             </div>
+
+            {/* Key Takeaways */}
+            {keyTakeaways && keyTakeaways.length > 0 && (
+              <div className="mt-10 rounded-lg border border-border bg-muted/40 px-5 py-5">
+                <p className="text-xs font-bold uppercase tracking-wider text-accent mb-3">Key Takeaways</p>
+                <ul className="space-y-2 list-none m-0 p-0">
+                  {keyTakeaways.map((point, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <span className="mt-0.5 text-accent shrink-0" aria-hidden>✓</span>
+                      <span className="text-sm leading-relaxed text-foreground">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </article>
 
           {faqs && faqs.length > 0 && (
