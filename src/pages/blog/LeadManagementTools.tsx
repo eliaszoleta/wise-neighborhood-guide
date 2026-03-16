@@ -5,7 +5,7 @@ const LeadManagementTools = () => (
   <BlogPost
     title="Lead Management Tools for Real Estate: What Actually Works"
     metaDesc="A plain-English breakdown of the CRM and lead management platforms real estate investors and agents actually use — what each one is good for and who should use it."
-    slug="lead-management-tools"
+    slug="real-estate-business/lead-management-tools"
     datePublished="2026-02-13"
     category="Marketing"
     faqs={[
@@ -16,7 +16,7 @@ const LeadManagementTools = () => (
       { q: "What should I look for in a real estate CRM?", a: "The most important feature is automated follow-up sequencing — the ability to keep leads in play over weeks and months without requiring your team to manually remember every touchpoint. After that, look for integrations with your lead sources, ease of use for your specific team, and mobile access. A simple system used consistently beats a sophisticated system your team works around." },
     ]}
   >
-    <p>Most real estate operators have a CRM graveyard somewhere. For how <Link to="/blog/lead-managers-real-estate">lead managers</Link> use these tools day-to-day, and how they hand off to <Link to="/blog/acquisitions-manager-real-estate">acquisitions managers</Link>, see our role-specific guides. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
+    <p>Most real estate operators have a CRM graveyard somewhere. For how <Link to="/blog/real-estate-business/lead-managers-real-estate">lead managers</Link> use these tools day-to-day, and how they hand off to <Link to="/blog/real-estate-business/acquisitions-manager-real-estate">acquisitions managers</Link>, see our role-specific guides. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
 
     <p>The most important feature in any CRM is that your team will actually open it. Everything else is secondary. A simple system used consistently will beat a sophisticated system that half your people find confusing every single time.</p>
 

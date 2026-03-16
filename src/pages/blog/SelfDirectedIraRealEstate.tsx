@@ -5,7 +5,7 @@ const SelfDirectedIraRealEstate = () => (
   <BlogPost
     title="How to Buy Real Estate With a Self-Directed IRA"
     metaDesc="A self-directed IRA lets you hold rental property inside a retirement account — tax-deferred or tax-free with a Roth. Here's how it works, the strict rules you must follow, and where investors get into serious trouble."
-    slug="self-directed-ira-real-estate"
+    slug="financing/self-directed-ira-real-estate"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -106,7 +106,7 @@ const SelfDirectedIraRealEstate = () => (
     </p>
 
     <p>
-      For investors using <Link to="/blog/private-money-lender">private money lending</Link> as a strategy, a self-directed Roth IRA is one of the most tax-efficient vehicles — the interest income stays in the account and compounds tax-free. The <a href="https://www.irs.gov/retirement-plans/prohibited-transactions" target="_blank" rel="noopener noreferrer">IRS guidance on prohibited transactions</a> is the definitive reference for what you can and cannot do.
+      For investors using <Link to="/blog/financing/private-money-lender">private money lending</Link> as a strategy, a self-directed Roth IRA is one of the most tax-efficient vehicles — the interest income stays in the account and compounds tax-free. The <a href="https://www.irs.gov/retirement-plans/prohibited-transactions" target="_blank" rel="noopener noreferrer">IRS guidance on prohibited transactions</a> is the definitive reference for what you can and cannot do.
     </p>
 
     <div className="callout">

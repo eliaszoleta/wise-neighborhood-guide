@@ -5,7 +5,7 @@ const MipVsPmi = () => (
   <BlogPost
     title="MIP vs. PMI: Mortgage Insurance Explained for Homebuyers"
     metaDesc="MIP and PMI are both mortgage insurance — but they work differently, cost differently, and one of them can follow you for the life of your loan. Here's what you're actually paying for and how to get out."
-    slug="mip-vs-pmi-explained"
+    slug="financing/mip-vs-pmi-explained"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -53,7 +53,7 @@ const MipVsPmi = () => (
 
     <p>For a buyer with good credit putting down 5%, conventional + PMI is almost always cheaper long-term than FHA + MIP. The PMI rate on a 740 credit score with 5% down might be 0.5–0.7% annually — and it cancels once you hit 20% equity. FHA MIP runs 0.55–1.05% on top of the 1.75% upfront, and it doesn't cancel. You're paying for something that could disappear vs. something that won't.</p>
 
-    <p>Where FHA wins: lower credit scores. For a side-by-side look at all loan options including FHA, see our <Link to="/blog/mortgage-loans-first-time-homebuyers">first-time homebuyer mortgage guide</Link>. Conventional PMI rates for a 620 credit score can be punishing — 1.5%+ annually. FHA's MIP is the same regardless of credit score. For buyers who wouldn't qualify for conventional financing, or who can only qualify at rates that make conventional PMI unaffordable, FHA makes sense. Just go in understanding the trade you're making.</p>
+    <p>Where FHA wins: lower credit scores. For a side-by-side look at all loan options including FHA, see our <Link to="/blog/financing/mortgage-loans-first-time-homebuyers">first-time homebuyer mortgage guide</Link>. Conventional PMI rates for a 620 credit score can be punishing — 1.5%+ annually. FHA's MIP is the same regardless of credit score. For buyers who wouldn't qualify for conventional financing, or who can only qualify at rates that make conventional PMI unaffordable, FHA makes sense. Just go in understanding the trade you're making.</p>
 
     <h2>How to Get Out of Mortgage Insurance</h2>
 
@@ -64,7 +64,7 @@ const MipVsPmi = () => (
       <li>Lenders must automatically cancel at 22% equity per original amortization schedule</li>
     </ul>
 
-    <p>For FHA loans with lifetime MIP, the only clean exit is <Link to="/blog/types-of-refinance">refinancing</Link> into a conventional loan. Once you have 20% equity — through payments, appreciation, or both — refinance out of FHA, and you're no longer subject to MIP. This requires a new appraisal, closing costs, and qualifying for a conventional loan, but if your credit has improved and your equity is there, it's worth running the math.</p>
+    <p>For FHA loans with lifetime MIP, the only clean exit is <Link to="/blog/financing/types-of-refinance">refinancing</Link> into a conventional loan. Once you have 20% equity — through payments, appreciation, or both — refinance out of FHA, and you're no longer subject to MIP. This requires a new appraisal, closing costs, and qualifying for a conventional loan, but if your credit has improved and your equity is there, it's worth running the math.</p>
 
     <p>The cleanest way to avoid mortgage insurance entirely: put 20% down on a conventional loan. Or use an 80/10/10 piggyback structure — a first mortgage at 80% LTV, a second mortgage covering 10%, and 10% cash down — which keeps you below the PMI threshold while letting you hold more of your cash.</p>
 

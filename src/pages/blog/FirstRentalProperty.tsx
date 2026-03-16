@@ -5,7 +5,7 @@ const FirstRentalProperty = () => (
   <BlogPost
     title="How to Find and Buy Your First Rental Property"
     metaDesc="Buying your first rental requires different thinking than buying a home to live in. Here's a practical guide to finding the right property, analyzing it correctly, and closing without regrets."
-    slug="first-rental-property"
+    slug="investing/first-rental-property"
     datePublished="2026-02-13"
     category="Investing"
     faqs={[
@@ -80,7 +80,7 @@ const FirstRentalProperty = () => (
       <p>If your mortgage payment on this property is $750, you're at $44/month cash flow. Not $600. That's why the analysis matters.</p>
     </div>
     <p>
-      For a detailed breakdown of every cost category, see our <Link to="/blog/rental-property-expenses">complete rental property expenses guide</Link>. A property that pencils at thin margins after full expenses isn't necessarily a bad investment — equity paydown and appreciation contribute to total return. But you need to know what you're actually buying.
+      For a detailed breakdown of every cost category, see our <Link to="/blog/property-management/rental-property-expenses">complete rental property expenses guide</Link>. A property that pencils at thin margins after full expenses isn't necessarily a bad investment — equity paydown and appreciation contribute to total return. But you need to know what you're actually buying.
     </p>
 
     <h2>Step 3: Understand the Financing</h2>
@@ -94,7 +94,7 @@ const FirstRentalProperty = () => (
       <li>Higher reserves requirement — many lenders want 6 months of PITI in the bank after closing</li>
     </ul>
     <p>
-      There's one major exception worth knowing: if you're buying a 2–4 unit property and plan to live in one of the units (house hacking), you can use an <Link to="/blog/mortgage-loans-first-time-homebuyers">FHA loan</Link> with as little as 3.5% down. The income from the other units offsets your housing cost. It's one of the best first moves in real estate for investors who are willing to live near their tenants, at least temporarily.
+      There's one major exception worth knowing: if you're buying a 2–4 unit property and plan to live in one of the units (house hacking), you can use an <Link to="/blog/financing/mortgage-loans-first-time-homebuyers">FHA loan</Link> with as little as 3.5% down. The income from the other units offsets your housing cost. It's one of the best first moves in real estate for investors who are willing to live near their tenants, at least temporarily.
     </p>
 
     <h2>Step 4: Do Real Due Diligence</h2>
@@ -113,7 +113,7 @@ const FirstRentalProperty = () => (
     <ol>
       <li><strong>Read the actual lease.</strong> When does it expire? What does it say about rent increases, pets, subletting? Are there any side agreements or verbal promises you'll need to honor?</li>
       <li><strong>Talk to the tenant directly.</strong> Even a five-minute conversation tells you a lot. Do they seem stable? Are there maintenance issues the seller hasn't mentioned?</li>
-      <li><strong>Check local landlord-tenant laws. When you're ready to find a tenant, see our guide to <Link to="/blog/find-tenant-rental-property">tenant screening and placement</Link>.</strong> Some cities have rent control. Some states have extremely tenant-friendly eviction processes that take 6+ months. You need to know the legal landscape before you're in it.</li>
+      <li><strong>Check local landlord-tenant laws. When you're ready to find a tenant, see our guide to <Link to="/blog/property-management/find-tenant-rental-property">tenant screening and placement</Link>.</strong> Some cities have rent control. Some states have extremely tenant-friendly eviction processes that take 6+ months. You need to know the legal landscape before you're in it.</li>
     </ol>
 
     <blockquote>

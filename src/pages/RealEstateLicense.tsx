@@ -207,7 +207,7 @@ const RealEstateLicense = () => {
             </p>
             <p className="mt-3 text-sm text-muted-foreground">
               Want to understand the difference between a real estate agent, Realtor, and broker?{" "}
-              <Link to="/blog/real-estate-agent-realtor-broker" className="text-accent hover:underline font-medium">
+              <Link to="/blog/real-estate-careers/real-estate-agent-realtor-broker" className="text-accent hover:underline font-medium">
                 Read our guide on agent vs. broker roles →
               </Link>
             </p>

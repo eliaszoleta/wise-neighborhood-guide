@@ -5,7 +5,7 @@ const BecomeRealtorBroker = () => (
   <BlogPost
     title="What Do Realtors and Brokers Do — and How Do You Become One?"
     metaDesc="Real estate agents represent buyers and sellers in transactions. Brokers run their own offices. Here's what each role actually involves, what the licensing process looks like, and what income to realistically expect."
-    slug="become-realtor-broker"
+    slug="real-estate-careers/become-realtor-broker"
     datePublished="2026-02-13"
     category="Careers"
     faqs={[
@@ -28,7 +28,7 @@ const BecomeRealtorBroker = () => (
       These three terms get used interchangeably but they mean different things. An <strong>agent</strong> is anyone who has passed a state licensing exam and is authorized to represent buyers or sellers in real estate transactions. They must work under a licensed broker — they cannot operate independently.
     </p>
     <p>
-      A <strong>Realtor</strong> is simply an agent or broker who is a member of the National Association of Realtors (NAR). For the key distinctions, see our <Link to="/blog/real-estate-agent-realtor-broker">agent vs. Realtor vs. broker breakdown</Link>. NAR membership is voluntary. It comes with access to the Multiple Listing Service in most markets and a commitment to NAR's Code of Ethics. Not every licensed agent is a Realtor, though in practice the majority join because MLS access is essentially required to serve clients effectively.
+      A <strong>Realtor</strong> is simply an agent or broker who is a member of the National Association of Realtors (NAR). For the key distinctions, see our <Link to="/blog/real-estate-careers/real-estate-agent-realtor-broker">agent vs. Realtor vs. broker breakdown</Link>. NAR membership is voluntary. It comes with access to the Multiple Listing Service in most markets and a commitment to NAR's Code of Ethics. Not every licensed agent is a Realtor, though in practice the majority join because MLS access is essentially required to serve clients effectively.
     </p>
     <p>
       A <strong>broker</strong> has completed additional education beyond the standard agent license and has passed a separate broker exam. Brokers can operate their own firms, supervise agents, and hold earnest money and escrow funds. Some brokers work independently; others work under another broker (they're called "associate brokers").

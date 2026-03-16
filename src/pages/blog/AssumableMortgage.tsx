@@ -5,7 +5,7 @@ const AssumableMortgage = () => (
   <BlogPost
     title="What Is an Assumable Mortgage? How Buyers Can Take Over a 3% Rate in a 7% Market"
     metaDesc="An assumable mortgage lets a buyer take over the seller's existing loan — same rate, same balance, same terms. Here's which loans qualify, how the process works, and how to bridge the equity gap."
-    slug="assumable-mortgage"
+    slug="financing/assumable-mortgage"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -70,7 +70,7 @@ const AssumableMortgage = () => (
     <ul>
       <li><strong>Cash.</strong> If you have it, this is the cleanest option. You close, you pay the gap, done.</li>
       <li><strong>Second mortgage.</strong> Some lenders will issue a second mortgage to cover the equity gap. The rate will be higher than the assumed rate, but your blended average cost is likely still well below a new first mortgage at market rates.</li>
-      <li><strong>Seller financing.</strong> The seller carries a note for the equity gap, and you make two payments — one to the servicer, one to the seller. Common structure for sellers who don't need all-cash proceeds immediately. See our breakdown of <Link to="/blog/seller-financing-real-estate">how seller financing works</Link>.</li>
+      <li><strong>Seller financing.</strong> The seller carries a note for the equity gap, and you make two payments — one to the servicer, one to the seller. Common structure for sellers who don't need all-cash proceeds immediately. See our breakdown of <Link to="/blog/financing/seller-financing-real-estate">how seller financing works</Link>.</li>
       <li><strong>Combination.</strong> Some buyers use savings for part of the gap and a second mortgage for the rest.</li>
     </ul>
 
@@ -110,7 +110,7 @@ const AssumableMortgage = () => (
     </p>
 
     <p>
-      The <a href="https://www.hud.gov/program_offices/housing/sfh/ins/203b--df" target="_blank" rel="noopener noreferrer">HUD guidance on FHA loan assumptions</a> covers the formal requirements. For investors exploring <Link to="/real-estate-investing/funding-financing">creative financing options</Link>, assumable mortgages pair well with seller financing on the equity gap and <Link to="/blog/subject-to-real-estate">subject-to deals</Link> as part of a broader alternative financing toolkit.
+      The <a href="https://www.hud.gov/program_offices/housing/sfh/ins/203b--df" target="_blank" rel="noopener noreferrer">HUD guidance on FHA loan assumptions</a> covers the formal requirements. For investors exploring <Link to="/real-estate-investing/funding-financing">creative financing options</Link>, assumable mortgages pair well with seller financing on the equity gap and <Link to="/blog/financing/subject-to-real-estate">subject-to deals</Link> as part of a broader alternative financing toolkit.
     </p>
 
     <div className="callout">

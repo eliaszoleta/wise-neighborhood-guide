@@ -5,7 +5,7 @@ const SellerFinancingRealEstate = () => (
   <BlogPost
     title="Seller Financing in Real Estate: How It Works and When It Makes Sense"
     metaDesc="Seller financing is when the person selling a property acts as the bank. Here's how the deal is structured, what rates and terms look like, and when it's actually worth pursuing."
-    slug="seller-financing-real-estate"
+    slug="financing/seller-financing-real-estate"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -28,7 +28,7 @@ const SellerFinancingRealEstate = () => (
 
     <p><strong>The deed of trust (or mortgage, depending on state)</strong> is the security instrument. It's recorded with the county and creates a lien on the property in the seller's favor. If the buyer stops paying, the seller can foreclose through this lien. The deed of trust works in lockstep with the promissory note — the terms in both documents must match exactly. If there's a discrepancy between interest rates, payment amounts, or maturity dates across the two documents, you've created a legal problem.</p>
 
-    <p>At closing, the buyer takes title to the property — compare this to <Link to="/blog/subject-to-real-estate">subject-to deals</Link>, where the seller's existing mortgage stays in place. The seller holds the lien. Once the loan is fully paid, the seller releases it and the buyer owns free and clear.</p>
+    <p>At closing, the buyer takes title to the property — compare this to <Link to="/blog/financing/subject-to-real-estate">subject-to deals</Link>, where the seller's existing mortgage stays in place. The seller holds the lien. Once the loan is fully paid, the seller releases it and the buyer owns free and clear.</p>
 
     <h2>What the Terms Actually Look Like</h2>
 
@@ -44,7 +44,7 @@ const SellerFinancingRealEstate = () => (
 
     <p>Not every seller wants a lump sum. Counterintuitive as that sounds, a seller who has a paid-off property and accepts seller financing spreads their capital gains over the life of the loan — this is an installment sale under IRS rules, and it can significantly reduce the tax hit compared to receiving the full purchase price in one year. The seller also earns interest income, which can function as a steady revenue stream, especially for retired sellers who don't need all the cash immediately.</p>
 
-    <p>Sellers also use it to move properties that would otherwise be hard to sell conventionally — the same properties that are often targeted by <Link to="/blog/hard-money-lender">hard money lenders</Link>. — older buildings, mixed-use, rural land, or anything that a bank appraiser might struggle to value or approve. If the bank won't lend on it, seller financing is often the only way to find a buyer.</p>
+    <p>Sellers also use it to move properties that would otherwise be hard to sell conventionally — the same properties that are often targeted by <Link to="/blog/financing/hard-money-lender">hard money lenders</Link>. — older buildings, mixed-use, rural land, or anything that a bank appraiser might struggle to value or approve. If the bank won't lend on it, seller financing is often the only way to find a buyer.</p>
 
     <h2>Why Buyers Pursue It</h2>
 

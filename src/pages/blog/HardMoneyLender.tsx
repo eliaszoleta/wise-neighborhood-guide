@@ -5,7 +5,7 @@ const HardMoneyLender = () => (
   <BlogPost
     title="What Is a Hard Money Lender in Real Estate Investing?"
     metaDesc="Hard money lenders provide short-term, asset-based loans for real estate investors buying distressed properties. Here's how they work, what they really cost, and when to use one."
-    slug="hard-money-lender"
+    slug="financing/hard-money-lender"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -119,7 +119,7 @@ const HardMoneyLender = () => (
       wrong with the rehab.
     </p>
     <blockquote>
-      <Link to="/blog/private-money-lender">Private money lenders</Link> often offer cheaper rates than hard money — typically 6–10% versus 12–15% — but require an established relationship first. Hard money is a tool, not a shortcut. The cost of that money has to be
+      <Link to="/blog/financing/private-money-lender">Private money lenders</Link> often offer cheaper rates than hard money — typically 6–10% versus 12–15% — but require an established relationship first. Hard money is a tool, not a shortcut. The cost of that money has to be
       built into your deal analysis from the start, not added in as an
       afterthought.
     </blockquote>
@@ -160,7 +160,7 @@ const HardMoneyLender = () => (
       paying more in interest than you have to. Hard money on a rental property
       you plan to hold long-term is a bad idea unless you're bridging to a
       refinance quickly. Paying 12% on a rental that cash flows at maybe 8% cap
-      rate means you're losing money every month you hold it. Investors executing the <Link to="/blog/brrrr-method-real-estate">BRRRR strategy</Link> use hard money as a bridge, then refinance into a long-term loan once the property stabilizes.
+      rate means you're losing money every month you hold it. Investors executing the <Link to="/blog/investing/brrrr-method-real-estate">BRRRR strategy</Link> use hard money as a bridge, then refinance into a long-term loan once the property stabilizes.
     </p>
     <p>
       I've also seen investors use hard money on deals where the margin was too

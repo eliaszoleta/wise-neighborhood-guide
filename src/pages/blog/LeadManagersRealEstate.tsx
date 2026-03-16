@@ -5,7 +5,7 @@ const LeadManagersRealEstate = () => (
   <BlogPost
     title="What Do Lead Managers Do in a Real Estate Business?"
     metaDesc="Lead managers are the front line of a real estate investment operation — the people who handle incoming seller contacts before acquisitions takes over. Here's what the role actually involves."
-    slug="lead-managers-real-estate"
+    slug="real-estate-business/lead-managers-real-estate"
     datePublished="2026-02-13"
     category="Business"
     faqs={[
@@ -37,7 +37,7 @@ const LeadManagersRealEstate = () => (
 
     <p>A lead manager handles volume. They might touch 30–50 leads per week — initial contacts, callbacks, follow-up sequences, dead-lead revivals. They need phone presence, CRM discipline, and the ability to stay consistent across dozens of conversations without losing empathy or energy.</p>
 
-    <p>An <Link to="/blog/acquisitions-manager-real-estate">acquisitions manager</Link> handles depth. They take the qualified, warm leads and convert them — which means property visits, comparative market analysis, renovation cost estimates, offer calculations, and negotiation. One good acquisitions manager might close 3–6 deals a month. That's their entire world.</p>
+    <p>An <Link to="/blog/real-estate-business/acquisitions-manager-real-estate">acquisitions manager</Link> handles depth. They take the qualified, warm leads and convert them — which means property visits, comparative market analysis, renovation cost estimates, offer calculations, and negotiation. One good acquisitions manager might close 3–6 deals a month. That's their entire world.</p>
 
     <p>Trying to have one person do both is a real thing at smaller operations. It works until it doesn't — usually when lead volume crosses the point where consistent follow-up becomes impossible solo.</p>
 
@@ -68,7 +68,7 @@ const LeadManagersRealEstate = () => (
     <p>When should you hire one? When your marketing is generating more inbound contacts than you can realistically track and follow up with solo. If you're missing calls, letting leads go cold after one touch, or spending hours on CRM management instead of appointments — that's the signal. Some operators hire at 15–20 inbound leads per week. Others wait until they're at 40+. The right threshold depends on your acquisition pace and how much deal value you're comfortable leaving on the table.</p>
 
     <div className="callout">
-      <p>For the tools that support lead management, see our <Link to="/blog/lead-management-tools">CRM and lead management tools guide</Link>. Explore the full <Link to="/real-estate-marketing/crm-automation">CRM automation topic page</Link> for more on building systematic follow-up. The lead manager role is infrastructure. It doesn't close deals directly — it creates the conditions where deals get closed, reliably, over time.</p>
+      <p>For the tools that support lead management, see our <Link to="/blog/real-estate-business/lead-management-tools">CRM and lead management tools guide</Link>. Explore the full <Link to="/real-estate-marketing/crm-automation">CRM automation topic page</Link> for more on building systematic follow-up. The lead manager role is infrastructure. It doesn't close deals directly — it creates the conditions where deals get closed, reliably, over time.</p>
     </div>
   </BlogPost>
 );

@@ -5,7 +5,7 @@ const PropertyManagementCompanies = () => (
   <BlogPost
     title="Property Management Companies: What They Do and Whether You Need One"
     metaDesc="Property management companies handle tenants, maintenance, rent collection, and compliance. Here's what they actually cost, what you give up doing it yourself, and how to tell if the fee is worth it."
-    slug="property-management-companies"
+    slug="property-management/property-management-companies"
     datePublished="2026-02-13"
     category="Property Management"
     faqs={[
@@ -16,7 +16,7 @@ const PropertyManagementCompanies = () => (
       { q: "Can a property manager handle evictions?", a: "Yes — most full-service property managers handle the eviction process on your behalf, which is one of the biggest advantages of hiring one. Evictions require precise compliance with state-specific notice periods, filing procedures, and court appearances. An improperly served notice or incorrect paperwork can reset the timeline by weeks, making a manager who knows your state's process worth the fee alone." },
     ]}
   >
-    <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income — our <Link to="/blog/rental-property-expenses">rental property expenses guide</Link> breaks down every cost category they miss. and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
+    <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income — our <Link to="/blog/property-management/rental-property-expenses">rental property expenses guide</Link> breaks down every cost category they miss. and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
 
     <p>Here's what a property management company does, what it really costs over a two-year tenancy, and an honest take on when it's worth the money and when it isn't.</p>
 
@@ -61,7 +61,7 @@ const PropertyManagementCompanies = () => (
 
     <h2>How to Find a Good One</h2>
 
-    <p>When you're ready to place a tenant yourself, see our <Link to="/blog/find-tenant-rental-property">guide to finding and screening tenants</Link>. The best property managers get most of their new clients through referrals from other investors. Ask at local investor meetups, real estate associations, or in investor Facebook groups for your market. Interview at least two or three before signing anything.</p>
+    <p>When you're ready to place a tenant yourself, see our <Link to="/blog/property-management/find-tenant-rental-property">guide to finding and screening tenants</Link>. The best property managers get most of their new clients through referrals from other investors. Ask at local investor meetups, real estate associations, or in investor Facebook groups for your market. Interview at least two or three before signing anything.</p>
 
     <p>Questions worth asking in the interview:</p>
     <ul>

@@ -5,7 +5,7 @@ const HelocRealEstate = () => (
   <BlogPost
     title="How Real Estate Investors Use a HELOC to Fund Deals"
     metaDesc="A HELOC turns your home equity into a revolving line of credit. Here's how investors use it for down payments, rehabs, and the BRRRR cycle — and where the risk of using your home as collateral gets real."
-    slug="heloc-real-estate"
+    slug="financing/heloc-real-estate"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -76,7 +76,7 @@ const HelocRealEstate = () => (
     <h3>The BRRRR Cycle Accelerator</h3>
 
     <p>
-      The <Link to="/blog/brrrr-method-real-estate">BRRRR method</Link> requires capital for purchase and rehab, then a refinance to recycle that capital into the next deal. A HELOC is the revolving fund that keeps the cycle moving. You pull from the HELOC to fund the deal, refinance the stabilized property to pay back the HELOC, and repeat. Done properly, the same HELOC balance can fund multiple deals over a few years.
+      The <Link to="/blog/investing/brrrr-method-real-estate">BRRRR method</Link> requires capital for purchase and rehab, then a refinance to recycle that capital into the next deal. A HELOC is the revolving fund that keeps the cycle moving. You pull from the HELOC to fund the deal, refinance the stabilized property to pay back the HELOC, and repeat. Done properly, the same HELOC balance can fund multiple deals over a few years.
     </p>
 
     <h3>Quick Capital for Competitive Offers</h3>
@@ -92,7 +92,7 @@ const HelocRealEstate = () => (
     </p>
 
     <p>
-      A <Link to="/blog/cash-out-refinance">cash-out refinance</Link> replaces your mortgage with a new, larger loan and gives you the difference at closing. It's a lump sum, usually at a fixed rate — good for one large capital pull, but it replaces your existing mortgage, which matters if your current rate is below market.
+      A <Link to="/blog/financing/cash-out-refinance">cash-out refinance</Link> replaces your mortgage with a new, larger loan and gives you the difference at closing. It's a lump sum, usually at a fixed rate — good for one large capital pull, but it replaces your existing mortgage, which matters if your current rate is below market.
     </p>
 
     <p>

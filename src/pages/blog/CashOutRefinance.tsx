@@ -5,7 +5,7 @@ const CashOutRefinance = () => (
   <BlogPost
     title="Cash-Out Refinance in Real Estate: How Investors Use It to Access Equity"
     metaDesc="A cash-out refinance replaces your mortgage with a larger loan and gives you the difference in cash. Here's how investors use it, what it costs, and the risk of doing it wrong."
-    slug="cash-out-refinance"
+    slug="financing/cash-out-refinance"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -46,7 +46,7 @@ const CashOutRefinance = () => (
     <ul>
       <li><strong>HELOC</strong> — a revolving line of credit secured by your equity. Variable rate, flexible draws, interest-only payments during the draw period. Good for short-term needs where you want to borrow in pieces.</li>
       <li><strong>Home equity loan</strong> — a second mortgage, fixed rate, lump sum. You keep your original mortgage and add a second loan on top of it. Two separate payments, two separate loans.</li>
-      <li><strong>Cash-out refinance</strong> — replaces your existing mortgage entirely. See our <Link to="/blog/types-of-refinance">types of refinance guide</Link> to compare this with rate-and-term and streamline options. One loan, one payment. Usually fixed rate. Better when you want to restructure your whole debt picture or lock in a lower rate while pulling cash.</li>
+      <li><strong>Cash-out refinance</strong> — replaces your existing mortgage entirely. See our <Link to="/blog/financing/types-of-refinance">types of refinance guide</Link> to compare this with rate-and-term and streamline options. One loan, one payment. Usually fixed rate. Better when you want to restructure your whole debt picture or lock in a lower rate while pulling cash.</li>
     </ul>
     <p>
       The right choice depends on your rate environment and what you're trying to do. If your current mortgage rate is 3.5% and the new refinance rate is 7%, pulling a HELOC at 8% might actually be cheaper on a blended basis. Run the numbers before you assume a refi is the right move.
@@ -65,7 +65,7 @@ const CashOutRefinance = () => (
       There are three situations I see this used most often — and all three are covered in more detail on our <Link to="/real-estate-investing/funding-financing">funding and financing page</Link>:
     </p>
     <ol>
-      <li><strong>Funding the next acquisition.</strong> You've built equity in property A. You pull it out and use it as a down payment on property B. This is how investors build portfolios without constantly waiting to save up fresh capital. The <Link to="/blog/brrrr-method-real-estate">BRRRR strategy</Link> — Buy, Rehab, Rent, Refinance, Repeat — is built entirely on this idea.</li>
+      <li><strong>Funding the next acquisition.</strong> You've built equity in property A. You pull it out and use it as a down payment on property B. This is how investors build portfolios without constantly waiting to save up fresh capital. The <Link to="/blog/investing/brrrr-method-real-estate">BRRRR strategy</Link> — Buy, Rehab, Rent, Refinance, Repeat — is built entirely on this idea.</li>
       <li><strong>Exiting hard money or private money loans.</strong> Short-term loans are expensive. Once a property is stabilized and rentable, a cash-out refi at a conventional rate replaces the high-interest bridge loan and often returns most of the original down payment.</li>
       <li><strong>Portfolio repositioning.</strong> Sometimes you own a property with significant equity but the cash flow is mediocre. Pulling equity out and redeploying it into a higher-returning asset is a legitimate financial move — but only if the math on both sides works.</li>
     </ol>

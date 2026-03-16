@@ -5,7 +5,7 @@ const LeaseOptionRealEstate = () => (
   <BlogPost
     title="Lease Option Real Estate: How It Works, Who It's For, and What to Watch Out For"
     metaDesc="A lease option lets you rent a property today with the right to buy it later at a locked-in price. Here's how the deal is structured, who benefits, and the risks both sides need to understand."
-    slug="lease-option-real-estate"
+    slug="financing/lease-option-real-estate"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -18,7 +18,7 @@ const LeaseOptionRealEstate = () => (
   >
     <p>Say your credit score is 620 and you need a 680 to qualify for a conventional mortgage. Or you're self-employed and two years into the business — not enough history yet for a bank to approve you. You want to buy, you're not financially irresponsible, you just need time. A lease option is built for exactly that situation.</p>
 
-    <p>It's also one of the more misunderstood structures in real estate — compare it to <Link to="/blog/seller-financing-real-estate">seller financing</Link>, where the seller extends a new loan directly, and <Link to="/blog/subject-to-real-estate">subject-to deals</Link>, where the buyer takes over the seller's existing mortgage. — partly because people use "lease option," "lease purchase," and "rent-to-own" interchangeably when they actually mean different things with different legal consequences. Getting those terms wrong in a contract can cost you real money.</p>
+    <p>It's also one of the more misunderstood structures in real estate — compare it to <Link to="/blog/financing/seller-financing-real-estate">seller financing</Link>, where the seller extends a new loan directly, and <Link to="/blog/financing/subject-to-real-estate">subject-to deals</Link>, where the buyer takes over the seller's existing mortgage. — partly because people use "lease option," "lease purchase," and "rent-to-own" interchangeably when they actually mean different things with different legal consequences. Getting those terms wrong in a contract can cost you real money.</p>
 
     <h2>What a Lease Option Actually Is</h2>
 

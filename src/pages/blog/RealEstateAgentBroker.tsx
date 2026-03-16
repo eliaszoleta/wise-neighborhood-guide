@@ -5,7 +5,7 @@ const RealEstateAgentBroker = () => (
   <BlogPost
     title="What Is a Real Estate Agent, Realtor, and Broker? Key Differences Explained"
     metaDesc="Agent, Realtor, and broker get used interchangeably but they mean different things. Here's what actually separates them and why it matters when you're buying, selling, or building a career."
-    slug="real-estate-agent-realtor-broker"
+    slug="real-estate-careers/real-estate-agent-realtor-broker"
     datePublished="2026-02-13"
     category="Careers"
     faqs={[
@@ -52,7 +52,7 @@ const RealEstateAgentBroker = () => (
 
     <p><strong>For real estate investors:</strong> You want an agent who understands investment property analysis — ARV, cap rates, cash-on-cash return — not just someone who can navigate a residential sale. The license type is less important than experience with investment transactions. Check out <Link to="/real-estate-license">our state-by-state real estate license resource</Link> for requirements in your state. and solid MLS access. An agent embedded in investor networks is worth more than a broker who only does retail.</p>
 
-    <p><strong>For career decisions:</strong> Getting your broker's license is a meaningful step up — for the full licensing process, see our guide to <Link to="/blog/become-realtor-broker">becoming a Realtor or broker</Link>. — more autonomy, higher earning ceiling, ability to build a team. But it also means more responsibility and usually a year or more of serious coursework on top of an already busy production schedule. Most agents pursue it when they want to expand beyond being a solo producer.</p>
+    <p><strong>For career decisions:</strong> Getting your broker's license is a meaningful step up — for the full licensing process, see our guide to <Link to="/blog/real-estate-careers/become-realtor-broker">becoming a Realtor or broker</Link>. — more autonomy, higher earning ceiling, ability to build a team. But it also means more responsibility and usually a year or more of serious coursework on top of an already busy production schedule. Most agents pursue it when they want to expand beyond being a solo producer.</p>
 
     <h2>The Income Reality</h2>
     <p>Median earnings for real estate agents in the U.S. run roughly $50,000–$60,000 per year, but that number is nearly meaningless because the distribution is so wide. A significant portion of licensed agents do fewer than 5 transactions per year — often people keeping their license active as a side pursuit. Top producers in active markets easily clear six figures. Some do much more.</p>

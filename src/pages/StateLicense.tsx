@@ -163,13 +163,13 @@ const StateLicense = () => {
             <ul className="space-y-1.5">
               <li>
                 →{" "}
-                <Link to="/blog/real-estate-agent-realtor-broker" className="text-accent hover:underline">
+                <Link to="/blog/real-estate-careers/real-estate-agent-realtor-broker" className="text-accent hover:underline">
                   Real Estate Agent vs. Realtor vs. Broker — What's the Difference?
                 </Link>
               </li>
               <li>
                 →{" "}
-                <Link to="/blog/become-realtor-broker" className="text-accent hover:underline">
+                <Link to="/blog/real-estate-careers/become-realtor-broker" className="text-accent hover:underline">
                   How to Become a Realtor or Broker
                 </Link>
               </li>

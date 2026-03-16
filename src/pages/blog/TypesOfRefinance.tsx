@@ -5,7 +5,7 @@ const TypesOfRefinance = () => (
   <BlogPost
     title="Types of Refinance in Real Estate: Rate-and-Term, Cash-Out, Streamline & More"
     metaDesc="Not all refinances work the same way. Rate-and-term, cash-out, streamline, and DSCR refinances each serve different goals. Here's when to use each one."
-    slug="types-of-refinance"
+    slug="financing/types-of-refinance"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -33,7 +33,7 @@ const TypesOfRefinance = () => (
     <ul>
       <li><strong>Lower the interest rate.</strong> If rates have dropped since you bought, refinancing can reduce your monthly payment and total interest paid over the life of the loan.</li>
       <li><strong>Change the loan term.</strong> Going from a 30-year to a 15-year accelerates equity build-up (and raises your payment). Going from a 15-year to a 30-year lowers your payment and frees up monthly cash flow.</li>
-      <li><strong>Remove private mortgage insurance (PMI). See our guide to <Link to="/blog/mip-vs-pmi-explained">MIP vs. PMI</Link> for more on how mortgage insurance cancellation works.</strong> If you put less than 20% down, you're paying PMI. Once you have 20% equity — either from payments or appreciation — a refinance officially gets rid of it.</li>
+      <li><strong>Remove private mortgage insurance (PMI). See our guide to <Link to="/blog/financing/mip-vs-pmi-explained">MIP vs. PMI</Link> for more on how mortgage insurance cancellation works.</strong> If you put less than 20% down, you're paying PMI. Once you have 20% equity — either from payments or appreciation — a refinance officially gets rid of it.</li>
     </ul>
     <p>
       The calculation that actually matters here is break-even. Refinancing costs money — typically 2–3% of the loan amount in closing costs. Divide the closing costs by your monthly savings to figure out how many months until you recoup the expense.
@@ -59,7 +59,7 @@ const TypesOfRefinance = () => (
       Real estate investors use cash-out refis to fund new acquisitions, execute the refinance step in a BRRRR strategy, or retire expensive hard money loans. The key discipline: every dollar extracted carries an ongoing interest cost. If you can't deploy that capital at a return exceeding your borrowing cost, leaving the equity in the property is the better move.
     </p>
     <p>
-      For a full breakdown of how cash-out refinancing works — including a detailed dollar example — see our <Link to="/blog/cash-out-refinance">dedicated article on cash-out refinances</Link>.
+      For a full breakdown of how cash-out refinancing works — including a detailed dollar example — see our <Link to="/blog/financing/cash-out-refinance">dedicated article on cash-out refinances</Link>.
     </p>
 
     <h2>Streamline Refinance (FHA and VA)</h2>

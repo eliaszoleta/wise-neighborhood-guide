@@ -5,7 +5,7 @@ const SubjectToRealEstate = () => (
   <BlogPost
     title="Subject-To Real Estate Deals: How They Work and What You're Actually Agreeing To"
     metaDesc="A subject-to deal lets you take over a property without qualifying for a new mortgage. Here's how it works, why sellers agree to it, and the real risks both sides are taking on."
-    slug="subject-to-real-estate"
+    slug="financing/subject-to-real-estate"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -18,7 +18,7 @@ const SubjectToRealEstate = () => (
   >
     <p>The premise sounds almost too convenient: you buy a property, take title, start collecting rent or reselling — but the original seller's mortgage stays in place and you just make the payments. No loan application. No down payment requirement. No credit check. No dealing with a bank at all.</p>
 
-    <p>That's the basic structure of a subject-to deal, and it's entirely legal. It's worth comparing this to <Link to="/blog/seller-financing-real-estate">seller financing</Link>, where the seller extends new credit directly rather than leaving their existing mortgage in place. It's also not as clean as that pitch sounds, and anyone who tells you otherwise is selling you a course. Let's go through what's actually happening in these transactions.</p>
+    <p>That's the basic structure of a subject-to deal, and it's entirely legal. It's worth comparing this to <Link to="/blog/financing/seller-financing-real-estate">seller financing</Link>, where the seller extends new credit directly rather than leaving their existing mortgage in place. It's also not as clean as that pitch sounds, and anyone who tells you otherwise is selling you a course. Let's go through what's actually happening in these transactions.</p>
 
     <h2>The Mechanics of a Subject-To</h2>
 
@@ -43,7 +43,7 @@ const SubjectToRealEstate = () => (
 
     <p>Here's the thing — in practice, lenders often don't enforce it. As long as payments are coming in, many lenders are indifferent to who's actually making them. But "often don't enforce" is not a guarantee, and the risk doesn't disappear because it's rarely triggered. If the lender does decide to call the loan, the buyer may be forced to sell quickly, refinance in an environment they didn't plan for, or lose the property entirely.</p>
 
-    <p>Some investors use land trusts or LLCs to obscure the title transfer. For comparison, <Link to="/blog/lease-option-real-estate">lease options</Link> offer a way to control property without triggering due-on-sale concerns. and reduce the chance of triggering the clause. This is a gray area. It works until it doesn't, and if a lender is motivated to look, they'll find the transfer. Build your deal assuming the due-on-sale clause could be invoked. If your numbers only work if the lender never finds out, your deal has a flaw.</p>
+    <p>Some investors use land trusts or LLCs to obscure the title transfer. For comparison, <Link to="/blog/financing/lease-option-real-estate">lease options</Link> offer a way to control property without triggering due-on-sale concerns. and reduce the chance of triggering the clause. This is a gray area. It works until it doesn't, and if a lender is motivated to look, they'll find the transfer. Build your deal assuming the due-on-sale clause could be invoked. If your numbers only work if the lender never finds out, your deal has a flaw.</p>
 
     <h2>Why Would a Seller Agree to This?</h2>
 

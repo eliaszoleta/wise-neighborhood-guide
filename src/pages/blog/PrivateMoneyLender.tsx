@@ -5,7 +5,7 @@ const PrivateMoneyLender = () => (
   <BlogPost
     title="Private Money Lenders in Real Estate: How to Find Them and Work With Them"
     metaDesc="Private money lenders are individuals who fund deals from their own capital. Here's how private money differs from hard money, how deals are structured, and how to build your lender network."
-    slug="private-money-lender"
+    slug="financing/private-money-lender"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -163,7 +163,7 @@ const PrivateMoneyLender = () => (
     </p>
     <ol>
       <li>
-        Do your first deal with <Link to="/blog/hard-money-lender">hard money</Link> or your own cash. Document everything —
+        Do your first deal with <Link to="/blog/financing/hard-money-lender">hard money</Link> or your own cash. Document everything —
         timeline, budget vs. actual, final numbers. That deal becomes your track
         record.
       </li>

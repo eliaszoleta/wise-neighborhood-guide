@@ -5,7 +5,7 @@ const TenantNotPayingRent = () => (
   <BlogPost
     title="Tenant Stopped Paying Rent? Here's What to Do Step by Step"
     metaDesc="A non-paying tenant is a legal problem as much as a cash flow problem. How you respond determines whether you recover quickly or spend months in court. Here's the process, your options, and what to never do."
-    slug="tenant-not-paying-rent"
+    slug="property-management/tenant-not-paying-rent"
     datePublished="2026-02-13"
     category="Property Management"
     faqs={[
@@ -84,7 +84,7 @@ const TenantNotPayingRent = () => (
     <h3>Proceed to Eviction</h3>
 
     <p>
-      If the tenant is unresponsive, refuses to work with you, or the notice period expires without payment, you file for eviction. This is a legal process — follow the steps exactly. Skipping or misordering steps gets cases dismissed. The full step-by-step breakdown is in our guide on the <Link to="/blog/eviction-process-landlord">eviction process for landlords</Link>.
+      If the tenant is unresponsive, refuses to work with you, or the notice period expires without payment, you file for eviction. This is a legal process — follow the steps exactly. Skipping or misordering steps gets cases dismissed. The full step-by-step breakdown is in our guide on the <Link to="/blog/property-management/eviction-process-landlord">eviction process for landlords</Link>.
     </p>
 
     <h2>What You Cannot Do — Ever</h2>
@@ -115,15 +115,15 @@ const TenantNotPayingRent = () => (
     </p>
 
     <p>
-      The basics: require income verification at 3x monthly rent, run a credit check and look for eviction history, call previous landlord references and ask direct questions, and verify employment directly. Our guide on <Link to="/blog/find-tenant-rental-property">finding quality tenants</Link> covers what to look for and what to ask.
+      The basics: require income verification at 3x monthly rent, run a credit check and look for eviction history, call previous landlord references and ask direct questions, and verify employment directly. Our guide on <Link to="/blog/property-management/find-tenant-rental-property">finding quality tenants</Link> covers what to look for and what to ask.
     </p>
 
     <p>
-      If you don't want to manage any of this — the late rent calls, the notices, the legal process — that's exactly what a <Link to="/blog/property-management-companies">property management company</Link> handles. The 8–10% management fee looks different when the alternative is spending months navigating an eviction yourself.
+      If you don't want to manage any of this — the late rent calls, the notices, the legal process — that's exactly what a <Link to="/blog/property-management/property-management-companies">property management company</Link> handles. The 8–10% management fee looks different when the alternative is spending months navigating an eviction yourself.
     </p>
 
     <p>
-      Also worth reviewing: our breakdown of <Link to="/blog/rental-property-expenses">monthly rental property expenses</Link> so you're adequately capitalized for vacancies and legal costs when they happen.
+      Also worth reviewing: our breakdown of <Link to="/blog/property-management/rental-property-expenses">monthly rental property expenses</Link> so you're adequately capitalized for vacancies and legal costs when they happen.
     </p>
 
     <div className="callout">

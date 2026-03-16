@@ -5,7 +5,7 @@ const BlanketMortgage = () => (
   <BlogPost
     title="What Is a Blanket Mortgage? A Guide for Real Estate Investors With Multiple Properties"
     metaDesc="A blanket mortgage covers multiple properties under one loan. Here's how the release clause works, when consolidating a portfolio makes sense, and the risks of linking all your properties to one lender."
-    slug="blanket-mortgage"
+    slug="financing/blanket-mortgage"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -62,7 +62,7 @@ const BlanketMortgage = () => (
     <ul>
       <li>You have fewer than five properties — the savings don't outweigh the complexity</li>
       <li>You can still access conventional rates — blanket mortgage rates are usually higher</li>
-      <li>You're executing the <Link to="/blog/brrrr-method-real-estate">BRRRR strategy</Link>, which requires refinancing each property individually as it seasons</li>
+      <li>You're executing the <Link to="/blog/investing/brrrr-method-real-estate">BRRRR strategy</Link>, which requires refinancing each property individually as it seasons</li>
       <li>You want to keep each property's risk isolated — cross-collateralization is a real constraint</li>
     </ul>
 
@@ -91,7 +91,7 @@ const BlanketMortgage = () => (
     </p>
 
     <p>
-      Some <Link to="/blog/hard-money-lender">hard money lenders</Link> offer blanket structures for transitional portfolios, though at higher rates and shorter terms. For a broader look at portfolio financing options, the <Link to="/real-estate-investing/funding-financing">funding and financing overview</Link> covers the full range of debt tools available to investors.
+      Some <Link to="/blog/financing/hard-money-lender">hard money lenders</Link> offer blanket structures for transitional portfolios, though at higher rates and shorter terms. For a broader look at portfolio financing options, the <Link to="/real-estate-investing/funding-financing">funding and financing overview</Link> covers the full range of debt tools available to investors.
     </p>
 
     <p>

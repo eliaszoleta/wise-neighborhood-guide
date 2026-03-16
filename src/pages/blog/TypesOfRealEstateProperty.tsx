@@ -5,7 +5,7 @@ const TypesOfRealEstateProperty = () => (
   <BlogPost
     title="3 Main Types of Real Estate Property for Home Buyers, Sellers & Investors"
     metaDesc="Residential, commercial, and land — they all fall under 'real estate' but they work completely differently. Here's what separates them and why it matters for your goals."
-    slug="types-of-real-estate-property"
+    slug="investing/types-of-real-estate-property"
     datePublished="2026-02-13"
     category="Investing"
     faqs={[
@@ -26,7 +26,7 @@ const TypesOfRealEstateProperty = () => (
 
     <p>It doesn't matter if the building looks like townhomes. It doesn't matter if every unit is identical to a single-family house. Five or more units is commercial. Full stop.</p>
 
-    <p>Residential is where most investors start because it's accessible — see our guide to <Link to="/blog/first-rental-property">buying your first rental property</Link> for a step-by-step breakdown. — the financing is workable, the inventory is deep, and people always need somewhere to live. That demand doesn't evaporate the way office or retail demand can during a downturn. It's not glamorous, but it's consistent.</p>
+    <p>Residential is where most investors start because it's accessible — see our guide to <Link to="/blog/investing/first-rental-property">buying your first rental property</Link> for a step-by-step breakdown. — the financing is workable, the inventory is deep, and people always need somewhere to live. That demand doesn't evaporate the way office or retail demand can during a downturn. It's not glamorous, but it's consistent.</p>
 
     <h2>Commercial Real Estate</h2>
 
@@ -50,7 +50,7 @@ const TypesOfRealEstateProperty = () => (
 
     <p>That said, land has a real niche in investing — specifically through wholesaling. The play is finding rural or suburban land from owners who aren't using it: inherited parcels, delinquent tax properties, absentee owners who paid the land off decades ago and never think about it. You make them a below-market cash offer, get it under contract, and assign the contract to a developer or land investor for a fee. Competition is thinner than residential wholesaling, and the capital requirements are lower. It's not glamorous, but operators who know their local market do well with it.</p>
 
-    <p>Land also works as a long-term appreciation play. For the most accessible entry point, most investors start with residential units and the <Link to="/blog/brrrr-method-real-estate">BRRRR method</Link> before moving to other asset classes. when you have a genuine read on a growth corridor — buying raw acres in the path of an expanding suburb and sitting on it until development pressure arrives. The downside is patience. Land is illiquid. Finding the right buyer can take years, and there's no cash flow carrying you while you wait.</p>
+    <p>Land also works as a long-term appreciation play. For the most accessible entry point, most investors start with residential units and the <Link to="/blog/investing/brrrr-method-real-estate">BRRRR method</Link> before moving to other asset classes. when you have a genuine read on a growth corridor — buying raw acres in the path of an expanding suburb and sitting on it until development pressure arrives. The downside is patience. Land is illiquid. Finding the right buyer can take years, and there's no cash flow carrying you while you wait.</p>
 
     <h2>Where to Start</h2>
 

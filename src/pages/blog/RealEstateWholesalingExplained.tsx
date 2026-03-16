@@ -5,7 +5,7 @@ const RealEstateWholesalingExplained = () => (
   <BlogPost
     title="What Is Real Estate Wholesaling and How Does It Work?"
     metaDesc="Wholesaling means finding below-market properties, putting them under contract, and selling that contract to an investor for a fee — without ever owning the property. Here's the full process."
-    slug="real-estate-wholesaling-explained"
+    slug="wholesaling/real-estate-wholesaling-explained"
     datePublished="2026-02-13"
     category="Wholesaling"
     faqs={[
@@ -74,7 +74,7 @@ const RealEstateWholesalingExplained = () => (
       Some purchase contracts include language that prohibits assignment. When that happens, wholesalers use a "double close" — two back-to-back transactions where you actually purchase the property briefly before selling it to the end buyer. This requires transactional funding (short-term bridge money for the first leg), which costs around 1–2% of the purchase price. It adds friction, but it's a legitimate option.
     </p>
     <p>
-      Building a buyers list — a group of active investors who will look at your deals — is typically handled by an <Link to="/blog/acquisitions-manager-real-estate">acquisitions manager</Link> in larger operations. — is just as important as finding sellers. A great deal with no buyer on the other end is a problem. Most wholesale businesses spend real effort maintaining relationships with 10–30 active buyers who are consistently purchasing in their target markets.
+      Building a buyers list — a group of active investors who will look at your deals — is typically handled by an <Link to="/blog/real-estate-business/acquisitions-manager-real-estate">acquisitions manager</Link> in larger operations. — is just as important as finding sellers. A great deal with no buyer on the other end is a problem. Most wholesale businesses spend real effort maintaining relationships with 10–30 active buyers who are consistently purchasing in their target markets.
     </p>
 
     <h2>The Legal Landscape</h2>
@@ -82,7 +82,7 @@ const RealEstateWholesalingExplained = () => (
       Wholesaling is legal in most states, but the line between assigning a contract and acting as an unlicensed real estate agent can get blurry — and regulators in some states have started paying closer attention. The key legal principle is that you're selling your equitable interest in a contract, not brokering a real estate transaction.
     </p>
     <p>
-      That said, the rules vary by state. Illinois, for example, has passed legislation requiring wholesalers to disclose their equitable interest in writing. Other states have their own nuances. This is not an area where you want to rely on a course or a YouTube video for your legal framework. The intake and follow-up side of finding motivated sellers is covered in detail in our <Link to="/blog/lead-managers-real-estate">lead managers guide</Link>. Consult a real estate attorney in your specific state before you close your first deal.
+      That said, the rules vary by state. Illinois, for example, has passed legislation requiring wholesalers to disclose their equitable interest in writing. Other states have their own nuances. This is not an area where you want to rely on a course or a YouTube video for your legal framework. The intake and follow-up side of finding motivated sellers is covered in detail in our <Link to="/blog/real-estate-business/lead-managers-real-estate">lead managers guide</Link>. Consult a real estate attorney in your specific state before you close your first deal.
     </p>
 
     <h2>How Long Does This Actually Take?</h2>

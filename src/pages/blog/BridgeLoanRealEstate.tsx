@@ -5,7 +5,7 @@ const BridgeLoanRealEstate = () => (
   <BlogPost
     title="What Is a Bridge Loan in Real Estate and When Does One Actually Make Sense?"
     metaDesc="A bridge loan is short-term financing that closes fast when conventional mortgages can't. Here's how the terms work, what they actually cost, and when the math justifies using one."
-    slug="bridge-loan-real-estate"
+    slug="financing/bridge-loan-real-estate"
     datePublished="2026-02-13"
     category="Financing"
     faqs={[
@@ -76,7 +76,7 @@ const BridgeLoanRealEstate = () => (
     <h2>Bridge Loans vs. Hard Money: What's the Difference?</h2>
 
     <p>
-      Mostly, the label. <Link to="/blog/hard-money-lender">Hard money lenders</Link> often market their products as bridge loans, and the structure is effectively identical — short-term, higher-rate, asset-based, interest-only with a balloon payment.
+      Mostly, the label. <Link to="/blog/financing/hard-money-lender">Hard money lenders</Link> often market their products as bridge loans, and the structure is effectively identical — short-term, higher-rate, asset-based, interest-only with a balloon payment.
     </p>
 
     <p>
@@ -98,7 +98,7 @@ const BridgeLoanRealEstate = () => (
     </p>
 
     <p>
-      <strong>Exit: Refinance.</strong> If you're holding as a rental, most conventional lenders require a 6-month seasoning period before they'll appraise the improved value and issue a permanent loan. That's 6 months of bridge loan interest after rehab completion — build it into your cost model. The <Link to="/blog/brrrr-method-real-estate">BRRRR strategy</Link> depends entirely on this exit, and the math breaks when the seasoning period adds unexpected carrying costs.
+      <strong>Exit: Refinance.</strong> If you're holding as a rental, most conventional lenders require a 6-month seasoning period before they'll appraise the improved value and issue a permanent loan. That's 6 months of bridge loan interest after rehab completion — build it into your cost model. The <Link to="/blog/investing/brrrr-method-real-estate">BRRRR strategy</Link> depends entirely on this exit, and the math breaks when the seasoning period adds unexpected carrying costs.
     </p>
 
     <p>

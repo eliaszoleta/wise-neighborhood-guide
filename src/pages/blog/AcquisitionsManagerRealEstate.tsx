@@ -5,7 +5,7 @@ const AcquisitionsManagerRealEstate = () => (
   <BlogPost
     title="What Does an Acquisitions Manager Do in a Real Estate Business?"
     metaDesc="Acquisitions managers go on seller appointments, run deal analysis, negotiate contracts, and close deals. Here's what the role looks like day-to-day and what separates good from great."
-    slug="acquisitions-manager-real-estate"
+    slug="real-estate-business/acquisitions-manager-real-estate"
     datePublished="2026-02-13"
     category="Business"
     faqs={[
@@ -31,7 +31,7 @@ const AcquisitionsManagerRealEstate = () => (
       After the walkthrough comes the offer presentation. This is where the role shifts from analysis to persuasion. The manager explains the investor's offer in a way that helps the seller understand the value — not just the number, but the speed, the certainty, the lack of showings and contingencies. Then they close. That means asking for the signature. Not hinting at it, not leaving it open — asking directly.
     </p>
     <p>
-      Once a contract is signed, the acquisitions manager hands the deal off to dispositions. The intake side — qualifying inbound leads before they reach acquisitions — is handled by a <Link to="/blog/lead-managers-real-estate">lead manager</Link>. That handoff needs to include a clean deal summary: purchase price, ARV, estimated rehab, comps used, any quirks with the property or title. A messy handoff creates problems downstream.
+      Once a contract is signed, the acquisitions manager hands the deal off to dispositions. The intake side — qualifying inbound leads before they reach acquisitions — is handled by a <Link to="/blog/real-estate-business/lead-managers-real-estate">lead manager</Link>. That handoff needs to include a clean deal summary: purchase price, ARV, estimated rehab, comps used, any quirks with the property or title. A messy handoff creates problems downstream.
     </p>
 
     <h2>The Skills That Actually Matter</h2>
@@ -68,7 +68,7 @@ const AcquisitionsManagerRealEstate = () => (
 
     <h2>How to Actually Hire a Good One</h2>
     <p>
-      Real estate experience is nice but not required. For context on what wholesaling operations actually look like from end to end, see our <Link to="/blog/real-estate-wholesaling-explained">wholesaling explained guide</Link>. Sales experience — especially cold-call or door-to-door sales — is far more predictive of success. Someone who spent two years selling solar panels or SaaS to small businesses has probably developed more relevant muscle than someone with a real estate license who spent those years helping buyers find houses on Zillow.
+      Real estate experience is nice but not required. For context on what wholesaling operations actually look like from end to end, see our <Link to="/blog/wholesaling/real-estate-wholesaling-explained">wholesaling explained guide</Link>. Sales experience — especially cold-call or door-to-door sales — is far more predictive of success. Someone who spent two years selling solar panels or SaaS to small businesses has probably developed more relevant muscle than someone with a real estate license who spent those years helping buyers find houses on Zillow.
     </p>
     <p>
       In the interview, don't just ask questions. Roleplay a seller call. Give them a scenario: seller has a house worth $180k fixed up, it needs $40k in work, they're behind on payments and want $160k. Watch how they handle the objection when you (playing the seller) say "my neighbor got $175k for their house last year." That moment tells you more than any resume.

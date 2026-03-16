@@ -5,7 +5,7 @@ const EvictionProcessLandlord = () => (
   <BlogPost
     title="The Eviction Process for Landlords: Step-by-Step Legal Guide"
     metaDesc="Eviction is a legal procedure and every state has its own version. Here's how the process works from notice to sheriff enforcement, what a botched eviction actually costs, and the mistakes that get cases thrown out."
-    slug="eviction-process-landlord"
+    slug="property-management/eviction-process-landlord"
     datePublished="2026-02-13"
     category="Property Management"
     faqs={[
@@ -114,7 +114,7 @@ const EvictionProcessLandlord = () => (
     </p>
 
     <div className="callout">
-      <strong>The real cost of eviction:</strong> Court filing fees ($200), process server ($75), attorney for the hearing ($800–$1,500 first time), 2–3 months of missed rent ($2,400–$4,500 on a $1,500/month unit), turnover and cleaning ($800). A straightforward eviction without complications runs $4,000–$7,000 minimum. A contested one: easily $10,000+. This is why <Link to="/blog/find-tenant-rental-property">tenant screening</Link> is the highest-ROI investment a landlord can make.
+      <strong>The real cost of eviction:</strong> Court filing fees ($200), process server ($75), attorney for the hearing ($800–$1,500 first time), 2–3 months of missed rent ($2,400–$4,500 on a $1,500/month unit), turnover and cleaning ($800). A straightforward eviction without complications runs $4,000–$7,000 minimum. A contested one: easily $10,000+. This is why <Link to="/blog/property-management/find-tenant-rental-property">tenant screening</Link> is the highest-ROI investment a landlord can make.
     </div>
 
     <h2>After the Tenant Is Out</h2>
@@ -128,11 +128,11 @@ const EvictionProcessLandlord = () => (
     </p>
 
     <p>
-      If managing tenants, late payments, and evictions yourself is more than you want to handle, see our breakdown of <Link to="/blog/property-management-companies">what property management companies do</Link>. The 8–10% monthly fee looks different when you're weighing it against your own time and the risk of a procedural error in a contested eviction.
+      If managing tenants, late payments, and evictions yourself is more than you want to handle, see our breakdown of <Link to="/blog/property-management/property-management-companies">what property management companies do</Link>. The 8–10% monthly fee looks different when you're weighing it against your own time and the risk of a procedural error in a contested eviction.
     </p>
 
     <p>
-      For the earlier part of the process — when a tenant first goes delinquent and you're deciding between payment plans and formal proceedings — see the companion guide on <Link to="/blog/tenant-not-paying-rent">handling a tenant who stops paying rent</Link>.
+      For the earlier part of the process — when a tenant first goes delinquent and you're deciding between payment plans and formal proceedings — see the companion guide on <Link to="/blog/property-management/tenant-not-paying-rent">handling a tenant who stops paying rent</Link>.
     </p>
 
     <p>

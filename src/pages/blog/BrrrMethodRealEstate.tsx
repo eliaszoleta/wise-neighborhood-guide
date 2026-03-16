@@ -5,7 +5,7 @@ const BrrrMethodRealEstate = () => (
   <BlogPost
     title="The BRRRR Method in Real Estate — What It Is and How It Actually Works"
     metaDesc="BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. It's a capital-recycling strategy for building a rental portfolio. Here's a plain walkthrough of the math and where deals break down."
-    slug="brrrr-method-real-estate"
+    slug="investing/brrrr-method-real-estate"
     datePublished="2026-02-13"
     category="Investing"
     faqs={[
@@ -25,7 +25,7 @@ const BrrrMethodRealEstate = () => (
 
     <h2>Buy: The Number That Has to Work From Day One</h2>
     <p>
-      BRRRR starts with finding a distressed property priced below its after-repair value (ARV). The distress is the point — it's what makes the property un-financeable through conventional channels and creates room for the strategy to work. <Link to="/blog/hard-money-lender">Hard money lenders</Link> or <Link to="/blog/private-money-lender">private money lenders</Link> provide the purchase capital, since banks won't touch properties in poor condition.
+      BRRRR starts with finding a distressed property priced below its after-repair value (ARV). The distress is the point — it's what makes the property un-financeable through conventional channels and creates room for the strategy to work. <Link to="/blog/financing/hard-money-lender">Hard money lenders</Link> or <Link to="/blog/financing/private-money-lender">private money lenders</Link> provide the purchase capital, since banks won't touch properties in poor condition.
     </p>
     <p>
       The non-negotiable rule: <strong>your purchase price plus all renovation costs must stay at or below 70–75% of ARV</strong>. This threshold isn't a guideline. It's the number that determines whether your refinance can eventually return your capital. At 80% of ARV, the math breaks. Build that constraint into your offer before you get emotionally attached to a property.
@@ -66,7 +66,7 @@ const BrrrMethodRealEstate = () => (
       <li>Cash back after paying off bridge: $7,000</li>
     </ul>
     <p>
-      That's a deal where most of the original capital comes back. The property stays in the portfolio with a conventional 30-year mortgage at investment property rates — much cheaper than the bridge loan it replaced. For the full mechanics of pulling equity back out, see our <Link to="/blog/cash-out-refinance">cash-out refinance guide</Link>.
+      That's a deal where most of the original capital comes back. The property stays in the portfolio with a conventional 30-year mortgage at investment property rates — much cheaper than the bridge loan it replaced. For the full mechanics of pulling equity back out, see our <Link to="/blog/financing/cash-out-refinance">cash-out refinance guide</Link>.
     </p>
     <p>
       What breaks this math: the appraiser values the property at $180,000 instead of $200,000. Now the refinance at 75% is only $135,000, not enough to fully pay off the bridge. You have to bring cash to close the gap. The buffer in your ARV estimate protects against this. Investors who appraise right at the edge have no room for error.
