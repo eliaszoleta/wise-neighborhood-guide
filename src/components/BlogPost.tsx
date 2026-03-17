@@ -256,45 +256,26 @@ const BlogPost = ({
                   </div>
                 )}
 
-                {/* Table of Contents */}
-                {toc.length >= 3 && (
-                  <nav aria-label="Table of contents" className="mt-6 rounded-lg border border-border bg-muted/40 px-5 py-4">
-                    <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">In This Article</p>
-                    <ol className="space-y-1.5 list-none m-0 p-0">
-                      {toc.map((item, i) => (
-                        <li key={item.id} className="flex items-baseline gap-2.5">
-                          <span className="text-xs font-semibold text-accent tabular-nums w-4 shrink-0">{i + 1}.</span>
-                          <a
-                            href={`#${item.id}`}
-                            className="text-sm text-foreground hover:text-accent hover:underline transition-colors leading-snug"
-                          >
-                            {item.text}
-                          </a>
-                        </li>
-                      ))}
-                    </ol>
-                  </nav>
-                )}
-
-                {/* Ad after TOC / before article body */}
+                {/* Ad before article body */}
                 <AdSlot slot="6666666666" format="in-article" className="mt-6" />
 
-                {/* Article body — first half */}
-                <div ref={articleRef} className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
-                  {firstHalf}
-                </div>
-
-                {/* Mid-content ad */}
-                {secondHalf.length > 0 && (
-                  <AdSlot slot="7777777777" format="in-article" className="my-8" />
-                )}
-
-                {/* Article body — second half */}
-                {secondHalf.length > 0 && (
+                {/* Article body — ref wraps everything so sidebar TOC is complete */}
+                <div ref={articleRef} className="mt-8">
                   <div className="space-y-6 text-muted-foreground leading-relaxed">
-                    {secondHalf}
+                    {firstHalf}
                   </div>
-                )}
+
+                  {/* Mid-content ad */}
+                  {secondHalf.length > 0 && (
+                    <AdSlot slot="7777777777" format="in-article" className="my-8" />
+                  )}
+
+                  {secondHalf.length > 0 && (
+                    <div className="space-y-6 text-muted-foreground leading-relaxed">
+                      {secondHalf}
+                    </div>
+                  )}
+                </div>
 
                 {/* Key Takeaways */}
                 {keyTakeaways && keyTakeaways.length > 0 && (
