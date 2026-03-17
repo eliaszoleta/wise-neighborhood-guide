@@ -23,7 +23,7 @@ const Footer = () => (
 
     {/* Main link grid */}
     <div className="container-wide px-4 py-14 md:px-8">
-      <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-5">
 
         {/* Brand — spans 2 cols */}
         <div className="col-span-2 space-y-4">
