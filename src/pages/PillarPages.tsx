@@ -156,20 +156,8 @@ export const Investing = () => (
     slug="/real-estate-investing"
     datePublished="2026-02-13"
     icon={TrendingUp}
-    intro="Real estate investing is one of the most proven paths to building long-term wealth for ordinary people — but only when you understand what you're doing before you buy. Overpaying, underestimating expenses, or choosing the wrong market can turn a promising deal into a money pit. These guides focus on the practical side: analyzing deals correctly, finding financing, managing properties, and scaling responsibly."
-    bodyContent={
-      <>
-        <p>
-          The core mechanics of rental property investing are straightforward: buy a property, collect more in rent than you spend on expenses, and let appreciation and equity paydown build in the background over time. What makes investing genuinely difficult is getting that first step right — buying at the right price, with the right financing, in a market that supports your numbers.
-        </p>
-        <p>
-          This section covers the full spectrum of real estate investment strategies: long-term buy-and-hold rentals, the BRRRR (Buy, Rehab, Rent, Refinance, Repeat) method for building a portfolio without tying up capital indefinitely, how to evaluate deals using metrics like cap rate and cash-on-cash return, and how to finance acquisitions using conventional mortgages, hard money loans, DSCR loans, private money, and creative strategies.
-        </p>
-        <p>
-          Whether you're analyzing your first rental property or trying to scale from five units to fifty, the fundamental discipline is the same: run honest numbers before you buy, account for every expense including vacancy and CapEx reserves, and don't let optimism about appreciation paper over a deal that doesn't work on cash flow alone.
-        </p>
-      </>
-    }
+    intro="Practical guides to rental property investing, the BRRRR strategy, deal analysis, and real estate financing — covering every step from finding your first deal to scaling a portfolio."
+    bodyContent={null}
     topics={[
       {
         title: "Rental Property Investing: How to Build Real Passive Income",
@@ -233,20 +221,8 @@ export const Wholesaling = () => (
     slug="/real-estate-wholesaling"
     datePublished="2026-02-13"
     icon={DollarSign}
-    intro="Real estate wholesaling is finding distressed properties at a discount, getting them under contract, and selling that contract to a cash buyer investor for an assignment fee — without ever owning the property or getting a loan yourself. It's one of the few ways to generate income in real estate without significant starting capital, but it requires consistent marketing effort, a real understanding of deal analysis, and legal compliance that many wholesaling courses downplay."
-    bodyContent={
-      <>
-        <p>
-          The business model is simple: find properties worth significantly less than market value because of condition, seller motivation, or both; get the seller under contract at a price that leaves room for your fee and the buyer's profit margin; then sell your position in that contract to an end buyer who will close, renovate, and either rent or flip the property.
-        </p>
-        <p>
-          What makes wholesaling challenging is finding consistent deal flow. Motivated sellers don't advertise themselves. You have to reach them through direct mail campaigns, cold calling, SMS outreach, driving for dollars, networking, and paid digital marketing. Most wholesalers need 2–4 months of consistent lead generation before their first deal closes. The ones who quit before that point miss the moment when the pipeline starts producing.
-        </p>
-        <p>
-          These guides cover the entire wholesaling process honestly — from how the legal structure actually works and what regulations you need to know, to building a buyers list from scratch and running both sides of the business (acquisitions and dispositions) once you're doing volume.
-        </p>
-      </>
-    }
+    intro="How to find motivated sellers, get properties under contract, and assign those contracts to cash buyers for a fee — without buying property or getting a loan."
+    bodyContent={null}
     topics={[
       {
         title: "How Real Estate Wholesaling Works: The Honest Step-by-Step Guide",
@@ -309,20 +285,8 @@ export const Marketing = () => (
     slug="/real-estate-marketing"
     datePublished="2026-02-13"
     icon={Megaphone}
-    intro="Every real estate business — whether you're an agent, an investor, or a wholesaler — runs on leads. Without a consistent pipeline of buyers, sellers, or motivated property owners, the business stalls. The challenge is that there are dozens of lead generation channels, each with different costs, conversion rates, and time horizons. Most agents and investors spread themselves too thin, half-heartedly trying five channels at once instead of mastering one or two."
-    bodyContent={
-      <>
-        <p>
-          Real estate marketing breaks into two broad categories: inbound (people find you through search, content, or referrals) and outbound (you reach people who haven't raised their hand — cold calling, SMS, direct mail, paid ads). Both can work, and both require sustained effort before they produce consistent results.
-        </p>
-        <p>
-          SEO and content marketing take 6–18 months to generate meaningful traffic but produce leads for years with no ongoing ad spend. Paid digital advertising (Google Ads, Facebook Ads) generates leads immediately but requires continuous spending. Cold calling and SMS outreach require high volume, compliance infrastructure, and daily consistency to produce deal flow. Referrals and sphere-of-influence networking produce the highest-converting leads but take the longest to build.
-        </p>
-        <p>
-          These guides cover the main marketing channels used by working real estate professionals in enough detail to actually implement them — not just understand the concepts. That includes realistic cost and performance benchmarks, the tools experienced operators use, and the compliance requirements (especially for outbound channels like cold calling and SMS) that can expose you to liability if ignored.
-        </p>
-      </>
-    }
+    intro="Lead generation strategies for real estate agents and investors — covering paid ads, cold calling, SMS outreach, and CRM automation to build a consistent deal pipeline."
+    bodyContent={null}
     topics={[
       {
         title: "Real Estate Lead Generation: What Actually Works and What Doesn't",
