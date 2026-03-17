@@ -15,6 +15,11 @@ const PortfolioLoanRealEstate = () => (
       { q: "Can I get a portfolio loan if I already have 10 financed properties?", a: "Yes — this is one of the primary reasons investors use portfolio loans. Fannie Mae limits borrowers to 10 conventionally financed properties. Once you hit that limit, conventional lending is closed to you unless you pay some loans down or sell properties. Portfolio lenders set their own limits and often have no hard cap on the number of financed properties, though they'll look closely at your overall asset picture and portfolio cash flow." },
       { q: "What is a blanket portfolio loan?", a: "A blanket portfolio loan (sometimes called a blanket mortgage) puts multiple investment properties under a single loan with one monthly payment. Instead of five separate mortgages on five rental properties, you have one blanket loan. This simplifies management and can improve cash flow if the combined rate is favorable, but it also means all properties are cross-collateralized — a default affects the entire portfolio, not just one property." },
     ]}
+    relatedArticles={[
+      { label: "DSCR Loans for Investors", href: "/blog/financing/dscr-loan-real-estate" },
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+      { label: "Blanket Mortgages Explained", href: "/blog/financing/blanket-mortgage" },
+    ]}
   >
     <p>
       You have 11 rental properties, excellent credit, and strong cash flow

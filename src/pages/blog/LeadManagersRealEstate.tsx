@@ -15,6 +15,11 @@ const LeadManagersRealEstate = () => (
       { q: "How many follow-ups does it take to close a real estate deal?", a: "Industry data from real estate investment operations consistently shows that most deals close between the 5th and 12th contact attempt. A lead manager running a CRM with proper follow-up sequences — 30-day, 60-day, 90-day touches — captures sellers who weren't ready in January but become motivated in April when their circumstances change." },
       { q: "When should a real estate business hire a lead manager?", a: "The signal is when your marketing generates more inbound contacts than you can realistically track and follow up with solo — typically 15–40 inbound leads per week depending on your market and acquisition pace. If you're missing calls, letting leads go cold after one touch, or spending hours on CRM management instead of doing appointments, you need a dedicated lead manager." },
     ]}
+    relatedArticles={[
+      { label: "Lead Management Tools for Investors", href: "/blog/real-estate-business/lead-management-tools" },
+      { label: "Acquisitions Manager Role Explained", href: "/blog/real-estate-business/acquisitions-manager-real-estate" },
+      { label: "Real Estate Bookkeeping Guide", href: "/blog/real-estate-business/bookkeepers-real-estate" },
+    ]}
   >
     <p>A motivated seller calls your business while the acquisitions manager is on an appointment. Nobody picks up. They call a competitor. That deal is gone.</p>
 

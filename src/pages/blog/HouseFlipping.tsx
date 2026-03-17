@@ -15,6 +15,11 @@ const HouseFlipping = () => (
       { q: "Are profits from house flipping taxed differently?", a: "Yes — if you sell within 12 months of purchase, the profit is taxed as ordinary income at rates up to 37%, not the lower long-term capital gains rate. On a $40,000 profit, you may owe $10,000–$15,000 in federal taxes depending on your income bracket. Self-employment tax may also apply if you're flipping regularly. Talk to a CPA who works with real estate investors before your first deal." },
       { q: "What renovations add the most value when flipping a house?", a: "Kitchens and bathrooms consistently produce the highest return when brought to the neighborhood's expected standard. Fresh paint, updated flooring, and curb appeal improvements are also high-ROI because they affect the buyer's first impression at low cost relative to impact. A new roof or HVAC doesn't add value above the comp line — it removes a price reduction — and adding a pool in most markets actually hurts resale value." },
     ]}
+    relatedArticles={[
+      { label: "Fix and Flip vs Buy and Hold", href: "/blog/investing/fix-and-flip-vs-buy-and-hold" },
+      { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+    ]}
   >
     <p>
       Cable TV did a number on house flipping. The shows make it look like you find a beat-up house, spend a few weekends painting and installing subway tile, and walk away with $80,000. In reality, the investors you see on those shows are often working with producers who help source deals, the renovations take months not weeks, and the "profit" shown rarely accounts for every cost. This is a real business model — a good one when done right — but the math is uglier and more complicated than it looks on screen.

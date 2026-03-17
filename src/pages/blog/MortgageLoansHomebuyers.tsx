@@ -15,6 +15,11 @@ const MortgageLoansHomebuyers = () => (
       { q: "What is a USDA loan and who qualifies?", a: "USDA loans are zero-down mortgages backed by the U.S. Department of Agriculture for properties in rural and some suburban areas — more areas qualify than most people expect. Income must be below 115% of the area median income. The mortgage insurance cost is significantly lower than FHA: a 1% upfront guarantee fee and 0.35% annually versus FHA's 1.75% upfront and 0.55–1.05% annually." },
       { q: "What credit score do you need to buy a house for the first time?", a: "You need a minimum 580 to use an FHA loan with 3.5% down, 500–579 with 10% down. Conventional loans technically allow 620 but you'll get meaningfully better rates above 700. VA and USDA loans don't have a strict minimum but most lenders set a floor around 620. For the best conventional mortgage rates, aim for 740+." },
     ]}
+    relatedArticles={[
+      { label: "MIP vs PMI Explained", href: "/blog/financing/mip-vs-pmi-explained" },
+      { label: "Assumable Mortgages Explained", href: "/blog/financing/assumable-mortgage" },
+      { label: "Types of Refinance Explained", href: "/blog/financing/types-of-refinance" },
+    ]}
   >
     <p>The loan you pick affects more than just your monthly payment. It affects your down payment today, your total interest over 30 years, and whether you're stuck paying mortgage insurance for life. For a first-time buyer, this is worth understanding before you start shopping.</p>
 

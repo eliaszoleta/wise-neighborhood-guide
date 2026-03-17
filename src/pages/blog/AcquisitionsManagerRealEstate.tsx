@@ -15,6 +15,11 @@ const AcquisitionsManagerRealEstate = () => (
       { q: "What is the difference between an acquisitions manager and a buyer's agent?", a: "A buyer's agent helps retail homebuyers find and purchase homes at or near asking price. An acquisitions manager negotiates deep discounts with distressed sellers on behalf of an investing business — a completely different skill set, conversation, and psychology." },
       { q: "How long does it take to ramp up a new acquisitions manager?", a: "Plan for 60–90 days before someone is operating independently. The first two weeks are spent learning scripts and systems, weeks three and four involve supervised calls, and by week six they should be booking their own appointments. You should have a clear read on long-term fit by week ten." },
     ]}
+    relatedArticles={[
+      { label: "What Does a Lead Manager Do?", href: "/blog/real-estate-business/lead-managers-real-estate" },
+      { label: "Lead Management Tools for Investors", href: "/blog/real-estate-business/lead-management-tools" },
+      { label: "Real Estate Bookkeeping Guide", href: "/blog/real-estate-business/bookkeepers-real-estate" },
+    ]}
   >
     <p>
       Most people who ask about this role picture something like a corporate M&A analyst — spreadsheets, suits, conference rooms. In the wholesale and fix-and-flip world, it's nothing like that. An acquisitions manager is, at its core, a salesperson who happens to work with motivated sellers. And if you're building a real estate investing business and thinking about hiring one, that distinction matters more than almost anything else.

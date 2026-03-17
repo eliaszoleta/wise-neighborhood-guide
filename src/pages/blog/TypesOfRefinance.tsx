@@ -15,6 +15,11 @@ const TypesOfRefinance = () => (
       { q: "What is a streamline refinance?", a: "A streamline refinance is a simplified rate-reduction process available only for existing FHA or VA loans. It requires no appraisal, minimal income documentation, and no asset verification — you're essentially swapping your current government-backed loan for a new one at a lower rate. You cannot take cash out, and you must currently be making timely payments on the existing loan." },
       { q: "How do I know if refinancing is worth it?", a: "Calculate your break-even point: divide total closing costs by your monthly payment savings. If closing costs are $4,500 and you'll save $150/month, you break even in 30 months. If you plan to sell or refinance again before then, the refi doesn't pay off. If you'll hold the loan past that point, it does. Also factor in whether you're resetting a loan term — starting a new 30-year loan 10 years in can cost more in total interest even at a lower rate." },
     ]}
+    relatedArticles={[
+      { label: "Cash-Out Refinance Explained", href: "/blog/financing/cash-out-refinance" },
+      { label: "How to Refinance a Rental Property", href: "/blog/financing/how-to-refinance-rental-property" },
+      { label: "HELOC for Real Estate Investors", href: "/blog/financing/heloc-real-estate" },
+    ]}
   >
     <p>
       Refinancing means replacing your existing mortgage with a new one — but why you'd do that varies a lot. Lower your payment. Pull out equity. Ditch mortgage insurance. Qualify based on property income instead of your W-2. Each of those goals corresponds to a different type of refinance, and picking the wrong one means either leaving money on the table or not getting approved at all.

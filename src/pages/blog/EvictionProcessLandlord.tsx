@@ -15,6 +15,11 @@ const EvictionProcessLandlord = () => (
       { q: "How long does the eviction process take?", a: "Timelines vary significantly by state. Landlord-friendly states like Texas, Georgia, and Indiana can complete uncontested evictions in 3–4 weeks from filing. States like New York and California can take 3–6 months or longer, especially if the tenant contests. Contested evictions with attorney representation on both sides and multiple hearings can extend even in landlord-friendly states. Always research your specific state's typical timeline before assuming you can move quickly." },
       { q: "Can a landlord evict a tenant in winter?", a: "Some states and municipalities have eviction moratoriums during winter months, particularly in cold-weather states. These rules vary — some prohibit evictions entirely during certain months, others only restrict utility shutoffs or require additional notice periods. Federal or state emergency moratoriums can also temporarily halt evictions. If you're in doubt, consult a local landlord-tenant attorney before filing during the winter months." },
     ]}
+    relatedArticles={[
+      { label: "Tenant Not Paying Rent: What to Do", href: "/blog/property-management/tenant-not-paying-rent" },
+      { label: "Security Deposit Rules for Landlords", href: "/blog/property-management/security-deposit-rules-landlord" },
+      { label: "How to Write a Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
+    ]}
   >
     <p>
       Here's something nobody tells new landlords until it's too late: a botched eviction doesn't just delay the process — in some states, it can result in the landlord paying the tenant. Skipping a required notice step, serving a 3-day notice in a state that requires 5 days, accepting partial rent after starting legal proceedings — each of these can get your case dismissed, force you to start over, and add months to a situation that's already costing you money every week.

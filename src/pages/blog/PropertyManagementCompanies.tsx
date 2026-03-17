@@ -15,6 +15,11 @@ const PropertyManagementCompanies = () => (
       { q: "How do I find a good property management company?", a: "The best referrals come from other local investors at REIA meetups or investor Facebook groups. Interview at least two or three companies, ask for their average vacancy rate across their portfolio, how they handle maintenance, and request references from current clients. Red flags include vague fee answers, unwillingness to show sample financial reporting, and evasive responses about their eviction process." },
       { q: "Can a property manager handle evictions?", a: "Yes — most full-service property managers handle the eviction process on your behalf, which is one of the biggest advantages of hiring one. Evictions require precise compliance with state-specific notice periods, filing procedures, and court appearances. An improperly served notice or incorrect paperwork can reset the timeline by weeks, making a manager who knows your state's process worth the fee alone." },
     ]}
+    relatedArticles={[
+      { label: "Find a Tenant for Your Rental", href: "/blog/property-management/find-tenant-rental-property" },
+      { label: "Rental Property Expenses Breakdown", href: "/blog/property-management/rental-property-expenses" },
+      { label: "Eviction Process for Landlords", href: "/blog/property-management/eviction-process-landlord" },
+    ]}
   >
     <p>A lot of landlords model their cash flow with the mortgage payment as the main expense and rent as the income — our <Link to="/blog/property-management/rental-property-expenses">rental property expenses guide</Link> breaks down every cost category they miss. and rent as the income. Then they're surprised when the property management fee shows up in the actual numbers. The fee isn't optional if you want professional management — and it's bigger than people expect once you account for how it actually works.</p>
 

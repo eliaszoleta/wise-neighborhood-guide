@@ -15,6 +15,11 @@ const HowToRefinanceRentalProperty = () => (
       { q: "Should I do a rate-and-term refi or cash-out refi on my rental?", a: "A rate-and-term refi makes sense primarily when you can lower your rate by 1% or more and recoup closing costs within 24 months through monthly savings. A cash-out refi makes sense when you want to pull equity out to fund the next property acquisition and the blended cost of that capital is favorable compared to alternatives like HELOCs or hard money. Cash-out refis have higher rates and stricter equity requirements, so run the full math before choosing." },
       { q: "What credit score do I need to refinance a rental property?", a: "Most conventional lenders require a minimum 620 credit score for rental property refinancing, but you'll get significantly better rates at 700 or above. Lenders add rate adjustments (called LLPAs — loan-level price adjustments) for investment properties, and these adjustments get worse as credit score drops. At 660 versus 740, you might see a rate difference of 0.5% to 0.75% on the same loan. For DSCR refi loans, most lenders require 680 minimum." },
     ]}
+    relatedArticles={[
+      { label: "Cash-Out Refinance Explained", href: "/blog/financing/cash-out-refinance" },
+      { label: "Types of Refinance Explained", href: "/blog/financing/types-of-refinance" },
+      { label: "DSCR Loans for Investors", href: "/blog/financing/dscr-loan-real-estate" },
+    ]}
   >
     <p>
       Rates dropped 1.5% since you bought your rental two years ago. You have

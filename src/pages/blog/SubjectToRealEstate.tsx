@@ -15,6 +15,11 @@ const SubjectToRealEstate = () => (
       { q: "Why would a seller agree to a subject-to deal?", a: "Sellers in urgent situations — pre-foreclosure, divorce, job loss, or a property they can no longer afford — may agree to a subject-to deal because it stops their mortgage from going further delinquent and gets the property off their hands quickly. The trade-off is that their name stays on the loan, leaving them exposed if the buyer stops making payments." },
       { q: "What are the risks of subject-to real estate for investors?", a: "The primary risks are the due-on-sale clause being invoked (forcing a fast payoff or refinance), inheriting undisclosed liens or deferred maintenance, and seller bankruptcy complications while the loan is still in their name. Always have a real estate attorney review every subject-to transaction, confirm there are no other liens through a title search, and structure a clear exit strategy before closing." },
     ]}
+    relatedArticles={[
+      { label: "Seller Financing Explained", href: "/blog/financing/seller-financing-real-estate" },
+      { label: "Lease Option Real Estate", href: "/blog/financing/lease-option-real-estate" },
+      { label: "Assumable Mortgages Explained", href: "/blog/financing/assumable-mortgage" },
+    ]}
   >
     <p>The premise sounds almost too convenient: you buy a property, take title, start collecting rent or reselling — but the original seller's mortgage stays in place and you just make the payments. No loan application. No down payment requirement. No credit check. No dealing with a bank at all.</p>
 

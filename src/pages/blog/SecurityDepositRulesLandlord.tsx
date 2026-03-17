@@ -15,6 +15,11 @@ const SecurityDepositRulesLandlord = () => (
       { q: "What is the difference between a pet deposit and a pet fee?", a: "A pet deposit is a refundable amount collected to cover potential pet-related damage. If no pet damage occurs, it must be returned like any other portion of the deposit. A pet fee is a non-refundable charge — essentially a one-time payment for the privilege of having a pet. Not all states allow non-refundable fees, and some states require that any amount collected at move-in be treated as a refundable deposit regardless of what you call it. Before charging a non-refundable pet fee, verify your state's rules explicitly." },
       { q: "What is the deadline to return a security deposit after a tenant moves out?", a: "Deadlines vary by state and are strictly enforced. Common timelines: 14 days in Massachusetts, New Hampshire, and Hawaii; 21 days in California; 30 days in Texas, Florida, Illinois, and many others; 45 days in Georgia; 60 days in some states under certain conditions. The clock typically starts on the move-out date or the date you receive written notice that the tenant has vacated, whichever is later. Missing the deadline in most states means you forfeit your right to make any deductions, regardless of the condition the property was left in." },
     ]}
+    relatedArticles={[
+      { label: "Normal Wear and Tear Explained", href: "/blog/property-management/normal-wear-and-tear" },
+      { label: "How to Write a Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
+      { label: "Eviction Process for Landlords", href: "/blog/property-management/eviction-process-landlord" },
+    ]}
   >
     <p>
       In California, a landlord who misses the 21-day deadline to return a security deposit doesn't just lose the right to make deductions — they can be sued for up to twice the deposit amount as a penalty for bad faith. On a $3,000 deposit, that's a $9,000 swing. Security deposit rules are among the most strictly enforced in all of landlord-tenant law, and the consequences for getting them wrong fall almost entirely on the landlord.

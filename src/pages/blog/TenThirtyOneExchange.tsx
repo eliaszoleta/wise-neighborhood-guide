@@ -15,6 +15,11 @@ const TenThirtyOneExchange = () => (
       { q: "What is boot in a 1031 exchange?", a: "Boot is anything you receive from the exchange that isn't like-kind property — typically cash (when the replacement property is worth less than the relinquished property) or net debt relief (when you take on less debt on the new property than you had on the old one). Boot is taxable in the year of the exchange. You can have a partial 1031 exchange where you defer taxes on the reinvested portion and pay taxes only on the boot received." },
       { q: "Does a 1031 exchange avoid depreciation recapture?", a: "No. A 1031 exchange defers capital gains tax but does not eliminate depreciation recapture. The depreciation you claimed on the relinquished property carries over and eventually gets recaptured when you sell the replacement property without exchanging. The recapture rate is 25% federally. The swap-till-you-drop strategy works around this: if you hold exchanged properties until death, your heirs receive a stepped-up basis and the recapture disappears entirely." },
     ]}
+    relatedArticles={[
+      { label: "Self-Directed IRA for Real Estate", href: "/blog/financing/self-directed-ira-real-estate" },
+      { label: "Cash-Out Refinance Explained", href: "/blog/financing/cash-out-refinance" },
+      { label: "How to Refinance a Rental Property", href: "/blog/financing/how-to-refinance-rental-property" },
+    ]}
   >
     <p>
       You bought a rental property in 2018 for $240,000. It's worth $400,000

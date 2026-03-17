@@ -15,6 +15,11 @@ const BlanketMortgage = () => (
       { q: "What credit score and experience do you need for a blanket mortgage?", a: "Most portfolio lenders want at least a 680 credit score, though some commercial lenders weight the portfolio's income performance more heavily than personal credit. More importantly, they want to see that you have experience managing the properties in the loan — inexperienced investors with large portfolios get scrutinized heavily. The properties need to demonstrate stable occupancy and rent rolls that support the debt service coverage ratio the lender requires." },
       { q: "What are the risks of a blanket mortgage?", a: "The primary risk is cross-collateralization: if you default on the blanket mortgage, the lender can foreclose on all the properties in the loan, not just the one generating the problem. With individual mortgages, a cash flow issue on one property is isolated. Under a blanket mortgage, one underperforming property can potentially destabilize the entire portfolio. This risk is manageable with solid reserves and conservative underwriting, but it's real and must be understood before consolidating." },
     ]}
+    relatedArticles={[
+      { label: "Portfolio Loans for Investors", href: "/blog/financing/portfolio-loan-real-estate" },
+      { label: "DSCR Loans for Investors", href: "/blog/financing/dscr-loan-real-estate" },
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+    ]}
   >
     <p>
       At some point in a portfolio investor's growth, the financing system stops working the way it did at the start. Conventional loans cap out at 10 properties for most investors. Every new acquisition requires a separate application, a separate appraisal, a separate closing. The administrative overhead becomes significant. That's the problem a blanket mortgage solves.

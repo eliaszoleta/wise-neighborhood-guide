@@ -15,6 +15,11 @@ const DscrLoanRealEstate = () => (
       { q: "What is the maximum LTV on a typical DSCR loan?", a: "Most DSCR lenders cap purchase loans at 75-80% LTV for single-family and small multifamily. Cash-out refinances are typically limited to 70-75% LTV. Some lenders drop the max to 65-70% if the DSCR is below 1.20x or the borrower's credit score is below 680." },
       { q: "Can short-term rental income count toward DSCR qualification?", a: "Some DSCR lenders accept short-term rental income from platforms like Airbnb and VRBO, but typically require 12-24 months of documented rental history and apply a conservative haircut — often 75-80% of gross receipts. Many lenders fall back to a market long-term rent estimate from an appraiser if STR history is thin. Underwriting standards vary significantly by lender." },
     ]}
+    relatedArticles={[
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+      { label: "Private Money Lenders Explained", href: "/blog/financing/private-money-lender" },
+      { label: "Portfolio Loans for Investors", href: "/blog/financing/portfolio-loan-real-estate" },
+    ]}
   >
     <p>You've found a property that cash flows, but your tax returns show $40,000 in net income after depreciation and deductions — and a conventional lender is turning you down because your debt-to-income ratio is too high. That's exactly the problem a DSCR loan was built to solve. The loan qualifies based on what the property earns, not what you earn personally.</p>
     <p>DSCR loans have become the dominant financing tool for active real estate investors, especially those who've hit Fannie Mae's 10-property conventional limit or who can't document enough personal income to satisfy traditional underwriting. Understanding how the ratio is calculated — and how lenders apply it — determines whether a deal works on paper before you ever apply.</p>

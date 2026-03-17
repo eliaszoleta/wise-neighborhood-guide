@@ -15,6 +15,11 @@ const CapRateVsCashOnCash = () => (
       { q: "What is the gross rent multiplier and when should I use it?", a: "GRM is purchase price divided by annual gross rents. A property selling for $200,000 that rents for $20,000 per year has a GRM of 10. It's a quick filter, not a full analysis — it ignores vacancy, expenses, and financing. Use it to screen out overpriced deals before spending time on a full underwrite. In cash-flow markets, a GRM under 10-12 is worth investigating further." },
       { q: "Why is a high cash-on-cash return sometimes a warning sign?", a: "Extremely high cash-on-cash returns often signal higher risk. The property may be in a declining area with poor long-term demand, it may require significant deferred maintenance that will erode future returns, or the seller may be presenting favorable numbers that don't hold up under scrutiny. Analyze what's driving a high CoC before getting excited about it." },
     ]}
+    relatedArticles={[
+      { label: "How to Analyze a Rental Property Deal", href: "/blog/investing/how-to-analyze-rental-property" },
+      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+      { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
+    ]}
   >
     <p>
       Two investors are looking at the same $200,000 rental property. One says it's an 8% deal. The other says it's an 8% deal. They're both right — and they're talking about completely different things. That's the cap rate vs. cash-on-cash problem, and it causes more confused investment analysis than almost any other concept in real estate.

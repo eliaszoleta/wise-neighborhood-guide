@@ -15,6 +15,11 @@ const LeadManagementTools = () => (
       { q: "How many follow-up attempts does it take to close a real estate deal?", a: "Industry data from real estate investment and sales operations consistently shows that most deals close between the 5th and 12th contact attempt. Most operators abandon leads after one or two attempts, which means the investors and agents who run systematic follow-up sequences capture a disproportionate share of deals from the same marketing spend." },
       { q: "What should I look for in a real estate CRM?", a: "The most important feature is automated follow-up sequencing — the ability to keep leads in play over weeks and months without requiring your team to manually remember every touchpoint. After that, look for integrations with your lead sources, ease of use for your specific team, and mobile access. A simple system used consistently beats a sophisticated system your team works around." },
     ]}
+    relatedArticles={[
+      { label: "What Does a Lead Manager Do?", href: "/blog/real-estate-business/lead-managers-real-estate" },
+      { label: "Acquisitions Manager Role Explained", href: "/blog/real-estate-business/acquisitions-manager-real-estate" },
+      { label: "Real Estate Bookkeeping Guide", href: "/blog/real-estate-business/bookkeepers-real-estate" },
+    ]}
   >
     <p>Most real estate operators have a CRM graveyard somewhere. For how <Link to="/blog/real-estate-business/lead-managers-real-estate">lead managers</Link> use these tools day-to-day, and how they hand off to <Link to="/blog/real-estate-business/acquisitions-manager-real-estate">acquisitions managers</Link>, see our role-specific guides. They signed up, imported contacts, built a pipeline, maybe entered a dozen leads — and then stopped using it. The software didn't fail. They did. Or more precisely, the software didn't fit how they actually worked, so they worked around it instead of in it.</p>
 

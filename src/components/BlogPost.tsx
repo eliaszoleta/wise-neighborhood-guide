@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import AdSlot from "@/components/AdSlot";
 import { Link } from "react-router-dom";
-import { ArrowLeft, BookOpen, Clock } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, Clock } from "lucide-react";
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -27,6 +27,7 @@ interface BlogPostProps {
   /** Bullet points shown at the end of the article body */
   keyTakeaways?: string[];
   faqs?: { q: string; a: string }[];
+  relatedArticles?: { label: string; href: string }[];
   children: ReactNode;
 }
 
@@ -49,6 +50,7 @@ const BlogPost = ({
   quickAnswer,
   keyTakeaways,
   faqs,
+  relatedArticles,
   children,
 }: BlogPostProps) => {
   const canonicalUrl = `https://peasanthouse.com/blog/${slug}`;
@@ -324,6 +326,30 @@ const BlogPost = ({
                       </div>
                     ))}
                   </div>
+                </div>
+              )}
+
+              {/* Related Articles */}
+              {relatedArticles && relatedArticles.length > 0 && (
+                <div className="mt-10 rounded-lg border border-border bg-muted/40 p-6">
+                  <p className="text-xs font-bold uppercase tracking-wider text-accent mb-4">Related Articles</p>
+                  <ul className="space-y-2.5">
+                    {relatedArticles.map((a) => (
+                      <li key={a.href}>
+                        <Link to={a.href} className="text-sm font-medium text-foreground hover:text-accent hover:underline flex items-center gap-1.5">
+                          <ArrowRight className="h-3 w-3 text-accent shrink-0" />
+                          {a.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                  {categorySlug && categoryLabel && (
+                    <div className="mt-4 pt-4 border-t border-border">
+                      <Link to={`/blog/${categorySlug}`} className="text-xs font-semibold text-accent hover:underline">
+                        Browse all {categoryLabel} guides →
+                      </Link>
+                    </div>
+                  )}
                 </div>
               )}
 

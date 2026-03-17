@@ -15,6 +15,11 @@ const SellerFinancingRealEstate = () => (
       { q: "What is a balloon payment in seller financing?", a: "A balloon payment is the lump sum of the remaining loan balance that comes due at the end of the seller financing term — typically 3–7 years. When the balloon hits, the buyer must either pay it off in full or refinance into a conventional loan. Buyers who can't do either at that point are in default, which is why entering seller financing without a credible balloon exit plan is a serious risk." },
       { q: "What documents are needed for a seller-financed real estate deal?", a: "Every seller-financed transaction requires two key documents: a promissory note spelling out the loan amount, interest rate, payment schedule, maturity date, and default provisions, and a deed of trust (or mortgage in some states) recorded with the county that creates a lien on the property in the seller's favor. Both documents must be drafted correctly for your state and reviewed by a real estate attorney — discrepancies between the two documents create legal problems for both parties." },
     ]}
+    relatedArticles={[
+      { label: "Subject-To Real Estate Explained", href: "/blog/financing/subject-to-real-estate" },
+      { label: "Lease Option Real Estate", href: "/blog/financing/lease-option-real-estate" },
+      { label: "Assumable Mortgages Explained", href: "/blog/financing/assumable-mortgage" },
+    ]}
   >
     <p>The conventional path to buying real estate runs through a bank. You apply, they underwrite, they decide, they set the terms. For most transactions that's fine. But banks say no to a lot of deals that have real logic behind them — the credit score is a few points low, the property needs work and won't appraise, the income is self-employment and complicated to document, or the timeline doesn't fit a 30–45 day close.</p>
 

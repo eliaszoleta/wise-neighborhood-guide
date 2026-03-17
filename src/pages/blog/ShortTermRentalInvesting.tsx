@@ -15,6 +15,11 @@ const ShortTermRentalInvesting = () => (
       { q: "What is STR arbitrage and is it worth it?", a: "STR arbitrage means renting a property long-term from a landlord and then subletting it short-term at higher rates on Airbnb or VRBO. You profit on the spread without owning the asset. The upside is lower capital requirements. The downsides are significant: most leases prohibit subletting, landlords can evict you, the business is entirely at the landlord's discretion, and you bear all the STR operating costs without building equity. It can work at scale with landlord agreements in place, but it's fragile." },
       { q: "How do I research STR demand before investing?", a: "AirDNA and Rabbu both provide STR market data including average daily rates, occupancy rates, and revenue estimates by market and property type. Use them to pull data for the specific zip code or market you're evaluating. Check how many active listings exist, what the seasonal occupancy pattern looks like, and what top performers earn. Then discount those numbers — tools tend to capture listings with high review counts and optimized pricing, not median performer results." },
     ]}
+    relatedArticles={[
+      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+      { label: "Rental Property Expenses Breakdown", href: "/blog/property-management/rental-property-expenses" },
+      { label: "How to Analyze a Rental Property Deal", href: "/blog/investing/how-to-analyze-rental-property" },
+    ]}
   >
     <p>
       A 2-bedroom Airbnb in a mid-tier vacation market charges $150 per night and runs at 70% occupancy. The math looks like this: 365 nights × 70% occupancy × $150 ADR = $38,325 in gross annual revenue. The comparable long-term rental in the same area? $1,500 per month, or $18,000 per year. That's a $20,000 spread, and it's why short-term rental investing has attracted so much capital over the past decade.

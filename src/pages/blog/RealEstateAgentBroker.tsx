@@ -15,6 +15,11 @@ const RealEstateAgentBroker = () => (
       { q: "How much do real estate agents make per sale?", a: "Commission on the buy or sell side typically runs 2.5–3% of the sale price. On a $400,000 home, that's $10,000–$12,000 in gross commission — which then gets split between the agent and their brokerage according to their agreement, often 50/50 for new agents or up to 80/20 for experienced producers. After the split, income taxes, and business expenses, net income per deal is substantially lower than the gross commission." },
       { q: "What does a real estate broker do differently than an agent?", a: "A managing broker runs the brokerage, supervises agents, handles compliance, and holds earnest money and escrow funds — all things agents cannot legally do. An associate broker holds the broker's license but works under another broker rather than running their own firm. Brokers are legally responsible for their agents' conduct in transactions, which is why the choice of brokerage matters beyond commission splits." },
     ]}
+    relatedArticles={[
+      { label: "How to Become a Realtor or Broker", href: "/blog/real-estate-careers/become-realtor-broker" },
+      { label: "Lead Management Tools for Investors", href: "/blog/real-estate-business/lead-management-tools" },
+      { label: "Acquisitions Manager Role Explained", href: "/blog/real-estate-business/acquisitions-manager-real-estate" },
+    ]}
   >
     <p>Most people use agent, Realtor, and broker like they mean the same thing. They don't — and in some situations, knowing the difference matters quite a bit.</p>
 

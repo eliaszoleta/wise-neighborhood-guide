@@ -15,6 +15,11 @@ const CashOutRefinance = () => (
       { q: "What is the difference between a cash-out refinance and a HELOC?", a: "A cash-out refinance replaces your existing mortgage entirely with one larger loan at a fixed rate. A HELOC is a revolving line of credit added on top of your existing mortgage, with a variable rate and flexible draws. A refi is better for restructuring your whole debt picture; a HELOC is better for borrowing in pieces over time." },
       { q: "Is a cash-out refinance a good idea for buying rental property?", a: "It can be a powerful tool if the equity you extract is deployed into a property that earns more than the cost of the new borrowing rate. If you pull equity at 7% and the next investment generates 10%+ returns, the math works. If you can't define a clear productive use for the cash before pulling it, wait until you can." },
     ]}
+    relatedArticles={[
+      { label: "Types of Refinance Explained", href: "/blog/financing/types-of-refinance" },
+      { label: "How to Refinance a Rental Property", href: "/blog/financing/how-to-refinance-rental-property" },
+      { label: "HELOC for Real Estate Investors", href: "/blog/financing/heloc-real-estate" },
+    ]}
   >
     <p>
       Most people think of equity as money they've made. It isn't. It's money that's sitting still — locked up in a property, doing nothing. A cash-out refinance is one of the most common tools investors use to put that equity back to work.

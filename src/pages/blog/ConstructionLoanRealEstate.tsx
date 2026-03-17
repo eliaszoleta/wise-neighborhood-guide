@@ -30,6 +30,11 @@ const ConstructionLoanRealEstate = () => (
         a: "Construction loan rates are higher than long-term permanent mortgages. For investors, expect rates in the 8-12% range on a fixed basis, or prime rate plus 1-2 percentage points on a variable basis. As of early 2026 with prime around 7.5%, a prime-plus-2 construction loan would be around 9.5%. Permanent 30-year investment property mortgages typically run 1-2 percentage points lower than construction loan rates. The rate differential is one reason minimizing your construction timeline matters — every extra month of carry costs at 10% on a $400k draw balance is roughly $3,300 in interest.",
       },
     ]}
+    relatedArticles={[
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+      { label: "Bridge Loans Explained", href: "/blog/financing/bridge-loan-real-estate" },
+      { label: "Private Money Lenders Explained", href: "/blog/financing/private-money-lender" },
+    ]}
   >
     <p>
       You've found a lot, drawn up plans, and lined up a contractor. Now your

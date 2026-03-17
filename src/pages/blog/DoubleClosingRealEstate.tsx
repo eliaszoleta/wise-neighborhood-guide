@@ -30,6 +30,11 @@ const DoubleClosingRealEstate = () => (
         a: "No. In a double close, the seller (party A) receives a separate settlement statement showing only the AB transaction — what they're selling for and their net proceeds. They do not see the BC settlement statement showing what you sold to the end buyer. That's the primary reason wholesalers use double closes over assignments: privacy of your profit margin from both the original seller and, in some cases, the end buyer.",
       },
     ]}
+    relatedArticles={[
+      { label: "Real Estate Wholesaling Explained", href: "/blog/wholesaling/real-estate-wholesaling-explained" },
+      { label: "How to Build a Cash Buyers List", href: "/blog/wholesaling/cash-buyers-list-real-estate" },
+      { label: "How to Find Motivated Sellers", href: "/blog/wholesaling/how-to-find-motivated-sellers" },
+    ]}
   >
     <p>
       You're under contract to buy a house for $120,000. Your end buyer will pay $155,000. If you assign the contract, everyone sees your $35,000 profit on the closing statement. If that makes your seller uncomfortable — or your buyer's lender won't accept an assignment — you need a different structure. That's what double closing is for.

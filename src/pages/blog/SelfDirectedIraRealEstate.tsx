@@ -15,6 +15,11 @@ const SelfDirectedIraRealEstate = () => (
       { q: "What is the tax advantage of buying real estate in a Roth SDIRA?", a: "In a Roth SDIRA, contributions are made with after-tax money, but qualified withdrawals — including all rental income and appreciation earned by properties held in the account — are completely tax-free. If you buy a rental property in a Roth SDIRA, collect rent for 15 years, and sell it at a significant gain, you owe nothing to the IRS on any of that income or appreciation, provided you meet the qualified distribution rules (account open 5+ years, age 59½ or older)." },
       { q: "Can the self-directed IRA owner manage the property themselves?", a: "You can make investment decisions — choose tenants, set rent, decide to sell — but you cannot personally provide services to the property. That means no self-performed repairs, maintenance, landscaping, or management. The IRA must hire third parties for all of these, and the IRA pays them directly. Performing work yourself is considered a prohibited transaction, and a single violation can expose the entire IRA to disqualification. Hire a professional property manager." },
     ]}
+    relatedArticles={[
+      { label: "1031 Exchange for Real Estate", href: "/blog/financing/1031-exchange-real-estate" },
+      { label: "Cash-Out Refinance Explained", href: "/blog/financing/cash-out-refinance" },
+      { label: "Portfolio Loans for Investors", href: "/blog/financing/portfolio-loan-real-estate" },
+    ]}
   >
     <p>
       Most investors think of their IRA as a stock account. They park their 401(k) rollover in index funds, let it grow, and pull from it at retirement. The IRS never said it had to work that way. The rules allow retirement funds to be invested in real estate — the same rental property, the same cash flow, the same appreciation — with the tax treatment of a retirement account layered on top.

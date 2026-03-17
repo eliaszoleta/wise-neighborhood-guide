@@ -15,6 +15,11 @@ const HelocRealEstate = () => (
       { q: "What is payment shock on a HELOC?", a: "Payment shock occurs when the HELOC transitions from the interest-only draw period to the full principal-and-interest repayment period. If you've borrowed $80,000 at 9% and only been paying interest ($600/month), your payment will roughly double when you start repaying principal over the remaining term. Investors who aren't planning for this transition can get caught off guard — model the full repayment payment before you commit to a large HELOC balance." },
       { q: "Is a HELOC better than a cash-out refinance for investors?", a: "It depends on how you plan to use the equity. A HELOC offers revolving access — draw what you need, pay it back, draw again — which is ideal for ongoing deal flow, down payments on multiple properties, or funding multiple renovation projects. A cash-out refinance provides a lump sum at a fixed rate, replacing your existing mortgage. For investors who want flexible, repeated access to equity across multiple deals, the HELOC is usually the better structure. For one large capital pull, a cash-out refi may be cleaner." },
     ]}
+    relatedArticles={[
+      { label: "Cash-Out Refinance Explained", href: "/blog/financing/cash-out-refinance" },
+      { label: "How to Refinance a Rental Property", href: "/blog/financing/how-to-refinance-rental-property" },
+      { label: "Types of Refinance Explained", href: "/blog/financing/types-of-refinance" },
+    ]}
   >
     <p>
       You've got equity in a property. There's a deal on the table that needs $50,000 in two weeks. Getting a new mortgage takes 30–45 days. A HELOC solves that problem — it's a line of credit that's already approved and sitting there. When you need $50,000 for a down payment or $30,000 for a rehab, you pull it. When you've paid it back, you can pull again.

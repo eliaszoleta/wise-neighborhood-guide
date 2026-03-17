@@ -15,6 +15,11 @@ const FirstRentalProperty = () => (
       { q: "What expenses do first-time landlords typically underestimate?", a: "The four most underestimated expense categories are vacancy (budget 5–8% of annual rent), CapEx reserves for major replacements like roofs and HVAC (5–10% of rent), property management fees including the leasing fee at tenant placement, and maintenance that averages out to 5–10% of rent annually even if some months are zero." },
       { q: "Should you get a home inspection on an investment property?", a: "Yes — and go beyond a standard inspection. Always add a sewer scope ($150–$300), which a general inspection won't catch, since sewer line replacement can run $8,000–$20,000. Get the roof condition documented separately if the inspector flags anything, and verify the age and condition of the HVAC system before you close." },
     ]}
+    relatedArticles={[
+      { label: "How to Analyze a Rental Property Deal", href: "/blog/investing/how-to-analyze-rental-property" },
+      { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
+      { label: "Short-Term Rental Investing", href: "/blog/investing/short-term-rental-investing" },
+    ]}
   >
     <p>
       There are two versions of how a first rental property goes.

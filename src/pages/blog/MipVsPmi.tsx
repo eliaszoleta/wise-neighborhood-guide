@@ -15,6 +15,11 @@ const MipVsPmi = () => (
       { q: "Can you refinance out of FHA to get rid of MIP?", a: "Yes — refinancing into a conventional loan is the only way to eliminate FHA's lifetime MIP. Once you have 20% equity through payments, appreciation, or both, you can refinance, but you'll pay new closing costs (typically 2–5% of the loan amount) and need to qualify for the conventional loan. Run the math on whether the MIP savings over your remaining holding period justify the refinance cost." },
       { q: "Is an FHA loan or conventional loan better for first-time buyers?", a: "Conventional is usually better for buyers with credit scores above 680 who can manage 3–5% down, because PMI is cancellable and the long-term cost structure is lower. FHA makes sense when your credit score is 580–680, because its MIP rate doesn't vary with credit score the way PMI does, making it more affordable for buyers who would face punishing PMI rates conventionally." },
     ]}
+    relatedArticles={[
+      { label: "Mortgage Loans for Homebuyers", href: "/blog/financing/mortgage-loans-first-time-homebuyers" },
+      { label: "Types of Refinance Explained", href: "/blog/financing/types-of-refinance" },
+      { label: "Assumable Mortgages Explained", href: "/blog/financing/assumable-mortgage" },
+    ]}
   >
     <p>Nobody tells you this clearly enough when you're buying a house: mortgage insurance protects the bank, not you. If you default, the insurance pays the lender. You pay the premium. It exists entirely to let lenders approve loans with small down payments while limiting their own risk.</p>
 

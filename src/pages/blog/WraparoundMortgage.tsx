@@ -15,6 +15,11 @@ const WraparoundMortgage = () => (
       { q: "Is a wraparound mortgage legal?", a: "Wraparound mortgages are legal in most states, but the legality of specific structures varies. Some states regulate seller financing heavily, require licensed mortgage originator involvement, or have restrictions on land contracts. An all-inclusive deed of trust (AITD) is the most common vehicle used in states like California, Texas, and Oregon. Always work with a real estate attorney familiar with seller financing in your specific state before executing a wraparound." },
       { q: "Who benefits most from a wraparound mortgage arrangement?", a: "Buyers who can't qualify for conventional financing benefit from getting into a property with seller financing. Sellers with a low-rate existing mortgage benefit by earning the spread between the buyer's rate and their own — for example, paying 3.5% to their lender while collecting 6.5% from the buyer on a larger balance. The seller essentially becomes a bank, earning passive interest income while selling a property they're ready to exit." },
     ]}
+    relatedArticles={[
+      { label: "Seller Financing Explained", href: "/blog/financing/seller-financing-real-estate" },
+      { label: "Subject-To Real Estate Explained", href: "/blog/financing/subject-to-real-estate" },
+      { label: "Lease Option Real Estate", href: "/blog/financing/lease-option-real-estate" },
+    ]}
   >
     <p>
       A seller bought a house in 2020 with a 3.5% mortgage. They owe $120,000.

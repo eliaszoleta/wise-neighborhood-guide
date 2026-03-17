@@ -15,6 +15,11 @@ const BookkeepersRealEstate = () => (
       { q: "What is the difference between a repair and a capital improvement for tax purposes?", a: "Repairs fix something broken and are immediately deductible in the year they occur. Capital improvements add value or extend useful life and must be depreciated over time. Misclassifying them is an audit risk and can either cost you money in taxes (improvements logged as repairs) or result in missed deductions (repairs logged as improvements)." },
       { q: "How does depreciation work for rental property?", a: "The IRS allows you to deduct the cost of a residential rental building over 27.5 years, even though no cash is leaving your account — it's a paper deduction. On a building with $200,000 allocated to the structure, that's $7,272 per year in tax-reducing depreciation deductions, year after year." },
     ]}
+    relatedArticles={[
+      { label: "Acquisitions Manager Role Explained", href: "/blog/real-estate-business/acquisitions-manager-real-estate" },
+      { label: "What Does a Lead Manager Do?", href: "/blog/real-estate-business/lead-managers-real-estate" },
+      { label: "Lead Management Tools for Investors", href: "/blog/real-estate-business/lead-management-tools" },
+    ]}
   >
     <p>Every April, some version of this happens: a landlord drops a grocery bag full of receipts on their CPA's desk and says "here's everything from last year." The CPA charges $300/hour to sort through it. Half the receipts are missing. Some expenses get misclassified. Deductions get left on the table. The whole thing costs twice what it should have.</p>
 

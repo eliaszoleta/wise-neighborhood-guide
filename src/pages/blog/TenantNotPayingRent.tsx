@@ -15,6 +15,11 @@ const TenantNotPayingRent = () => (
       { q: "Can I accept partial rent during the eviction process?", a: "In most states, accepting any payment from a tenant after you've served a Pay or Quit notice can legally waive that notice and restart the eviction clock — meaning you'd need to serve a new notice and begin the process again. Before accepting any payment once legal proceedings have started, consult your attorney. Some states allow partial payment under specific conditions without waiving your rights; many do not. This is one of the most common mistakes landlords make that extends eviction timelines by weeks." },
       { q: "What does an eviction actually cost?", a: "A straightforward uncontested eviction costs $1,500–$3,500 in most markets (court filing fees of $100–$400, process server fees, and attorney costs for the hearing). A contested eviction can easily run $5,000–$10,000 and take months. Add lost rent during the process — often 2–4 months — plus turnover costs for cleaning, repairs, and re-listing. The real total cost of an eviction is frequently $8,000–$15,000 when you count everything. This is why prevention through thorough tenant screening matters more than most landlords realize." },
     ]}
+    relatedArticles={[
+      { label: "Eviction Process for Landlords", href: "/blog/property-management/eviction-process-landlord" },
+      { label: "Security Deposit Rules for Landlords", href: "/blog/property-management/security-deposit-rules-landlord" },
+      { label: "How to Write a Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
+    ]}
   >
     <p>
       The rent didn't come through. It's the 5th of the month, your mortgage on the property was due on the 1st, and the tenant isn't responding to messages. What you do in the next 7–10 days determines whether this is a minor inconvenience or a four-month legal headache.

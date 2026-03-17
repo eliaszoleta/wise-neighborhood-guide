@@ -15,6 +15,11 @@ const HowToAnalyzeRentalProperty = () => (
       { q: "How do I calculate a maximum offer price?", a: "Divide your stabilized NOI by your target cap rate. If a property generates $10,800 in annual NOI and you want a minimum 7% cap rate, the maximum price is $10,800 divided by 0.07, which equals $154,286. If the seller is asking more, you either need to negotiate down, find ways to increase rents, or accept a lower return. This formula keeps emotion out of your offer price." },
       { q: "Should I trust the income and expense statements the seller provides?", a: "Use them as a starting point for questions, not as the basis for your analysis. Sellers routinely understate expenses by omitting capital expenditure reserves, vacancy, and management fees — even when they self-manage. Reconstruct your own NOI using market rents, independently verified taxes and insurance quotes, and standard expense ratios. Any significant discrepancy from the seller's numbers is worth investigating before you close." },
     ]}
+    relatedArticles={[
+      { label: "Cap Rate vs Cash-on-Cash Return", href: "/blog/investing/cap-rate-vs-cash-on-cash" },
+      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+      { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
+    ]}
   >
     <p>
       A 3-bedroom house is listed at $220,000. The seller's rent roll shows $1,800 per month in current rent. The listing says it's a "turnkey cash-flowing investment." Before you write an offer, you need to know if the numbers actually hold up — or if you're about to overpay by $60,000.

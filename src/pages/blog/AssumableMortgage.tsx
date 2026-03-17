@@ -15,6 +15,11 @@ const AssumableMortgage = () => (
       { q: "How long does a mortgage assumption take?", a: "Most mortgage assumptions take 45–90 days from application to closing, and some lenders take longer because they would rather process a new loan at current rates than facilitate an assumption. FHA and VA servicers are required to process assumptions, but staffing and workload vary significantly. Build extra time into your timeline — 60 days is a reasonable minimum." },
       { q: "Does a VA loan assumption restore the seller's entitlement?", a: "Not automatically. When a non-veteran assumes a VA loan, the seller's entitlement remains tied to that property until the loan is paid off or refinanced into a non-VA product. If another eligible veteran assumes the loan and formally substitutes their own entitlement through the lender, the original seller's entitlement is restored. For sellers who plan to use their VA benefit again, entitlement substitution is worth pursuing." },
     ]}
+    relatedArticles={[
+      { label: "Mortgage Loans for Homebuyers", href: "/blog/financing/mortgage-loans-first-time-homebuyers" },
+      { label: "Subject-To Real Estate Explained", href: "/blog/financing/subject-to-real-estate" },
+      { label: "Seller Financing Explained", href: "/blog/financing/seller-financing-real-estate" },
+    ]}
   >
     <p>
       In 2021, millions of homeowners locked in mortgage rates between 2.75% and 3.5%. They still have those loans. And some of them are ready to sell. If you can step into one of those loans instead of getting a new mortgage at 7%, you're looking at a monthly payment difference of $500–$800 on a $250,000 balance — and over $200,000 in interest savings over the life of the loan.

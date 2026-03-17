@@ -30,6 +30,11 @@ const FixAndFlipVsBuyAndHold = () => (
         a: "BRRRR stands for Buy, Rehab, Rent, Refinance, Repeat. You buy a distressed property, renovate it to increase its value, rent it out to establish income, then do a cash-out refinance based on the new appraised value to pull out most or all of your original capital. That capital then goes into the next deal. It combines the value-add work of flipping with the wealth-building of buy-and-hold, and when executed well, it lets you scale a rental portfolio with limited long-term capital tied up in any single property.",
       },
     ]}
+    relatedArticles={[
+      { label: "House Flipping: What It Actually Takes", href: "/blog/investing/house-flipping" },
+      { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
+      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+    ]}
   >
     <p>
       Most real estate investors start by asking the wrong question — "which strategy makes more money?" The better question is: which strategy fits your tax situation, your time availability, your capital, and where you want to be in 10 years?

@@ -15,6 +15,11 @@ const BrrrMethodRealEstate = () => (
       { q: "How much money do you need to start BRRRR investing?", a: "You need enough capital to cover the down payment or purchase price for bridge financing, the renovation costs, and several months of carrying costs during the rehab and seasoning period. On a deal with a $150,000 balance at 12%, holding costs alone run $9,000+ over a six-month seasoning window before you see any capital returned." },
       { q: "What happens if the appraisal comes in low on a BRRRR refinance?", a: "If the appraisal comes in below your target ARV, the refinance loan at 75% LTV may not be large enough to fully pay off your bridge financing — you'd have to bring cash to closing to cover the gap. This is why building a buffer into your ARV estimate matters: investors who model right at the edge have no margin for appraisal variance." },
     ]}
+    relatedArticles={[
+      { label: "How to Analyze a Rental Property Deal", href: "/blog/investing/how-to-analyze-rental-property" },
+      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+      { label: "Fix and Flip vs Buy and Hold", href: "/blog/investing/fix-and-flip-vs-buy-and-hold" },
+    ]}
   >
     <p>
       The BRRRR method gets pitched at every real estate meetup as a way to build a portfolio without ever running out of money. Buy a house, fix it up, rent it out, refinance your capital back out, and do it again with the same money. Repeat until you're rich.

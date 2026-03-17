@@ -15,6 +15,11 @@ const HowToWriteLeaseAgreement = () => (
       { q: "How much can I charge for a late fee?", a: "Late fee limits vary by state. Some states cap fees at a flat dollar amount (often $50-100), others limit it to a percentage of monthly rent (typically 5-10%), and a few states have no statutory cap but courts will still void fees deemed excessive. Whatever you charge, it must be specified in the lease. A late fee that isn't in writing is essentially uncollectable." },
       { q: "What happens if I don't include a required state disclosure in my lease?", a: "Missing a required disclosure can have serious consequences depending on the state. The most common required disclosure is the federal lead paint disclosure for properties built before 1978 — failing to provide it can result in fines up to $19,507 per violation under federal law. State-level disclosures for mold, flooding history, or bed bug history can similarly expose you to fines and give tenants grounds to break the lease without penalty." },
     ]}
+    relatedArticles={[
+      { label: "Find a Tenant for Your Rental", href: "/blog/property-management/find-tenant-rental-property" },
+      { label: "Security Deposit Rules for Landlords", href: "/blog/property-management/security-deposit-rules-landlord" },
+      { label: "Normal Wear and Tear Explained", href: "/blog/property-management/normal-wear-and-tear" },
+    ]}
   >
     <p>
       Most landlord-tenant disputes that end in court come down to one thing: what does the lease say? If your lease is vague, missing key terms, or contains clauses that are unenforceable under your state's law, you lose your leverage at exactly the moment you need it most. A lease isn't paperwork — it's the legal framework your entire relationship with a tenant stands on.

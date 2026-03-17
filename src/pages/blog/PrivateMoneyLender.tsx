@@ -15,6 +15,11 @@ const PrivateMoneyLender = () => (
       { q: "Can you use a self-directed IRA to lend private money?", a: "Yes — many private lenders use self-directed IRAs or Roth IRAs to fund real estate deals, earning interest tax-deferred or tax-free depending on account type. The arrangement requires a custodian who specializes in alternative assets (such as Equity Trust or Midland IRA), and the loan documents are in the name of the IRA, not the individual. The IRS prohibits self-dealing, meaning lenders can't fund deals on property they or close family members will benefit from personally." },
       { q: "What documents are needed for a private money loan?", a: "Every private money deal needs a promissory note spelling out the loan amount, interest rate, payment schedule, maturity date, and default terms, plus a deed of trust (or mortgage in some states) recorded with the county that gives the lender a security interest in the property. Never rely on a handshake or informal note — have a real estate attorney draft or review the documents, and record the deed of trust to protect both parties." },
     ]}
+    relatedArticles={[
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+      { label: "DSCR Loans for Investors", href: "/blog/financing/dscr-loan-real-estate" },
+      { label: "Bridge Loans Explained", href: "/blog/financing/bridge-loan-real-estate" },
+    ]}
   >
     <p>
       A few years back, I was talking to a dentist at a local real estate meetup.

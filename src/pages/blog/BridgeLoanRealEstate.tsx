@@ -15,6 +15,11 @@ const BridgeLoanRealEstate = () => (
       { q: "What is the difference between a bridge loan and a hard money loan?", a: "The terms overlap significantly. Hard money loans from private lenders are often marketed as bridge loans, and the structure is effectively identical: short-term, higher-rate, asset-based, interest-only with a balloon. The distinction is mainly about the lender type — bank-issued bridge loans tend to have slightly lower rates and longer terms; hard money bridge loans come from private lenders, have higher rates and shorter terms, and underwrite primarily on the property rather than the borrower." },
       { q: "What happens if I can't pay off a bridge loan when it matures?", a: "If you can't sell or refinance by the maturity date, most lenders offer an extension — typically at an additional fee (0.5–1 point) and possibly a higher rate. Extensions are not guaranteed, so treating the maturity date as a soft deadline is risky. Before taking a bridge loan, model your exit conservatively: how long will the renovation actually take, how long will the sale or refinance approval realistically require, and what is your buffer if things run long?" },
     ]}
+    relatedArticles={[
+      { label: "Hard Money Lenders Explained", href: "/blog/financing/hard-money-lender" },
+      { label: "Construction Loans Explained", href: "/blog/financing/construction-loan-real-estate" },
+      { label: "Cash-Out Refinance Explained", href: "/blog/financing/cash-out-refinance" },
+    ]}
   >
     <p>
       You find a distressed property at auction that needs to close in 10 days. Your bank needs 45 days minimum. The deal is going to generate $60,000 in profit and you're about to lose it because of a timing mismatch. That's the exact situation bridge loans exist for.

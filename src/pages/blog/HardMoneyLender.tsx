@@ -15,6 +15,11 @@ const HardMoneyLender = () => (
       { q: "What is the difference between hard money and private money?", a: "Hard money comes from professional lending companies with standardized programs and non-negotiable rates (typically 12–15% plus points). Private money comes from individuals — retirees, professionals, former investors — with flexible, negotiable terms that typically run 6–10% because it's relationship-based. Private money is cheaper but takes longer to build; hard money is faster to access early on." },
       { q: "How do renovation draws work with a hard money loan?", a: "Renovation funds are typically held in reserve and released in phases — you complete a stage of work, the lender inspects (or reviews photos), and then releases the next draw. You pay interest on the full loan amount from day one even while waiting for draws, so investors who count on early draw funds to start the next phase of work can end up in a cash crunch if they don't have reserves." },
     ]}
+    relatedArticles={[
+      { label: "Private Money Lenders Explained", href: "/blog/financing/private-money-lender" },
+      { label: "DSCR Loans for Investors", href: "/blog/financing/dscr-loan-real-estate" },
+      { label: "Bridge Loans Explained", href: "/blog/financing/bridge-loan-real-estate" },
+    ]}
   >
     <p>
       Let's say you find a beat-up house for $120,000. After renovations, it's

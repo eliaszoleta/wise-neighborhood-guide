@@ -15,6 +15,11 @@ const LeaseOptionRealEstate = () => (
       { q: "What happens if the seller goes into foreclosure during a lease option?", a: "If the seller stops making their mortgage payments and the lender forecloses during your option period, your deal can fall apart regardless of how faithfully you've been paying rent — a lender seizing the property doesn't honor your option contract. Before signing and paying any option fee, pull a title report and verify the seller's mortgage status to confirm the property is not already in pre-foreclosure." },
       { q: "What is a sandwich lease option?", a: "A sandwich lease option is an investing strategy where you negotiate a lease option with a motivated seller at one price, then offer a lease option to a tenant-buyer at a higher price. You earn a spread on the option fees, the monthly rent difference, and the eventual purchase price gap — all without ever taking title to the property. Both sides of the arrangement must be fully documented and disclosed to the original seller." },
     ]}
+    relatedArticles={[
+      { label: "Seller Financing Explained", href: "/blog/financing/seller-financing-real-estate" },
+      { label: "Subject-To Real Estate Explained", href: "/blog/financing/subject-to-real-estate" },
+      { label: "Assumable Mortgages Explained", href: "/blog/financing/assumable-mortgage" },
+    ]}
   >
     <p>Say your credit score is 620 and you need a 680 to qualify for a conventional mortgage. Or you're self-employed and two years into the business — not enough history yet for a bank to approve you. You want to buy, you're not financially irresponsible, you just need time. A lease option is built for exactly that situation.</p>
 

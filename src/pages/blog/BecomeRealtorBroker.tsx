@@ -15,6 +15,11 @@ const BecomeRealtorBroker = () => (
       { q: "How do you become a real estate broker?", a: "Most states require 2–4 years of active sales experience as a licensed agent, an additional 45–90 hours of coursework, and passing a separate, more difficult broker licensing exam. A broker's license allows you to operate your own firm and supervise other agents." },
       { q: "What should new real estate agents look for in a brokerage?", a: "New agents should prioritize training, mentorship, and lead support over commission split percentages. A 70/30 split at a brokerage with strong training and steady leads is far more valuable than an 85/15 split at a firm that hands you a desk and offers no support." },
     ]}
+    relatedArticles={[
+      { label: "Real Estate Agent vs Realtor vs Broker", href: "/blog/real-estate-careers/real-estate-agent-realtor-broker" },
+      { label: "Lead Management Tools for Investors", href: "/blog/real-estate-business/lead-management-tools" },
+      { label: "Acquisitions Manager Role Explained", href: "/blog/real-estate-business/acquisitions-manager-real-estate" },
+    ]}
   >
     <p>
       The dropout rate in real estate is brutal. Somewhere between 80 and 90 percent of people who get licensed are out of the business within five years. That's not a reason to avoid the career — plenty of people build genuinely great livelihoods in real estate — but it does mean you should go in with accurate expectations rather than the income highlight reels you see on social media.

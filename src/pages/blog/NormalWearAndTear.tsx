@@ -15,6 +15,11 @@ const NormalWearAndTear = () => (
       { q: "What happens if I wrongfully withhold a security deposit?", a: "In most states, wrongful withholding triggers a penalty of 2-3 times the withheld amount, plus attorney fees. In California, a landlord who withholds a deposit in bad faith can be sued for up to 2x the deposit amount as a statutory penalty on top of returning the deposit itself. In Texas, a landlord who fails to return the deposit within 30 days without a written itemized statement forfeits the right to withhold any portion. Document everything and when in doubt, return the money." },
       { q: "Do I need professional contractors for my deduction itemization, or can I estimate costs myself?", a: "For large deductions, having actual invoices or contractor quotes is far more defensible in court than your own estimates. If you do repairs yourself, document your time and any materials purchased with receipts. Small deductions under $100-150 where the cost is obvious may not need contractor documentation, but the moment a tenant disputes a deduction, a court will want to see evidence supporting the dollar amounts you claimed." },
     ]}
+    relatedArticles={[
+      { label: "Security Deposit Rules for Landlords", href: "/blog/property-management/security-deposit-rules-landlord" },
+      { label: "How to Write a Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
+      { label: "Eviction Process for Landlords", href: "/blog/property-management/eviction-process-landlord" },
+    ]}
   >
     <p>
       A tenant moves out after two years and you walk in to find worn carpet in the hallway, a few small nail holes in the living room walls, and paint that's looking dull. You pull out the security deposit and start adding up deduction costs. If you do that, you're about to make an expensive mistake — and in many states, that mistake costs you two or three times what you tried to withhold.

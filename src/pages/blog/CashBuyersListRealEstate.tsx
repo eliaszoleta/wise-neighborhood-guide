@@ -30,6 +30,11 @@ const CashBuyersListRealEstate = () => (
         a: "A buyer worth keeping responds quickly (within a few hours), makes decisions fast (same day or next day), closes when they say they will, doesn't renegotiate after the inspection without legitimate cause, and pays their own closing costs without argument. Buyers who make low offers on every deal, miss closing dates, constantly renegotiate, or go dark after you send them details should be removed. Your list should only include buyers who make your business faster and easier, not harder.",
       },
     ]}
+    relatedArticles={[
+      { label: "Real Estate Wholesaling Explained", href: "/blog/wholesaling/real-estate-wholesaling-explained" },
+      { label: "Double Closing: How It Works", href: "/blog/wholesaling/double-closing-real-estate" },
+      { label: "How to Find Motivated Sellers", href: "/blog/wholesaling/how-to-find-motivated-sellers" },
+    ]}
   >
     <p>
       You can find the best motivated seller deal in your city — distressed property, motivated owner, 40 cents on the dollar — and it means nothing if you don't have a buyer who can close in 10 days. Your cash buyers list isn't a contact list. It's the engine that converts contracts into cash.

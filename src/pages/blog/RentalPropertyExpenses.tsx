@@ -15,6 +15,11 @@ const RentalPropertyExpenses = () => (
       { q: "What expenses can landlords deduct on their taxes?", a: "Landlords can deduct mortgage interest, property taxes, insurance premiums, management fees, repairs and maintenance, depreciation (1/27.5th of the building's cost basis annually), advertising, legal and professional fees, and travel for property management purposes. Depreciation is the most valuable deduction because it's non-cash — it reduces taxable income without reducing actual cash flow." },
       { q: "What is vacancy rate and how does it affect rental income?", a: "Vacancy rate is the percentage of time a rental unit sits empty in a given year. A 7% vacancy rate means you budget for roughly 25 days of vacancy per year — about 2.5 weeks between tenants or during turnover. On $1,500/month rent, that's $1,050/year in lost income. Always model vacancy in your cash flow analysis; assuming 100% occupancy sets you up for disappointment." },
     ]}
+    relatedArticles={[
+      { label: "Property Management Companies", href: "/blog/property-management/property-management-companies" },
+      { label: "Find a Tenant for Your Rental", href: "/blog/property-management/find-tenant-rental-property" },
+      { label: "How to Write a Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
+    ]}
   >
     <p>Here's a mistake that costs landlords real money: they look at rent as revenue and the mortgage payment as the only expense. Everything in between — vacancy, management, maintenance, reserves — gets forgotten until it bites them.</p>
 

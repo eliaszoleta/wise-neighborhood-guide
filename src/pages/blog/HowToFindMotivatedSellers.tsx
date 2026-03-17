@@ -30,6 +30,11 @@ const HowToFindMotivatedSellers = () => (
         a: "Conversion rates depend heavily on the channel. Cold calling typically converts 1 in 50 to 1 in 100 contacts into a deal. Direct mail runs closer to 1 in 200 to 1 in 500 pieces mailed. PPC ads might convert 1 in 20 to 1 in 40 leads into a signed contract. These numbers vary by market, list quality, and follow-up consistency. Most experienced wholesalers close 1 to 3 deals per month from consistent multi-channel marketing.",
       },
     ]}
+    relatedArticles={[
+      { label: "Real Estate Wholesaling Explained", href: "/blog/wholesaling/real-estate-wholesaling-explained" },
+      { label: "How to Build a Cash Buyers List", href: "/blog/wholesaling/cash-buyers-list-real-estate" },
+      { label: "Double Closing: How It Works", href: "/blog/wholesaling/double-closing-real-estate" },
+    ]}
   >
     <p>
       The difference between a wholesaler who does one deal and one who does ten a month comes down to one thing: a consistent pipeline of motivated sellers. Not people who want to sell — people whose situation makes a discounted, fast sale their best option. That distinction is everything.

@@ -15,6 +15,11 @@ const FindTenantRentalProperty = () => (
       { q: "What does a landlord ask when calling a previous landlord reference?", a: "The most valuable questions are: Did they pay on time? Would you rent to them again? Did they give proper notice when they moved out? An actual prior landlord won't lie to another landlord the way friends or family will, making this reference call far more reliable than character references." },
       { q: "What documents should a landlord collect before a tenant moves in?", a: "You should collect first month's rent, last month's rent, and the full security deposit before handing over keys — no exceptions or partial payments. You should also conduct a documented move-in walk-through where both parties sign a condition report with photos, which becomes your protection when disputes arise at move-out." },
     ]}
+    relatedArticles={[
+      { label: "Rental Property Expenses Breakdown", href: "/blog/property-management/rental-property-expenses" },
+      { label: "Property Management Companies", href: "/blog/property-management/property-management-companies" },
+      { label: "How to Write a Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
+    ]}
   >
     <p>
       Before you post your listing, do this math.

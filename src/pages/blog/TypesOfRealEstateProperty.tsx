@@ -15,6 +15,11 @@ const TypesOfRealEstateProperty = () => (
       { q: "Is commercial real estate a good investment?", a: "Commercial real estate can produce strong yields and long-term cash flows, especially with triple-net leases where tenants cover property taxes, insurance, and maintenance. The challenges are higher capital requirements, more complex underwriting, concentrated tenant risk, and vacancy that can dramatically reduce property value. It rewards investors with market expertise and professional management." },
       { q: "Is investing in land a good idea?", a: "Land investing makes sense in specific contexts — wholesaling rural and suburban parcels to developers, or buying in the path of growth corridors with a long time horizon. The challenges are that raw land produces no income while you hold it, doesn't qualify for residential depreciation, and can be illiquid for years. Without specific knowledge of zoning, utilities, and local development pipelines, land is largely speculative." },
     ]}
+    relatedArticles={[
+      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+      { label: "House Flipping: What It Actually Takes", href: "/blog/investing/house-flipping" },
+      { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
+    ]}
   >
     <p>A strip mall in Texas, a self-storage facility in Ohio, a duplex in Phoenix, and 50 acres of raw farmland in Nebraska are all "real estate." Same word, completely different animals. Financing, valuation, risk, management — almost nothing works the same way across these categories. Knowing which type you're dealing with before you start is not just helpful. It changes everything about how you approach the deal.</p>
 

@@ -15,6 +15,11 @@ const RealEstateWholesalingExplained = () => (
       { q: "How do wholesalers find motivated sellers?", a: "The most common methods are direct mail campaigns to distressed-property lists (pre-foreclosure, probate, vacant properties, tax-delinquent), cold calling and SMS marketing, 'driving for dollars' to find neglected properties, and pulling leads from public records. All of these require consistent effort and some upfront marketing spend — the 'no money down' version of wholesaling leaves this part out." },
       { q: "What is an assignment fee in real estate wholesaling?", a: "An assignment fee is the profit a wholesaler earns by selling their contractual right to purchase a property. If you put a property under contract at $95,000 and an investor buyer pays $108,000 to take over that contract, your assignment fee is $13,000. The fee is paid by the end buyer at closing and is disclosed to all parties in the assignment agreement." },
     ]}
+    relatedArticles={[
+      { label: "How to Find Motivated Sellers", href: "/blog/wholesaling/how-to-find-motivated-sellers" },
+      { label: "How to Build a Cash Buyers List", href: "/blog/wholesaling/cash-buyers-list-real-estate" },
+      { label: "Double Closing: How It Works", href: "/blog/wholesaling/double-closing-real-estate" },
+    ]}
   >
     <p>
       Most people who get into real estate wholesaling have heard the same pitch: find a deal, flip the contract, collect a check — no money down, no risk, no repairs. The pitch isn't entirely wrong, but it leaves out the part where you spend several months doing a lot of work before any of that happens.
