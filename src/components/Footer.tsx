@@ -23,10 +23,10 @@ const Footer = () => (
 
     {/* Main link grid */}
     <div className="container-wide px-4 py-14 md:px-8">
-      <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-3 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
 
-        {/* Brand — spans 2 cols on large screens */}
-        <div className="col-span-2 lg:col-span-2 space-y-4">
+        {/* Brand — spans 2 cols */}
+        <div className="col-span-2 space-y-4">
           <Link to="/" className="flex items-center gap-2">
             <img src={logo} alt="Peasant House" className="h-8 w-auto" width={32} height={32} />
             <span className="font-heading text-lg font-bold">Peasant House</span>
@@ -54,54 +54,18 @@ const Footer = () => (
           { label: "Short-Term Rentals", href: "/blog/investing/short-term-rental-investing" },
         ]} />
 
-        {/* Wholesaling */}
-        <FooterCol heading="Wholesaling" links={[
-          { label: "Wholesaling Hub", href: "/real-estate-wholesaling" },
-          { label: "How It Works", href: "/real-estate-wholesaling/how-wholesaling-works" },
-          { label: "Finding Motivated Sellers", href: "/real-estate-wholesaling/finding-motivated-sellers" },
-          { label: "Contracts & Assignments", href: "/real-estate-wholesaling/contracts-assignment-fees" },
-          { label: "Dispositions & Acquisitions", href: "/real-estate-wholesaling/dispositions-acquisitions" },
-          { label: "Cash Buyers List", href: "/blog/wholesaling/cash-buyers-list-real-estate" },
-          { label: "Double Closing", href: "/blog/wholesaling/double-closing-real-estate" },
-        ]} />
-
-        {/* Marketing & Financing */}
-        <div className="space-y-8">
-          <FooterCol heading="Marketing" links={[
-            { label: "Marketing Hub", href: "/real-estate-marketing" },
-            { label: "Lead Generation", href: "/real-estate-marketing/lead-generation" },
-            { label: "Facebook & Google Ads", href: "/real-estate-marketing/facebook-google-ads" },
-            { label: "Cold Calling & SMS", href: "/real-estate-marketing/cold-calling-sms" },
-            { label: "CRM & Automation", href: "/real-estate-marketing/crm-automation" },
-          ]} />
-          <FooterCol heading="Financing" links={[
-            { label: "Hard Money Loans", href: "/blog/financing/hard-money-lender" },
-            { label: "DSCR Loans", href: "/blog/financing/dscr-loan-real-estate" },
-            { label: "Seller Financing", href: "/blog/financing/seller-financing-real-estate" },
-            { label: "Subject-To", href: "/blog/financing/subject-to-real-estate" },
-            { label: "All Financing Guides →", href: "/blog/financing" },
-          ]} />
-        </div>
-
-        {/* Get Licensed + Blog + Company + Legal */}
-        <div className="space-y-8">
-          <FooterCol heading="Get Licensed" links={[
-            { label: "All 50 States", href: "/real-estate-license" },
-            { label: "California", href: "/real-estate-license/california" },
-            { label: "Texas", href: "/real-estate-license/texas" },
-            { label: "Florida", href: "/real-estate-license/florida" },
-            { label: "New York", href: "/real-estate-license/new-york" },
-            { label: "Georgia", href: "/real-estate-license/georgia" },
-          ]} />
-          <FooterCol heading="Blog" links={[
+        {/* Blog */}
+        <FooterCol heading="Blog" links={[
             { label: "All Articles", href: "/blog" },
             { label: "Investing", href: "/blog/investing" },
             { label: "Wholesaling", href: "/blog/wholesaling" },
             { label: "Financing", href: "/blog/financing" },
             { label: "Property Management", href: "/blog/property-management" },
             { label: "Real Estate Careers", href: "/blog/real-estate-careers" },
-          ]} />
-          <FooterCol heading="Company" links={[
+        ]} />
+
+        {/* Company */}
+        <FooterCol heading="Company" links={[
             { label: "About Us", href: "/about" },
             { label: "Contact", href: "/contact" },
             { label: "Start Here", href: "/start-here" },
@@ -109,8 +73,7 @@ const Footer = () => (
             { label: "Privacy Policy", href: "/privacy-policy" },
             { label: "Terms of Service", href: "/terms-of-service" },
             { label: "Disclaimer", href: "/disclaimer" },
-          ]} />
-        </div>
+        ]} />
 
       </div>
     </div>
