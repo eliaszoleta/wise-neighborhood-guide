@@ -61,6 +61,12 @@ import HelocRealEstate from "./pages/blog/HelocRealEstate";
 import BridgeLoanRealEstate from "./pages/blog/BridgeLoanRealEstate";
 import SelfDirectedIraRealEstate from "./pages/blog/SelfDirectedIraRealEstate";
 import MipVsPmi from "./pages/blog/MipVsPmi";
+import DscrLoanRealEstate from "./pages/blog/DscrLoanRealEstate";
+import PortfolioLoanRealEstate from "./pages/blog/PortfolioLoanRealEstate";
+import ConstructionLoanRealEstate from "./pages/blog/ConstructionLoanRealEstate";
+import WraparoundMortgage from "./pages/blog/WraparoundMortgage";
+import TenThirtyOneExchange from "./pages/blog/TenThirtyOneExchange";
+import HowToRefinanceRentalProperty from "./pages/blog/HowToRefinanceRentalProperty";
 
 // Blog posts — Investing
 import TypesOfRealEstateProperty from "./pages/blog/TypesOfRealEstateProperty";
@@ -68,6 +74,9 @@ import BrrrMethodRealEstate from "./pages/blog/BrrrMethodRealEstate";
 import FirstRentalProperty from "./pages/blog/FirstRentalProperty";
 import HouseFlipping from "./pages/blog/HouseFlipping";
 import ShortTermRentalInvesting from "./pages/blog/ShortTermRentalInvesting";
+import CapRateVsCashOnCash from "./pages/blog/CapRateVsCashOnCash";
+import HowToAnalyzeRentalProperty from "./pages/blog/HowToAnalyzeRentalProperty";
+import FixAndFlipVsBuyAndHold from "./pages/blog/FixAndFlipVsBuyAndHold";
 
 // Blog posts — Property Management
 import FindTenantRentalProperty from "./pages/blog/FindTenantRentalProperty";
@@ -76,11 +85,14 @@ import PropertyManagementCompanies from "./pages/blog/PropertyManagementCompanie
 import TenantNotPayingRent from "./pages/blog/TenantNotPayingRent";
 import EvictionProcessLandlord from "./pages/blog/EvictionProcessLandlord";
 import SecurityDepositRulesLandlord from "./pages/blog/SecurityDepositRulesLandlord";
+import NormalWearAndTear from "./pages/blog/NormalWearAndTear";
+import HowToWriteLeaseAgreement from "./pages/blog/HowToWriteLeaseAgreement";
 
 // Blog posts — Wholesaling
 import RealEstateWholesalingExplained from "./pages/blog/RealEstateWholesalingExplained";
 import CashBuyersListRealEstate from "./pages/blog/CashBuyersListRealEstate";
 import DoubleClosingRealEstate from "./pages/blog/DoubleClosingRealEstate";
+import HowToFindMotivatedSellers from "./pages/blog/HowToFindMotivatedSellers";
 
 // Blog posts — Real Estate Careers
 import RealEstateAgentBroker from "./pages/blog/RealEstateAgentBroker";
@@ -135,6 +147,12 @@ const App = () => (
             <Route path="/blog/financing/bridge-loan-real-estate" element={<BridgeLoanRealEstate />} />
             <Route path="/blog/financing/self-directed-ira-real-estate" element={<SelfDirectedIraRealEstate />} />
             <Route path="/blog/financing/mip-vs-pmi-explained" element={<MipVsPmi />} />
+            <Route path="/blog/financing/dscr-loan-real-estate" element={<DscrLoanRealEstate />} />
+            <Route path="/blog/financing/portfolio-loan-real-estate" element={<PortfolioLoanRealEstate />} />
+            <Route path="/blog/financing/construction-loan-real-estate" element={<ConstructionLoanRealEstate />} />
+            <Route path="/blog/financing/wraparound-mortgage" element={<WraparoundMortgage />} />
+            <Route path="/blog/financing/1031-exchange-real-estate" element={<TenThirtyOneExchange />} />
+            <Route path="/blog/financing/how-to-refinance-rental-property" element={<HowToRefinanceRentalProperty />} />
 
             {/* Blog posts — Investing */}
             <Route path="/blog/investing/types-of-real-estate-property" element={<TypesOfRealEstateProperty />} />
@@ -142,6 +160,9 @@ const App = () => (
             <Route path="/blog/investing/first-rental-property" element={<FirstRentalProperty />} />
             <Route path="/blog/investing/house-flipping" element={<HouseFlipping />} />
             <Route path="/blog/investing/short-term-rental-investing" element={<ShortTermRentalInvesting />} />
+            <Route path="/blog/investing/cap-rate-vs-cash-on-cash" element={<CapRateVsCashOnCash />} />
+            <Route path="/blog/investing/how-to-analyze-rental-property" element={<HowToAnalyzeRentalProperty />} />
+            <Route path="/blog/investing/fix-and-flip-vs-buy-and-hold" element={<FixAndFlipVsBuyAndHold />} />
 
             {/* Blog posts — Property Management */}
             <Route path="/blog/property-management/find-tenant-rental-property" element={<FindTenantRentalProperty />} />
@@ -150,11 +171,14 @@ const App = () => (
             <Route path="/blog/property-management/tenant-not-paying-rent" element={<TenantNotPayingRent />} />
             <Route path="/blog/property-management/eviction-process-landlord" element={<EvictionProcessLandlord />} />
             <Route path="/blog/property-management/security-deposit-rules-landlord" element={<SecurityDepositRulesLandlord />} />
+            <Route path="/blog/property-management/normal-wear-and-tear" element={<NormalWearAndTear />} />
+            <Route path="/blog/property-management/how-to-write-lease-agreement" element={<HowToWriteLeaseAgreement />} />
 
             {/* Blog posts — Wholesaling */}
             <Route path="/blog/wholesaling/real-estate-wholesaling-explained" element={<RealEstateWholesalingExplained />} />
             <Route path="/blog/wholesaling/cash-buyers-list-real-estate" element={<CashBuyersListRealEstate />} />
             <Route path="/blog/wholesaling/double-closing-real-estate" element={<DoubleClosingRealEstate />} />
+            <Route path="/blog/wholesaling/how-to-find-motivated-sellers" element={<HowToFindMotivatedSellers />} />
 
             {/* Blog posts — Real Estate Careers */}
             <Route path="/blog/real-estate-careers/real-estate-agent-realtor-broker" element={<RealEstateAgentBroker />} />

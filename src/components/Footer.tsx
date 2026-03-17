@@ -62,6 +62,7 @@ const Footer = () => (
             { label: "Financing", href: "/blog/financing" },
             { label: "Property Management", href: "/blog/property-management" },
             { label: "Real Estate Careers", href: "/blog/real-estate-careers" },
+            { label: "Real Estate Business", href: "/blog/real-estate-business" },
         ]} />
 
         {/* Company */}
