@@ -33,6 +33,13 @@ const posts = [
     image: imgHouseFlipping,
     alt: "House being renovated for flipping with construction tools and blueprints",
   },
+  {
+    title: "Short-Term Rental Investing: What the Numbers Actually Look Like",
+    slug: "/blog/investing/short-term-rental-investing",
+    excerpt: "STRs can generate double the gross revenue of long-term rentals — but operating costs, regulatory risk, and management intensity cut deep. Here's the real math.",
+    image: imgFirstRental,
+    alt: "Short-term rental property listed on Airbnb with investor reviewing revenue analytics",
+  },
 ];
 
 const BlogCategoryInvesting = () => (

@@ -9,6 +9,20 @@ const posts = [
     image: imgWholesaling,
     alt: "Real estate wholesaler negotiating property deal with motivated seller",
   },
+  {
+    title: "How to Build a Cash Buyers List for Real Estate Wholesaling",
+    slug: "/blog/wholesaling/cash-buyers-list-real-estate",
+    excerpt: "A cash buyers list is the asset that makes wholesaling work — without buyers who close fast, your contracts are worthless. Here's how to build one from scratch.",
+    image: imgWholesaling,
+    alt: "Real estate investor reviewing cash buyers list and contact database on laptop",
+  },
+  {
+    title: "Double Closing in Real Estate: How It Works and When Wholesalers Use It",
+    slug: "/blog/wholesaling/double-closing-real-estate",
+    excerpt: "A double closing is two back-to-back transactions that keep your profit private. Here's how it works, what it costs, and when to use it over a simple assignment.",
+    image: imgWholesaling,
+    alt: "Title company closing documents for a real estate double closing transaction",
+  },
 ];
 
 const BlogCategoryWholesaling = () => (

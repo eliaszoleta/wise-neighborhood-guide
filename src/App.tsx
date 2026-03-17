@@ -66,6 +66,7 @@ import TypesOfRealEstateProperty from "./pages/blog/TypesOfRealEstateProperty";
 import BrrrMethodRealEstate from "./pages/blog/BrrrMethodRealEstate";
 import FirstRentalProperty from "./pages/blog/FirstRentalProperty";
 import HouseFlipping from "./pages/blog/HouseFlipping";
+import ShortTermRentalInvesting from "./pages/blog/ShortTermRentalInvesting";
 
 // Blog posts — Property Management
 import FindTenantRentalProperty from "./pages/blog/FindTenantRentalProperty";
@@ -73,9 +74,12 @@ import RentalPropertyExpenses from "./pages/blog/RentalPropertyExpenses";
 import PropertyManagementCompanies from "./pages/blog/PropertyManagementCompanies";
 import TenantNotPayingRent from "./pages/blog/TenantNotPayingRent";
 import EvictionProcessLandlord from "./pages/blog/EvictionProcessLandlord";
+import SecurityDepositRulesLandlord from "./pages/blog/SecurityDepositRulesLandlord";
 
 // Blog posts — Wholesaling
 import RealEstateWholesalingExplained from "./pages/blog/RealEstateWholesalingExplained";
+import CashBuyersListRealEstate from "./pages/blog/CashBuyersListRealEstate";
+import DoubleClosingRealEstate from "./pages/blog/DoubleClosingRealEstate";
 
 // Blog posts — Real Estate Careers
 import RealEstateAgentBroker from "./pages/blog/RealEstateAgentBroker";
@@ -135,6 +139,7 @@ const App = () => (
             <Route path="/blog/investing/brrrr-method-real-estate" element={<BrrrMethodRealEstate />} />
             <Route path="/blog/investing/first-rental-property" element={<FirstRentalProperty />} />
             <Route path="/blog/investing/house-flipping" element={<HouseFlipping />} />
+            <Route path="/blog/investing/short-term-rental-investing" element={<ShortTermRentalInvesting />} />
 
             {/* Blog posts — Property Management */}
             <Route path="/blog/property-management/find-tenant-rental-property" element={<FindTenantRentalProperty />} />
@@ -142,9 +147,12 @@ const App = () => (
             <Route path="/blog/property-management/property-management-companies" element={<PropertyManagementCompanies />} />
             <Route path="/blog/property-management/tenant-not-paying-rent" element={<TenantNotPayingRent />} />
             <Route path="/blog/property-management/eviction-process-landlord" element={<EvictionProcessLandlord />} />
+            <Route path="/blog/property-management/security-deposit-rules-landlord" element={<SecurityDepositRulesLandlord />} />
 
             {/* Blog posts — Wholesaling */}
             <Route path="/blog/wholesaling/real-estate-wholesaling-explained" element={<RealEstateWholesalingExplained />} />
+            <Route path="/blog/wholesaling/cash-buyers-list-real-estate" element={<CashBuyersListRealEstate />} />
+            <Route path="/blog/wholesaling/double-closing-real-estate" element={<DoubleClosingRealEstate />} />
 
             {/* Blog posts — Real Estate Careers */}
             <Route path="/blog/real-estate-careers/real-estate-agent-realtor-broker" element={<RealEstateAgentBroker />} />

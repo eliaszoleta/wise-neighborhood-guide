@@ -39,6 +39,13 @@ const posts = [
     image: imgRentalExpenses,
     alt: "Landlord reviewing eviction process legal documents and court filing paperwork",
   },
+  {
+    title: "Security Deposit Rules for Landlords: Limits, Holding Requirements, and Legal Deductions",
+    slug: "/blog/property-management/security-deposit-rules-landlord",
+    excerpt: "State rules on security deposits are strict and specific. Learn deposit limits, holding requirements, legal deductions, timelines to return deposits, and penalties for violations.",
+    image: imgFindTenant,
+    alt: "Landlord reviewing security deposit rules and state law compliance checklist",
+  },
 ];
 
 const BlogCategoryPropertyManagement = () => (
