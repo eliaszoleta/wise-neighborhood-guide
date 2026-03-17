@@ -70,10 +70,10 @@ const RealEstateLicense = () => {
       />
 
       <section className="section-padding">
-        <div className="container-wide">
+        <div className="container-wide max-w-7xl">
 
           {/* Page Intro */}
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <nav className="mb-6 text-sm text-muted-foreground" aria-label="Breadcrumb">
               <Link to="/" className="hover:text-foreground">Home</Link>
               <span className="mx-2">/</span>
@@ -114,7 +114,7 @@ const RealEstateLicense = () => {
           </div>
 
           {/* State Selector */}
-          <div className="mt-10 max-w-xl">
+          <div className="mt-10 max-w-xl mx-auto">
             <label
               htmlFor="state-select"
               className="mb-2 block text-sm font-semibold text-foreground"
@@ -149,7 +149,7 @@ const RealEstateLicense = () => {
           </div>
 
           {/* State Heading + Tabs */}
-          <div className="mt-8 max-w-4xl">
+          <div className="mt-8 max-w-4xl mx-auto">
             <h2 className="font-heading text-2xl font-bold text-foreground md:text-3xl">
               Real Estate License in {selectedName}
             </h2>
@@ -161,7 +161,7 @@ const RealEstateLicense = () => {
           </div>
 
           {/* Internal linking — all states list (SEO anchor links, visually compact) */}
-          <div className="mt-16 max-w-4xl">
+          <div className="mt-16 max-w-4xl mx-auto">
             <h2 className="font-heading text-xl font-bold text-foreground mb-2">
               Browse All 50 States
             </h2>
@@ -189,7 +189,7 @@ const RealEstateLicense = () => {
           </div>
 
           {/* General Info Box */}
-          <div className="mt-10 max-w-4xl rounded-lg border border-border bg-muted/40 p-6">
+          <div className="mt-10 max-w-4xl mx-auto rounded-lg border border-border bg-muted/40 p-6">
             <h2 className="font-heading text-lg font-bold text-foreground mb-3">
               The General Licensing Process (Every State)
             </h2>
