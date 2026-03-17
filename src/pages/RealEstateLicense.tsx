@@ -73,7 +73,7 @@ const RealEstateLicense = () => {
         <div className="container-wide max-w-7xl">
 
           {/* Page Intro */}
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <nav className="mb-6 text-sm text-muted-foreground" aria-label="Breadcrumb">
               <Link to="/" className="hover:text-foreground">Home</Link>
               <span className="mx-2">/</span>
@@ -114,7 +114,7 @@ const RealEstateLicense = () => {
           </div>
 
           {/* State Selector */}
-          <div className="mt-10 max-w-xl mx-auto">
+          <div className="mt-10 max-w-4xl mx-auto">
             <label
               htmlFor="state-select"
               className="mb-2 block text-sm font-semibold text-foreground"
