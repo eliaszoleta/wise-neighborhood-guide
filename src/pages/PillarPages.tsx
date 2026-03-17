@@ -89,10 +89,11 @@ const PillarPage = ({ title, metaTitle, metaDesc, slug, datePublished, intro, bo
           </div>
         </div>
 
-        <p className="text-lg text-muted-foreground leading-relaxed mb-8">{intro}</p>
-
-        {/* Body content */}
-        {bodyContent && <div className="prose-like mb-10 space-y-4 text-muted-foreground leading-relaxed">{bodyContent}</div>}
+        {/* Intro + body — same size/weight throughout */}
+        <div className="mb-10 space-y-4 text-sm text-muted-foreground leading-relaxed">
+          <p>{intro}</p>
+          {bodyContent}
+        </div>
 
         {/* Topic cards */}
         <h2 className="font-heading text-2xl font-bold text-foreground mb-6">Guides in This Section</h2>
