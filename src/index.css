@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -51,6 +51,7 @@
 
     --font-heading: 'Poppins', system-ui, sans-serif;
     --font-body: 'Poppins', system-ui, sans-serif;
+    --font-article: 'Merriweather', Georgia, serif;
   }
 
   .dark {
@@ -128,37 +129,110 @@
   }
 
   /* Blog article prose styles */
+  .prose-article {
+    font-family: var(--font-article);
+    font-size: 1.0625rem; /* 17px — optimal for long-form reading */
+    line-height: 1.8;
+  }
+  .prose-article h1 {
+    font-family: var(--font-heading);
+    @apply text-3xl font-bold text-foreground md:text-4xl lg:text-5xl leading-tight;
+  }
   .prose-article h2 {
-    @apply font-heading text-2xl font-bold text-foreground mt-10 mb-3;
+    font-family: var(--font-heading);
+    @apply text-2xl font-bold text-foreground mt-12 mb-4 scroll-mt-24;
+    border-bottom: 2px solid hsl(var(--border));
+    padding-bottom: 0.4rem;
   }
   .prose-article h3 {
-    @apply font-heading text-xl font-semibold text-foreground mt-7 mb-2;
+    font-family: var(--font-heading);
+    @apply text-xl font-semibold text-foreground mt-8 mb-3 scroll-mt-24;
+  }
+  .prose-article h4 {
+    font-family: var(--font-heading);
+    @apply text-base font-semibold text-foreground mt-6 mb-2;
   }
   .prose-article p {
-    @apply text-muted-foreground leading-relaxed;
+    @apply text-foreground/80 mb-5;
+    line-height: 1.85;
   }
   .prose-article ul {
-    @apply list-disc pl-6 space-y-2 text-muted-foreground;
+    @apply list-disc pl-6 mb-5 text-foreground/80;
+    space-y: 0.5rem;
   }
   .prose-article ol {
-    @apply list-decimal pl-6 space-y-2 text-muted-foreground;
+    @apply list-decimal pl-6 mb-5 text-foreground/80;
   }
   .prose-article li {
-    @apply leading-relaxed;
+    @apply mb-2;
+    line-height: 1.75;
   }
-  .prose-article strong {
-    @apply font-semibold text-foreground;
+  .prose-article li > p {
+    @apply mb-1;
+  }
+  .prose-article strong, .prose-article b {
+    @apply font-bold text-foreground;
+  }
+  .prose-article em, .prose-article i {
+    @apply italic;
   }
   .prose-article blockquote {
-    @apply border-l-4 border-accent pl-4 italic text-muted-foreground my-4;
+    @apply border-l-4 border-accent pl-5 italic text-muted-foreground my-6 rounded-r-md;
+    background-color: hsl(var(--accent) / 0.04);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 1rem;
+  }
+  .prose-article blockquote p {
+    @apply mb-0;
   }
   .prose-article .callout {
-    @apply rounded-lg bg-accent/5 border border-accent/20 p-4 my-6;
+    @apply rounded-lg bg-accent/5 border border-accent/20 p-5 my-6;
   }
   .prose-article .callout p {
-    @apply text-sm text-foreground m-0;
+    font-family: var(--font-body);
+    @apply text-sm text-foreground mb-0;
   }
   .prose-article a {
-    @apply text-accent underline underline-offset-2 hover:text-accent/80;
+    @apply text-accent underline underline-offset-2 hover:text-accent/80 transition-colors;
+    font-weight: 500;
+  }
+  .prose-article hr {
+    @apply border-border my-10;
+  }
+  .prose-article table {
+    @apply w-full border-collapse mb-6 text-sm;
+  }
+  .prose-article th {
+    font-family: var(--font-heading);
+    @apply bg-muted text-foreground font-semibold text-left px-4 py-2 border border-border;
+  }
+  .prose-article td {
+    @apply px-4 py-2 border border-border text-muted-foreground;
+  }
+  .prose-article tr:nth-child(even) td {
+    @apply bg-muted/30;
+  }
+  .prose-article code {
+    font-family: 'Courier New', monospace;
+    @apply text-sm bg-muted px-1.5 py-0.5 rounded text-foreground;
+  }
+  .prose-article pre {
+    @apply bg-muted rounded-lg p-4 overflow-x-auto mb-6;
+  }
+  .prose-article pre code {
+    @apply bg-transparent p-0;
+  }
+  .prose-article img {
+    @apply rounded-lg w-full my-6;
+  }
+  .prose-article figcaption {
+    @apply text-xs text-muted-foreground text-center mt-2 italic;
+  }
+
+  /* Ad unit label styling */
+  .ad-label {
+    font-family: var(--font-body);
+    @apply text-xs text-muted-foreground/60 uppercase tracking-widest text-center block mb-1;
   }
 }
