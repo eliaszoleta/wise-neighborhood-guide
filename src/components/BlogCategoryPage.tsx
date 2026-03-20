@@ -37,7 +37,7 @@ const BlogCategoryPage = ({
   posts,
   pillarLink,
 }: BlogCategoryPageProps) => {
-  const canonicalUrl = `https://peasanthouse.com/blog/${categorySlug}`;
+  const canonicalUrl = `https://homenexio.com/blog/${categorySlug}`;
 
   const collectionSchema = {
     "@context": "https://schema.org",
@@ -47,8 +47,8 @@ const BlogCategoryPage = ({
     url: canonicalUrl,
     publisher: {
       "@type": "Organization",
-      name: "Peasant House",
-      url: "https://peasanthouse.com",
+      name: "Home Nexio",
+      url: "https://homenexio.com",
     },
   };
 
@@ -56,8 +56,8 @@ const BlogCategoryPage = ({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://peasanthouse.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://peasanthouse.com/blog" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://homenexio.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://homenexio.com/blog" },
       { "@type": "ListItem", position: 3, name: categoryLabel, item: canonicalUrl },
     ],
   };
@@ -65,14 +65,14 @@ const BlogCategoryPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{metaTitle} | Peasant House</title>
+        <title>{metaTitle} | Home Nexio</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={`${metaTitle} | Peasant House`} />
+        <meta property="og:title" content={`${metaTitle} | Home Nexio`} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:site_name" content="Peasant House" />
+        <meta property="og:site_name" content="Home Nexio" />
       </Helmet>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />

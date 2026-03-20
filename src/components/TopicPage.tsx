@@ -72,7 +72,7 @@ const TopicPage = ({
   sections,
   faqs,
 }: TopicPageProps) => {
-  const canonicalUrl = `https://peasanthouse.com${slug}`;
+  const canonicalUrl = `https://homenexio.com${slug}`;
   const readTime = estimateReadTime(sections, intro, faqs);
 
   const articleSchema = {
@@ -84,16 +84,16 @@ const TopicPage = ({
     dateModified: dateModified ?? datePublished,
     author: {
       "@type": "Organization",
-      name: "Peasant House",
-      url: "https://peasanthouse.com",
+      name: "Home Nexio",
+      url: "https://homenexio.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "Peasant House",
-      url: "https://peasanthouse.com",
+      name: "Home Nexio",
+      url: "https://homenexio.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://peasanthouse.com/favicon.svg",
+        url: "https://homenexio.com/favicon.svg",
       },
     },
     mainEntityOfPage: {
@@ -106,8 +106,8 @@ const TopicPage = ({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://peasanthouse.com" },
-      { "@type": "ListItem", position: 2, name: parentLabel, item: `https://peasanthouse.com${parentHref}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://homenexio.com" },
+      { "@type": "ListItem", position: 2, name: parentLabel, item: `https://homenexio.com${parentHref}` },
       { "@type": "ListItem", position: 3, name: title, item: canonicalUrl },
     ],
   };
@@ -127,18 +127,18 @@ const TopicPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{title} | Peasant House</title>
+        <title>{title} | Home Nexio</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={`${title} | Peasant House`} />
+        <meta property="og:title" content={`${title} | Home Nexio`} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:site_name" content="Peasant House" />
+        <meta property="og:site_name" content="Home Nexio" />
         <meta property="article:published_time" content={datePublished} />
         <meta property="article:modified_time" content={dateModified ?? datePublished} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${title} | Peasant House`} />
+        <meta name="twitter:title" content={`${title} | Home Nexio`} />
         <meta name="twitter:description" content={metaDesc} />
       </Helmet>
 
@@ -185,7 +185,7 @@ const TopicPage = ({
             </h1>
             <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
               <Link to="/author" className="hover:text-accent hover:underline transition-colors">
-                By the Peasant House Editorial Team
+                By the Home Nexio Editorial Team
               </Link>
               <span aria-hidden>·</span>
               <span className="flex items-center gap-1">

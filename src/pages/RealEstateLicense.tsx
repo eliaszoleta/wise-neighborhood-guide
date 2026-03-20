@@ -39,11 +39,11 @@ const RealEstateLicense = () => {
       <Helmet>
         <title>{metaTitle}</title>
         <meta name="description" content={metaDesc} />
-        <link rel="canonical" href="https://peasanthouse.com/real-estate-license" />
+        <link rel="canonical" href="https://homenexio.com/real-estate-license" />
         <meta property="og:title" content={metaTitle} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://peasanthouse.com/real-estate-license" />
+        <meta property="og:url" content="https://homenexio.com/real-estate-license" />
       </Helmet>
 
       <script
@@ -54,16 +54,16 @@ const RealEstateLicense = () => {
             "@type": "CollectionPage",
             name: metaTitle,
             description: metaDesc,
-            url: "https://peasanthouse.com/real-estate-license",
+            url: "https://homenexio.com/real-estate-license",
             publisher: {
               "@type": "Organization",
-              name: "Peasant House",
-              url: "https://peasanthouse.com",
+              name: "Home Nexio",
+              url: "https://homenexio.com",
             },
             hasPart: US_STATES.map((state) => ({
               "@type": "WebPage",
               name: `How to Get a Real Estate License in ${state}`,
-              url: `https://peasanthouse.com/real-estate-license/${toSlug(state)}`,
+              url: `https://homenexio.com/real-estate-license/${toSlug(state)}`,
             })),
           }),
         }}

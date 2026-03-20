@@ -53,12 +53,12 @@ const BlogPost = ({
   relatedArticles,
   children,
 }: BlogPostProps) => {
-  const canonicalUrl = `https://peasanthouse.com/blog/${slug}`;
+  const canonicalUrl = `https://homenexio.com/blog/${slug}`;
 
   const slugParts = slug.split("/");
   const categorySlug = slugParts.length > 1 ? slugParts[0] : null;
   const categoryLabel = categorySlug ? (categoryDisplayNames[categorySlug] ?? category) : category;
-  const categoryUrl = categorySlug ? `https://peasanthouse.com/blog/${categorySlug}` : null;
+  const categoryUrl = categorySlug ? `https://homenexio.com/blog/${categorySlug}` : null;
 
   const articleRef = useRef<HTMLDivElement>(null);
   const [toc, setToc] = useState<{ id: string; text: string }[]>([]);
@@ -97,16 +97,16 @@ const BlogPost = ({
     dateModified: dateModified ?? datePublished,
     author: {
       "@type": "Organization",
-      name: "Peasant House Editorial Team",
-      url: "https://peasanthouse.com/about",
+      name: "Home Nexio Editorial Team",
+      url: "https://homenexio.com/about",
     },
     publisher: {
       "@type": "Organization",
-      name: "Peasant House",
-      url: "https://peasanthouse.com",
+      name: "Home Nexio",
+      url: "https://homenexio.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://peasanthouse.com/favicon.svg",
+        url: "https://homenexio.com/favicon.svg",
       },
     },
     mainEntityOfPage: {
@@ -117,8 +117,8 @@ const BlogPost = ({
   };
 
   const breadcrumbItems = [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://peasanthouse.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://peasanthouse.com/blog" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://homenexio.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://homenexio.com/blog" },
     ...(categorySlug && categoryLabel ? [{ "@type": "ListItem", position: 3, name: categoryLabel, item: categoryUrl }] : []),
     { "@type": "ListItem", position: categorySlug ? 4 : 3, name: title, item: canonicalUrl },
   ];
@@ -150,19 +150,19 @@ const BlogPost = ({
   return (
     <Layout>
       <Helmet>
-        <title>{title} | Peasant House</title>
+        <title>{title} | Home Nexio</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={`${title} | Peasant House`} />
+        <meta property="og:title" content={`${title} | Home Nexio`} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:site_name" content="Peasant House" />
+        <meta property="og:site_name" content="Home Nexio" />
         <meta property="article:published_time" content={datePublished} />
         <meta property="article:modified_time" content={dateModified ?? datePublished} />
         {categoryLabel && <meta property="article:section" content={categoryLabel} />}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${title} | Peasant House`} />
+        <meta name="twitter:title" content={`${title} | Home Nexio`} />
         <meta name="twitter:description" content={metaDesc} />
       </Helmet>
 
@@ -229,7 +229,7 @@ const BlogPost = ({
                     </>
                   )}
                   <Link to="/author" className="hover:text-accent hover:underline transition-colors">
-                    By the Peasant House Editorial Team
+                    By the Home Nexio Editorial Team
                   </Link>
                   {readTime > 0 && (
                     <>

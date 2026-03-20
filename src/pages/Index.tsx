@@ -78,15 +78,15 @@ const Index = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Real Estate Investing, Wholesaling & Licensing Guides | Peasant House</title>
+        <title>Real Estate Investing, Wholesaling & Licensing Guides | Home Nexio</title>
         <meta name="description" content="Free real estate education: how to invest in rental properties, wholesale deals, generate leads, and get your real estate license in all 50 states. No courses, no upsells — just clear answers." />
-        <link rel="canonical" href="https://peasanthouse.com/" />
-        <meta property="og:title" content="Real Estate Investing, Wholesaling & Licensing Guides | Peasant House" />
+        <link rel="canonical" href="https://homenexio.com/" />
+        <meta property="og:title" content="Real Estate Investing, Wholesaling & Licensing Guides | Home Nexio" />
         <meta property="og:description" content="Free guides on real estate investing, wholesaling, marketing, and state licensing. Rental properties, BRRRR, hard money, DSCR loans, motivated sellers, and more." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://peasanthouse.com/" />
+        <meta property="og:url" content="https://homenexio.com/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Real Estate Investing, Wholesaling & Licensing Guides | Peasant House" />
+        <meta name="twitter:title" content="Real Estate Investing, Wholesaling & Licensing Guides | Home Nexio" />
         <meta name="twitter:description" content="Free real estate guides on investing, wholesaling, marketing, and licensing for all 50 states." />
       </Helmet>
 
@@ -94,12 +94,12 @@ const Index = () => {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: "Peasant House",
+        name: "Home Nexio",
         description: "Free real estate education on investing, wholesaling, marketing, financing, and state licensing guides for all 50 states.",
-        url: "https://peasanthouse.com",
+        url: "https://homenexio.com",
         potentialAction: {
           "@type": "SearchAction",
-          target: "https://peasanthouse.com/blog?q={search_term_string}",
+          target: "https://homenexio.com/blog?q={search_term_string}",
           "query-input": "required name=search_term_string",
         },
       })}} />
@@ -108,15 +108,15 @@ const Index = () => {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Organization",
-        name: "Peasant House",
-        url: "https://peasanthouse.com",
+        name: "Home Nexio",
+        url: "https://homenexio.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://peasanthouse.com/favicon.svg",
+          url: "https://homenexio.com/favicon.svg",
         },
         contactPoint: {
           "@type": "ContactPoint",
-          email: "contact@peasanthouse.com",
+          email: "contact@homenexio.com",
           contactType: "customer support",
         },
         sameAs: [],
@@ -391,7 +391,7 @@ const Index = () => {
       </section>
 
       {/* WHY THIS SITE SECTION */}
-      <section className="section-alt section-padding" aria-label="Why Peasant House">
+      <section className="section-alt section-padding" aria-label="Why Home Nexio">
         <div className="container-wide">
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div>

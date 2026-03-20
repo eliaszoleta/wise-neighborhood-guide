@@ -279,23 +279,23 @@ const Blog = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Real Estate Blog | Investing, Wholesaling & Financing Guides — Peasant House</title>
+        <title>Real Estate Blog | Investing, Wholesaling & Financing Guides — Home Nexio</title>
         <meta name="description" content="Expert guides on real estate investing, wholesaling, financing, and property management to help you build wealth." />
-        <link rel="canonical" href="https://peasanthouse.com/blog" />
-        <meta property="og:title" content="Real Estate Blog | Peasant House" />
+        <link rel="canonical" href="https://homenexio.com/blog" />
+        <meta property="og:title" content="Real Estate Blog | Home Nexio" />
         <meta property="og:description" content="Expert guides on real estate investing, wholesaling, financing, and property management." />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "Peasant House Real Estate Blog",
+          name: "Home Nexio Real Estate Blog",
           description: "Expert guides on real estate investing, wholesaling, financing, and property management to help you build wealth.",
-          url: "https://peasanthouse.com/blog",
+          url: "https://homenexio.com/blog",
           publisher: {
             "@type": "Organization",
-            name: "Peasant House",
-            url: "https://peasanthouse.com",
-            logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+            name: "Home Nexio",
+            url: "https://homenexio.com",
+            logo: { "@type": "ImageObject", url: "https://homenexio.com/favicon.svg" },
           },
         })}</script>
       </Helmet>

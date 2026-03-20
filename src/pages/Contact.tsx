@@ -40,23 +40,23 @@ const Contact = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Contact Peasant House | Get in Touch</title>
-        <meta name="description" content="Have a question, partnership inquiry, or feedback? Reach out to Peasant House — free real estate education for investors, wholesalers, and aspiring agents." />
-        <link rel="canonical" href="https://peasanthouse.com/contact" />
-        <meta property="og:title" content="Contact Peasant House" />
-        <meta property="og:description" content="Have a question or feedback? Contact the Peasant House team." />
+        <title>Contact Home Nexio | Get in Touch</title>
+        <meta name="description" content="Have a question, partnership inquiry, or feedback? Reach out to Home Nexio — free real estate education for investors, wholesalers, and aspiring agents." />
+        <link rel="canonical" href="https://homenexio.com/contact" />
+        <meta property="og:title" content="Contact Home Nexio" />
+        <meta property="og:description" content="Have a question or feedback? Contact the Home Nexio team." />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ContactPage",
-          name: "Contact Peasant House",
-          description: "Have a question, partnership inquiry, or feedback? Reach out to Peasant House.",
-          url: "https://peasanthouse.com/contact",
+          name: "Contact Home Nexio",
+          description: "Have a question, partnership inquiry, or feedback? Reach out to Home Nexio.",
+          url: "https://homenexio.com/contact",
           publisher: {
             "@type": "Organization",
-            name: "Peasant House",
-            url: "https://peasanthouse.com",
-            email: "contact@peasanthouse.com",
+            name: "Home Nexio",
+            url: "https://homenexio.com",
+            email: "contact@homenexio.com",
           },
         })}</script>
       </Helmet>
@@ -67,7 +67,7 @@ const Contact = () => {
             Have a question, partnership inquiry, or feedback? We'd love to hear from you.
           </p>
           <div className="mt-6 flex flex-col gap-3 text-sm text-muted-foreground">
-            <span className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> contact@peasanthouse.com</span>
+            <span className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> contact@homenexio.com</span>
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-accent" /> United States</span>
           </div>
 
@@ -115,7 +115,7 @@ const Contact = () => {
               {status === "error" && (
                 <div className="flex items-center gap-2 rounded-md border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
                   <AlertCircle className="h-4 w-4 shrink-0" />
-                  Something went wrong. Please try again or email us directly at contact@peasanthouse.com.
+                  Something went wrong. Please try again or email us directly at contact@homenexio.com.
                 </div>
               )}
 

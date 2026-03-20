@@ -35,22 +35,22 @@ const StartHere = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Start Here | Real Estate Beginner's Guide — Peasant House</title>
+        <title>Start Here | Real Estate Beginner's Guide — Home Nexio</title>
         <meta name="description" content="New to real estate? Start here. Choose between investing, wholesaling, getting licensed, or marketing — and we'll walk you through it step by step." />
-        <link rel="canonical" href="https://peasanthouse.com/start-here" />
-        <meta property="og:title" content="Start Here | Real Estate Beginner's Guide — Peasant House" />
+        <link rel="canonical" href="https://homenexio.com/start-here" />
+        <meta property="og:title" content="Start Here | Real Estate Beginner's Guide — Home Nexio" />
         <meta property="og:description" content="New to real estate? Pick a path — investing, wholesaling, licensing, or marketing — and start learning with free step-by-step guides." />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Start Here | Real Estate Beginner's Guide — Peasant House",
+          name: "Start Here | Real Estate Beginner's Guide — Home Nexio",
           description: "New to real estate? Start here. Choose between investing, wholesaling, getting licensed, or marketing — and we'll walk you through it step by step.",
-          url: "https://peasanthouse.com/start-here",
+          url: "https://homenexio.com/start-here",
           publisher: {
             "@type": "Organization",
-            name: "Peasant House",
-            url: "https://peasanthouse.com",
+            name: "Home Nexio",
+            url: "https://homenexio.com",
           },
         })}</script>
       </Helmet>

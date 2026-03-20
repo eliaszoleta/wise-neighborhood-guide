@@ -72,15 +72,15 @@ const Author = () => {
   const authorSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://peasanthouse.com/author",
-    name: "Peasant House Editorial Team",
-    url: "https://peasanthouse.com/author",
-    description: "The Peasant House Editorial Team produces practical, research-based guides on real estate investing, financing, wholesaling, property management, and licensing.",
+    "@id": "https://homenexio.com/author",
+    name: "Home Nexio Editorial Team",
+    url: "https://homenexio.com/author",
+    description: "The Home Nexio Editorial Team produces practical, research-based guides on real estate investing, financing, wholesaling, property management, and licensing.",
     parentOrganization: {
       "@type": "Organization",
-      name: "Peasant House",
-      url: "https://peasanthouse.com",
-      logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+      name: "Home Nexio",
+      url: "https://homenexio.com",
+      logo: { "@type": "ImageObject", url: "https://homenexio.com/favicon.svg" },
     },
     knowsAbout: [
       "Real estate investing",
@@ -93,29 +93,29 @@ const Author = () => {
       "Mortgage loans",
       "Property management",
     ],
-    sameAs: ["https://peasanthouse.com/about"],
+    sameAs: ["https://homenexio.com/about"],
   };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://peasanthouse.com" },
-      { "@type": "ListItem", position: 2, name: "Editorial Team", item: "https://peasanthouse.com/author" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://homenexio.com" },
+      { "@type": "ListItem", position: 2, name: "Editorial Team", item: "https://homenexio.com/author" },
     ],
   };
 
   return (
     <Layout>
       <Helmet>
-        <title>Peasant House Editorial Team | Real Estate Research & Writing</title>
-        <meta name="description" content="The Peasant House Editorial Team writes practical, source-backed guides on real estate investing, financing, wholesaling, property management, and licensing. Learn about our editorial standards." />
-        <link rel="canonical" href="https://peasanthouse.com/author" />
-        <meta property="og:title" content="Peasant House Editorial Team | Real Estate Research & Writing" />
-        <meta property="og:description" content="Source-backed real estate guides written by the Peasant House Editorial Team. Learn about our research process, standards, and the topics we cover." />
+        <title>Home Nexio Editorial Team | Real Estate Research & Writing</title>
+        <meta name="description" content="The Home Nexio Editorial Team writes practical, source-backed guides on real estate investing, financing, wholesaling, property management, and licensing. Learn about our editorial standards." />
+        <link rel="canonical" href="https://homenexio.com/author" />
+        <meta property="og:title" content="Home Nexio Editorial Team | Real Estate Research & Writing" />
+        <meta property="og:description" content="Source-backed real estate guides written by the Home Nexio Editorial Team. Learn about our research process, standards, and the topics we cover." />
         <meta property="og:type" content="profile" />
-        <meta property="og:url" content="https://peasanthouse.com/author" />
-        <meta property="og:site_name" content="Peasant House" />
+        <meta property="og:url" content="https://homenexio.com/author" />
+        <meta property="og:site_name" content="Home Nexio" />
       </Helmet>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorSchema) }} />
@@ -144,11 +144,11 @@ const Author = () => {
             </div>
             <div>
               <h1 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
-                Peasant House Editorial Team
+                Home Nexio Editorial Team
               </h1>
               <p className="mt-1 text-sm text-muted-foreground">
                 Real estate research &amp; writing —{" "}
-                <Link to="/about" className="text-accent hover:underline">Peasant House</Link>
+                <Link to="/about" className="text-accent hover:underline">Home Nexio</Link>
               </p>
             </div>
           </div>
@@ -159,7 +159,7 @@ const Author = () => {
             <div>
               <h2 className="font-heading text-2xl font-bold text-foreground mb-4">About the Team</h2>
               <p>
-                The Peasant House Editorial Team produces practical, research-backed guides on real estate investing, financing, property management, wholesaling, and licensing. Our goal is straightforward: explain how real estate actually works without the hype, the sales pitch, or the oversimplification that makes most online real estate content useless in practice.
+                The Home Nexio Editorial Team produces practical, research-backed guides on real estate investing, financing, property management, wholesaling, and licensing. Our goal is straightforward: explain how real estate actually works without the hype, the sales pitch, or the oversimplification that makes most online real estate content useless in practice.
               </p>
               <p className="mt-4">
                 We cover topics that attract broad search traffic — hard money loans, BRRRR investing, seller financing, the eviction process — but we write them the way we'd want them written: with real numbers, honest caveats, and links to the primary sources that back up what we're saying. We don't cover things we haven't researched thoroughly, and we don't pretend certainty where rules vary by state or situation.
@@ -206,7 +206,7 @@ const Author = () => {
             <div>
               <h2 className="font-heading text-2xl font-bold text-foreground mb-4">Editorial Standards</h2>
               <p className="mb-5">
-                Everything published under the Peasant House byline follows the same research and writing standards:
+                Everything published under the Home Nexio byline follows the same research and writing standards:
               </p>
               <div className="space-y-4">
                 {editorialStandards.map((standard) => (
@@ -234,7 +234,7 @@ const Author = () => {
             <div className="rounded-lg border border-border bg-muted/50 p-6">
               <h3 className="font-heading text-base font-semibold text-foreground">Editorial Disclaimer</h3>
               <p className="mt-2 text-sm">
-                Content on Peasant House is for general educational purposes only. Nothing here constitutes legal, financial, tax, or investment advice. Real estate markets, regulations, and tax rules vary by state and change over time — always verify current requirements with the relevant state commission or a licensed professional before making decisions.
+                Content on Home Nexio is for general educational purposes only. Nothing here constitutes legal, financial, tax, or investment advice. Real estate markets, regulations, and tax rules vary by state and change over time — always verify current requirements with the relevant state commission or a licensed professional before making decisions.
               </p>
             </div>
 

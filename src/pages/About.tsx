@@ -5,40 +5,40 @@ const About = () => {
   return (
     <Layout>
       <Helmet>
-        <title>About Peasant House | Who We Are and Why This Site Exists</title>
-        <meta name="description" content="Peasant House is a free real estate education resource. No courses to sell, no upsells — just clear, researched guides on investing, wholesaling, marketing, and state licensing." />
-        <link rel="canonical" href="https://peasanthouse.com/about" />
-        <meta property="og:title" content="About Peasant House | Who We Are and Why This Site Exists" />
+        <title>About Home Nexio | Who We Are and Why This Site Exists</title>
+        <meta name="description" content="Home Nexio is a free real estate education resource. No courses to sell, no upsells — just clear, researched guides on investing, wholesaling, marketing, and state licensing." />
+        <link rel="canonical" href="https://homenexio.com/about" />
+        <meta property="og:title" content="About Home Nexio | Who We Are and Why This Site Exists" />
         <meta property="og:description" content="Free real estate education — investing, wholesaling, marketing, and licensing guides for all 50 states. No courses to sell." />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "AboutPage",
-          name: "About Peasant House",
-          description: "Peasant House is a free real estate education resource. No courses to sell, no upsells — just clear, researched guides on investing, wholesaling, marketing, and state licensing.",
-          url: "https://peasanthouse.com/about",
+          name: "About Home Nexio",
+          description: "Home Nexio is a free real estate education resource. No courses to sell, no upsells — just clear, researched guides on investing, wholesaling, marketing, and state licensing.",
+          url: "https://homenexio.com/about",
           publisher: {
             "@type": "Organization",
-            name: "Peasant House",
-            url: "https://peasanthouse.com",
-            logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+            name: "Home Nexio",
+            url: "https://homenexio.com",
+            logo: { "@type": "ImageObject", url: "https://homenexio.com/favicon.svg" },
           },
         })}</script>
       </Helmet>
 
       <section className="section-padding">
         <div className="container-narrow max-w-3xl">
-          <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl">About Peasant House</h1>
+          <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl">About Home Nexio</h1>
 
           <div className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
 
             <p>
-              Peasant House exists because most real estate education online is either too vague to be useful or designed specifically to sell you a course, a coaching program, or a mastermind. We got tired of reading guides that explained everything except the part you actually needed to know.
+              Home Nexio exists because most real estate education online is either too vague to be useful or designed specifically to sell you a course, a coaching program, or a mastermind. We got tired of reading guides that explained everything except the part you actually needed to know.
             </p>
 
             <h2 className="font-heading text-2xl font-bold text-foreground">What We're Trying to Do</h2>
             <p>
-              Real estate is one of the most reliable paths to building long-term wealth that ordinary people can realistically access. But the information environment around it is noisy — packed with jargon, hype, outdated advice, and guides that exist mainly to funnel you toward someone's paid offer. Peasant House is built to cut through that. We write practical, research-based guides covering real estate investing, wholesaling, marketing, and state-by-state licensing requirements. Everything here is free and stays free.
+              Real estate is one of the most reliable paths to building long-term wealth that ordinary people can realistically access. But the information environment around it is noisy — packed with jargon, hype, outdated advice, and guides that exist mainly to funnel you toward someone's paid offer. Home Nexio is built to cut through that. We write practical, research-based guides covering real estate investing, wholesaling, marketing, and state-by-state licensing requirements. Everything here is free and stays free.
             </p>
 
             <h2 className="font-heading text-2xl font-bold text-foreground">What We Cover</h2>
@@ -68,7 +68,7 @@ const About = () => {
             <div className="mt-8 rounded-lg border border-border bg-muted/50 p-6">
               <h3 className="font-heading text-lg font-semibold text-foreground">Editorial Disclaimer</h3>
               <p className="mt-2 text-sm text-muted-foreground">
-                The content on Peasant House is for general educational purposes only. Nothing here constitutes legal, financial, tax, or investment advice. Real estate markets, regulations, and laws change frequently — always verify current requirements with the relevant state commission or a licensed professional before making decisions. We do our best to keep information accurate and up to date, but we cannot guarantee completeness or currency for every piece of content on this site.
+                The content on Home Nexio is for general educational purposes only. Nothing here constitutes legal, financial, tax, or investment advice. Real estate markets, regulations, and laws change frequently — always verify current requirements with the relevant state commission or a licensed professional before making decisions. We do our best to keep information accurate and up to date, but we cannot guarantee completeness or currency for every piece of content on this site.
               </p>
             </div>
           </div>

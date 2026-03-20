@@ -18,7 +18,7 @@ interface PillarPageProps {
 }
 
 const PillarPage = ({ title, metaTitle, metaDesc, slug, datePublished, intro, bodyContent, topics, faqs, relatedLinks, icon: Icon }: PillarPageProps) => {
-  const canonicalUrl = `https://peasanthouse.com${slug}`;
+  const canonicalUrl = `https://homenexio.com${slug}`;
   return (
   <Layout>
     <Helmet>
@@ -29,7 +29,7 @@ const PillarPage = ({ title, metaTitle, metaDesc, slug, datePublished, intro, bo
       <meta property="og:description" content={metaDesc} />
       <meta property="og:type" content="article" />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:site_name" content="Peasant House" />
+      <meta property="og:site_name" content="Home Nexio" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={metaTitle} />
       <meta name="twitter:description" content={metaDesc} />
@@ -41,12 +41,12 @@ const PillarPage = ({ title, metaTitle, metaDesc, slug, datePublished, intro, bo
       description: metaDesc,
       datePublished,
       dateModified: "2026-03-17",
-      author: { "@type": "Organization", name: "Peasant House", url: "https://peasanthouse.com" },
+      author: { "@type": "Organization", name: "Home Nexio", url: "https://homenexio.com" },
       publisher: {
         "@type": "Organization",
-        name: "Peasant House",
-        url: "https://peasanthouse.com",
-        logo: { "@type": "ImageObject", url: "https://peasanthouse.com/favicon.svg" },
+        name: "Home Nexio",
+        url: "https://homenexio.com",
+        logo: { "@type": "ImageObject", url: "https://homenexio.com/favicon.svg" },
       },
       mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
     })}} />
@@ -54,7 +54,7 @@ const PillarPage = ({ title, metaTitle, metaDesc, slug, datePublished, intro, bo
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://peasanthouse.com" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://homenexio.com" },
         { "@type": "ListItem", position: 2, name: title, item: canonicalUrl },
       ],
     })}} />

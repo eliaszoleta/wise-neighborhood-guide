@@ -28,14 +28,14 @@ const Footer = () => (
         {/* Brand — spans 2 cols */}
         <div className="col-span-2 space-y-4">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="Peasant House" className="h-8 w-auto" width={32} height={32} />
-            <span className="font-heading text-lg font-bold">Peasant House</span>
+            <img src={logo} alt="Home Nexio" className="h-8 w-auto" width={32} height={32} />
+            <span className="font-heading text-lg font-bold">Home Nexio</span>
           </Link>
           <p className="text-sm text-primary-foreground/65 leading-relaxed max-w-[280px]">
             Free real estate education covering investing, wholesaling, marketing, financing, and licensing in all 50 states. No courses. No upsells.
           </p>
           <div className="text-xs text-primary-foreground/45 space-y-1">
-            <p>© {new Date().getFullYear()} Peasant House. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Home Nexio. All rights reserved.</p>
             <p>
               Educational content only — not financial or legal advice.{" "}
               <Link to="/disclaimer" className="underline hover:text-primary-foreground/70">Full disclaimer →</Link>
@@ -103,7 +103,7 @@ const Footer = () => (
     {/* Bottom bar */}
     <div className="border-t border-primary-foreground/10 py-4">
       <div className="container-wide px-4 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-primary-foreground/40">
-        <p>Peasant House is an independent real estate education site. We may earn a commission on some outbound links.</p>
+        <p>Home Nexio is an independent real estate education site. We may earn a commission on some outbound links.</p>
         <p className="flex items-center gap-2">
           <Link to="/privacy-policy" className="hover:text-primary-foreground/60 underline">Privacy</Link>
           <span>·</span>

@@ -38,14 +38,14 @@ const StateLicense = () => {
         <meta name="description" content={metaDesc} />
         <link
           rel="canonical"
-          href={`https://peasanthouse.com/real-estate-license/${stateSlug}`}
+          href={`https://homenexio.com/real-estate-license/${stateSlug}`}
         />
         <meta property="og:title" content={metaTitle} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content={`https://peasanthouse.com/real-estate-license/${stateSlug}`}
+          content={`https://homenexio.com/real-estate-license/${stateSlug}`}
         />
       </Helmet>
 
