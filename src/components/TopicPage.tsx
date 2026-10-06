@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
-import AdSlot from "@/components/AdSlot";
 import { Link } from "react-router-dom";
 import { ArrowLeft, ExternalLink, BookOpen, Clock } from "lucide-react";
 import {
@@ -210,9 +209,6 @@ const TopicPage = ({
               {/* Intro */}
               <p className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-prose">{intro}</p>
 
-              {/* In-article ad — above the fold after intro */}
-              <AdSlot slot="1111111111" format="horizontal" className="mb-10" />
-
               {/* Sections */}
               <div className="space-y-10">
                 {sections.map((s, i) => (
@@ -230,10 +226,6 @@ const TopicPage = ({
                           <span key={l.url}>{extLink(l.url, l.label)}</span>
                         ))}
                       </div>
-                    )}
-                    {/* Mid-content ad after 3rd section */}
-                    {i === 2 && (
-                      <AdSlot slot="2222222222" format="in-article" className="mt-8" />
                     )}
                   </div>
                 ))}
@@ -255,9 +247,6 @@ const TopicPage = ({
                   </div>
                 </div>
               )}
-
-              {/* Bottom ad */}
-              <AdSlot slot="3333333333" format="horizontal" className="mt-12" />
 
               {/* Back link */}
               <div className="mt-10 border-t border-border pt-8">
@@ -311,9 +300,6 @@ const TopicPage = ({
                   </nav>
                 )}
 
-                {/* Sidebar ad */}
-                <AdSlot slot="4444444444" format="rectangle" className="w-full" />
-
                 {/* Related pillar */}
                 <div className="rounded-lg border border-border bg-card p-5">
                   <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
@@ -330,9 +316,6 @@ const TopicPage = ({
                     Browse all topics in the {parentLabel} section, plus related articles.
                   </p>
                 </div>
-
-                {/* Second sidebar ad (lower) */}
-                <AdSlot slot="5555555555" format="rectangle" className="w-full" />
               </div>
             </aside>
           </div>

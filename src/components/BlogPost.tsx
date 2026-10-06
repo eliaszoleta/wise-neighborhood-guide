@@ -1,7 +1,6 @@
 import { Children, ReactNode, useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
-import AdSlot from "@/components/AdSlot";
 import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight, BookOpen, Clock } from "lucide-react";
 import {
@@ -256,19 +255,11 @@ const BlogPost = ({
                   </div>
                 )}
 
-                {/* Ad before article body */}
-                <AdSlot slot="6666666666" format="in-article" className="mt-6" />
-
                 {/* Article body — ref wraps everything so sidebar TOC is complete */}
                 <div ref={articleRef} className="mt-8">
                   <div className="space-y-6 text-muted-foreground leading-relaxed">
                     {firstHalf}
                   </div>
-
-                  {/* Mid-content ad */}
-                  {secondHalf.length > 0 && (
-                    <AdSlot slot="7777777777" format="in-article" className="my-8" />
-                  )}
 
                   {secondHalf.length > 0 && (
                     <div className="space-y-6 text-muted-foreground leading-relaxed">
@@ -292,9 +283,6 @@ const BlogPost = ({
                   </div>
                 )}
               </article>
-
-              {/* Bottom ad before FAQs */}
-              <AdSlot slot="8888888888" format="horizontal" className="mt-10" />
 
               {faqs && faqs.length > 0 && (
                 <div className="mt-10 border-t border-border pt-8">
@@ -380,9 +368,6 @@ const BlogPost = ({
                   </nav>
                 )}
 
-                {/* Sidebar rectangle ad */}
-                <AdSlot slot="9999999999" format="rectangle" className="w-full" />
-
                 {/* Category link */}
                 {categorySlug && categoryLabel && (
                   <div className="rounded-lg border border-border bg-card p-5">
@@ -397,9 +382,6 @@ const BlogPost = ({
                     </Link>
                   </div>
                 )}
-
-                {/* Second sidebar ad */}
-                <AdSlot slot="1010101010" format="rectangle" className="w-full" />
               </div>
             </aside>
           </div>
