@@ -58,4 +58,25 @@ export const BLOG_POST_ROUTES: BlogPostRoute[] = [
   { slug: "/blog/wholesaling/cash-buyers-list-real-estate", category: "Wholesaling", categorySlug: "wholesaling", datePublished: "2026-03-16" },
   { slug: "/blog/wholesaling/double-closing-real-estate", category: "Wholesaling", categorySlug: "wholesaling", datePublished: "2026-03-16" },
   { slug: "/blog/wholesaling/how-to-find-motivated-sellers", category: "Wholesaling", categorySlug: "wholesaling", datePublished: "2026-03-16" },
+
+  // ── October 2026 batch: fills gaps in high-search-volume topics the site's ──
+  // ── scope implies but didn't yet cover (FHA loans, agent income, LLCs...) ──
+  { slug: "/blog/financing/fha-loan-requirements", category: "Financing", categorySlug: "financing", datePublished: "2026-10-08" },
+  { slug: "/blog/financing/cash-out-refinance-vs-heloc", category: "Financing", categorySlug: "financing", datePublished: "2026-10-08" },
+  { slug: "/blog/financing/credit-score-investment-property", category: "Financing", categorySlug: "financing", datePublished: "2026-10-08" },
+  { slug: "/blog/investing/how-to-invest-no-money", category: "Investing", categorySlug: "investing", datePublished: "2026-10-08" },
+  { slug: "/blog/investing/one-percent-rule-real-estate", category: "Investing", categorySlug: "investing", datePublished: "2026-10-08" },
+  { slug: "/blog/investing/reits-vs-direct-investing", category: "Investing", categorySlug: "investing", datePublished: "2026-10-08" },
+  { slug: "/blog/property-management/rental-inspection-checklist", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-08" },
+  { slug: "/blog/property-management/how-to-raise-rent-legally", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-08" },
+  { slug: "/blog/property-management/landlord-insurance-explained", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-08" },
+  { slug: "/blog/wholesaling/is-wholesaling-legal", category: "Wholesaling", categorySlug: "wholesaling", datePublished: "2026-10-08" },
+  { slug: "/blog/wholesaling/assignment-of-contract", category: "Wholesaling", categorySlug: "wholesaling", datePublished: "2026-10-08" },
+  { slug: "/blog/wholesaling/how-much-wholesalers-make", category: "Wholesaling", categorySlug: "wholesaling", datePublished: "2026-10-08" },
+  { slug: "/blog/real-estate-careers/how-much-agents-make", category: "Careers", categorySlug: "real-estate-careers", datePublished: "2026-10-08" },
+  { slug: "/blog/real-estate-careers/license-reciprocity", category: "Careers", categorySlug: "real-estate-careers", datePublished: "2026-10-08" },
+  { slug: "/blog/real-estate-careers/become-property-manager", category: "Careers", categorySlug: "real-estate-careers", datePublished: "2026-10-08" },
+  { slug: "/blog/real-estate-business/llc-for-real-estate", category: "Business", categorySlug: "real-estate-business", datePublished: "2026-10-08" },
+  { slug: "/blog/real-estate-business/direct-mail-marketing", category: "Business", categorySlug: "real-estate-business", datePublished: "2026-10-08" },
+  { slug: "/blog/real-estate-business/virtual-assistants-real-estate", category: "Business", categorySlug: "real-estate-business", datePublished: "2026-10-08" },
 ];

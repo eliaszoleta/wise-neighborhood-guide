@@ -323,6 +323,116 @@ const PRESENTATION: Record<string, Presentation> = {
     image: imgWholesaling,
     alt: "Wholesaler driving for dollars to find motivated sellers in a neighborhood",
   },
+
+  // ── October 2026 batch ──
+  "/blog/financing/fha-loan-requirements": {
+    title: "FHA Loan Requirements 2026: Credit Score, Down Payment & Eligibility",
+    excerpt: "FHA loans let buyers qualify with a 580 credit score and 3.5% down. Here's exactly what you need to qualify, what it costs, and when an FHA loan isn't your best option.",
+    image: imgMortgageLoans,
+    alt: "First-time homebuyer reviewing FHA loan requirements and down payment documents",
+  },
+  "/blog/financing/cash-out-refinance-vs-heloc": {
+    title: "Cash-Out Refinance vs HELOC: Which Should You Use to Fund Your Next Deal?",
+    excerpt: "A cash-out refinance replaces your mortgage; a HELOC sits on top of it. Here's how the costs, rates, and flexibility actually compare for real estate investors.",
+    image: imgCashOut,
+    alt: "Homeowner comparing cash-out refinance and HELOC paperwork side by side",
+  },
+  "/blog/financing/credit-score-investment-property": {
+    title: "What Credit Score Do You Need to Buy an Investment Property?",
+    excerpt: "Lenders hold investment properties to a higher standard than a primary residence. Here's the real credit score, down payment, and reserve requirements you'll face.",
+    image: imgPrivateMoney,
+    alt: "Investor reviewing credit score and investment property loan requirements",
+  },
+  "/blog/investing/how-to-invest-no-money": {
+    title: "How to Invest in Real Estate With No Money: 7 Strategies That Actually Work",
+    excerpt: "\"No money\" usually means no cash for a down payment, not zero capital of any kind. Here are 7 real strategies investors use to control real estate without a traditional down payment.",
+    image: imgFirstRental,
+    alt: "Investor reviewing no-money-down real estate investing strategies",
+  },
+  "/blog/investing/one-percent-rule-real-estate": {
+    title: "The 1% Rule in Real Estate: What It Means and Why It's Not Enough",
+    excerpt: "The 1% rule says monthly rent should equal at least 1% of the purchase price. Here's how to use it as a fast screening tool -- and why it can't replace a real deal analysis.",
+    image: imgRentalExpenses,
+    alt: "Investor calculating the 1% rule against a property's purchase price and rent",
+  },
+  "/blog/investing/reits-vs-direct-investing": {
+    title: "REITs vs Direct Real Estate Investing: Which Builds Wealth Faster?",
+    excerpt: "REITs offer liquidity and zero management; direct ownership offers leverage and tax advantages. Here's a clear-eyed comparison of returns, risk, and effort for each.",
+    image: imgTypesProperty,
+    alt: "Investor comparing REIT shares and a direct rental property investment",
+  },
+  "/blog/property-management/rental-inspection-checklist": {
+    title: "Rental Property Inspection Checklist: What Landlords Should Check Every Visit",
+    excerpt: "A move-in, routine, and move-out inspection each catch different problems. Here's a complete checklist for every stage of a tenancy, plus how often to inspect without overstepping tenant rights.",
+    image: imgPropertyMgmt,
+    alt: "Landlord completing a rental property inspection checklist room by room",
+  },
+  "/blog/property-management/how-to-raise-rent-legally": {
+    title: "How to Raise Rent Legally: Notice Requirements and Rent Increase Rules",
+    excerpt: "Rent increases are governed by your lease terms, state notice laws, and in some cities, rent control. Here's how to raise rent the right way without triggering a legal dispute.",
+    image: imgFindTenant,
+    alt: "Landlord preparing a written rent increase notice for a tenant",
+  },
+  "/blog/property-management/landlord-insurance-explained": {
+    title: "Landlord Insurance Explained: What It Covers and What It Doesn't",
+    excerpt: "A standard homeowners policy doesn't cover a rental property. Here's what landlord (dwelling) insurance actually covers, what it costs, and the gaps you still need to fill yourself.",
+    image: imgCashOut,
+    alt: "Landlord reviewing a dwelling insurance policy for a rental property",
+  },
+  "/blog/wholesaling/is-wholesaling-legal": {
+    title: "Is Wholesaling Real Estate Legal? What the Law Actually Says",
+    excerpt: "Wholesaling is legal in every state, but a growing number now require a real estate license or impose specific disclosure rules. Here's what's actually regulated and what isn't.",
+    image: imgWholesaling,
+    alt: "Wholesaler reviewing state wholesaling disclosure and licensing requirements",
+  },
+  "/blog/wholesaling/assignment-of-contract": {
+    title: "Assignment of Contract in Real Estate Wholesaling: How It Works",
+    excerpt: "Assignment of contract is how most wholesale deals actually get paid. Here's exactly how the clause works, how the assignment fee gets collected, and the risks to watch for.",
+    image: imgWholesaling,
+    alt: "Wholesaler signing an assignment of contract agreement with an end buyer",
+  },
+  "/blog/wholesaling/how-much-wholesalers-make": {
+    title: "How Much Do Real Estate Wholesalers Actually Make?",
+    excerpt: "Assignment fees typically run $5,000-$20,000 per deal, but income varies enormously based on deal volume, market, and experience. Here's a realistic breakdown of wholesaler earnings.",
+    image: imgWholesaling,
+    alt: "Wholesaler reviewing assignment fee income and deal volume numbers",
+  },
+  "/blog/real-estate-careers/how-much-agents-make": {
+    title: "How Much Do Real Estate Agents Make? Commission, Splits, and Real Numbers",
+    excerpt: "Agent income is almost entirely commission-based, and the headline percentage isn't what agents actually take home. Here's how commission splits really work and what agents typically earn.",
+    image: imgAgentBroker,
+    alt: "Real estate agent reviewing commission split and closing statement numbers",
+  },
+  "/blog/real-estate-careers/license-reciprocity": {
+    title: "Real Estate License Reciprocity: Can You Use Your License in Another State?",
+    excerpt: "Reciprocity rules vary enormously -- some states offer full reciprocity, others require a portability course, and some require you to start the licensing process from scratch.",
+    image: imgBecomeRealtor,
+    alt: "Real estate agent reviewing license reciprocity requirements between two states",
+  },
+  "/blog/real-estate-careers/become-property-manager": {
+    title: "How to Become a Property Manager: Licensing, Skills, and Career Path",
+    excerpt: "Property management licensing requirements vary by state -- some require a real estate license, others a separate property management license, others nothing at all. Here's the real path.",
+    image: imgPropertyMgmt,
+    alt: "Aspiring property manager reviewing licensing requirements and career path options",
+  },
+  "/blog/real-estate-business/llc-for-real-estate": {
+    title: "Should You Form an LLC for Your Real Estate Investments?",
+    excerpt: "An LLC can shield your personal assets from a lawsuit tied to a rental property, but it also complicates financing and adds ongoing costs. Here's how to decide if it's worth it.",
+    image: imgBookkeepers,
+    alt: "Real estate investor reviewing LLC formation documents for a rental property",
+  },
+  "/blog/real-estate-business/direct-mail-marketing": {
+    title: "Direct Mail Marketing for Real Estate Investors: Does It Still Work?",
+    excerpt: "Direct mail remains one of the most reliable ways investors find motivated sellers, but response rates and cost per lead vary enormously based on list quality and consistency.",
+    image: imgLeadManagers,
+    alt: "Real estate investor reviewing a direct mail marketing campaign and response tracking",
+  },
+  "/blog/real-estate-business/virtual-assistants-real-estate": {
+    title: "Virtual Assistants for Real Estate Investors: What to Outsource First",
+    excerpt: "A good VA can take cold calling, lead follow-up, and data entry off your plate for a fraction of a full-time hire's cost. Here's what to delegate first and what to keep doing yourself.",
+    image: imgAcquisitions,
+    alt: "Real estate investor working with a virtual assistant on lead follow-up tasks",
+  },
 };
 
 export const BLOG_POSTS: BlogPostMeta[] = BLOG_POST_ROUTES.map((route) => {

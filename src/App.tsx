@@ -104,6 +104,26 @@ import AcquisitionsManagerRealEstate from "./pages/blog/AcquisitionsManagerRealE
 import BookkeepersRealEstate from "./pages/blog/BookkeepersRealEstate";
 import LeadManagementTools from "./pages/blog/LeadManagementTools";
 
+// Blog posts — October 2026 batch
+import FhaLoanRequirements from "./pages/blog/FhaLoanRequirements";
+import CashOutRefinanceVsHeloc from "./pages/blog/CashOutRefinanceVsHeloc";
+import CreditScoreInvestmentProperty from "./pages/blog/CreditScoreInvestmentProperty";
+import InvestNoMoney from "./pages/blog/InvestNoMoney";
+import OnePercentRule from "./pages/blog/OnePercentRule";
+import ReitsVsDirectInvesting from "./pages/blog/ReitsVsDirectInvesting";
+import RentalInspectionChecklist from "./pages/blog/RentalInspectionChecklist";
+import HowToRaiseRentLegally from "./pages/blog/HowToRaiseRentLegally";
+import LandlordInsuranceExplained from "./pages/blog/LandlordInsuranceExplained";
+import IsWholesalingLegal from "./pages/blog/IsWholesalingLegal";
+import AssignmentOfContract from "./pages/blog/AssignmentOfContract";
+import HowMuchWholesalersMake from "./pages/blog/HowMuchWholesalersMake";
+import HowMuchAgentsEarn from "./pages/blog/HowMuchAgentsEarn";
+import LicenseReciprocity from "./pages/blog/LicenseReciprocity";
+import BecomePropertyManager from "./pages/blog/BecomePropertyManager";
+import LlcForRealEstate from "./pages/blog/LlcForRealEstate";
+import DirectMailMarketing from "./pages/blog/DirectMailMarketing";
+import VirtualAssistantsRealEstate from "./pages/blog/VirtualAssistantsRealEstate";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -189,6 +209,26 @@ const App = () => (
             <Route path="/blog/real-estate-business/acquisitions-manager-real-estate" element={<AcquisitionsManagerRealEstate />} />
             <Route path="/blog/real-estate-business/bookkeepers-real-estate" element={<BookkeepersRealEstate />} />
             <Route path="/blog/real-estate-business/lead-management-tools" element={<LeadManagementTools />} />
+
+            {/* Blog posts — October 2026 batch */}
+            <Route path="/blog/financing/fha-loan-requirements" element={<FhaLoanRequirements />} />
+            <Route path="/blog/financing/cash-out-refinance-vs-heloc" element={<CashOutRefinanceVsHeloc />} />
+            <Route path="/blog/financing/credit-score-investment-property" element={<CreditScoreInvestmentProperty />} />
+            <Route path="/blog/investing/how-to-invest-no-money" element={<InvestNoMoney />} />
+            <Route path="/blog/investing/one-percent-rule-real-estate" element={<OnePercentRule />} />
+            <Route path="/blog/investing/reits-vs-direct-investing" element={<ReitsVsDirectInvesting />} />
+            <Route path="/blog/property-management/rental-inspection-checklist" element={<RentalInspectionChecklist />} />
+            <Route path="/blog/property-management/how-to-raise-rent-legally" element={<HowToRaiseRentLegally />} />
+            <Route path="/blog/property-management/landlord-insurance-explained" element={<LandlordInsuranceExplained />} />
+            <Route path="/blog/wholesaling/is-wholesaling-legal" element={<IsWholesalingLegal />} />
+            <Route path="/blog/wholesaling/assignment-of-contract" element={<AssignmentOfContract />} />
+            <Route path="/blog/wholesaling/how-much-wholesalers-make" element={<HowMuchWholesalersMake />} />
+            <Route path="/blog/real-estate-careers/how-much-agents-make" element={<HowMuchAgentsEarn />} />
+            <Route path="/blog/real-estate-careers/license-reciprocity" element={<LicenseReciprocity />} />
+            <Route path="/blog/real-estate-careers/become-property-manager" element={<BecomePropertyManager />} />
+            <Route path="/blog/real-estate-business/llc-for-real-estate" element={<LlcForRealEstate />} />
+            <Route path="/blog/real-estate-business/direct-mail-marketing" element={<DirectMailMarketing />} />
+            <Route path="/blog/real-estate-business/virtual-assistants-real-estate" element={<VirtualAssistantsRealEstate />} />
 
             {/* Pillar pages */}
             <Route path="/real-estate-investing" element={<Investing />} />
