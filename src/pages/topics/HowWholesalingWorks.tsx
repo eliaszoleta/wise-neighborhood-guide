@@ -13,14 +13,32 @@ const HowWholesalingWorks = () => (
     sections={[
       {
         heading: "The Wholesale Business Model",
-        content: "Wholesaling works because there's a genuine market inefficiency: some property owners need to sell quickly and are willing to accept below-market prices in exchange for speed, certainty, and ease of transaction. Cash buyers (fix-and-flip investors and landlords) need a constant supply of discounted deals to operate their businesses. Wholesalers fill the gap between these two groups — finding deals the sellers don't know how to market and delivering them to buyers who can close fast. The value you provide is real: finding, negotiating, and underwriting deals takes skill and effort that neither sellers nor most end buyers want to do themselves. Your assignment fee is compensation for that work.",
+        content: [
+          { type: "p", text: "Wholesaling works because there's a genuine market inefficiency: some property owners need to sell quickly and are willing to accept below-market prices in exchange for speed, certainty, and ease of transaction. Cash buyers (fix-and-flip investors and landlords) need a constant supply of discounted deals to operate their businesses." },
+          { type: "p", text: "Wholesalers fill the gap between these two groups — finding deals the sellers don't know how to market and delivering them to buyers who can close fast. The value you provide is real: finding, negotiating, and underwriting deals takes skill and effort that neither sellers nor most end buyers want to do themselves. Your assignment fee is compensation for that work." },
+        ],
         links: [
           { label: "BiggerPockets: Real Estate Wholesaling Guide", url: "https://www.biggerpockets.com/guides/wholesaling" },
         ],
       },
       {
         heading: "The Full Wholesale Process Step by Step",
-        content: "Step 1 — Build lead generation infrastructure: set up a CRM, create direct mail lists targeting motivated seller categories (pre-foreclosure, tax delinquent, absentee owners, probate), set up a calling system, and establish a basic marketing presence. Step 2 — Generate motivated seller leads through consistent outbound marketing — direct mail, cold calling, SMS, driving for dollars, digital ads. Most wholesalers spend 2–4 months before their first deal. Step 3 — Pre-screen inbound leads: identify properties with real motivation and equity before spending time on appointments. Step 4 — Analyze the deal: estimate after-repair value (ARV) using comparable sold properties and estimate rehab costs. Step 5 — Make an offer at a price that leaves room for your fee and the buyer's required profit margin. Most wholesalers target all-in pricing (your contract price plus estimated rehab) at 65–70% of ARV or lower. Step 6 — Get a signed purchase agreement with an assignment clause. Step 7 — Market the deal to your cash buyers list. Step 8 — Negotiate assignment fee and sign assignment agreement with the buyer. Step 9 — Coordinate closing and collect your assignment fee.",
+        content: [
+          {
+            type: "ol",
+            items: [
+              "Build lead generation infrastructure: set up a CRM, create direct mail lists targeting motivated seller categories (pre-foreclosure, tax delinquent, absentee owners, probate), set up a calling system, and establish a basic marketing presence.",
+              "Generate motivated seller leads through consistent outbound marketing — direct mail, cold calling, SMS, driving for dollars, digital ads. Most wholesalers spend 2–4 months before their first deal.",
+              "Pre-screen inbound leads: identify properties with real motivation and equity before spending time on appointments.",
+              "Analyze the deal: estimate after-repair value (ARV) using comparable sold properties and estimate rehab costs.",
+              "Make an offer at a price that leaves room for your fee and the buyer's required profit margin. Most wholesalers target all-in pricing (your contract price plus estimated rehab) at 65–70% of ARV or lower.",
+              "Get a signed purchase agreement with an assignment clause.",
+              "Market the deal to your cash buyers list.",
+              "Negotiate assignment fee and sign assignment agreement with the buyer.",
+              "Coordinate closing and collect your assignment fee.",
+            ],
+          },
+        ],
         links: [
           { label: "PropStream — Property Data and ARV Analysis", url: "https://www.propstream.com/" },
           { label: "DealMachine — Driving for Dollars App", url: "https://www.dealmachine.com/" },
@@ -28,12 +46,18 @@ const HowWholesalingWorks = () => (
       },
       {
         heading: "How Much Do Wholesalers Actually Make?",
-        content: "Assignment fees on residential deals typically range from $5,000 to $20,000, though deals in high-priced markets or on larger properties can run higher. What you make depends on two factors: how deep below ARV you can negotiate the purchase price, and how strong buyer demand is for that property type in that area. Wholesaling is a volume business — most full-time wholesalers targeting $10,000 average assignment fees need to close 3–5 deals per month to generate a sustainable income. To close that volume, most successful operations spend $5,000–$15,000/month on marketing and carry a pipeline of dozens of active leads at various stages of follow-up. The business looks different at $50K/year than it does at $250K/year, but the core process is the same.",
+        content: [
+          { type: "p", text: "Assignment fees on residential deals typically range from $5,000 to $20,000, though deals in high-priced markets or on larger properties can run higher. What you make depends on two factors: how deep below ARV you can negotiate the purchase price, and how strong buyer demand is for that property type in that area." },
+          { type: "p", text: "Wholesaling is a volume business — most full-time wholesalers targeting $10,000 average assignment fees need to close 3–5 deals per month to generate a sustainable income. To close that volume, most successful operations spend $5,000–$15,000/month on marketing and carry a pipeline of dozens of active leads at various stages of follow-up. The business looks different at $50K/year than it does at $250K/year, but the core process is the same." },
+        ],
         links: [],
       },
       {
         heading: "Is Wholesaling Legal?",
-        content: "Wholesaling is legal in all 50 states, but the regulatory environment has become more complex over the past several years. The core legal question: if you're marketing a property you don't own, some states argue you're performing a real estate act that requires a license. In practice, the safest approach is to market your equitable interest in the purchase contract — not the property itself — and clearly disclose that you're a contract holder assigning your position, not an owner or licensed agent. Illinois has enacted specific statutes governing wholesale marketing practices and disclosure requirements. Several other states have increased regulatory scrutiny. Work with a local real estate attorney who handles investor transactions before you send out your first deal — this conversation is worth having before, not after, a compliance issue arises.",
+        content: [
+          { type: "p", text: "Wholesaling is legal in all 50 states, but the regulatory environment has become more complex over the past several years. The core legal question: if you're marketing a property you don't own, some states argue you're performing a real estate act that requires a license." },
+          { type: "p", text: "In practice, the safest approach is to market your equitable interest in the purchase contract — not the property itself — and clearly disclose that you're a contract holder assigning your position, not an owner or licensed agent. Illinois has enacted specific statutes governing wholesale marketing practices and disclosure requirements. Several other states have increased regulatory scrutiny. Work with a local real estate attorney who handles investor transactions before you send out your first deal — this conversation is worth having before, not after, a compliance issue arises." },
+        ],
         links: [
           { label: "BiggerPockets: Is Real Estate Wholesaling Legal?", url: "https://www.biggerpockets.com/blog/is-wholesaling-real-estate-legal" },
           { label: "Find a Real Estate Attorney via Avvo", url: "https://www.avvo.com/real-estate-lawyer" },
@@ -41,7 +65,21 @@ const HowWholesalingWorks = () => (
       },
       {
         heading: "What You Actually Need to Get Started",
-        content: "The real barrier to entry isn't purchase capital — it's marketing budget and infrastructure. Before your first deal, you need: a CRM to track leads and automate follow-up sequences, a source for property owner contact data (PropStream, BatchLeads), direct mail or calling campaigns generating regular leads, skip tracing access to find owner phone numbers, purchase contract and assignment contract templates reviewed by a local attorney, and a basic understanding of how to run ARV comps. Budget $1,000–$3,000 in startup costs and $500–$2,000/month ongoing in marketing. The wholesalers who fail consistently underinvest in lead generation — they try to find motivated sellers without building a real, repeatable system to surface them.",
+        content: [
+          { type: "p", text: "The real barrier to entry isn't purchase capital — it's marketing budget and infrastructure. Before your first deal, you need:" },
+          {
+            type: "ul",
+            items: [
+              "A CRM to track leads and automate follow-up sequences",
+              "A source for property owner contact data (PropStream, BatchLeads)",
+              "Direct mail or calling campaigns generating regular leads",
+              "Skip tracing access to find owner phone numbers",
+              "Purchase contract and assignment contract templates reviewed by a local attorney",
+              "A basic understanding of how to run ARV comps",
+            ],
+          },
+          { type: "p", text: "Budget $1,000–$3,000 in startup costs and $500–$2,000/month ongoing in marketing. The wholesalers who fail consistently underinvest in lead generation — they try to find motivated sellers without building a real, repeatable system to surface them." },
+        ],
         links: [
           { label: "REISift — Wholesaling CRM", url: "https://www.reisift.io/" },
           { label: "BatchLeads — Skip Tracing and Lists", url: "https://batchleads.io/" },

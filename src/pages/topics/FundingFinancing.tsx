@@ -13,7 +13,10 @@ const FundingFinancing = () => (
     sections={[
       {
         heading: "Conventional Mortgage Loans for Investment Properties",
-        content: "Conventional loans — originated by banks and lenders, conforming to Fannie Mae or Freddie Mac guidelines — are the cheapest long-term financing available for investment properties. For investment properties (not owner-occupied), expect to put down 15–25%, need a credit score above 680, have verifiable income, and meet debt-to-income ratio requirements. Rates run 0.5–1% higher than primary residence rates. The primary limitation: Fannie Mae allows up to 10 financed properties per borrower, after which you need portfolio or commercial lending. Conventional loans work best for long-term holds where you're holding for 30 years and want the lowest possible carrying cost.",
+        content: [
+          { type: "p", text: "Conventional loans — originated by banks and lenders, conforming to Fannie Mae or Freddie Mac guidelines — are the cheapest long-term financing available for investment properties. For investment properties (not owner-occupied), expect to put down 15–25%, need a credit score above 680, have verifiable income, and meet debt-to-income ratio requirements. Rates run 0.5–1% higher than primary residence rates." },
+          { type: "p", text: "The primary limitation: Fannie Mae allows up to 10 financed properties per borrower, after which you need portfolio or commercial lending. Conventional loans work best for long-term holds where you're holding for 30 years and want the lowest possible carrying cost." },
+        ],
         links: [
           { label: "Fannie Mae Investment Property Lending Guidelines", url: "https://selling-guide.fanniemae.com/" },
           { label: "Bankrate Mortgage Rate Comparison", url: "https://www.bankrate.com/mortgages/mortgage-rates/" },
@@ -22,7 +25,10 @@ const FundingFinancing = () => (
       },
       {
         heading: "Hard Money Loans",
-        content: "Hard money lenders are private companies that underwrite based primarily on the property's value rather than the borrower's income or credit profile. They're fast (7–14 days vs. 30+ days for conventional), flexible on credit and income, and willing to lend on distressed properties that banks won't touch. The tradeoffs are significant: rates of 10–15%+, origination fees of 2–4 points, and short terms of 6–24 months. Hard money is appropriate for fix-and-flip projects where you're selling in 3–6 months, and BRRRR deals where you're refinancing out within 6–12 months. Holding hard money long-term is genuinely expensive — the carrying cost erodes returns quickly. Always model your exit before taking hard money.",
+        content: [
+          { type: "p", text: "Hard money lenders are private companies that underwrite based primarily on the property's value rather than the borrower's income or credit profile. They're fast (7–14 days vs. 30+ days for conventional), flexible on credit and income, and willing to lend on distressed properties that banks won't touch. The tradeoffs are significant: rates of 10–15%+, origination fees of 2–4 points, and short terms of 6–24 months." },
+          { type: "p", text: "Hard money is appropriate for fix-and-flip projects where you're selling in 3–6 months, and BRRRR deals where you're refinancing out within 6–12 months. Holding hard money long-term is genuinely expensive — the carrying cost erodes returns quickly. Always model your exit before taking hard money." },
+        ],
         links: [
           { label: "Kiavi — Hard Money Lender for Investors", url: "https://www.kiavi.com/" },
           { label: "Lima One Capital — Bridge and Rental Loans", url: "https://www.limaone.com/" },
@@ -31,7 +37,10 @@ const FundingFinancing = () => (
       },
       {
         heading: "DSCR Loans (Debt Service Coverage Ratio)",
-        content: "DSCR loans have become one of the most important financing tools for real estate investors over the past decade. Instead of qualifying you based on W-2 income or tax returns — which can be complicated for self-employed investors or those with significant write-offs — DSCR lenders qualify based on the property's rental income relative to the proposed mortgage payment. A DSCR of 1.0 means rent exactly equals the monthly payment; most lenders want 1.10–1.25x. Down payments typically run 20–25%, and rates are slightly higher than conventional. The qualification flexibility is the key advantage: investors building portfolios can continue financing properties even when personal income documentation becomes complex from multiple active businesses.",
+        content: [
+          { type: "p", text: "DSCR loans have become one of the most important financing tools for real estate investors over the past decade. Instead of qualifying you based on W-2 income or tax returns — which can be complicated for self-employed investors or those with significant write-offs — DSCR lenders qualify based on the property's rental income relative to the proposed mortgage payment. A DSCR of 1.0 means rent exactly equals the monthly payment; most lenders want 1.10–1.25x." },
+          { type: "p", text: "Down payments typically run 20–25%, and rates are slightly higher than conventional. The qualification flexibility is the key advantage: investors building portfolios can continue financing properties even when personal income documentation becomes complex from multiple active businesses." },
+        ],
         links: [
           { label: "Griffin Funding — DSCR Loan Programs", url: "https://www.griffinfunding.com/dscr-loans/" },
           { label: "Visio Lending — Investor Rental Loans", url: "https://www.visiolending.com/" },
@@ -40,7 +49,10 @@ const FundingFinancing = () => (
       },
       {
         heading: "Private Money Lending",
-        content: "Private money means capital from individuals — friends, family, business contacts, or private investors — who lend personal funds for a return on a specific deal or portfolio. Terms are fully negotiable: fixed interest rates (typically 6–12%), equity participation, or hybrid structures. The advantages are flexibility and relationship-based terms without institutional underwriting requirements. The risks are also relationship-based: if a deal goes sideways, you're working it out with someone you know. Always formalize private money with proper legal documentation — promissory notes, deeds of trust, clearly defined collateral and repayment terms — regardless of how trusted the relationship. Informal arrangements become expensive problems when deals don't go as planned.",
+        content: [
+          { type: "p", text: "Private money means capital from individuals — friends, family, business contacts, or private investors — who lend personal funds for a return on a specific deal or portfolio. Terms are fully negotiable: fixed interest rates (typically 6–12%), equity participation, or hybrid structures. The advantages are flexibility and relationship-based terms without institutional underwriting requirements." },
+          { type: "p", text: "The risks are also relationship-based: if a deal goes sideways, you're working it out with someone you know. Always formalize private money with proper legal documentation — promissory notes, deeds of trust, clearly defined collateral and repayment terms — regardless of how trusted the relationship. Informal arrangements become expensive problems when deals don't go as planned." },
+        ],
         links: [
           { label: "BiggerPockets: Guide to Private Money Lending", url: "https://www.biggerpockets.com/blog/private-money-lending" },
           { label: "Private Money Lenders Full Guide — Blog Post", url: "/blog/financing/private-money-lender" },
@@ -48,7 +60,10 @@ const FundingFinancing = () => (
       },
       {
         heading: "Seller Financing",
-        content: "Seller financing (also called owner financing) means the property seller acts as the lender — you make monthly payments directly to them rather than a bank. The seller holds a promissory note secured by the property (usually recorded as a deed of trust or mortgage lien). Terms are negotiated directly: interest rate, amortization period, balloon payment timeline, and down payment. Seller financing is most available with free-and-clear properties or sellers willing to pay off their existing mortgage at closing. It can enable purchases with minimal down payment and below-market rates in the right situations. Requires a motivated seller who understands the arrangement — and always formalize with an attorney-drafted note and deed of trust.",
+        content: [
+          { type: "p", text: "Seller financing (also called owner financing) means the property seller acts as the lender — you make monthly payments directly to them rather than a bank. The seller holds a promissory note secured by the property (usually recorded as a deed of trust or mortgage lien). Terms are negotiated directly: interest rate, amortization period, balloon payment timeline, and down payment." },
+          { type: "p", text: "Seller financing is most available with free-and-clear properties or sellers willing to pay off their existing mortgage at closing. It can enable purchases with minimal down payment and below-market rates in the right situations. Requires a motivated seller who understands the arrangement — and always formalize with an attorney-drafted note and deed of trust." },
+        ],
         links: [
           { label: "Seller Financing Full Guide — Blog Post", url: "/blog/financing/seller-financing-real-estate" },
           { label: "Investopedia: Seller Financing Overview", url: "https://www.investopedia.com/terms/s/seller-financing.asp" },
@@ -56,7 +71,10 @@ const FundingFinancing = () => (
       },
       {
         heading: "Subject-To and Other Creative Strategies",
-        content: "Subject-to deals involve taking over the seller's existing mortgage without formally assuming it — the loan stays in the seller's name while you take title and make the payments. This preserves the seller's often-lower interest rate and can require minimal cash at closing. The risk: if you miss payments, it damages the seller's credit and the lender's due-on-sale clause can technically be triggered. Other creative strategies include lease options (control a property now with the option to purchase later), wraparound mortgages (you issue a new mortgage to the seller that wraps around their existing one), and HELOC-funded investments using equity from existing properties. Creative strategies require more legal knowledge and negotiation skill but can unlock deals that no conventional financing can touch.",
+        content: [
+          { type: "p", text: "Subject-to deals involve taking over the seller's existing mortgage without formally assuming it — the loan stays in the seller's name while you take title and make the payments. This preserves the seller's often-lower interest rate and can require minimal cash at closing. The risk: if you miss payments, it damages the seller's credit and the lender's due-on-sale clause can technically be triggered." },
+          { type: "p", text: "Other creative strategies include lease options (control a property now with the option to purchase later), wraparound mortgages (you issue a new mortgage to the seller that wraps around their existing one), and HELOC-funded investments using equity from existing properties. Creative strategies require more legal knowledge and negotiation skill but can unlock deals that no conventional financing can touch." },
+        ],
         links: [
           { label: "Subject-To Real Estate Full Guide — Blog Post", url: "/blog/financing/subject-to-real-estate" },
           { label: "HELOC for Real Estate Investing — Blog Post", url: "/blog/financing/heloc-real-estate" },

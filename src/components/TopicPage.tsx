@@ -11,9 +11,17 @@ import {
   BreadcrumbPage,
 } from "@/components/ui/breadcrumb";
 
+type ContentBlock =
+  | { type: "p"; text: string }
+  | { type: "ul"; items: string[] }
+  | { type: "ol"; items: string[] };
+
 interface Section {
   heading: string;
-  content: string;
+  /** A single string renders as one paragraph (kept for simple sections); an
+   * array of blocks lets a section mix multiple paragraphs with real
+   * <ul>/<ol> lists instead of flattening everything into one wall of text. */
+  content: string | ContentBlock[];
   links?: { label: string; url: string }[];
 }
 
@@ -48,15 +56,50 @@ const toAnchor = (text: string) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
+const contentToText = (content: Section["content"]): string =>
+  typeof content === "string"
+    ? content
+    : content.map((b) => (b.type === "p" ? b.text : b.items.join(" "))).join(" ");
+
 // Estimate reading time (words / 200 wpm)
 const estimateReadTime = (sections: Section[], intro: string, faqs: { q: string; a: string }[]) => {
   const allText = [
     intro,
-    ...sections.map((s) => s.heading + " " + s.content),
+    ...sections.map((s) => s.heading + " " + contentToText(s.content)),
     ...faqs.map((f) => f.q + " " + f.a),
   ].join(" ");
   const words = allText.trim().split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.round(words / 200));
+};
+
+const SectionContent = ({ content }: { content: Section["content"] }) => {
+  if (typeof content === "string") {
+    return <p className="text-muted-foreground leading-relaxed">{content}</p>;
+  }
+  return (
+    <div className="space-y-4">
+      {content.map((block, i) => {
+        if (block.type === "p") {
+          return (
+            <p key={i} className="text-muted-foreground leading-relaxed">
+              {block.text}
+            </p>
+          );
+        }
+        const ListTag = block.type === "ol" ? "ol" : "ul";
+        return (
+          <ListTag
+            key={i}
+            className={`${block.type === "ol" ? "list-decimal" : "list-disc"} space-y-2 pl-6 text-muted-foreground`}
+          >
+            {block.items.map((item, j) => (
+              <li key={j} className="leading-relaxed">{item}</li>
+            ))}
+          </ListTag>
+        );
+      })}
+    </div>
+  );
 };
 
 const TopicPage = ({
@@ -219,7 +262,7 @@ const TopicPage = ({
                     >
                       {s.heading}
                     </h2>
-                    <p className="text-muted-foreground leading-relaxed">{s.content}</p>
+                    <SectionContent content={s.content} />
                     {s.links && s.links.length > 0 && (
                       <div className="mt-4 flex flex-wrap gap-3">
                         {s.links.map((l) => (

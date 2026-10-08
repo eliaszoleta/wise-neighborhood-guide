@@ -13,7 +13,10 @@ const ContractsAssignmentFees = () => (
     sections={[
       {
         heading: "The Purchase and Sale Agreement",
-        content: "The purchase agreement is your contract with the seller. It specifies the purchase price, earnest money deposit, inspection period, closing date, and — critically — whether the contract can be assigned. To wholesale legally, your contract must include either an explicit assignment clause ('Buyer may assign this contract without seller consent') or the notation 'and/or assigns' after your name as the buyer. Without that language, you may not have the legal right to transfer your position in the contract to your end buyer. The earnest money deposit (typically $100–$1,000 on wholesale deals) demonstrates serious intent and is at risk if you can't close or find a buyer. Use a contract template reviewed by a local real estate attorney — not one downloaded from a random website. The few hundred dollars that review costs prevents far more expensive problems.",
+        content: [
+          { type: "p", text: "The purchase agreement is your contract with the seller. It specifies the purchase price, earnest money deposit, inspection period, closing date, and — critically — whether the contract can be assigned. To wholesale legally, your contract must include either an explicit assignment clause ('Buyer may assign this contract without seller consent') or the notation 'and/or assigns' after your name as the buyer. Without that language, you may not have the legal right to transfer your position in the contract to your end buyer." },
+          { type: "p", text: "The earnest money deposit (typically $100–$1,000 on wholesale deals) demonstrates serious intent and is at risk if you can't close or find a buyer. Use a contract template reviewed by a local real estate attorney — not one downloaded from a random website. The few hundred dollars that review costs prevents far more expensive problems." },
+        ],
         links: [
           { label: "LegalZoom — Real Estate Contract Resources", url: "https://www.legalzoom.com/real-estate" },
           { label: "Rocket Lawyer — Legal Document Tools", url: "https://www.rocketlawyer.com/" },
@@ -21,19 +24,47 @@ const ContractsAssignmentFees = () => (
       },
       {
         heading: "The Assignment Contract",
-        content: "The assignment contract is a separate agreement between you and your end buyer that transfers your contractual rights in the purchase agreement to them in exchange for your assignment fee. The original purchase contract between you and the seller remains in place — the buyer simply steps into your position and closes directly with the seller. The assignment contract should clearly specify: the original purchase contract being assigned and its key terms, the assignment fee amount and when it's payable (typically at closing from the buyer's funds), any conditions on the assignment, and representations that you actually hold the contract rights being assigned. Both you and the buyer should have the assignment contract reviewed before signing — this is a legally binding financial agreement.",
+        content: [
+          { type: "p", text: "The assignment contract is a separate agreement between you and your end buyer that transfers your contractual rights in the purchase agreement to them in exchange for your assignment fee. The original purchase contract between you and the seller remains in place — the buyer simply steps into your position and closes directly with the seller. The assignment contract should clearly specify:" },
+          {
+            type: "ul",
+            items: [
+              "The original purchase contract being assigned and its key terms",
+              "The assignment fee amount and when it's payable (typically at closing from the buyer's funds)",
+              "Any conditions on the assignment",
+              "Representations that you actually hold the contract rights being assigned",
+            ],
+          },
+          { type: "p", text: "Both you and the buyer should have the assignment contract reviewed before signing — this is a legally binding financial agreement." },
+        ],
         links: [
           { label: "BiggerPockets: Wholesale Real Estate Contract Guide", url: "https://www.biggerpockets.com/blog/wholesale-real-estate-contract" },
         ],
       },
       {
         heading: "How to Structure and Disclose Your Assignment Fee",
-        content: "Your assignment fee is the profit you earn for finding the deal and transferring your contract position to the end buyer. It equals the difference between your contract price with the seller and the total amount the buyer pays. On residential deals, fees typically run $5,000–$20,000, though what's achievable depends entirely on the ARV spread you negotiated and local buyer competition. Be transparent about your fee with buyers — experienced investors expect it and factor it into their underwriting. Attempting to hide or ambiguously structure your fee creates trust problems. The assignment fee typically appears on the settlement statement and is paid to you by the title company from buyer funds at closing — you don't need to bring money to closing.",
+        content: [
+          { type: "p", text: "Your assignment fee is the profit you earn for finding the deal and transferring your contract position to the end buyer. It equals the difference between your contract price with the seller and the total amount the buyer pays. On residential deals, fees typically run $5,000–$20,000, though what's achievable depends entirely on the ARV spread you negotiated and local buyer competition." },
+          { type: "p", text: "Be transparent about your fee with buyers — experienced investors expect it and factor it into their underwriting. Attempting to hide or ambiguously structure your fee creates trust problems. The assignment fee typically appears on the settlement statement and is paid to you by the title company from buyer funds at closing — you don't need to bring money to closing." },
+        ],
         links: [],
       },
       {
         heading: "Double Closings as an Alternative to Assignment",
-        content: "A double closing (also called a simultaneous close or A-B/B-C transaction) involves two separate transactions. First you close on the property with the seller (A-B transaction), then immediately close with your buyer (B-C transaction). This requires transactional funding — short-term bridge money that covers your purchase with the seller for the hours until your buyer's funds close. Transactional funding typically costs 1–2% of the purchase price or a flat fee and is widely available through specialist lenders. Double closings are appropriate when: the original contract prohibits assignment, you need to keep your profit margin private from the seller and/or buyer, the end buyer's lender won't accept an assignment, or the title company won't process assignment closings. Double closings are more expensive (two sets of closing costs) but provide more flexibility.",
+        content: [
+          { type: "p", text: "A double closing (also called a simultaneous close or A-B/B-C transaction) involves two separate transactions. First you close on the property with the seller (A-B transaction), then immediately close with your buyer (B-C transaction). This requires transactional funding — short-term bridge money that covers your purchase with the seller for the hours until your buyer's funds close. Transactional funding typically costs 1–2% of the purchase price or a flat fee and is widely available through specialist lenders." },
+          { type: "p", text: "Double closings are appropriate when:" },
+          {
+            type: "ul",
+            items: [
+              "The original contract prohibits assignment",
+              "You need to keep your profit margin private from the seller and/or buyer",
+              "The end buyer's lender won't accept an assignment",
+              "The title company won't process assignment closings",
+            ],
+          },
+          { type: "p", text: "Double closings are more expensive (two sets of closing costs) but provide more flexibility." },
+        ],
         links: [
           { label: "Best Transactional Funding", url: "https://www.besttransactionalfunding.com/" },
           { label: "Fund That Flip — Bridge Lending", url: "https://www.fundthatflip.com/" },
@@ -42,7 +73,18 @@ const ContractsAssignmentFees = () => (
       },
       {
         heading: "Legal Compliance Requirements You Cannot Ignore",
-        content: "Three compliance areas where wholesalers most commonly get into trouble: (1) Marketing properties as if you're the seller rather than a contract holder. You're marketing your equitable interest in the contract, not the property. Language matters: 'we have a home under contract' is accurate; 'we're selling this home' is not. (2) Failing to disclose your intent to assign the contract to sellers. Several states mandate specific disclosure language in purchase agreements used by wholesalers. (3) Using contracts that don't actually include assignment rights — which makes every deal you thought you could wholesale legally unenforceable. Additionally: never misrepresent ARV to sellers to justify a price that won't actually work for buyers, and never pressure sellers into contracts they don't understand. Work with a local real estate attorney from the start, not after something goes wrong.",
+        content: [
+          { type: "p", text: "Three compliance areas where wholesalers most commonly get into trouble:" },
+          {
+            type: "ol",
+            items: [
+              "Marketing properties as if you're the seller rather than a contract holder. You're marketing your equitable interest in the contract, not the property. Language matters: 'we have a home under contract' is accurate; 'we're selling this home' is not.",
+              "Failing to disclose your intent to assign the contract to sellers. Several states mandate specific disclosure language in purchase agreements used by wholesalers.",
+              "Using contracts that don't actually include assignment rights — which makes every deal you thought you could wholesale legally unenforceable.",
+            ],
+          },
+          { type: "p", text: "Additionally: never misrepresent ARV to sellers to justify a price that won't actually work for buyers, and never pressure sellers into contracts they don't understand. Work with a local real estate attorney from the start, not after something goes wrong." },
+        ],
         links: [
           { label: "Find a Real Estate Attorney via Avvo", url: "https://www.avvo.com/real-estate-lawyer" },
           { label: "Nolo — Real Estate Law Resources", url: "https://www.nolo.com/legal-encyclopedia/real-estate" },

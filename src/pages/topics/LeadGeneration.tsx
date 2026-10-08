@@ -13,12 +13,18 @@ const LeadGeneration = () => (
     sections={[
       {
         heading: "The Two Categories: Inbound vs. Outbound Lead Generation",
-        content: "Real estate lead generation breaks into two fundamentally different approaches. Inbound channels (SEO, content marketing, referrals) attract people who are already searching for what you offer — they have higher intent and typically convert at higher rates. Outbound channels (cold calling, SMS, direct mail, paid ads) reach people who haven't raised their hand — lower initial intent, requiring more follow-up to convert, but can generate volume faster than inbound. Neither is better in isolation. Most successful real estate businesses use a combination: one or two inbound channels for long-term sustainable lead flow, and one or two outbound channels for immediate pipeline when inbound is building or when volume is needed quickly.",
+        content: [
+          { type: "p", text: "Real estate lead generation breaks into two fundamentally different approaches. Inbound channels (SEO, content marketing, referrals) attract people who are already searching for what you offer — they have higher intent and typically convert at higher rates. Outbound channels (cold calling, SMS, direct mail, paid ads) reach people who haven't raised their hand — lower initial intent, requiring more follow-up to convert, but can generate volume faster than inbound." },
+          { type: "p", text: "Neither is better in isolation. Most successful real estate businesses use a combination: one or two inbound channels for long-term sustainable lead flow, and one or two outbound channels for immediate pipeline when inbound is building or when volume is needed quickly." },
+        ],
         links: [],
       },
       {
         heading: "SEO and Content Marketing: The Best Long-Term Investment",
-        content: "Building a website that ranks in Google for local real estate searches — 'sell my house fast [city]', 'real estate agent near me', 'we buy houses [city]', 'investment properties for sale [market]' — produces leads that are actively seeking what you offer. Inbound search leads convert at significantly higher rates than cold outreach because they found you. The trade-off: SEO takes 6–18 months to generate meaningful organic traffic. You won't see consistent results next month. But a well-ranked website generates leads for years without ongoing ad spend. For investors targeting motivated sellers, Carrot is a purpose-built platform for investor SEO. For agents, an IDX website with neighborhood-specific content pages and local market guides is the foundation for organic lead generation.",
+        content: [
+          { type: "p", text: "Building a website that ranks in Google for local real estate searches — 'sell my house fast [city]', 'real estate agent near me', 'we buy houses [city]', 'investment properties for sale [market]' — produces leads that are actively seeking what you offer. Inbound search leads convert at significantly higher rates than cold outreach because they found you." },
+          { type: "p", text: "The trade-off: SEO takes 6–18 months to generate meaningful organic traffic. You won't see consistent results next month. But a well-ranked website generates leads for years without ongoing ad spend. For investors targeting motivated sellers, Carrot is a purpose-built platform for investor SEO. For agents, an IDX website with neighborhood-specific content pages and local market guides is the foundation for organic lead generation." },
+        ],
         links: [
           { label: "Carrot — Investor and Wholesaler Website Platform", url: "https://www.carrot.com/" },
           { label: "Google Search Console — Track Your Rankings", url: "https://search.google.com/search-console" },
@@ -27,7 +33,10 @@ const LeadGeneration = () => (
       },
       {
         heading: "Pay-Per-Click Advertising (Google and Facebook Ads)",
-        content: "PPC advertising (Google Ads, Facebook/Instagram Ads, YouTube) generates leads immediately — campaigns can be live within 24 hours. Google Ads captures people actively searching (high intent, higher cost). Facebook Ads reaches demographic targets who match your ideal lead profile but aren't actively searching (lower intent, lower cost, more follow-up required). Real estate PPC has become significantly more expensive over the past several years. Expect to spend $50–$300+ per lead depending on your market and competition level. The investors and agents who make PPC profitable track every dollar through the funnel: cost per lead by campaign, lead-to-appointment rate, appointment-to-contract rate. Without that data, PPC spending becomes a black hole. Invest in dedicated landing pages and proper conversion tracking before launching campaigns.",
+        content: [
+          { type: "p", text: "PPC advertising (Google Ads, Facebook/Instagram Ads, YouTube) generates leads immediately — campaigns can be live within 24 hours. Google Ads captures people actively searching (high intent, higher cost). Facebook Ads reaches demographic targets who match your ideal lead profile but aren't actively searching (lower intent, lower cost, more follow-up required)." },
+          { type: "p", text: "Real estate PPC has become significantly more expensive over the past several years. Expect to spend $50–$300+ per lead depending on your market and competition level. The investors and agents who make PPC profitable track every dollar through the funnel: cost per lead by campaign, lead-to-appointment rate, appointment-to-contract rate. Without that data, PPC spending becomes a black hole. Invest in dedicated landing pages and proper conversion tracking before launching campaigns." },
+        ],
         links: [
           { label: "Google Ads — Search Campaign Manager", url: "https://ads.google.com/" },
           { label: "Meta Ads Manager — Facebook and Instagram Ads", url: "https://www.facebook.com/business/ads" },
@@ -35,7 +44,10 @@ const LeadGeneration = () => (
       },
       {
         heading: "Direct Mail: Consistent, Measurable, and Still Effective",
-        content: "Direct mail to targeted property owner lists remains one of the most reliable lead channels for investors and, in specific contexts, agents. The reasons it still works despite seeming dated: most competition has shifted to digital, so physical mail faces less noise; targeted list categories (distressed properties, absentee owners) reach sellers who aren't listing on the MLS; and response rates of 0.5–2% mean high volume is required but leads who do respond are often genuinely motivated. The critical factors for success: list quality (distressed categories dramatically outperform generic homeowner lists), consistency (3–7 mailings to the same list produces far better cumulative response than one large mailing), and systematic response tracking to optimize by list type and message.",
+        content: [
+          { type: "p", text: "Direct mail to targeted property owner lists remains one of the most reliable lead channels for investors and, in specific contexts, agents. The reasons it still works despite seeming dated: most competition has shifted to digital, so physical mail faces less noise; targeted list categories (distressed properties, absentee owners) reach sellers who aren't listing on the MLS; and response rates of 0.5–2% mean high volume is required but leads who do respond are often genuinely motivated." },
+          { type: "p", text: "The critical factors for success: list quality (distressed categories dramatically outperform generic homeowner lists), consistency (3–7 mailings to the same list produces far better cumulative response than one large mailing), and systematic response tracking to optimize by list type and message." },
+        ],
         links: [
           { label: "Yellow Letters Complete — Real Estate Direct Mail", url: "https://www.yellowletterscomplete.com/" },
           { label: "ListSource — Property Owner Data Lists", url: "https://www.listsource.com/" },
@@ -44,7 +56,10 @@ const LeadGeneration = () => (
       },
       {
         heading: "Social Media: Brand Building Over Direct Lead Generation",
-        content: "Social media (Instagram, Facebook, YouTube, TikTok) builds brand visibility and keeps you top of mind with your existing audience. Occasional transactions come directly from social media content. But expecting consistent, high-volume lead generation from organic social content — especially early in your business — is usually a mistake. Where social media genuinely contributes: maintaining contact with past clients and sphere of influence who may refer you, establishing credibility for prospects who found you through another channel and are now evaluating you, building a retargeting audience for paid campaigns, and long-term brand differentiation. Treat social media as a complement to a primary lead generation channel, not the channel itself.",
+        content: [
+          { type: "p", text: "Social media (Instagram, Facebook, YouTube, TikTok) builds brand visibility and keeps you top of mind with your existing audience. Occasional transactions come directly from social media content. But expecting consistent, high-volume lead generation from organic social content — especially early in your business — is usually a mistake." },
+          { type: "p", text: "Where social media genuinely contributes: maintaining contact with past clients and sphere of influence who may refer you, establishing credibility for prospects who found you through another channel and are now evaluating you, building a retargeting audience for paid campaigns, and long-term brand differentiation. Treat social media as a complement to a primary lead generation channel, not the channel itself." },
+        ],
         links: [
           { label: "Canva — Real Estate Social Media Graphics", url: "https://www.canva.com/" },
           { label: "Later — Social Media Scheduling Tool", url: "https://later.com/" },
@@ -52,7 +67,10 @@ const LeadGeneration = () => (
       },
       {
         heading: "Referrals and Sphere of Influence: Highest Conversion, Longest Build",
-        content: "Referrals from past clients, professional contacts, and sphere of influence convert at dramatically higher rates than any cold lead channel — typically 3–5x higher. Someone referred to you already has a level of trust that a cold Google Ad lead doesn't. Building a referral-generating business requires three things: genuinely excellent service that gives clients a reason to send others your way, consistent communication with past clients so they think of you when someone needs what you do, and strategic relationships with professionals who encounter real estate transactions — attorneys, lenders, accountants, financial planners, divorce attorneys, probate attorneys. Referrals take longer to build than any paid channel, but they compound in ways paid advertising never does.",
+        content: [
+          { type: "p", text: "Referrals from past clients, professional contacts, and sphere of influence convert at dramatically higher rates than any cold lead channel — typically 3–5x higher. Someone referred to you already has a level of trust that a cold Google Ad lead doesn't." },
+          { type: "p", text: "Building a referral-generating business requires three things: genuinely excellent service that gives clients a reason to send others your way, consistent communication with past clients so they think of you when someone needs what you do, and strategic relationships with professionals who encounter real estate transactions — attorneys, lenders, accountants, financial planners, divorce attorneys, probate attorneys. Referrals take longer to build than any paid channel, but they compound in ways paid advertising never does." },
+        ],
         links: [
           { label: "National REIA — Local Real Estate Investor Groups", url: "https://www.nationalreia.org/" },
         ],

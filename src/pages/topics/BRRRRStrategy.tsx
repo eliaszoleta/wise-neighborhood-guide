@@ -13,7 +13,10 @@ const BRRRRStrategy = () => (
     sections={[
       {
         heading: "Understanding the BRRRR Math Before You Start",
-        content: "The BRRRR equation is: Purchase Price + Rehab Costs = Total All-In Cost. For the strategy to work, that all-in cost must be at or below the loan amount available after refinancing. Most lenders will refinance at 70–75% of the after-repair value (ARV). So on a property with a $200,000 ARV and a 75% LTV refinance, you'd get $150,000 out. If you were all-in at $145,000, you've recovered your capital and have $5,000 extra — plus a performing rental. If you were all-in at $160,000, the refinance leaves you $10,000 short. You're not stuck — but you didn't recycle your capital, which defeats the purpose of BRRRR.",
+        content: [
+          { type: "p", text: "The BRRRR equation is: Purchase Price + Rehab Costs = Total All-In Cost. For the strategy to work, that all-in cost must be at or below the loan amount available after refinancing. Most lenders will refinance at 70–75% of the after-repair value (ARV). So on a property with a $200,000 ARV and a 75% LTV refinance, you'd get $150,000 out." },
+          { type: "p", text: "If you were all-in at $145,000, you've recovered your capital and have $5,000 extra — plus a performing rental. If you were all-in at $160,000, the refinance leaves you $10,000 short. You're not stuck — but you didn't recycle your capital, which defeats the purpose of BRRRR." },
+        ],
         links: [
           { label: "BiggerPockets BRRRR Calculator", url: "https://www.biggerpockets.com/brrrr-calculator" },
           { label: "DealCheck — Property Investment Analyzer", url: "https://dealcheck.io/" },
@@ -21,7 +24,10 @@ const BRRRRStrategy = () => (
       },
       {
         heading: "Step 1: Buy Well Below Market Value — This Is the Whole Game",
-        content: "Everything in BRRRR flows from this step. If you pay too much upfront, no amount of renovation skill or tenant quality will fix the math. Most experienced BRRRR investors target deals where purchase price plus rehab equals 70–75% of ARV or less — that 25–30% spread is what funds your refinance margin, closing costs, and holding costs. Finding deals at that discount requires targeting distressed properties: pre-foreclosures, estate sales, tax delinquent properties, absentee owners who are burned out, and off-market motivated sellers reached through direct mail and cold calling. MLS properties are rarely discounted enough for BRRRR math to work — you need off-market deal flow.",
+        content: [
+          { type: "p", text: "Everything in BRRRR flows from this step. If you pay too much upfront, no amount of renovation skill or tenant quality will fix the math. Most experienced BRRRR investors target deals where purchase price plus rehab equals 70–75% of ARV or less — that 25–30% spread is what funds your refinance margin, closing costs, and holding costs." },
+          { type: "p", text: "Finding deals at that discount requires targeting distressed properties: pre-foreclosures, estate sales, tax delinquent properties, absentee owners who are burned out, and off-market motivated sellers reached through direct mail and cold calling. MLS properties are rarely discounted enough for BRRRR math to work — you need off-market deal flow." },
+        ],
         links: [
           { label: "PropStream — Off-Market Deal Finding", url: "https://www.propstream.com/" },
           { label: "Auction.com — Foreclosures and REOs", url: "https://www.auction.com/" },
@@ -30,7 +36,10 @@ const BRRRRStrategy = () => (
       },
       {
         heading: "Step 2: Scope the Rehab to Maximize Appraised Value",
-        content: "The rehab scope needs to balance two objectives: making the property rentable and moving the appraised value. Kitchens, bathrooms, flooring, and curb appeal consistently influence appraiser valuations. High-end finishes in a C-class neighborhood won't show up in comps and cost you money without improving the refinance outcome. Before you buy, get your entire rehab scope and budget locked in writing — not verbal estimates from contractors. Scope creep is one of the top BRRRR killers. When you're deciding what to renovate, ask: will this improve the appraised value enough to justify the cost? If the answer is no, it's not a BRRRR renovation; it's a nice-to-have.",
+        content: [
+          { type: "p", text: "The rehab scope needs to balance two objectives: making the property rentable and moving the appraised value. Kitchens, bathrooms, flooring, and curb appeal consistently influence appraiser valuations. High-end finishes in a C-class neighborhood won't show up in comps and cost you money without improving the refinance outcome." },
+          { type: "p", text: "Before you buy, get your entire rehab scope and budget locked in writing — not verbal estimates from contractors. Scope creep is one of the top BRRRR killers. When you're deciding what to renovate, ask: will this improve the appraised value enough to justify the cost? If the answer is no, it's not a BRRRR renovation; it's a nice-to-have." },
+        ],
         links: [
           { label: "HomeAdvisor — Find Local Contractors", url: "https://www.homeadvisor.com/" },
           { label: "Remodeling Calculator — Cost Estimates", url: "https://www.remodelingcalculator.org/" },
@@ -38,7 +47,10 @@ const BRRRRStrategy = () => (
       },
       {
         heading: "Step 3: Rent to a Qualified Tenant Before Refinancing",
-        content: "Most lenders require a seasoning period (typically 6 months) and an established lease before doing a cash-out refinance based on the new appraised value. Having a quality tenant in place at or above market rent not only satisfies lender requirements — it also demonstrates stable income that supports the loan application. Don't rush tenant placement to hit your refinance timeline. A poorly screened tenant placed quickly creates problems at exactly the wrong time: during the seasoning period when your refinance is pending. Price rent at or slightly below market comps; aggressive pricing extends vacancy and can delay your refi.",
+        content: [
+          { type: "p", text: "Most lenders require a seasoning period (typically 6 months) and an established lease before doing a cash-out refinance based on the new appraised value. Having a quality tenant in place at or above market rent not only satisfies lender requirements — it also demonstrates stable income that supports the loan application." },
+          { type: "p", text: "Don't rush tenant placement to hit your refinance timeline. A poorly screened tenant placed quickly creates problems at exactly the wrong time: during the seasoning period when your refinance is pending. Price rent at or slightly below market comps; aggressive pricing extends vacancy and can delay your refi." },
+        ],
         links: [
           { label: "Zillow Rental Manager", url: "https://www.zillow.com/rental-manager/" },
           { label: "Apartments.com — List Your Rental", url: "https://www.apartments.com/" },
@@ -47,7 +59,10 @@ const BRRRRStrategy = () => (
       },
       {
         heading: "Step 4: Refinance and Recover Your Capital",
-        content: "Most conventional lenders require 6 months of seasoning before they'll do a cash-out refinance based on the appraised value rather than purchase price. Some portfolio lenders work with shorter seasoning periods — worth asking about explicitly. At refinance, you'll typically access 70–75% of the appraised value. The appraisal is the most variable factor in the entire BRRRR process: appraisers working from comps that don't reflect recent improvements or who are unfamiliar with your specific submarket can come in significantly lower than expected. Buying with enough discount margin — all-in at 65–70% of ARV rather than 75–80% — creates buffer for a low appraisal while still recovering most of your capital.",
+        content: [
+          { type: "p", text: "Most conventional lenders require 6 months of seasoning before they'll do a cash-out refinance based on the appraised value rather than purchase price. Some portfolio lenders work with shorter seasoning periods — worth asking about explicitly. At refinance, you'll typically access 70–75% of the appraised value." },
+          { type: "p", text: "The appraisal is the most variable factor in the entire BRRRR process: appraisers working from comps that don't reflect recent improvements or who are unfamiliar with your specific submarket can come in significantly lower than expected. Buying with enough discount margin — all-in at 65–70% of ARV rather than 75–80% — creates buffer for a low appraisal while still recovering most of your capital." },
+        ],
         links: [
           { label: "Bankrate Cash-Out Refinance Rates", url: "https://www.bankrate.com/mortgages/cash-out-refinance-rates/" },
           { label: "LendingTree — Compare Multiple Lenders", url: "https://www.lendingtree.com/" },
@@ -55,7 +70,10 @@ const BRRRRStrategy = () => (
       },
       {
         heading: "Step 5: Repeat With Better Judgment Each Time",
-        content: "The repeat phase is where BRRRR becomes a real portfolio-building strategy rather than a single deal tactic. Each cycle should teach you something: how accurately you estimated ARV, how closely you hit your rehab budget, how quickly you placed a qualified tenant, how the refinance appraisal compared to your target. Track all of this data. Investors who repeat without learning gradually or quickly scale into bigger problems. The ones who improve their underwriting accuracy, their contractor relationships, and their buyer instincts with each deal build portfolios that compound reliably over time.",
+        content: [
+          { type: "p", text: "The repeat phase is where BRRRR becomes a real portfolio-building strategy rather than a single deal tactic. Each cycle should teach you something: how accurately you estimated ARV, how closely you hit your rehab budget, how quickly you placed a qualified tenant, how the refinance appraisal compared to your target. Track all of this data." },
+          { type: "p", text: "Investors who repeat without learning gradually or quickly scale into bigger problems. The ones who improve their underwriting accuracy, their contractor relationships, and their buyer instincts with each deal build portfolios that compound reliably over time." },
+        ],
         links: [],
       },
     ]}

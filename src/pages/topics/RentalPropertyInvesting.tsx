@@ -13,7 +13,20 @@ const RentalPropertyInvesting = () => (
     sections={[
       {
         heading: "Why Rental Properties Build Wealth (and When They Don't)",
-        content: "The wealth-building case for rentals rests on four mechanisms working simultaneously: monthly cash flow after all expenses, long-term appreciation as values rise, tax advantages through depreciation deductions and expense write-offs, and equity growth as tenants pay down your mortgage. Unlike stocks, real estate lets you control the asset, improve it, and force appreciation through renovations. The risk side is equally real: bad tenants, extended vacancy, unexpected major repairs, and markets that don't appreciate can all erode returns. The difference between investors who build wealth with rentals and those who don't almost always comes down to whether they ran honest numbers before buying — including every expense, not just mortgage and taxes.",
+        content: [
+          { type: "p", text: "The wealth-building case for rentals rests on four mechanisms working simultaneously:" },
+          {
+            type: "ul",
+            items: [
+              "Monthly cash flow after all expenses",
+              "Long-term appreciation as values rise",
+              "Tax advantages through depreciation deductions and expense write-offs",
+              "Equity growth as tenants pay down your mortgage",
+            ],
+          },
+          { type: "p", text: "Unlike stocks, real estate lets you control the asset, improve it, and force appreciation through renovations. The risk side is equally real: bad tenants, extended vacancy, unexpected major repairs, and markets that don't appreciate can all erode returns." },
+          { type: "p", text: "The difference between investors who build wealth with rentals and those who don't almost always comes down to whether they ran honest numbers before buying — including every expense, not just mortgage and taxes." },
+        ],
         links: [
           { label: "IRS Rental Income and Expense Guide", url: "https://www.irs.gov/businesses/small-businesses-self-employed/rental-income-and-expenses-real-estate-tax-tips" },
           { label: "Investopedia: Top Tips for Buying Your First Investment Property", url: "https://www.investopedia.com/articles/investing/090815/buying-your-first-investment-property-top-10-tips.asp" },
@@ -21,7 +34,10 @@ const RentalPropertyInvesting = () => (
       },
       {
         heading: "How to Find Rental Markets and Properties Worth Buying",
-        content: "Location drives rental demand more than any other single factor. Start with market selection: look for areas with strong, diverse employment (not dependent on one industry), low vacancy rates, growing or stable population, and rents that support positive cash flow at current purchase prices. Within a market, neighborhoods near quality schools, low crime, and employment centers tend to hold value and attract reliable tenants. The 1% rule — monthly rent should be at least 1% of the purchase price — is a useful quick filter but not a substitute for full analysis. In competitive markets, hitting 1% may be impossible yet properties can still perform well on appreciation. In declining markets, 1% may be achievable and still be a bad deal. Use it as a screening tool, not a verdict.",
+        content: [
+          { type: "p", text: "Location drives rental demand more than any other single factor. Start with market selection: look for areas with strong, diverse employment (not dependent on one industry), low vacancy rates, growing or stable population, and rents that support positive cash flow at current purchase prices. Within a market, neighborhoods near quality schools, low crime, and employment centers tend to hold value and attract reliable tenants." },
+          { type: "p", text: "The 1% rule — monthly rent should be at least 1% of the purchase price — is a useful quick filter but not a substitute for full analysis. In competitive markets, hitting 1% may be impossible yet properties can still perform well on appreciation. In declining markets, 1% may be achievable and still be a bad deal. Use it as a screening tool, not a verdict." },
+        ],
         links: [
           { label: "Zillow Rental Manager — Rental Comps", url: "https://www.zillow.com/rental-manager/" },
           { label: "Rentometer — Rent Comparison Tool", url: "https://www.rentometer.com/" },
@@ -30,7 +46,18 @@ const RentalPropertyInvesting = () => (
       },
       {
         heading: "How to Analyze a Rental Property Deal",
-        content: "A complete cash flow analysis starts with gross annual rent, then subtracts: vacancy (budget 5–8% even in strong markets), operating expenses (property taxes, insurance, maintenance at 1% of property value per year, CapEx reserves for roofs and HVAC, and property management if applicable). The result is Net Operating Income (NOI). Subtract annual debt service (monthly mortgage × 12) to get annual cash flow. Aim for at least $100–$200 per door per month as a minimum threshold — less than that leaves almost no margin for error when something unexpected happens. Cap rate (NOI ÷ purchase price) lets you compare deals independent of financing. Cash-on-cash return (annual cash flow ÷ total cash invested) tells you how efficiently your down payment is working.",
+        content: [
+          { type: "p", text: "A complete cash flow analysis starts with gross annual rent, then subtracts:" },
+          {
+            type: "ul",
+            items: [
+              "Vacancy (budget 5–8% even in strong markets)",
+              "Operating expenses — property taxes, insurance, maintenance at 1% of property value per year, CapEx reserves for roofs and HVAC, and property management if applicable",
+            ],
+          },
+          { type: "p", text: "The result is Net Operating Income (NOI). Subtract annual debt service (monthly mortgage × 12) to get annual cash flow. Aim for at least $100–$200 per door per month as a minimum threshold — less than that leaves almost no margin for error when something unexpected happens." },
+          { type: "p", text: "Cap rate (NOI ÷ purchase price) lets you compare deals independent of financing. Cash-on-cash return (annual cash flow ÷ total cash invested) tells you how efficiently your down payment is working." },
+        ],
         links: [
           { label: "DealCheck — Rental Property Analyzer", url: "https://dealcheck.io/" },
           { label: "Stessa — Free Property Income Tracking", url: "https://www.stessa.com/" },
@@ -38,7 +65,20 @@ const RentalPropertyInvesting = () => (
       },
       {
         heading: "Financing Your First Rental Property",
-        content: "Investment property financing is more expensive than owner-occupied financing. Conventional loans for investment properties require 15–25% down and rates 0.5–1% higher than primary residence rates. FHA loans (3.5% down) only apply if you're owner-occupying — meaning house hacking in a small multifamily where you live in one unit. DSCR loans (Debt Service Coverage Ratio) qualify you based on the property's rental income rather than your personal income — popular with self-employed investors and portfolio builders. Hard money is fast and flexible but expensive and short-term — appropriate for fix-and-flip or BRRRR, not long-term holds. Private money from individual investors is fully negotiable. Shop at least 3–4 lenders; a 0.25% rate difference on a 30-year mortgage is worth thousands over time.",
+        content: [
+          { type: "p", text: "Investment property financing is more expensive than owner-occupied financing." },
+          {
+            type: "ul",
+            items: [
+              "Conventional loans for investment properties require 15–25% down and rates 0.5–1% higher than primary residence rates.",
+              "FHA loans (3.5% down) only apply if you're owner-occupying — meaning house hacking in a small multifamily where you live in one unit.",
+              "DSCR loans (Debt Service Coverage Ratio) qualify you based on the property's rental income rather than your personal income — popular with self-employed investors and portfolio builders.",
+              "Hard money is fast and flexible but expensive and short-term — appropriate for fix-and-flip or BRRRR, not long-term holds.",
+              "Private money from individual investors is fully negotiable.",
+            ],
+          },
+          { type: "p", text: "Shop at least 3–4 lenders; a 0.25% rate difference on a 30-year mortgage is worth thousands over time." },
+        ],
         links: [
           { label: "Bankrate Mortgage Rate Comparison", url: "https://www.bankrate.com/mortgages/mortgage-rates/" },
           { label: "NerdWallet: Investment Property Loans", url: "https://www.nerdwallet.com/article/mortgages/investment-property-loans" },
@@ -47,7 +87,19 @@ const RentalPropertyInvesting = () => (
       },
       {
         heading: "Tenant Screening: The Most Important Thing You Do as a Landlord",
-        content: "Tenant screening is where rentals succeed or fail. A poorly screened tenant costs more — in time, money, stress, and legal fees — than a vacancy period. At minimum: check credit (look for 620+ and no recent evictions or collections from previous landlords), verify income at 2.5–3x the monthly rent, contact prior landlords directly (not just as references — call them), and run a background check. Use a third-party screening service rather than asking tenants to provide their own reports. Once you have tenants, invest in a legally compliant lease specific to your state, document the property's condition at move-in with date-stamped photos, and respond to maintenance requests promptly. Deferred maintenance almost always costs more than the original repair.",
+        content: [
+          { type: "p", text: "Tenant screening is where rentals succeed or fail. A poorly screened tenant costs more — in time, money, stress, and legal fees — than a vacancy period. At minimum:" },
+          {
+            type: "ul",
+            items: [
+              "Check credit (look for 620+ and no recent evictions or collections from previous landlords)",
+              "Verify income at 2.5–3x the monthly rent",
+              "Contact prior landlords directly (not just as references — call them)",
+              "Run a background check",
+            ],
+          },
+          { type: "p", text: "Use a third-party screening service rather than asking tenants to provide their own reports. Once you have tenants, invest in a legally compliant lease specific to your state, document the property's condition at move-in with date-stamped photos, and respond to maintenance requests promptly. Deferred maintenance almost always costs more than the original repair." },
+        ],
         links: [
           { label: "TransUnion SmartMove — Tenant Screening", url: "https://www.mysmartmove.com/" },
           { label: "Avail — Landlord Software", url: "https://www.avail.co/" },
@@ -56,7 +108,10 @@ const RentalPropertyInvesting = () => (
       },
       {
         heading: "Self-Managing vs. Hiring a Property Manager",
-        content: "A property manager typically charges 8–12% of monthly gross rent plus a leasing fee (usually 50–100% of one month's rent) for placing a new tenant. On a $1,500/month rental, that's $1,440–$2,160/year in management fees plus leasing costs. Self-managing saves that money but costs time — maintenance coordination, tenant communication, rent collection, and legal compliance are ongoing responsibilities. Self-managing works well for local portfolios of 1–4 units where you have the time. If you're investing out of state, have a day job that takes priority, or want genuine passive income rather than a second job, a good property manager often pays for itself in reduced stress and better tenant outcomes. Interview at least two managers; check reviews specifically for tenant placement quality and maintenance response times.",
+        content: [
+          { type: "p", text: "A property manager typically charges 8–12% of monthly gross rent plus a leasing fee (usually 50–100% of one month's rent) for placing a new tenant. On a $1,500/month rental, that's $1,440–$2,160/year in management fees plus leasing costs. Self-managing saves that money but costs time — maintenance coordination, tenant communication, rent collection, and legal compliance are ongoing responsibilities." },
+          { type: "p", text: "Self-managing works well for local portfolios of 1–4 units where you have the time. If you're investing out of state, have a day job that takes priority, or want genuine passive income rather than a second job, a good property manager often pays for itself in reduced stress and better tenant outcomes. Interview at least two managers; check reviews specifically for tenant placement quality and maintenance response times." },
+        ],
         links: [
           { label: "NARPM — National Association of Residential Property Managers", url: "https://www.narpm.org/" },
           { label: "Buildium — Property Management Software", url: "https://www.buildium.com/" },
