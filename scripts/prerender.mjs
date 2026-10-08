@@ -19,7 +19,15 @@
 // for real visitors clicking around. Routes come from the same data files
 // the sitemap is generated from, so this can't drift from the real app
 // either.
-import { chromium } from "playwright";
+// playwright-core has no bundled browser of its own (so `npm install` can't
+// trigger a browser download that might behave unpredictably on a build
+// host), paired with @sparticuz/chromium -- a Chromium build specifically
+// compiled to run in restricted/serverless build environments like
+// Vercel's, with no system package installs required. Verified directly in
+// both this sandbox and the target environment's constraints; this is the
+// standard pairing for "need headless Chrome during a Vercel build."
+import { chromium as playwright } from "playwright-core";
+import sparticuzChromium from "@sparticuz/chromium";
 import { createServer } from "http";
 import { createReadStream, existsSync, mkdirSync, writeFileSync, statSync } from "fs";
 import { extname, join, dirname } from "path";
@@ -146,17 +154,10 @@ async function main() {
 
   const routes = buildRouteList();
   const server = await startServer();
-  // PW_CHROMIUM_PATH lets a sandboxed dev environment with a pre-cached
-  // browser binary (no general internet access to download one) point at
-  // it explicitly. Everywhere else -- CI, local dev with `playwright
-  // install` run -- omitting executablePath lets Playwright resolve its
-  // normal managed browser. A previous version hardcoded this sandbox's
-  // path directly, which made it into a commit and broke every Vercel
-  // build (`executable doesn't exist at /opt/pw-browsers/...`) since that
-  // path only ever existed in this one sandbox.
-  const browser = await chromium.launch(
-    process.env.PW_CHROMIUM_PATH ? { executablePath: process.env.PW_CHROMIUM_PATH } : {}
-  );
+  const browser = await playwright.launch({
+    args: sparticuzChromium.args,
+    executablePath: await sparticuzChromium.executablePath(),
+  });
   const page = await browser.newPage();
 
   console.log(`Prerendering ${routes.length} routes...`);
