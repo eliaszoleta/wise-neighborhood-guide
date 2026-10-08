@@ -433,6 +433,110 @@ const PRESENTATION: Record<string, Presentation> = {
     image: imgAcquisitions,
     alt: "Real estate investor working with a virtual assistant on lead follow-up tasks",
   },
+
+  // ── City-targeted guides ──
+  "/blog/investing/airbnb-rules-nyc": {
+    title: "Airbnb & Short-Term Rental Rules in New York City (2026 Guide)",
+    excerpt: "NYC has some of the strictest short-term rental rules in the country under Local Law 18. Here's what's actually allowed, what requires registration, and what gets fined.",
+    image: imgPropertyMgmt,
+    alt: "New York City apartment building considered for short-term rental registration",
+  },
+  "/blog/investing/airbnb-rules-los-angeles": {
+    title: "Airbnb & Short-Term Rental Rules in Los Angeles (2026 Guide)",
+    excerpt: "LA's Home-Sharing Ordinance limits most short-term rentals to a host's primary residence. Here's what's allowed, the registration process, and the 90-day unhosted cap.",
+    image: imgTypesProperty,
+    alt: "Los Angeles home considered for short-term rental under the Home-Sharing Ordinance",
+  },
+  "/blog/investing/airbnb-rules-san-francisco": {
+    title: "Airbnb & Short-Term Rental Rules in San Francisco (2026 Guide)",
+    excerpt: "San Francisco requires hosts to register, live in the unit as their primary residence, and caps unhosted rentals at 90 days a year. Here's the full breakdown.",
+    image: imgFirstRental,
+    alt: "San Francisco residence being registered for short-term rental hosting",
+  },
+  "/blog/investing/airbnb-rules-austin": {
+    title: "Airbnb & Short-Term Rental Rules in Austin, Texas (2026 Guide)",
+    excerpt: "Austin licenses short-term rentals but caps non-owner-occupied licenses in residential neighborhoods. Here's how the license types work and where investment-focused STRs are still viable.",
+    image: imgHouseFlipping,
+    alt: "Austin property being evaluated for a short-term rental license",
+  },
+  "/blog/investing/airbnb-rules-nashville": {
+    title: "Airbnb & Short-Term Rental Rules in Nashville (2026 Guide)",
+    excerpt: "Nashville permits short-term rentals but draws a hard line between owner-occupied and non-owner-occupied permits, with the latter capped and restricted in many residential zones.",
+    image: imgPropertyMgmt,
+    alt: "Nashville home considered for a non-owner-occupied short-term rental permit",
+  },
+  "/blog/investing/airbnb-rules-new-orleans": {
+    title: "Airbnb & Short-Term Rental Rules in New Orleans (2026 Guide)",
+    excerpt: "New Orleans heavily restricts short-term rentals in the French Quarter and many residential neighborhoods, while permitting them more freely in commercial zones. Here's the breakdown.",
+    image: imgTypesProperty,
+    alt: "New Orleans property near the French Quarter considered for short-term rental",
+  },
+  "/blog/investing/airbnb-rules-miami": {
+    title: "Airbnb & Short-Term Rental Rules in Miami (2026 Guide)",
+    excerpt: "Miami and Miami Beach have notably different short-term rental rules -- some residential zones carry steep fines for unpermitted STRs while others are wide open. Here's how to tell the difference.",
+    image: imgFirstRental,
+    alt: "Miami condo tower considered for short-term rental investment",
+  },
+  "/blog/investing/airbnb-rules-denver": {
+    title: "Airbnb & Short-Term Rental Rules in Denver (2026 Guide)",
+    excerpt: "Denver limits short-term rental licenses to a host's primary residence, closing off the dedicated-investment-property model within city limits. Here's what's actually allowed.",
+    image: imgHouseFlipping,
+    alt: "Denver home considered for short-term rental licensing",
+  },
+  "/blog/investing/airbnb-rules-chicago": {
+    title: "Airbnb & Short-Term Rental Rules in Chicago (2026 Guide)",
+    excerpt: "Chicago requires registration and allows individual wards and buildings to opt out or add restrictions. Here's how the city's shared housing ordinance actually works.",
+    image: imgPropertyMgmt,
+    alt: "Chicago apartment building checked against the city's short-term rental ineligible buildings list",
+  },
+  "/blog/investing/airbnb-rules-san-diego": {
+    title: "Airbnb & Short-Term Rental Rules in San Diego (2026 Guide)",
+    excerpt: "San Diego caps the total number of non-primary-residence short-term rental licenses citywide and runs a lottery when demand exceeds supply. Here's how the license tiers work.",
+    image: imgTypesProperty,
+    alt: "San Diego property considered for a non-primary-residence short-term rental license",
+  },
+  "/blog/property-management/rent-control-nyc": {
+    title: "Rent Control and Rent Stabilization in NYC: What Landlords Need to Know",
+    excerpt: "NYC runs two separate systems -- rent control and rent stabilization -- covering a large share of the city's rental units. Here's how each works and what it means for owners.",
+    image: imgRentalExpenses,
+    alt: "Landlord reviewing NYC rent stabilization guidelines for a covered unit",
+  },
+  "/blog/property-management/rent-control-los-angeles": {
+    title: "Rent Control in Los Angeles: The Rent Stabilization Ordinance Explained",
+    excerpt: "LA's Rent Stabilization Ordinance covers a large share of older multi-unit buildings and caps annual increases. Here's what's covered, what's exempt, and the just-cause eviction rules that come with it.",
+    image: imgFindTenant,
+    alt: "Landlord reviewing LA Rent Stabilization Ordinance coverage for a building",
+  },
+  "/blog/property-management/rent-control-san-francisco": {
+    title: "Rent Control in San Francisco: The Rent Ordinance Explained",
+    excerpt: "San Francisco's Rent Ordinance covers most buildings built before 1979 and includes some of the strongest tenant eviction protections in the country. Here's what owners need to know.",
+    image: imgRentalExpenses,
+    alt: "Landlord reviewing San Francisco Rent Ordinance just-cause eviction requirements",
+  },
+  "/blog/property-management/rent-control-oakland": {
+    title: "Rent Control in Oakland: The Rent Adjustment Program Explained",
+    excerpt: "Oakland's Rent Adjustment Program caps annual increases and requires just cause for eviction on most pre-1983 buildings. Here's how the petition process and banking of unused increases work.",
+    image: imgFindTenant,
+    alt: "Landlord reviewing Oakland Rent Adjustment Program petition paperwork",
+  },
+  "/blog/property-management/rent-control-washington-dc": {
+    title: "Rent Control in Washington, D.C.: The Rental Housing Act Explained",
+    excerpt: "DC's Rental Housing Act covers a large share of older rental buildings and ties annual increases to inflation. Here's what's covered, what's exempt, and the tenant notice rules that come with it.",
+    image: imgRentalExpenses,
+    alt: "Landlord reviewing Washington DC Rental Housing Act and TOPA notice requirements",
+  },
+  "/blog/property-management/rent-control-portland": {
+    title: "Rent Control in Portland, Oregon: Statewide Rules Every Landlord Should Know",
+    excerpt: "Oregon was one of the first states to pass statewide rent control, applying in Portland and beyond. Here's how the state cap, just-cause eviction rules, and relocation assistance work.",
+    image: imgFindTenant,
+    alt: "Landlord reviewing Oregon statewide rent control requirements under SB 608",
+  },
+  "/blog/investing/best-cities-real-estate-investing": {
+    title: "Best Cities for Real Estate Investing: A Framework, Not a Guess",
+    excerpt: "Instead of a ranked list that goes stale the moment prices move, here's the actual framework investors use to evaluate any city -- job diversification, landlord-friendliness, supply constraints, and population trends.",
+    image: imgTypesProperty,
+    alt: "Investor comparing multiple cities using a real estate investing evaluation framework",
+  },
 };
 
 export const BLOG_POSTS: BlogPostMeta[] = BLOG_POST_ROUTES.map((route) => {

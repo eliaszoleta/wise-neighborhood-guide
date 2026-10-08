@@ -79,4 +79,24 @@ export const BLOG_POST_ROUTES: BlogPostRoute[] = [
   { slug: "/blog/real-estate-business/llc-for-real-estate", category: "Business", categorySlug: "real-estate-business", datePublished: "2026-10-08" },
   { slug: "/blog/real-estate-business/direct-mail-marketing", category: "Business", categorySlug: "real-estate-business", datePublished: "2026-10-08" },
   { slug: "/blog/real-estate-business/virtual-assistants-real-estate", category: "Business", categorySlug: "real-estate-business", datePublished: "2026-10-08" },
+
+  // ── City-targeted guides: short-term rental regulations and rent control ──
+  // ── genuinely differ city by city, unlike a templated "investing in [city]" page ──
+  { slug: "/blog/investing/airbnb-rules-nyc", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-los-angeles", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-san-francisco", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-austin", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-nashville", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-new-orleans", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-miami", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-denver", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-chicago", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/airbnb-rules-san-diego", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+  { slug: "/blog/property-management/rent-control-nyc", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
+  { slug: "/blog/property-management/rent-control-los-angeles", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
+  { slug: "/blog/property-management/rent-control-san-francisco", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
+  { slug: "/blog/property-management/rent-control-oakland", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
+  { slug: "/blog/property-management/rent-control-washington-dc", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
+  { slug: "/blog/property-management/rent-control-portland", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
+  { slug: "/blog/investing/best-cities-real-estate-investing", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
 ];

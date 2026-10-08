@@ -124,6 +124,25 @@ import LlcForRealEstate from "./pages/blog/LlcForRealEstate";
 import DirectMailMarketing from "./pages/blog/DirectMailMarketing";
 import VirtualAssistantsRealEstate from "./pages/blog/VirtualAssistantsRealEstate";
 
+// Blog posts — City-targeted guides
+import AirbnbRulesNyc from "./pages/blog/AirbnbRulesNyc";
+import AirbnbRulesLosAngeles from "./pages/blog/AirbnbRulesLosAngeles";
+import AirbnbRulesSanFrancisco from "./pages/blog/AirbnbRulesSanFrancisco";
+import AirbnbRulesAustin from "./pages/blog/AirbnbRulesAustin";
+import AirbnbRulesNashville from "./pages/blog/AirbnbRulesNashville";
+import AirbnbRulesNewOrleans from "./pages/blog/AirbnbRulesNewOrleans";
+import AirbnbRulesMiami from "./pages/blog/AirbnbRulesMiami";
+import AirbnbRulesDenver from "./pages/blog/AirbnbRulesDenver";
+import AirbnbRulesChicago from "./pages/blog/AirbnbRulesChicago";
+import AirbnbRulesSanDiego from "./pages/blog/AirbnbRulesSanDiego";
+import RentControlNyc from "./pages/blog/RentControlNyc";
+import RentControlLosAngeles from "./pages/blog/RentControlLosAngeles";
+import RentControlSanFrancisco from "./pages/blog/RentControlSanFrancisco";
+import RentControlOakland from "./pages/blog/RentControlOakland";
+import RentControlWashingtonDc from "./pages/blog/RentControlWashingtonDc";
+import RentControlPortland from "./pages/blog/RentControlPortland";
+import BestCitiesRealEstateInvesting from "./pages/blog/BestCitiesRealEstateInvesting";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -229,6 +248,25 @@ const App = () => (
             <Route path="/blog/real-estate-business/llc-for-real-estate" element={<LlcForRealEstate />} />
             <Route path="/blog/real-estate-business/direct-mail-marketing" element={<DirectMailMarketing />} />
             <Route path="/blog/real-estate-business/virtual-assistants-real-estate" element={<VirtualAssistantsRealEstate />} />
+
+            {/* Blog posts — City-targeted guides */}
+            <Route path="/blog/investing/airbnb-rules-nyc" element={<AirbnbRulesNyc />} />
+            <Route path="/blog/investing/airbnb-rules-los-angeles" element={<AirbnbRulesLosAngeles />} />
+            <Route path="/blog/investing/airbnb-rules-san-francisco" element={<AirbnbRulesSanFrancisco />} />
+            <Route path="/blog/investing/airbnb-rules-austin" element={<AirbnbRulesAustin />} />
+            <Route path="/blog/investing/airbnb-rules-nashville" element={<AirbnbRulesNashville />} />
+            <Route path="/blog/investing/airbnb-rules-new-orleans" element={<AirbnbRulesNewOrleans />} />
+            <Route path="/blog/investing/airbnb-rules-miami" element={<AirbnbRulesMiami />} />
+            <Route path="/blog/investing/airbnb-rules-denver" element={<AirbnbRulesDenver />} />
+            <Route path="/blog/investing/airbnb-rules-chicago" element={<AirbnbRulesChicago />} />
+            <Route path="/blog/investing/airbnb-rules-san-diego" element={<AirbnbRulesSanDiego />} />
+            <Route path="/blog/property-management/rent-control-nyc" element={<RentControlNyc />} />
+            <Route path="/blog/property-management/rent-control-los-angeles" element={<RentControlLosAngeles />} />
+            <Route path="/blog/property-management/rent-control-san-francisco" element={<RentControlSanFrancisco />} />
+            <Route path="/blog/property-management/rent-control-oakland" element={<RentControlOakland />} />
+            <Route path="/blog/property-management/rent-control-washington-dc" element={<RentControlWashingtonDc />} />
+            <Route path="/blog/property-management/rent-control-portland" element={<RentControlPortland />} />
+            <Route path="/blog/investing/best-cities-real-estate-investing" element={<BestCitiesRealEstateInvesting />} />
 
             {/* Pillar pages */}
             <Route path="/real-estate-investing" element={<Investing />} />

@@ -18,7 +18,8 @@ const HowToRaiseRentLegally = () => (
     ]}
     relatedArticles={[
       { label: "How to Write a Rental Lease Agreement", href: "/blog/property-management/how-to-write-lease-agreement" },
-      { label: "Monthly Rental Property Expenses Every Landlord Should Budget For", href: "/blog/property-management/rental-property-expenses" },
+      { label: "Rent Control in New York City", href: "/blog/property-management/rent-control-nyc" },
+      { label: "Rent Control in Los Angeles", href: "/blog/property-management/rent-control-los-angeles" },
       { label: "The Eviction Process for Landlords", href: "/blog/property-management/eviction-process-landlord" },
     ]}
   >

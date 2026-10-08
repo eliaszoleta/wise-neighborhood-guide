@@ -18,7 +18,8 @@ const ShortTermRentalInvesting = () => (
     relatedArticles={[
       { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
       { label: "Rental Property Expenses Breakdown", href: "/blog/property-management/rental-property-expenses" },
-      { label: "How to Analyze a Rental Property Deal", href: "/blog/investing/how-to-analyze-rental-property" },
+      { label: "Airbnb Rules in New York City", href: "/blog/investing/airbnb-rules-nyc" },
+      { label: "Airbnb Rules in Austin, Texas", href: "/blog/investing/airbnb-rules-austin" },
     ]}
   >
     <p>

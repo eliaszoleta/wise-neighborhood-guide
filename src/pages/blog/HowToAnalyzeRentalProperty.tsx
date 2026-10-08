@@ -17,7 +17,7 @@ const HowToAnalyzeRentalProperty = () => (
     ]}
     relatedArticles={[
       { label: "Cap Rate vs Cash-on-Cash Return", href: "/blog/investing/cap-rate-vs-cash-on-cash" },
-      { label: "First Rental Property: Step-by-Step Guide", href: "/blog/investing/first-rental-property" },
+      { label: "Best Cities for Real Estate Investing: A Framework", href: "/blog/investing/best-cities-real-estate-investing" },
       { label: "The BRRRR Strategy Explained", href: "/blog/investing/brrrr-method-real-estate" },
     ]}
   >
