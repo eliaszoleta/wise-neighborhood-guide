@@ -83,7 +83,6 @@ const HowWholesalingWorks = () => (
         links: [
           { label: "REISift — Wholesaling CRM", url: "https://www.reisift.io/" },
           { label: "BatchLeads — Skip Tracing and Lists", url: "https://batchleads.io/" },
-          { label: "REI Reply — Text Marketing Platform", url: "https://www.reireply.com/" },
         ],
       },
     ]}

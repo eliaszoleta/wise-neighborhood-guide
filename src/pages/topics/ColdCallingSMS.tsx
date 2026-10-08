@@ -20,7 +20,6 @@ const ColdCallingSMS = () => (
         links: [
           { label: "Mojo Dialer — Power Dialing Platform", url: "https://www.mojosells.com/" },
           { label: "PhoneBurner — Outbound Calling Software", url: "https://www.phoneburner.com/" },
-          { label: "BatchDialer — Real Estate Calling Platform", url: "https://batchdialer.com/" },
         ],
       },
       {
@@ -42,7 +41,6 @@ const ColdCallingSMS = () => (
         links: [
           { label: "Launch Control — TCPA-Compliant Real Estate SMS", url: "https://www.launchcontrol.us/" },
           { label: "REI Reply — Text Marketing for Investors", url: "https://www.reireply.com/" },
-          { label: "BatchSMS — Real Estate Text Campaigns", url: "https://batchleads.io/" },
         ],
       },
       {
@@ -62,7 +60,6 @@ const ColdCallingSMS = () => (
         ],
         links: [
           { label: "FTC National Do Not Call Registry", url: "https://www.donotcall.gov/" },
-          { label: "FCC TCPA Compliance Resources", url: "https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts" },
           { label: "The Campaign Registry — A2P 10DLC Registration", url: "https://www.campaignregistry.com/" },
         ],
       },

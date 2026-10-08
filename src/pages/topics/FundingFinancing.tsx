@@ -19,7 +19,6 @@ const FundingFinancing = () => (
         ],
         links: [
           { label: "Fannie Mae Investment Property Lending Guidelines", url: "https://selling-guide.fanniemae.com/" },
-          { label: "Bankrate Mortgage Rate Comparison", url: "https://www.bankrate.com/mortgages/mortgage-rates/" },
           { label: "Freddie Mac Investment Property Programs", url: "https://www.freddiemac.com/" },
         ],
       },
@@ -31,7 +30,6 @@ const FundingFinancing = () => (
         ],
         links: [
           { label: "Kiavi — Hard Money Lender for Investors", url: "https://www.kiavi.com/" },
-          { label: "Lima One Capital — Bridge and Rental Loans", url: "https://www.limaone.com/" },
           { label: "RCN Capital — Fix and Flip and Rental Loans", url: "https://www.rcncapital.com/" },
         ],
       },
@@ -43,7 +41,6 @@ const FundingFinancing = () => (
         ],
         links: [
           { label: "Griffin Funding — DSCR Loan Programs", url: "https://www.griffinfunding.com/dscr-loans/" },
-          { label: "Visio Lending — Investor Rental Loans", url: "https://www.visiolending.com/" },
           { label: "DSCR Loan Full Explainer — Blog Post", url: "/blog/financing/dscr-loan-real-estate" },
         ],
       },
@@ -78,7 +75,6 @@ const FundingFinancing = () => (
         links: [
           { label: "Subject-To Real Estate Full Guide — Blog Post", url: "/blog/financing/subject-to-real-estate" },
           { label: "HELOC for Real Estate Investing — Blog Post", url: "/blog/financing/heloc-real-estate" },
-          { label: "Cash-Out Refinance Guide — Blog Post", url: "/blog/financing/cash-out-refinance" },
         ],
       },
     ]}

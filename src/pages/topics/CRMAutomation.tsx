@@ -36,8 +36,6 @@ const CRMAutomation = () => (
         links: [
           { label: "REISift — Investor and Wholesaler CRM", url: "https://www.reisift.io/" },
           { label: "InvestorFuse — Wholesaling CRM with Automation", url: "https://www.investorfuse.com/" },
-          { label: "REI BlackBook — CRM and Marketing Platform", url: "https://reiblackbook.com/" },
-          { label: "Podio — Customizable CRM", url: "https://podio.com/" },
         ],
       },
       {
@@ -56,8 +54,6 @@ const CRMAutomation = () => (
         ],
         links: [
           { label: "Follow Up Boss — Agent and Team CRM", url: "https://www.followupboss.com/" },
-          { label: "kvCORE — Full Real Estate Platform", url: "https://kvcore.com/" },
-          { label: "LionDesk — Agent CRM with Video and Text", url: "https://www.liondesk.com/" },
           { label: "HubSpot CRM — Free Tier Available", url: "https://www.hubspot.com/products/crm" },
         ],
       },
@@ -70,7 +66,6 @@ const CRMAutomation = () => (
         links: [
           { label: "Zapier — Connect Your Tools Without Code", url: "https://zapier.com/" },
           { label: "ActiveCampaign — Email and Marketing Automation", url: "https://www.activecampaign.com/" },
-          { label: "Mailchimp — Email List Management", url: "https://mailchimp.com/" },
         ],
       },
       {

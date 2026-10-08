@@ -67,7 +67,6 @@ const ContractsAssignmentFees = () => (
         ],
         links: [
           { label: "Best Transactional Funding", url: "https://www.besttransactionalfunding.com/" },
-          { label: "Fund That Flip — Bridge Lending", url: "https://www.fundthatflip.com/" },
           { label: "Double Closing Full Guide — Blog Post", url: "/blog/wholesaling/double-closing-real-estate" },
         ],
       },

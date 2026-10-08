@@ -39,7 +39,6 @@ const FindingMotivatedSellers = () => (
         ],
         links: [
           { label: "Yellow Letters Complete — Direct Mail Service", url: "https://www.yellowletterscomplete.com/" },
-          { label: "REIPrintMail — Investor Direct Mail", url: "https://reiprintmail.com/" },
           { label: "ListSource — Property Owner Lists", url: "https://www.listsource.com/" },
         ],
       },
@@ -62,7 +61,6 @@ const FindingMotivatedSellers = () => (
         ],
         links: [
           { label: "Mojo Dialer — Power Dialing Platform", url: "https://www.mojosells.com/" },
-          { label: "BatchDialer — Real Estate Dialer", url: "https://batchdialer.com/" },
           { label: "Launch Control — Compliant SMS Platform", url: "https://www.launchcontrol.us/" },
         ],
       },
@@ -73,7 +71,6 @@ const FindingMotivatedSellers = () => (
           { type: "p", text: "Data accuracy varies — typically 60–80% of numbers will be valid and reachable. Always scrub skip-traced numbers against the National Do Not Call Registry before cold calling or SMS campaigns. Skip tracing a list of 500 targeted properties and calling consistently is far more efficient than cold calling generic homeowner lists." },
         ],
         links: [
-          { label: "BatchLeads — Skip Tracing", url: "https://batchleads.io/" },
           { label: "PropStream — Data and Skip Tracing", url: "https://www.propstream.com/" },
           { label: "FTC Do Not Call Registry", url: "https://www.donotcall.gov/" },
         ],

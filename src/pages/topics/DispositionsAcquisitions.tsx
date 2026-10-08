@@ -41,7 +41,6 @@ const DispositionsAcquisitions = () => (
         links: [
           { label: "National REIA — Find Local Groups", url: "https://www.nationalreia.org/" },
           { label: "NETRONLINE — County Property Records", url: "https://www.publicrecords.netronline.com/" },
-          { label: "Facebook Real Estate Investor Groups", url: "https://www.facebook.com/groups/" },
         ],
       },
       {
@@ -61,7 +60,6 @@ const DispositionsAcquisitions = () => (
         links: [
           { label: "REISift — Investor and Wholesaling CRM", url: "https://www.reisift.io/" },
           { label: "InvestorFuse — Wholesaling CRM", url: "https://www.investorfuse.com/" },
-          { label: "Podio — Customizable CRM Platform", url: "https://podio.com/" },
         ],
       },
     ]}

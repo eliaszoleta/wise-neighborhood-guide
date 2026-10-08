@@ -30,7 +30,6 @@ const BRRRRStrategy = () => (
         ],
         links: [
           { label: "PropStream — Off-Market Deal Finding", url: "https://www.propstream.com/" },
-          { label: "Auction.com — Foreclosures and REOs", url: "https://www.auction.com/" },
           { label: "HUD Home Store — HUD Properties", url: "https://www.hudhomestore.gov/" },
         ],
       },
@@ -53,7 +52,6 @@ const BRRRRStrategy = () => (
         ],
         links: [
           { label: "Zillow Rental Manager", url: "https://www.zillow.com/rental-manager/" },
-          { label: "Apartments.com — List Your Rental", url: "https://www.apartments.com/" },
           { label: "Avail — Landlord and Tenant Screening Tools", url: "https://www.avail.co/" },
         ],
       },

@@ -38,11 +38,46 @@ interface TopicPageProps {
   faqs: { q: string; a: string }[];
 }
 
+// Hosts worth passing link equity to: government agencies, GSEs, major trade
+// associations, and reference publishers genuinely cited as sources. Everything
+// else linked from a topic page (tool/software vendors, lenders, directories)
+// is a recommendation, not a citation, and gets nofollow so we're not handing
+// away ranking signal to commercial sites for no reciprocal benefit.
+const AUTHORITATIVE_HOSTS = new Set([
+  "irs.gov",
+  "hud.gov",
+  "hudhomestore.gov",
+  "bls.gov",
+  "consumerfinance.gov",
+  "va.gov",
+  "benefits.va.gov",
+  "donotcall.gov",
+  "fcc.gov",
+  "nar.realtor",
+  "narpm.org",
+  "nationalreia.org",
+  "investopedia.com",
+  "nolo.com",
+  "selling-guide.fanniemae.com",
+  "freddiemac.com",
+  "biggerpockets.com",
+  "avvo.com",
+  "campaignregistry.com",
+]);
+
+const isNofollowHost = (url: string) => {
+  try {
+    return !AUTHORITATIVE_HOSTS.has(new URL(url).hostname.replace(/^www\./, ""));
+  } catch {
+    return false;
+  }
+};
+
 const extLink = (url: string, label: string) => (
   <a
     href={url}
     target="_blank"
-    rel="noopener noreferrer"
+    rel={isNofollowHost(url) ? "nofollow noopener noreferrer" : "noopener noreferrer"}
     className="inline-flex items-center gap-1 text-accent underline underline-offset-2 hover:text-accent/80 font-medium"
   >
     {label} <ExternalLink className="h-3 w-3" />

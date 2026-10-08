@@ -28,7 +28,6 @@ const CashFlowROI = () => (
         ],
         links: [
           { label: "BiggerPockets Rental Property Calculator", url: "https://www.biggerpockets.com/investment-property-calculator" },
-          { label: "DealCheck — Rental Property Analyzer", url: "https://dealcheck.io/" },
           { label: "Stessa — Track Actual Income and Expenses", url: "https://www.stessa.com/" },
         ],
       },

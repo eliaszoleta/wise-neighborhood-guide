@@ -40,7 +40,6 @@ const RentalPropertyInvesting = () => (
         ],
         links: [
           { label: "Zillow Rental Manager — Rental Comps", url: "https://www.zillow.com/rental-manager/" },
-          { label: "Rentometer — Rent Comparison Tool", url: "https://www.rentometer.com/" },
           { label: "BiggerPockets Rental Property Calculator", url: "https://www.biggerpockets.com/investment-property-calculator" },
         ],
       },
@@ -81,7 +80,6 @@ const RentalPropertyInvesting = () => (
         ],
         links: [
           { label: "Bankrate Mortgage Rate Comparison", url: "https://www.bankrate.com/mortgages/mortgage-rates/" },
-          { label: "NerdWallet: Investment Property Loans", url: "https://www.nerdwallet.com/article/mortgages/investment-property-loans" },
           { label: "Fannie Mae Investment Property Guidelines", url: "https://selling-guide.fanniemae.com/" },
         ],
       },
@@ -102,7 +100,6 @@ const RentalPropertyInvesting = () => (
         ],
         links: [
           { label: "TransUnion SmartMove — Tenant Screening", url: "https://www.mysmartmove.com/" },
-          { label: "Avail — Landlord Software", url: "https://www.avail.co/" },
           { label: "State Landlord-Tenant Laws by State", url: "https://www.nolo.com/legal-encyclopedia/state-landlord-tenant-laws" },
         ],
       },

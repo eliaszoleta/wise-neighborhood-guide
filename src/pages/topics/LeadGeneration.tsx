@@ -28,7 +28,6 @@ const LeadGeneration = () => (
         links: [
           { label: "Carrot — Investor and Wholesaler Website Platform", url: "https://www.carrot.com/" },
           { label: "Google Search Console — Track Your Rankings", url: "https://search.google.com/search-console" },
-          { label: "Ahrefs — Keyword Research Tool", url: "https://ahrefs.com/" },
         ],
       },
       {
@@ -51,7 +50,6 @@ const LeadGeneration = () => (
         links: [
           { label: "Yellow Letters Complete — Real Estate Direct Mail", url: "https://www.yellowletterscomplete.com/" },
           { label: "ListSource — Property Owner Data Lists", url: "https://www.listsource.com/" },
-          { label: "REIPrintMail — Investor Mail Services", url: "https://reiprintmail.com/" },
         ],
       },
       {
