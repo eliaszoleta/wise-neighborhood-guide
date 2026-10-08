@@ -16,6 +16,8 @@ export interface CategoryPost {
   excerpt: string;
   image: string;
   alt: string;
+  /** True for the site's original 46 posts -- always rendered first, ahead of a divider. */
+  foundation?: boolean;
 }
 
 interface BlogCategoryPageProps {
@@ -28,6 +30,33 @@ interface BlogCategoryPageProps {
   pillarLink?: { label: string; href: string };
 }
 
+const CategoryPostCard = ({ post, categoryLabel }: { post: CategoryPost; categoryLabel: string }) => (
+  <Link
+    to={post.slug}
+    className="card-hover group block overflow-hidden rounded-lg border border-border bg-card"
+  >
+    <div className="aspect-[16/10] overflow-hidden">
+      <img
+        src={post.image}
+        alt={post.alt}
+        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+    </div>
+    <div className="p-5">
+      <span className="inline-block rounded-sm bg-accent/10 px-2.5 py-1 text-xs font-semibold text-accent">
+        {categoryLabel}
+      </span>
+      <h2 className="mt-3 font-heading text-lg font-bold leading-snug text-card-foreground group-hover:text-accent transition-colors">
+        {post.title}
+      </h2>
+      <p className="mt-2 text-sm text-muted-foreground leading-relaxed line-clamp-3">
+        {post.excerpt}
+      </p>
+    </div>
+  </Link>
+);
+
 const BlogCategoryPage = ({
   categorySlug,
   categoryLabel,
@@ -38,6 +67,12 @@ const BlogCategoryPage = ({
   pillarLink,
 }: BlogCategoryPageProps) => {
   const canonicalUrl = `https://homenexio.com/blog/${categorySlug}`;
+
+  // Foundation posts (the site's original 46) always lead the category page,
+  // in their existing order, with newer posts after a divider -- regardless
+  // of publish date or how the posts prop happens to be ordered.
+  const foundationPosts = posts.filter((p) => p.foundation);
+  const newerPosts = posts.filter((p) => !p.foundation);
 
   const collectionSchema = {
     "@context": "https://schema.org",
@@ -114,35 +149,31 @@ const BlogCategoryPage = ({
             )}
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {posts.map((post) => (
-              <Link
-                key={post.slug}
-                to={post.slug}
-                className="card-hover group block overflow-hidden rounded-lg border border-border bg-card"
-              >
-                <div className="aspect-[16/10] overflow-hidden">
-                  <img
-                    src={post.image}
-                    alt={post.alt}
-                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-5">
-                  <span className="inline-block rounded-sm bg-accent/10 px-2.5 py-1 text-xs font-semibold text-accent">
-                    {categoryLabel}
-                  </span>
-                  <h2 className="mt-3 font-heading text-lg font-bold leading-snug text-card-foreground group-hover:text-accent transition-colors">
-                    {post.title}
-                  </h2>
-                  <p className="mt-2 text-sm text-muted-foreground leading-relaxed line-clamp-3">
-                    {post.excerpt}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {foundationPosts.length > 0 && (
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {foundationPosts.map((post) => (
+                <CategoryPostCard key={post.slug} post={post} categoryLabel={categoryLabel} />
+              ))}
+            </div>
+          )}
+
+          {foundationPosts.length > 0 && newerPosts.length > 0 && (
+            <div className="my-12 flex items-center gap-4" role="separator" aria-label="More recently added guides">
+              <div className="h-px flex-1 bg-border" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
+                More {categoryLabel} Guides
+              </span>
+              <div className="h-px flex-1 bg-border" />
+            </div>
+          )}
+
+          {newerPosts.length > 0 && (
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {newerPosts.map((post) => (
+                <CategoryPostCard key={post.slug} post={post} categoryLabel={categoryLabel} />
+              ))}
+            </div>
+          )}
 
           <div className="mt-12 border-t border-border pt-8">
             <Link to="/blog" className="inline-flex items-center gap-2 text-accent font-semibold hover:underline">
