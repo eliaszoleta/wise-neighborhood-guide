@@ -6,6 +6,7 @@ const TermsOfService = () => (
     <Helmet>
       <title>Terms of Service | Home Nexio</title>
       <meta name="description" content="Review the terms and conditions for using Home Nexio, a real estate education website." />
+      <link rel="canonical" href="https://homenexio.com/terms-of-service" />
     </Helmet>
 
     <section className="section-padding">

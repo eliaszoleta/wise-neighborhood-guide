@@ -6,6 +6,7 @@ const CookiePolicy = () => (
     <Helmet>
       <title>Cookie Policy | Home Nexio</title>
       <meta name="description" content="Learn how Home Nexio uses cookies and similar technologies to improve your browsing experience." />
+      <link rel="canonical" href="https://homenexio.com/cookie-policy" />
     </Helmet>
 
     <section className="section-padding">

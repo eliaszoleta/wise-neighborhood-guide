@@ -6,6 +6,7 @@ const PrivacyPolicy = () => (
     <Helmet>
       <title>Privacy Policy | Home Nexio</title>
       <meta name="description" content="Read the privacy policy for Home Nexio. Learn how we collect, use, and protect your personal information." />
+      <link rel="canonical" href="https://homenexio.com/privacy-policy" />
     </Helmet>
 
     <section className="section-padding">

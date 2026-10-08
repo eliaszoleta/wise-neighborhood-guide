@@ -6,6 +6,7 @@ const Disclaimer = () => (
     <Helmet>
       <title>Disclaimer | Home Nexio</title>
       <meta name="description" content="Read the disclaimer for Home Nexio. Understand the limitations of the educational content provided on this site." />
+      <link rel="canonical" href="https://homenexio.com/disclaimer" />
     </Helmet>
 
     <section className="section-padding">

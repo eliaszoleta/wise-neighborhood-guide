@@ -1,23 +1,7 @@
 import BlogCategoryPage from "@/components/BlogCategoryPage";
-import imgAgentBroker from "@/assets/blog/real-estate-agent-broker.jpg";
-import imgBecomeRealtor from "@/assets/blog/become-realtor-broker.jpg";
+import { getPostsByCategorySlug } from "@/data/blogPosts";
 
-const posts = [
-  {
-    title: "Real Estate Agent vs Realtor vs Broker: Key Differences Explained",
-    slug: "/blog/real-estate-careers/real-estate-agent-realtor-broker",
-    excerpt: "Agent, Realtor, and broker are not the same thing. Here's what each title actually means, what they're legally allowed to do, and how the compensation structure works.",
-    image: imgAgentBroker,
-    alt: "Professional real estate agent and broker discussing property sale outside home",
-  },
-  {
-    title: "How to Become a Real Estate Agent or Broker: Career Path & Expectations",
-    slug: "/blog/real-estate-careers/become-realtor-broker",
-    excerpt: "The licensing process, what to expect in your first year, how income actually works in real estate sales, and what separates agents who make it from those who don't.",
-    image: imgBecomeRealtor,
-    alt: "Professional realtor holding house keys in front of sold property",
-  },
-];
+const posts = getPostsByCategorySlug("real-estate-careers");
 
 const BlogCategoryRealEstateCareers = () => (
   <BlogCategoryPage
