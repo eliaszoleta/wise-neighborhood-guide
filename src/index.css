@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -51,7 +51,6 @@
 
     --font-heading: 'Poppins', system-ui, sans-serif;
     --font-body: 'Poppins', system-ui, sans-serif;
-    --font-article: 'Merriweather', Georgia, serif;
   }
 
   .dark {
@@ -130,7 +129,7 @@
 
   /* Blog article prose styles */
   .prose-article {
-    font-family: var(--font-article);
+    font-family: var(--font-body);
     font-size: 1.0625rem; /* 17px — optimal for long-form reading */
     line-height: 1.8;
   }
