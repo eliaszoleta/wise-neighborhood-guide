@@ -146,7 +146,17 @@ async function main() {
 
   const routes = buildRouteList();
   const server = await startServer();
-  const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+  // PW_CHROMIUM_PATH lets a sandboxed dev environment with a pre-cached
+  // browser binary (no general internet access to download one) point at
+  // it explicitly. Everywhere else -- CI, local dev with `playwright
+  // install` run -- omitting executablePath lets Playwright resolve its
+  // normal managed browser. A previous version hardcoded this sandbox's
+  // path directly, which made it into a commit and broke every Vercel
+  // build (`executable doesn't exist at /opt/pw-browsers/...`) since that
+  // path only ever existed in this one sandbox.
+  const browser = await chromium.launch(
+    process.env.PW_CHROMIUM_PATH ? { executablePath: process.env.PW_CHROMIUM_PATH } : {}
+  );
   const page = await browser.newPage();
 
   console.log(`Prerendering ${routes.length} routes...`);
