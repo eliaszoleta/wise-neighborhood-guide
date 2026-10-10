@@ -12,6 +12,8 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import RealEstateLicense from "./pages/RealEstateLicense";
 import StateLicense from "./pages/StateLicense";
+import StartBusinessHub from "./pages/StartBusinessHub";
+import StartBusinessStatePage from "./pages/StartBusinessStatePage";
 import { Investing, Wholesaling, Marketing } from "./pages/PillarPages";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
@@ -45,6 +47,9 @@ import BlogCategoryPropertyManagement from "./pages/blog-categories/BlogCategory
 import BlogCategoryWholesaling from "./pages/blog-categories/BlogCategoryWholesaling";
 import BlogCategoryRealEstateCareers from "./pages/blog-categories/BlogCategoryRealEstateCareers";
 import BlogCategoryRealEstateBusiness from "./pages/blog-categories/BlogCategoryRealEstateBusiness";
+import BlogCategoryPMBusiness from "./pages/blog-categories/BlogCategoryPMBusiness";
+import BlogCategoryHomeInspection from "./pages/blog-categories/BlogCategoryHomeInspection";
+import BlogCategoryMortgageBroker from "./pages/blog-categories/BlogCategoryMortgageBroker";
 
 // Blog posts — Financing
 import HardMoneyLender from "./pages/blog/HardMoneyLender";
@@ -143,6 +148,30 @@ import RentControlWashingtonDc from "./pages/blog/RentControlWashingtonDc";
 import RentControlPortland from "./pages/blog/RentControlPortland";
 import BestCitiesRealEstateInvesting from "./pages/blog/BestCitiesRealEstateInvesting";
 
+// Blog posts — PM Business
+import HowToStartAPropertyManagementCompany from "./pages/blog/pm-business/HowToStartAPropertyManagementCompany";
+import PropertyManagementCompanyStartupCosts from "./pages/blog/pm-business/PropertyManagementCompanyStartupCosts";
+import PropertyManagementLicensingRequirements from "./pages/blog/pm-business/PropertyManagementLicensingRequirements";
+import PropertyManagementFeeStructures from "./pages/blog/pm-business/PropertyManagementFeeStructures";
+import PropertyManagementSoftwareTools from "./pages/blog/pm-business/PropertyManagementSoftwareTools";
+import HowToGetPropertyManagementClients from "./pages/blog/pm-business/HowToGetPropertyManagementClients";
+
+// Blog posts — Home Inspection
+import HowToStartAHomeInspectionBusiness from "./pages/blog/home-inspection/HowToStartAHomeInspectionBusiness";
+import HomeInspectionBusinessStartupCosts from "./pages/blog/home-inspection/HomeInspectionBusinessStartupCosts";
+import HomeInspectorCertificationAshiVsInternachi from "./pages/blog/home-inspection/HomeInspectorCertificationAshiVsInternachi";
+import HomeInspectionEquipmentChecklist from "./pages/blog/home-inspection/HomeInspectionEquipmentChecklist";
+import HowToPriceHomeInspections from "./pages/blog/home-inspection/HowToPriceHomeInspections";
+import HowToGetHomeInspectionClients from "./pages/blog/home-inspection/HowToGetHomeInspectionClients";
+
+// Blog posts — Mortgage Broker
+import HowToBecomeAMortgageLoanOfficer from "./pages/blog/mortgage-broker/HowToBecomeAMortgageLoanOfficer";
+import NmlsSafeActLicensingExplained from "./pages/blog/mortgage-broker/NmlsSafeActLicensingExplained";
+import MortgageLoanOfficerLicenseCost from "./pages/blog/mortgage-broker/MortgageLoanOfficerLicenseCost";
+import LoanOfficerVsMortgageBroker from "./pages/blog/mortgage-broker/LoanOfficerVsMortgageBroker";
+import HowLoanOfficersGetPaid from "./pages/blog/mortgage-broker/HowLoanOfficersGetPaid";
+import HowToGetFirstMortgageClients from "./pages/blog/mortgage-broker/HowToGetFirstMortgageClients";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -170,6 +199,9 @@ const App = () => (
             <Route path="/blog/wholesaling" element={<BlogCategoryWholesaling />} />
             <Route path="/blog/real-estate-careers" element={<BlogCategoryRealEstateCareers />} />
             <Route path="/blog/real-estate-business" element={<BlogCategoryRealEstateBusiness />} />
+            <Route path="/blog/pm-business" element={<BlogCategoryPMBusiness />} />
+            <Route path="/blog/home-inspection" element={<BlogCategoryHomeInspection />} />
+            <Route path="/blog/mortgage-broker" element={<BlogCategoryMortgageBroker />} />
 
             {/* Blog posts — Financing */}
             <Route path="/blog/financing/hard-money-lender" element={<HardMoneyLender />} />
@@ -268,6 +300,30 @@ const App = () => (
             <Route path="/blog/property-management/rent-control-portland" element={<RentControlPortland />} />
             <Route path="/blog/investing/best-cities-real-estate-investing" element={<BestCitiesRealEstateInvesting />} />
 
+            {/* Blog posts — PM Business */}
+            <Route path="/blog/pm-business/how-to-start-a-property-management-company" element={<HowToStartAPropertyManagementCompany />} />
+            <Route path="/blog/pm-business/property-management-company-startup-costs" element={<PropertyManagementCompanyStartupCosts />} />
+            <Route path="/blog/pm-business/property-management-licensing-requirements" element={<PropertyManagementLicensingRequirements />} />
+            <Route path="/blog/pm-business/property-management-fee-structures" element={<PropertyManagementFeeStructures />} />
+            <Route path="/blog/pm-business/property-management-software-tools" element={<PropertyManagementSoftwareTools />} />
+            <Route path="/blog/pm-business/how-to-get-property-management-clients" element={<HowToGetPropertyManagementClients />} />
+
+            {/* Blog posts — Home Inspection */}
+            <Route path="/blog/home-inspection/how-to-start-a-home-inspection-business" element={<HowToStartAHomeInspectionBusiness />} />
+            <Route path="/blog/home-inspection/home-inspection-business-startup-costs" element={<HomeInspectionBusinessStartupCosts />} />
+            <Route path="/blog/home-inspection/home-inspector-certification-ashi-vs-internachi" element={<HomeInspectorCertificationAshiVsInternachi />} />
+            <Route path="/blog/home-inspection/home-inspection-equipment-checklist" element={<HomeInspectionEquipmentChecklist />} />
+            <Route path="/blog/home-inspection/how-to-price-home-inspections" element={<HowToPriceHomeInspections />} />
+            <Route path="/blog/home-inspection/how-to-get-home-inspection-clients" element={<HowToGetHomeInspectionClients />} />
+
+            {/* Blog posts — Mortgage Broker */}
+            <Route path="/blog/mortgage-broker/how-to-become-a-mortgage-loan-officer" element={<HowToBecomeAMortgageLoanOfficer />} />
+            <Route path="/blog/mortgage-broker/nmls-safe-act-licensing-explained" element={<NmlsSafeActLicensingExplained />} />
+            <Route path="/blog/mortgage-broker/mortgage-loan-officer-license-cost" element={<MortgageLoanOfficerLicenseCost />} />
+            <Route path="/blog/mortgage-broker/loan-officer-vs-mortgage-broker" element={<LoanOfficerVsMortgageBroker />} />
+            <Route path="/blog/mortgage-broker/how-loan-officers-get-paid" element={<HowLoanOfficersGetPaid />} />
+            <Route path="/blog/mortgage-broker/how-to-get-first-mortgage-clients" element={<HowToGetFirstMortgageClients />} />
+
             {/* Pillar pages */}
             <Route path="/real-estate-investing" element={<Investing />} />
             <Route path="/real-estate-investing/rental-property-investing" element={<RentalPropertyInvesting />} />
@@ -288,6 +344,14 @@ const App = () => (
             {/* State licensing */}
             <Route path="/real-estate-license" element={<RealEstateLicense />} />
             <Route path="/real-estate-license/:state" element={<StateLicense />} />
+
+            {/* Start a business — PM, home inspection, mortgage broker */}
+            <Route path="/start-a-property-management-business" element={<StartBusinessHub configKey="pm-business" />} />
+            <Route path="/start-a-property-management-business/:state" element={<StartBusinessStatePage configKey="pm-business" />} />
+            <Route path="/start-a-home-inspection-business" element={<StartBusinessHub configKey="home-inspection" />} />
+            <Route path="/start-a-home-inspection-business/:state" element={<StartBusinessStatePage configKey="home-inspection" />} />
+            <Route path="/start-a-mortgage-broker-business" element={<StartBusinessHub configKey="mortgage-broker" />} />
+            <Route path="/start-a-mortgage-broker-business/:state" element={<StartBusinessStatePage configKey="mortgage-broker" />} />
 
             {/* Legal */}
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />

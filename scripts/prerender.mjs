@@ -35,12 +35,14 @@ import { fileURLToPath } from "url";
 
 import { BLOG_POST_ROUTES } from "../src/data/blogPostRoutes.ts";
 import { stateLicenseData } from "../src/data/stateLicenseData.ts";
+import { STATE_BUSINESS_STARTUP } from "../src/data/stateBusinessStartup.ts";
+import { VERTICAL_CONFIGS } from "../src/data/verticalBusinessConfigs.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = join(__dirname, "../dist");
 const PORT = 8731;
 
-const CATEGORY_SLUGS = ["financing", "investing", "property-management", "wholesaling", "real-estate-careers", "real-estate-business"];
+const CATEGORY_SLUGS = ["financing", "investing", "property-management", "wholesaling", "real-estate-careers", "real-estate-business", "pm-business", "home-inspection", "mortgage-broker"];
 
 const STATIC_ROUTES = [
   "/", "/start-here", "/about", "/author", "/contact", "/blog",
@@ -68,6 +70,10 @@ function buildRouteList() {
   for (const slug of CATEGORY_SLUGS) routes.push(`/blog/${slug}`);
   for (const post of BLOG_POST_ROUTES) routes.push(post.slug);
   for (const stateSlug of Object.keys(stateLicenseData)) routes.push(`/real-estate-license/${stateSlug}`);
+  for (const config of Object.values(VERTICAL_CONFIGS)) {
+    routes.push(`/${config.urlPrefix}`);
+    for (const state of STATE_BUSINESS_STARTUP) routes.push(`/${config.urlPrefix}/${state.slug}`);
+  }
   return routes;
 }
 

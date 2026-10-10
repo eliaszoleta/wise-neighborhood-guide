@@ -2,10 +2,10 @@ import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { Helmet } from "react-helmet-async";
-import { Search, X } from "lucide-react";
+import { Search, X, BookOpen } from "lucide-react";
 import { BLOG_POSTS, type BlogPostMeta } from "@/data/blogPosts";
 
-const CATEGORIES = ["All", "Financing", "Investing", "Property Management", "Wholesaling", "Careers", "Business"] as const;
+const CATEGORIES = ["All", "Financing", "Investing", "Property Management", "Wholesaling", "Careers", "Business", "PM Business", "Home Inspection", "Mortgage Broker"] as const;
 
 const BlogPostCard = ({ post }: { post: BlogPostMeta }) => (
   <Link
@@ -13,12 +13,18 @@ const BlogPostCard = ({ post }: { post: BlogPostMeta }) => (
     className="card-hover group block overflow-hidden rounded-lg border border-border bg-card"
   >
     <div className="aspect-[16/10] overflow-hidden">
-      <img
-        src={post.image}
-        alt={post.alt}
-        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-        loading="lazy"
-      />
+      {post.image ? (
+        <img
+          src={post.image}
+          alt={post.alt}
+          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy"
+        />
+      ) : (
+        <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-accent/15 to-accent/5">
+          <BookOpen className="h-10 w-10 text-accent/50" aria-hidden />
+        </div>
+      )}
     </div>
     <div className="p-5">
       <span className="inline-block rounded-sm bg-accent/10 px-2.5 py-1 text-xs font-semibold text-accent">

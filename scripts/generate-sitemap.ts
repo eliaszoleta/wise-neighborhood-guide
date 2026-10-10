@@ -11,6 +11,8 @@ import { fileURLToPath } from "url";
 import { dirname, resolve } from "path";
 import { BLOG_POST_ROUTES } from "../src/data/blogPostRoutes";
 import { stateLicenseData } from "../src/data/stateLicenseData";
+import { STATE_BUSINESS_STARTUP } from "../src/data/stateBusinessStartup";
+import { VERTICAL_CONFIGS } from "../src/data/verticalBusinessConfigs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DOMAIN = "https://homenexio.com";
@@ -18,7 +20,7 @@ const TODAY = new Date().toISOString().slice(0, 10);
 
 type Entry = { path: string; changefreq: string; priority: string; lastmod?: string };
 
-const CATEGORY_SLUGS = ["financing", "investing", "property-management", "wholesaling", "real-estate-careers", "real-estate-business"];
+const CATEGORY_SLUGS = ["financing", "investing", "property-management", "wholesaling", "real-estate-careers", "real-estate-business", "pm-business", "home-inspection", "mortgage-broker"];
 
 const STATIC_ENTRIES: Entry[] = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
@@ -68,6 +70,13 @@ function buildEntries(): Entry[] {
 
   for (const slug of Object.keys(stateLicenseData)) {
     entries.push({ path: `/real-estate-license/${slug}`, changefreq: "monthly", priority: "0.8" });
+  }
+
+  for (const config of Object.values(VERTICAL_CONFIGS)) {
+    entries.push({ path: `/${config.urlPrefix}`, changefreq: "monthly", priority: "0.8" });
+    for (const stateInfo of STATE_BUSINESS_STARTUP) {
+      entries.push({ path: `/${config.urlPrefix}/${stateInfo.slug}`, changefreq: "monthly", priority: "0.7" });
+    }
   }
 
   return entries;

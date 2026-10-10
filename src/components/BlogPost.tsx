@@ -37,6 +37,9 @@ const categoryDisplayNames: Record<string, string> = {
   "wholesaling": "Wholesaling",
   "real-estate-careers": "Real Estate Careers",
   "real-estate-business": "Real Estate Business",
+  "pm-business": "PM Business",
+  "home-inspection": "Home Inspection",
+  "mortgage-broker": "Mortgage Broker",
 };
 
 const BlogPost = ({

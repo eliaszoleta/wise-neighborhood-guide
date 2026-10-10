@@ -6,7 +6,7 @@
 export interface BlogPostRoute {
   /** Full path, e.g. "/blog/financing/hard-money-lender" */
   slug: string;
-  category: "Financing" | "Investing" | "Property Management" | "Wholesaling" | "Careers" | "Business";
+  category: "Financing" | "Investing" | "Property Management" | "Wholesaling" | "Careers" | "Business" | "PM Business" | "Home Inspection" | "Mortgage Broker";
   categorySlug: string;
   datePublished: string;
   /**
@@ -106,4 +106,28 @@ export const BLOG_POST_ROUTES: BlogPostRoute[] = [
   { slug: "/blog/property-management/rent-control-washington-dc", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
   { slug: "/blog/property-management/rent-control-portland", category: "Property Management", categorySlug: "property-management", datePublished: "2026-10-15" },
   { slug: "/blog/investing/best-cities-real-estate-investing", category: "Investing", categorySlug: "investing", datePublished: "2026-10-15" },
+
+  // ── New-vertical batch: property management companies, home inspection, ──
+  // ── and mortgage loan officers -- adjacent real-estate business/career   ──
+  // ── paths the site's scope implied but didn't yet cover.                 ──
+  { slug: "/blog/pm-business/how-to-start-a-property-management-company", category: "PM Business", categorySlug: "pm-business", datePublished: "2026-10-17" },
+  { slug: "/blog/pm-business/property-management-company-startup-costs", category: "PM Business", categorySlug: "pm-business", datePublished: "2026-10-17" },
+  { slug: "/blog/pm-business/property-management-licensing-requirements", category: "PM Business", categorySlug: "pm-business", datePublished: "2026-10-17" },
+  { slug: "/blog/pm-business/property-management-fee-structures", category: "PM Business", categorySlug: "pm-business", datePublished: "2026-10-17" },
+  { slug: "/blog/pm-business/property-management-software-tools", category: "PM Business", categorySlug: "pm-business", datePublished: "2026-10-17" },
+  { slug: "/blog/pm-business/how-to-get-property-management-clients", category: "PM Business", categorySlug: "pm-business", datePublished: "2026-10-17" },
+
+  { slug: "/blog/home-inspection/how-to-start-a-home-inspection-business", category: "Home Inspection", categorySlug: "home-inspection", datePublished: "2026-10-17" },
+  { slug: "/blog/home-inspection/home-inspection-business-startup-costs", category: "Home Inspection", categorySlug: "home-inspection", datePublished: "2026-10-17" },
+  { slug: "/blog/home-inspection/home-inspector-certification-ashi-vs-internachi", category: "Home Inspection", categorySlug: "home-inspection", datePublished: "2026-10-17" },
+  { slug: "/blog/home-inspection/home-inspection-equipment-checklist", category: "Home Inspection", categorySlug: "home-inspection", datePublished: "2026-10-17" },
+  { slug: "/blog/home-inspection/how-to-price-home-inspections", category: "Home Inspection", categorySlug: "home-inspection", datePublished: "2026-10-17" },
+  { slug: "/blog/home-inspection/how-to-get-home-inspection-clients", category: "Home Inspection", categorySlug: "home-inspection", datePublished: "2026-10-17" },
+
+  { slug: "/blog/mortgage-broker/how-to-become-a-mortgage-loan-officer", category: "Mortgage Broker", categorySlug: "mortgage-broker", datePublished: "2026-10-17" },
+  { slug: "/blog/mortgage-broker/nmls-safe-act-licensing-explained", category: "Mortgage Broker", categorySlug: "mortgage-broker", datePublished: "2026-10-17" },
+  { slug: "/blog/mortgage-broker/mortgage-loan-officer-license-cost", category: "Mortgage Broker", categorySlug: "mortgage-broker", datePublished: "2026-10-17" },
+  { slug: "/blog/mortgage-broker/loan-officer-vs-mortgage-broker", category: "Mortgage Broker", categorySlug: "mortgage-broker", datePublished: "2026-10-17" },
+  { slug: "/blog/mortgage-broker/how-loan-officers-get-paid", category: "Mortgage Broker", categorySlug: "mortgage-broker", datePublished: "2026-10-17" },
+  { slug: "/blog/mortgage-broker/how-to-get-first-mortgage-clients", category: "Mortgage Broker", categorySlug: "mortgage-broker", datePublished: "2026-10-17" },
 ];

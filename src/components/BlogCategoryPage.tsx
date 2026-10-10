@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { BookOpen } from "lucide-react";
 import Layout from "@/components/Layout";
 import {
   Breadcrumb,
@@ -14,8 +15,9 @@ export interface CategoryPost {
   title: string;
   slug: string;       // full path e.g. "/blog/financing/hard-money-lender"
   excerpt: string;
-  image: string;
-  alt: string;
+  /** Omitted for newer posts without a sourced photo -- card falls back to an icon tile. */
+  image?: string;
+  alt?: string;
   /** True for the site's original 46 posts -- always rendered first, ahead of a divider. */
   foundation?: boolean;
 }
@@ -36,12 +38,18 @@ const CategoryPostCard = ({ post, categoryLabel }: { post: CategoryPost; categor
     className="card-hover group block overflow-hidden rounded-lg border border-border bg-card"
   >
     <div className="aspect-[16/10] overflow-hidden">
-      <img
-        src={post.image}
-        alt={post.alt}
-        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-        loading="lazy"
-      />
+      {post.image ? (
+        <img
+          src={post.image}
+          alt={post.alt}
+          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy"
+        />
+      ) : (
+        <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-accent/15 to-accent/5">
+          <BookOpen className="h-10 w-10 text-accent/50" aria-hidden />
+        </div>
+      )}
     </div>
     <div className="p-5">
       <span className="inline-block rounded-sm bg-accent/10 px-2.5 py-1 text-xs font-semibold text-accent">

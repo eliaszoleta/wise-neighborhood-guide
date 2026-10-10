@@ -33,15 +33,16 @@ import imgLeadTools from "@/assets/blog/lead-management-tools.jpg";
 export interface BlogPostMeta extends BlogPostRoute {
   title: string;
   excerpt: string;
-  image: string;
-  alt: string;
+  /** Omitted for newer posts without a sourced photo -- cards fall back to a category-colored icon tile. */
+  image?: string;
+  alt?: string;
 }
 
 interface Presentation {
   title: string;
   excerpt: string;
-  image: string;
-  alt: string;
+  image?: string;
+  alt?: string;
 }
 
 const PRESENTATION: Record<string, Presentation> = {
@@ -536,6 +537,84 @@ const PRESENTATION: Record<string, Presentation> = {
     excerpt: "Instead of a ranked list that goes stale the moment prices move, here's the actual framework investors use to evaluate any city -- job diversification, landlord-friendliness, supply constraints, and population trends.",
     image: imgTypesProperty,
     alt: "Investor comparing multiple cities using a real estate investing evaluation framework",
+  },
+
+  // ── New-vertical batch: no sourced photos yet -- cards fall back to the ──
+  // ── icon tile (see BlogPostCard / CategoryPostCard) until real images   ──
+  // ── are added.                                                          ──
+  "/blog/pm-business/how-to-start-a-property-management-company": {
+    title: "How to Start a Property Management Company",
+    excerpt: "Managing property for other owners is a different business than managing your own rentals -- it's a licensed, insured service business. Here's the step-by-step path from idea to your first signed management agreement.",
+  },
+  "/blog/pm-business/property-management-company-startup-costs": {
+    title: "How Much Does It Cost to Start a Property Management Company?",
+    excerpt: "Property management is capital-light compared to a trade business, but licensing, insurance, and trust accounting still add up. Here's a realistic, itemized budget.",
+  },
+  "/blog/pm-business/property-management-licensing-requirements": {
+    title: "Property Management Licensing: What to Check in Your State",
+    excerpt: "Some states require a real estate broker license to manage property for others, some have a separate PM license, and some require neither. Here's what to actually check before you sign your first client.",
+  },
+  "/blog/pm-business/property-management-fee-structures": {
+    title: "Property Management Fee Structures: How PM Companies Charge",
+    excerpt: "Percentage-of-rent management fees, leasing fees, and maintenance markup -- here's how property managers actually price their services and what owners expect included.",
+  },
+  "/blog/pm-business/property-management-software-tools": {
+    title: "Property Management Software & Tools for a New PM Business",
+    excerpt: "Property management runs on specialized software for trust accounting, rent collection, and owner reporting -- here's why general bookkeeping tools fall short and what to look for instead.",
+  },
+  "/blog/pm-business/how-to-get-property-management-clients": {
+    title: "How to Get Your First Property Management Clients",
+    excerpt: "Property management is a trust-based, ongoing relationship business. Here's how new PM companies actually land their first owner clients -- starting with referrals, not cold marketing.",
+  },
+
+  "/blog/home-inspection/how-to-start-a-home-inspection-business": {
+    title: "How to Start a Home Inspection Business",
+    excerpt: "Home inspection is one of the more accessible real-estate-adjacent businesses to start -- but it still requires real training, certification, insurance, and a realtor referral network. Here's the full path.",
+  },
+  "/blog/home-inspection/home-inspection-business-startup-costs": {
+    title: "How Much Does It Cost to Start a Home Inspection Business?",
+    excerpt: "Training, certification, insurance, and equipment -- here's a realistic, itemized budget for starting a home inspection business, one of the lower-capital real estate careers.",
+  },
+  "/blog/home-inspection/home-inspector-certification-ashi-vs-internachi": {
+    title: "Home Inspector Certification: ASHI vs. InterNACHI vs. State Licensing",
+    excerpt: "ASHI and InterNACHI are the two major national home inspector associations -- but neither replaces your state's actual licensing requirement. Here's how they compare and how they fit together.",
+  },
+  "/blog/home-inspection/home-inspection-equipment-checklist": {
+    title: "Home Inspection Equipment & Tools Checklist",
+    excerpt: "From ladders and moisture meters to thermal imaging cameras -- here's everything a new home inspector needs to buy, and what can reasonably wait.",
+  },
+  "/blog/home-inspection/how-to-price-home-inspections": {
+    title: "How to Price Home Inspections",
+    excerpt: "Inspection pricing is typically based on square footage and age, plus add-ons like radon and sewer scope testing. Here's how to build your price list as a new inspector.",
+  },
+  "/blog/home-inspection/how-to-get-home-inspection-clients": {
+    title: "How to Get Your First Home Inspection Clients",
+    excerpt: "Most home inspection business comes through buyer's agent referrals, not direct buyer searches. Here's how new inspectors actually build that referral network.",
+  },
+
+  "/blog/mortgage-broker/how-to-become-a-mortgage-loan-officer": {
+    title: "How to Become a Mortgage Loan Officer",
+    excerpt: "Every state uses the same federal licensing framework for mortgage loan officers. Here's the step-by-step NMLS process, from pre-licensing education through sponsorship.",
+  },
+  "/blog/mortgage-broker/nmls-safe-act-licensing-explained": {
+    title: "NMLS Licensing: The SAFE Act Explained",
+    excerpt: "The federal SAFE Act created a unified national licensing framework for mortgage loan officers. Here's how it actually works, and what each state adds on top.",
+  },
+  "/blog/mortgage-broker/mortgage-loan-officer-license-cost": {
+    title: "How Much Does It Cost to Get Your Mortgage Loan Officer License?",
+    excerpt: "MLO licensing is considerably cheaper than most licensed trades or a full real estate license. Here's a realistic, itemized breakdown of what it actually costs.",
+  },
+  "/blog/mortgage-broker/loan-officer-vs-mortgage-broker": {
+    title: "Mortgage Loan Officer vs. Mortgage Broker: What's the Difference?",
+    excerpt: "Loan officer and mortgage broker get used interchangeably, but they're genuinely different business structures. Here's how they differ in who they work for and how they're paid.",
+  },
+  "/blog/mortgage-broker/how-loan-officers-get-paid": {
+    title: "How Mortgage Loan Officers Get Paid",
+    excerpt: "Loan officer pay is almost entirely commission-based, tied to closed loan volume. Here's how basis points, lender-paid vs. borrower-paid compensation, and federal pay rules actually work.",
+  },
+  "/blog/mortgage-broker/how-to-get-first-mortgage-clients": {
+    title: "How to Get Your First Clients as a New Loan Officer",
+    excerpt: "Mortgage origination is a referral-driven business, led by real estate agent relationships. Here's how new loan officers realistically build a pipeline from zero.",
   },
 };
 
