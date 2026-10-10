@@ -4,9 +4,13 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // GitHub Pages serves this project from a /wise-neighborhood-guide/ subpath;
-  // Vercel (and any custom domain pointed at it) serves it from the root.
-  base: process.env.VERCEL ? "/" : "/wise-neighborhood-guide/",
+  // homenexio.com is a custom domain (on GitHub Pages' deploy-pages action
+  // and/or Vercel), and a custom domain always serves from the root on
+  // either platform — the /wise-neighborhood-guide/ subpath only applies to
+  // the unused *.github.io project-page URL, never to the real domain. Base
+  // must stay root-relative regardless of which platform's env runs the
+  // build, or asset/favicon URLs 404 on the live site.
+  base: "/",
   server: {
     host: "::",
     port: 8080,
